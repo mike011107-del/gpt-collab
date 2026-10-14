@@ -31,3 +31,41 @@ b41cf84bad9c7e2caadc026a8589ebb642bc86511d76a236e28b1903223391cc  結果/結果.
 8c13afe1564e8a21a6ffcc1713fa8c0a37468bd80b96a9471809e1fb19646e88  結果/預覽檢查.json
 
 乾淨副本產生的 6 個結果檔，SHA-256 與提交 908b10a 裡的結果檔逐一相同。
+
+---
+
+# 乾淨雲端工作副本執行紀錄（第二次，10-14 補查後）
+時間(UTC): 2026-10-14T12:38:23Z
+目標提交: 9fe257990f4436bec8d96b9f0b08d0141790bf45
+$ git clone --depth 1 --branch claude/cloud-reproducible-palette <repo> clean
+clone 退出碼 0
+clone 後 HEAD: 9fe257990f4436bec8d96b9f0b08d0141790bf45
+$ rm -rf 結果   # 先刪掉提交裡的舊結果，確認是重新產生
+$ python3 check.py
+自我測試通過：CIEDE2000（Sharma 5 組）、WCAG 黑白 21:1、白點、Machado 矩陣列和
+八組完成。原報告值 vs 相容模式：64/72 項相同。
+1A 小計60 {'原報告': 50, 'std': 51.7, 'compat': 51.7}
+1B 小計60 {'原報告': 40, 'std': 41.7, 'compat': 41.7}
+2A 小計60 {'原報告': 47, 'std': 48.3, 'compat': 48.3}
+2B 小計60 {'原報告': 45, 'std': 45.9, 'compat': 45.9}
+3A 小計60 {'原報告': 45, 'std': 45.3, 'compat': 45.3}
+3B 小計60 {'原報告': 41, 'std': 41.0, 'compat': 41.0}
+4A 小計60 {'原報告': 41, 'std': 41.1, 'compat': 41.1}
+4B 小計60 {'原報告': 47, 'std': 47.1, 'compat': 47.1}
+check.py 退出碼 0
+$ python3 consistency.py
+不一致： 0
+consistency.py 退出碼 0
+$ NODE_PATH=$(npm root -g) node 預覽/preview.cjs > 結果/預覽檢查.json
+preview.cjs 退出碼 0
+$ sha256sum 結果/*
+a77cbaee078fc2727a1408ba6c1532cec16c5368ec0ccc1247d460d519ed877c  結果/一致性.json
+1004cdb50ccf4b6047b5ffebd37ff8564779e427f44959bd586bf98a4dcb8cec  結果/一致性.md
+a81f46ac72685f1bbaec344efc69d5ea9bb62a320cb36982bba56d0a54c710e1  結果/對比逐對.csv
+94e37a8e99ceb8e62580fc96254c8258a375ec9e07511d84141285162fd3b8fc  結果/差異表.md
+b41cf84bad9c7e2caadc026a8589ebb642bc86511d76a236e28b1903223391cc  結果/結果.json
+8c13afe1564e8a21a6ffcc1713fa8c0a37468bd80b96a9471809e1fb19646e88  結果/預覽檢查.json
+
+環境：Ubuntu 24.04.5 LTS、Python 3.13.16、Pillow 12.3.0、Node v22.22.0、playwright 1.56.1
+乾淨副本產生的 6 個結果檔，與提交 9fe2579 裡的結果檔逐位元相同（cmp），SHA-256 也與第一次執行相同。
+這次提交只改了來源清冊、README 與 .gitignore，沒有動程式與輸入，所以結果不變是預期中的。
