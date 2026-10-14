@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-14",
+  "timezone": "Asia/Taipei",
+  "company": "崧淳環保科技股份有限公司",
+  "purpose": "專業設計學習與Claude協作；候選色、Logo未採用",
+  "independent_creator_text_groups": 6,
+  "selected_primary_image_review_groups": 4,
+  "new_palette_codes": [],
+  "sources": [
+    {"id":"S1","case":"Brightwater","creator":"Glidden","primary_url":"https://weareglidden.com/portfolio/brightwater/","text_read":true,"image_review":"名稱圖、規範書封面、一個內頁跨頁","discovery":"Pinterest研究後延伸原作者補查；同名pin未建立身份匹配","historical_case":true,"official_hex_obtained":false,"complete_cis_obtained":false,"use":"深色、白色、黃色各有工作","tradeoff":"原案青綠與插畫不移植"},
+    {"id":"S2","case":"Rucad Engenharia","creator":"Ney Barão","year":2025,"primary_url":"https://www.neybarao.com/work/rucad-rebrand.html","text_read":true,"image_review":"首頁、rucad-02.png工裝示意、rucad-09.png帽子示意","image_alt_mismatch_observed":true,"discovery":"Pinterest研究後延伸原作者補查","official_hex_obtained":false,"complete_cis_obtained":false,"use":"保留黃而調整主輔角色","tradeoff":"其同行樣本及效果自述不推為臺灣市場證據"},
+    {"id":"S3","case":"Adiss","creator":"Hye Studio","primary_url":"https://www.hyestudio.com/adiss","text_read":true,"image_review":"Adiss-letterhead-04.jpg工程信紙","discovery":"Pinterest研究後延伸原作者補查","official_hex_obtained":false,"complete_cis_obtained":false,"use":"白底讓正文、圖面與標示各有位置","tradeoff":"不移植紅色或原案捨黃決定"},
+    {"id":"S4","case":"Neara","creator":"Mubien Brands","primary_url":"https://mubien.com/case/neara","redirect_from":"https://mubien.com/portfolio/neara/","pinterest_url":"https://uk.pinterest.com/pin/314970567701806669/","text_read":true,"image_review":"Pinterest及原作者頁紅色提袋；圖形與配置目視匹配","pinterest_primary_image_match":true,"video_review":false,"video_state":"無法播放媒體","official_hex_obtained":false,"complete_cis_obtained":false,"use":"固定名稱、服務與應用關係","tradeoff":"不移植256子標記或紅色；軟體公司不列同行"},
+    {"id":"S5","case":"Kreo","creator":"Joynal Abedin","primary_url":"https://dribbble.com/shots/25207211-Kreo-Construction-Branding","pinterest_url":"https://www.pinterest.com/pin/985231164390797/","text_read":true,"image_review":"Pinterest應用拼圖；原作頁未目視","browser_primary_blocker":"Human Verification，未完成驗證","official_hex_obtained":false,"complete_cis_obtained":false,"use":"不同應用保持同一名稱關係","tradeoff":"亮藍不採、Montserrat不是中文選字證據、未確認商用採用"},
+    {"id":"S6","case":"Build with BAAS","creator":"Studio Krista","primary_url":"https://www.studio-krista.com/project/build-with-baas-charlotte/","pinterest_url":"https://uk.pinterest.com/pin/509821620335635229/","text_read":true,"image_review":false,"discovery":"Pinterest搜尋索引追原工作室正文","official_hex_obtained":false,"complete_cis_obtained":false,"use":"品牌與網站的一致關係","tradeoff":"暖土色及住宅定位不採；原圖待目視"}
+  ],
+  "unresolved": [
+    {"case":"Blocko","pinterest_url":"https://www.pinterest.com/pin/410601691049056173/","candidate_primary_url":"https://www.behance.net/gallery/194569733/Blocko","observed":"Pinterest黃／深色，原作橘／深色，未確立同一版本","adopted":false},
+    {"case":"Terra Engineering","pinterest_url":"https://it.pinterest.com/pin/907264287463853584/","observed":"原作者及實際公司未確立，未作同名猜補","adopted":false}
+  ],
+  "limits": ["選定頁面研讀，不代表全網或完整帳號圖版已讀","無完整公開CIS手冊","無實體漆色、印刷、刺繡或受眾效果驗證","未永久訓練模型","GitHub同步與Claude回讀分開確認"],
+  "sync_payload": "公開研究文字及本案設計條件；無私人出生資料、憑證、瀏覽器帳號資訊、私有本機路徑或協議設定"
+}
