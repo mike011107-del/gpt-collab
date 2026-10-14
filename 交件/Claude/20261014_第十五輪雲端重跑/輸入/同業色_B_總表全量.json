@@ -1,0 +1,310 @@
+{
+ "說明": "同業色清單 B：同業色彩整理.md 總表裡出現的全部 HEX（logo 欄＋網站欄），用來做敏感度比較。與清單 A 的差異在結果裡列出。",
+ "colors": [
+  {
+   "company": "華通清淤工程",
+   "where": "logo",
+   "hex": "#2D661F"
+  },
+  {
+   "company": "華通清淤工程",
+   "where": "logo",
+   "hex": "#713E3E"
+  },
+  {
+   "company": "華通清淤工程",
+   "where": "網站",
+   "hex": "#EEEEEE"
+  },
+  {
+   "company": "華通清淤工程",
+   "where": "網站",
+   "hex": "#444444"
+  },
+  {
+   "company": "華通清淤工程",
+   "where": "網站",
+   "hex": "#336699"
+  },
+  {
+   "company": "銘源工程",
+   "where": "網站",
+   "hex": "#082066"
+  },
+  {
+   "company": "銘源工程",
+   "where": "網站",
+   "hex": "#0B98EF"
+  },
+  {
+   "company": "銘源工程",
+   "where": "網站",
+   "hex": "#83A900"
+  },
+  {
+   "company": "邦盛企業",
+   "where": "logo",
+   "hex": "#212122"
+  },
+  {
+   "company": "邦盛企業",
+   "where": "logo",
+   "hex": "#D3151C"
+  },
+  {
+   "company": "邦盛企業",
+   "where": "網站",
+   "hex": "#DB214D"
+  },
+  {
+   "company": "邦盛企業",
+   "where": "網站",
+   "hex": "#00688C"
+  },
+  {
+   "company": "天福環保",
+   "where": "logo",
+   "hex": "#2267AC"
+  },
+  {
+   "company": "天福環保",
+   "where": "logo",
+   "hex": "#21AC68"
+  },
+  {
+   "company": "天福環保",
+   "where": "logo",
+   "hex": "#A4D49C"
+  },
+  {
+   "company": "天福環保",
+   "where": "logo",
+   "hex": "#5DC4F1"
+  },
+  {
+   "company": "天福環保",
+   "where": "網站",
+   "hex": "#7F991A"
+  },
+  {
+   "company": "大亞環保",
+   "where": "logo",
+   "hex": "#060606"
+  },
+  {
+   "company": "大亞環保",
+   "where": "logo",
+   "hex": "#213750"
+  },
+  {
+   "company": "大亞環保",
+   "where": "logo",
+   "hex": "#AD3822"
+  },
+  {
+   "company": "大亞環保",
+   "where": "網站",
+   "hex": "#2D3341"
+  },
+  {
+   "company": "大亞環保",
+   "where": "網站",
+   "hex": "#32587B"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "logo",
+   "hex": "#B3B8BD"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "logo",
+   "hex": "#58585A"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "logo",
+   "hex": "#0A6BB6"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "logo",
+   "hex": "#029FDC"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "網站",
+   "hex": "#00153D"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "網站",
+   "hex": "#001A4A"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "網站",
+   "hex": "#02CEBD"
+  },
+  {
+   "company": "久大管道工程",
+   "where": "網站",
+   "hex": "#EDC421"
+  },
+  {
+   "company": "源昌工程環保科技",
+   "where": "logo",
+   "hex": "#414951"
+  },
+  {
+   "company": "源昌工程環保科技",
+   "where": "logo",
+   "hex": "#FE6500"
+  },
+  {
+   "company": "源昌工程環保科技",
+   "where": "網站",
+   "hex": "#111111"
+  },
+  {
+   "company": "源昌工程環保科技",
+   "where": "網站",
+   "hex": "#6EC1E4"
+  },
+  {
+   "company": "源昌工程環保科技",
+   "where": "網站",
+   "hex": "#03C4EB"
+  },
+  {
+   "company": "森淨家",
+   "where": "logo",
+   "hex": "#89C5DF"
+  },
+  {
+   "company": "森淨家",
+   "where": "網站",
+   "hex": "#89C5DF"
+  },
+  {
+   "company": "森淨家",
+   "where": "網站",
+   "hex": "#6A9CD1"
+  },
+  {
+   "company": "逸居管必潔",
+   "where": "logo",
+   "hex": "#222222"
+  },
+  {
+   "company": "逸居管必潔",
+   "where": "logo",
+   "hex": "#2D6EB1"
+  },
+  {
+   "company": "逸居管必潔",
+   "where": "網站",
+   "hex": "#0A468E"
+  },
+  {
+   "company": "逸居管必潔",
+   "where": "網站",
+   "hex": "#0054A7"
+  },
+  {
+   "company": "逸居管必潔",
+   "where": "網站",
+   "hex": "#1D83CB"
+  },
+  {
+   "company": "綠邑環保科技",
+   "where": "logo",
+   "hex": "#FFFFFF"
+  },
+  {
+   "company": "綠邑環保科技",
+   "where": "網站",
+   "hex": "#254529"
+  },
+  {
+   "company": "綠邑環保科技",
+   "where": "網站",
+   "hex": "#96A583"
+  },
+  {
+   "company": "綠邑環保科技",
+   "where": "網站",
+   "hex": "#AF6021"
+  },
+  {
+   "company": "日技管清工程",
+   "where": "logo",
+   "hex": "#0070C0"
+  },
+  {
+   "company": "日技管清工程",
+   "where": "logo",
+   "hex": "#87BBE1"
+  },
+  {
+   "company": "日技管清工程",
+   "where": "網站",
+   "hex": "#0078C1"
+  },
+  {
+   "company": "日技管清工程",
+   "where": "網站",
+   "hex": "#013FA4"
+  },
+  {
+   "company": "宏隆環保",
+   "where": "logo",
+   "hex": "#186504"
+  },
+  {
+   "company": "宏隆環保",
+   "where": "logo",
+   "hex": "#F55903"
+  },
+  {
+   "company": "宏隆環保",
+   "where": "網站",
+   "hex": "#186504"
+  },
+  {
+   "company": "宏隆環保",
+   "where": "網站",
+   "hex": "#F55802"
+  },
+  {
+   "company": "康立衛生清潔工程",
+   "where": "logo",
+   "hex": "#566A1E"
+  },
+  {
+   "company": "康立衛生清潔工程",
+   "where": "網站",
+   "hex": "#50690C"
+  },
+  {
+   "company": "康立衛生清潔工程",
+   "where": "網站",
+   "hex": "#749911"
+  },
+  {
+   "company": "一元環保",
+   "where": "logo",
+   "hex": "#255093"
+  },
+  {
+   "company": "一元環保",
+   "where": "網站",
+   "hex": "#2B6CB0"
+  },
+  {
+   "company": "一元環保",
+   "where": "網站",
+   "hex": "#EDF2F7"
+  }
+ ]
+}
