@@ -1,0 +1,630 @@
+{
+  "schema": "songchun-colour-resource-learning/1.0",
+  "checked_at": "2026-10-14",
+  "timezone": "Asia/Taipei",
+  "organisation": "崧淳環保科技股份有限公司",
+  "stage": "學習與Claude互評",
+  "brief": [
+    "沉冷主色",
+    "工程黃",
+    "白／冷灰",
+    "先色後Logo"
+  ],
+  "open_source_resources": [
+    {
+      "id": "radix",
+      "name": "Radix Colors",
+      "origin": "WorkOS；原 repo 作者 Colm Tuite、Vlad Moroz",
+      "priority": "優先：用途與中性色分工",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/radix-ui/colors/main/LICENSE",
+      "license_scope_read": "19 行；MIT、權利人、保留聲明與免責條款",
+      "license_execution": "僅研讀，未安裝、執行或散布原程式",
+      "sources": [
+        {
+          "url": "https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale",
+          "read_scope": "用途表、背景、邊界、實色與文字各區段；APCA 說明",
+          "supports": "12 階用途角色；黃／琥珀實色搭深色字；保證僅限原指定搭配"
+        },
+        {
+          "url": "https://www.radix-ui.com/colors/docs/palette-composition/composing-a-palette",
+          "read_scope": "品牌、自訂色、灰階、語義與文字各區段",
+          "supports": "原色階與自訂品牌色可分開；純灰或帶色灰的選擇"
+        },
+        {
+          "url": "https://github.com/radix-ui/colors",
+          "read_scope": "README、作者、MIT 許可摘要",
+          "supports": "原作及授權歸屬"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/radix-ui/colors/main/src/light.ts",
+          "read_scope": "sRGB 非透明 gray/slate/blue/teal/amber 指定區段；不是完整 1736 行程式稽核",
+          "supports": "下列原始色碼；不使用透明或 Display-P3 變體"
+        }
+      ],
+      "data_revision": "main 的查得內容；未固定 commit SHA，採查閱日期，不宣稱凍結上游版本",
+      "official_data_samples": [
+        {
+          "token": "slate2",
+          "hex": "#F9F9FB",
+          "source_role": "細淡背景"
+        },
+        {
+          "token": "slate6",
+          "hex": "#D9D9E0",
+          "source_role": "細淡分隔與邊界"
+        },
+        {
+          "token": "slate12",
+          "hex": "#1C2024",
+          "source_role": "高對比文字"
+        },
+        {
+          "token": "blue9",
+          "hex": "#0090FF",
+          "source_role": "實色背景；本輪不符合沉冷主色條件"
+        },
+        {
+          "token": "blue12",
+          "hex": "#113264",
+          "source_role": "高對比文字"
+        },
+        {
+          "token": "teal12",
+          "hex": "#0D3D38",
+          "source_role": "高對比文字"
+        },
+        {
+          "token": "amber9",
+          "hex": "#FFC53D",
+          "source_role": "實色背景；未當成工程安全標準黃"
+        }
+      ],
+      "learning_transfer": "同一份清淤與 CCTV 工作文件，名稱、閱讀面、分隔與黃底資訊各自分工；試比較純灰與帶藍灰。",
+      "limitations": [
+        "原用途是 UI；不整套複製到 CIS",
+        "自訂或改動色碼後不能沿用原可讀性保證",
+        "未證實品牌識別、工程安全或市場偏好",
+        "原頁未做本輪視覺截圖檢查"
+      ]
+    },
+    {
+      "id": "reasonable-colors",
+      "name": "Reasonable Colors",
+      "origin": "Matthew Howell／Reasonable Company",
+      "priority": "優先：跨色相的明暗控制比較",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/matthewhowell/reasonable-colors/master/LICENSE",
+      "license_scope_read": "19 行；MIT、Matthew Howell、保留聲明與免責條款",
+      "sources": [
+        {
+          "url": "https://www.reasonable.work/colors/",
+          "read_scope": "用途、六階對比、跨色相、LCH 與資料格式說明；未逐色閱讀全部色頁",
+          "supports": "六階的相對明度範圍；階差 2/3/4 的原作 WCAG 2 比例說明"
+        },
+        {
+          "url": "https://www.reasonable.work/colors/azure/",
+          "read_scope": "全部六階 HEX／RGB／HSL／LCH 與配對說明",
+          "supports": "Azure 色碼"
+        },
+        {
+          "url": "https://www.reasonable.work/colors/teal/",
+          "read_scope": "全部六階 HEX／RGB／HSL／LCH 與配對說明",
+          "supports": "Teal 色碼"
+        },
+        {
+          "url": "https://www.reasonable.work/colors/yellow/",
+          "read_scope": "全部六階 HEX／RGB／HSL／LCH 與配對說明",
+          "supports": "Yellow 色碼"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/matthewhowell/reasonable-colors/master/reasonable-colors.css",
+          "read_scope": "v0.4.0 檔頭、gray/azure/teal/yellow 指定區段；與色頁交叉讀取",
+          "supports": "原 HEX 數據及六階方法；不是整套資料轉載"
+        }
+      ],
+      "data_revision": "原 CSS 檔頭 v0.4.0；master 查得內容，未固定 commit SHA",
+      "official_data_samples": [
+        {
+          "token": "azure-5",
+          "hex": "#003B5E"
+        },
+        {
+          "token": "azure-6",
+          "hex": "#001C30"
+        },
+        {
+          "token": "teal-5",
+          "hex": "#00443C"
+        },
+        {
+          "token": "teal-6",
+          "hex": "#002722"
+        },
+        {
+          "token": "yellow-2",
+          "hex": "#FFE53E"
+        },
+        {
+          "token": "gray-1",
+          "hex": "#F6F6F6"
+        },
+        {
+          "token": "gray-6",
+          "hex": "#222222"
+        }
+      ],
+      "learning_transfer": "先同階固定名稱、字級、面積與留白比較深藍／深青，另輪比較第 5／6 階；分辨色相差與接近黑的明暗差。",
+      "limitations": [
+        "六階保證只適用原資料；不外推到現有工程黃或自行改色",
+        "互補／類似色配對不證明業主偏好",
+        "沒有驗證 LCH 與 HEX 的跨色域往返一致",
+        "未當作主色核准或物理色票標準",
+        "原頁未做本輪視覺截圖檢查"
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo",
+      "origin": "Adobe",
+      "priority": "優先：按背景與文字用途處理色階",
+      "license": "Apache-2.0",
+      "license_source": "https://raw.githubusercontent.com/adobe/leonardo/main/LICENSE",
+      "license_scope_read": "Version 2.0、重製／修改／散布與商標區段；180 行許可文件",
+      "sources": [
+        {
+          "url": "https://github.com/adobe/leonardo",
+          "read_scope": "README 的專案目的、UI、輸入對比與 RGB 離散值限制、許可",
+          "supports": "按目標對比產生自訂色階"
+        },
+        {
+          "url": "https://github.com/adobe/leonardo/blob/main/packages/contrast-colors/README.md",
+          "read_scope": "BackgroundColor、Theme、Color、colorKeys、ratios、輸出、對比值限制與許可；未執行範例",
+          "supports": "固定背景、起始色與按用途指定目標；不是現成 CIS 色盤"
+        },
+        {
+          "url": "https://github.com/adobe/leonardo/blob/main/llms.txt",
+          "read_scope": "搜尋回傳摘要；沒有把 API 增補當成已執行版本驗證",
+          "supports": "與核心 README 呈現差異，故保留版本／功能驗證邊界"
+        }
+      ],
+      "data_revision": "main 查得內容；未固定 commit SHA 或確認安裝版本",
+      "official_data_samples": [
+        {
+          "token": "README example colorKeys",
+          "hex_values": [
+            "#5CDBFF",
+            "#0000FF"
+          ],
+          "status": "程式示例起點，不是 Adobe 品牌色，不納入崧淳候選"
+        }
+      ],
+      "learning_transfer": "固定現有候選主色，分別檢查白底名稱、黃底小字與文件副標；任何用途色調整均標清，不悄悄改主識別色。",
+      "limitations": [
+        "未安裝或執行外來套件；主程序另操作Compare色對核對",
+        "不把生成色階當成美感／市場排名",
+        "README 與 llms.txt 支援項目呈現不完全一致；不宣稱已執行 OKLCH／APCA",
+        "不把工具的 WCAG 3 字樣當成正式標準通過",
+        "螢幕對比不校準油漆、繡線或反光材質"
+      ],
+      "browser_check": {
+        "url": "https://leonardocolor.io/tools.html",
+        "foreground": "#F5F6F7",
+        "background": "#F3B51B",
+        "alpha": 1,
+        "raw_display": -1.7,
+        "wcag2_positive_ratio": 1.6970401475914008
+      }
+    },
+    {
+      "id": "open-color",
+      "name": "Open Color",
+      "origin": "heeyeun／yeun",
+      "priority": "查閱但不列主識別色來源",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/yeun/open-color/master/LICENSE",
+      "license_scope_read": "19 行；MIT、heeyeun、保留聲明與免責條款",
+      "sources": [
+        {
+          "url": "https://github.com/yeun/open-color",
+          "read_scope": "README 目標、未來可能改色及不建議主識別色的明示、許可",
+          "supports": "限制用途的原作理由"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yeun/open-color/master/open-color.json",
+          "read_scope": "blue/yellow 指定區段",
+          "supports": "查核示例值"
+        }
+      ],
+      "data_revision": "master 查得內容；未固定 commit SHA",
+      "official_data_samples": [
+        {
+          "token": "blue9",
+          "hex": "#1864AB",
+          "status": "查核示例，未納入主色候選"
+        },
+        {
+          "token": "yellow5",
+          "hex": "#FCC419",
+          "status": "查核示例，未納入工程黃候選"
+        }
+      ],
+      "learning_transfer": "只學一般 UI 明暗序列；原作明示不建議主識別色，故不直接搬用。",
+      "limitations": [
+        "上游色碼可改；品牌需固定自身規範",
+        "本輪未執行工具，也未視覺檢查全色庫"
+      ]
+    },
+    {
+      "id": "colorbrewer",
+      "name": "ColorBrewer 2.0",
+      "origin": "Cynthia Brewer／Pennsylvania State University；Axis Maps 維護",
+      "priority": "限真實資料圖，不列 CIS 主配色來源",
+      "license": "Apache-2.0（原 repo）",
+      "license_source": "https://raw.githubusercontent.com/axismaps/colorbrewer/master/LICENCE.txt",
+      "license_scope_read": "Version 2.0、重製／修改／散布與商標區段；180 行許可文件",
+      "sources": [
+        {
+          "url": "https://colorbrewer2.org/",
+          "read_scope": "抽取到的首頁選項、三類、篩選、輸出與原作署名；未實際操作選單",
+          "supports": "色覺、列印、影印篩選與地圖用途"
+        },
+        {
+          "url": "https://colorbrewer2.org/learnmore/schemes.html",
+          "read_scope": "全部三類說明",
+          "supports": "順序／發散／分類依資料意義決定"
+        },
+        {
+          "url": "https://github.com/axismaps/colorbrewer",
+          "read_scope": "README、原作研究與維護歸屬、許可摘要",
+          "supports": "原 repo 授權與地圖工具目的"
+        }
+      ],
+      "data_revision": "master／原站查得內容；本輪未引用原色碼",
+      "official_data_samples": [],
+      "learning_transfer": "未來有真實管段分類或分級資料時，先分辨順序、中心偏差或類別再選資料色。",
+      "limitations": [
+        "現在未收到此類工程數據，不虛構圖表",
+        "地圖用色不是車身或 CIS 主色決策",
+        "沒有實際操作篩選，不能宣稱本輪已通過所有色覺／列印檢驗"
+      ]
+    }
+  ],
+  "official_manual_records": [
+    {
+      "id": "capital-power",
+      "publisher": "Capital Power",
+      "source_type": "official-public-brand-manual",
+      "url": "https://www.capitalpower.com/wp-content/uploads/2019/09/Capital-Power-Brand-Guidelines.pdf",
+      "pdf_pages": 25,
+      "available_at_research_date": true,
+      "internal_current_version_confirmed": false,
+      "sha256": "62eff5eb6fe9ff49743afe3c329dbe9ddb03ea70ce07f1e24ec7b6a5a8796d74",
+      "original_colours": [
+        {
+          "name": "Capital Power Blue",
+          "role": "primary",
+          "hex": "#425563",
+          "rgb": [
+            66,
+            85,
+            99
+          ],
+          "pantone": "7545 C",
+          "cmyk": [
+            58,
+            32,
+            18,
+            54
+          ],
+          "physical_page_index": 12,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "Capital Power Gray",
+          "role": "primary",
+          "hex": "#888B8D",
+          "physical_page_index": 12,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "Capital Power Chartreuse",
+          "role": "primary",
+          "hex": "#BBA600",
+          "physical_page_index": 12,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "Secondary Yellow",
+          "role": "secondary-restrained-emphasis",
+          "hex": "#F1C400",
+          "physical_page_index": 12,
+          "provenance": "official-written-table"
+        }
+      ],
+      "visually_reviewed_physical_page_indices": [
+        12,
+        18,
+        19
+      ],
+      "relevant_text_read_physical_page_indices": [
+        12,
+        17,
+        18,
+        19
+      ],
+      "whole_pdf_text_extracted": true,
+      "whole_pdf_read": false,
+      "whole_pdf_visual_review": false,
+      "learning": [
+        "白色閱讀面與深色資訊面分工",
+        "次色不必填滿每個區塊",
+        "螢幕及雷射輸出不可代替材料對樣"
+      ],
+      "not_transferred": [
+        "品牌色採用",
+        "chartreuse",
+        "Logo",
+        "字體",
+        "自身定位或色彩心理敘述"
+      ],
+      "correction": "第三方彙整混入另一版本車隊敘述；現取得官方25頁PDF無車隊章節，已剔除深色車輛反白規則，不能稱現行官方規則。",
+      "local_original_download_and_hash_recorded": true,
+      "palette_adopted_for_songchun": false
+    },
+    {
+      "id": "balfour-beatty",
+      "publisher": "Balfour Beatty",
+      "source_type": "official-worksite-and-fleet-manual",
+      "url": "https://www.balfourbeatty.com/media/ft1pf3yj/260407-balfour-beatty-worksite-branding-and-communications-standards.pdf",
+      "official_entry_url": "https://www.balfourbeatty.com/redirects/worksite-branding/",
+      "pdf_pages": 63,
+      "available_at_research_date": true,
+      "sha256": "d130888823c5b5ef89306827a297e5efc9b02a514e346e42749461e53ee53a12",
+      "original_colours": [
+        {
+          "name": "Balfour Beatty Blue",
+          "role": "core-brand-blue",
+          "hex": "#005D99",
+          "rgb": [
+            0,
+            93,
+            153
+          ],
+          "pantone": "301 C",
+          "cmyk": [
+            100,
+            43,
+            0,
+            18
+          ],
+          "physical_page_index": 4,
+          "provenance": "official-written-table",
+          "adopted_for_songchun": false
+        },
+        {
+          "name": "UK-powder-coating",
+          "value": "RAL 5017",
+          "physical_page_index": 4,
+          "provenance": "official-written-table",
+          "not_a_hex_conversion": true
+        },
+        {
+          "name": "UK-wet-paint",
+          "value": "NCS 3065 - R90B; BS 5252 20 E56",
+          "physical_page_index": 4,
+          "provenance": "official-written-table",
+          "not_a_hex_conversion": true
+        },
+        {
+          "name": "UK-Avery-decal",
+          "value": "AVR 9465C Sea Blue",
+          "physical_page_index": 4,
+          "provenance": "official-written-table",
+          "not_a_hex_conversion": true
+        },
+        {
+          "name": "US-paint",
+          "value": "Hyper Blue SW 6965",
+          "hex": "#015F97",
+          "rgb": [
+            1,
+            95,
+            151
+          ],
+          "physical_page_index": 4,
+          "provenance": "official-written-table",
+          "not_a_hex_conversion": true
+        },
+        {
+          "name": "Yellow reflective side strip",
+          "role": "UK-vehicle-safety-marking",
+          "hex": null,
+          "physical_page_index": 25,
+          "provenance": "official-text-and-illustration",
+          "not_brand_palette_yellow": true
+        }
+      ],
+      "visually_reviewed_physical_page_indices": [
+        4,
+        25,
+        27
+      ],
+      "relevant_text_read_physical_page_indices": [
+        4,
+        25,
+        27
+      ],
+      "whole_pdf_text_extracted": true,
+      "whole_pdf_read": false,
+      "whole_pdf_visual_review": false,
+      "learning": [
+        "品牌資訊與黃色反光、安全斜紋分開",
+        "車尾安全紋造成不清楚時省去Logo",
+        "選擇最大連續可讀面，再按原車底色決定正反白或白色資訊面",
+        "螢幕印刷塗裝貼膜規格分列"
+      ],
+      "not_transferred": [
+        "明亮主藍",
+        "英美安全及USDOT規定",
+        "車隊固定尺寸",
+        "黃機具白字可讀的普遍性結論"
+      ],
+      "source_specific_notes": [
+        "第28印刷頁示例允許部分黃機具藍或白Logo；不是中文字在黃底一律可讀的驗證，也不是全黃機具一律加白底。",
+        "原製造商名稱仍保留於可見處。",
+        "UK Chapter 8及US USDOT字標、距離要求只屬原地域案例，不轉為臺灣崧淳法律要求。",
+        "第26印刷頁NCS縮寫3065，完整R90B規格在第5印刷頁；不自行補成崧淳色規。"
+      ],
+      "local_original_download_and_hash_recorded": true,
+      "palette_adopted_for_songchun": false
+    },
+    {
+      "id": "loyd-shipyard",
+      "publisher": "LOYD Shipyard",
+      "source_type": "official-public-brand-manual",
+      "url": "https://www.loydshipyard.com/wp-content/uploads/2026/10/loyd_brand_guidelines_2026.pdf",
+      "official_entry_url": "https://www.loydshipyard.com/brand-guidelines/",
+      "edition": "Edition 1 / October 2026",
+      "pdf_pages": 12,
+      "available_at_research_date": true,
+      "sha256": "16709772b6766a9c770f6eac7c5b51835dbb6af8d0fd0f2b9b2e296f185fbd55",
+      "original_colours": [
+        {
+          "name": "LOYD Navy",
+          "role": "headings-body-headers-footers",
+          "hex": "#003D57",
+          "rgb": [
+            0,
+            61,
+            87
+          ],
+          "physical_page_index": 5,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "White",
+          "role": "main-pages-and-documents-ground",
+          "hex": "#FFFFFF",
+          "physical_page_index": 5,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "Light Grey",
+          "role": "alternate-sections-table-rows-tiles",
+          "hex": "#F3F5F8",
+          "physical_page_index": 5,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "Mist",
+          "role": "hairlines-borders-drawings-not-text",
+          "hex": "#C8D5DC",
+          "physical_page_index": 5,
+          "provenance": "official-written-table"
+        },
+        {
+          "name": "Warm yellow-orange hulls",
+          "role": "actual-photography",
+          "hex": null,
+          "physical_page_index": 7,
+          "provenance": "visual-observation-no-colour-sampling",
+          "not_brand_palette_yellow": true
+        }
+      ],
+      "visually_reviewed_physical_page_indices": [
+        5,
+        7,
+        8
+      ],
+      "relevant_text_read_physical_page_indices": [
+        5,
+        7,
+        8
+      ],
+      "whole_pdf_text_extracted": true,
+      "whole_pdf_read": false,
+      "whole_pdf_visual_review": false,
+      "learning": [
+        "實際設備的暖色可以留在照片裡，文件由沉冷文字及白底負責閱讀",
+        "冷灰按分區與邊線用途細分",
+        "技術資料以分組和細線組織，保留單位"
+      ],
+      "not_transferred": [
+        "較亮Blue",
+        "紅橙",
+        "字體",
+        "船舶數值及規格"
+      ],
+      "print_specification_status": "官方註明CMYK/Pantone待印刷方確認，不能由HEX換算後稱官方值",
+      "local_original_download_and_hash_recorded": true,
+      "palette_adopted_for_songchun": false,
+      "unresolved_data_example": {
+        "physical_page_index": 8,
+        "observed": "資料表2x1000 hp與摘要2x873 hp不同，原因未確認；不作數據正確性佐證"
+      }
+    }
+  ],
+  "standard_reference": {
+    "publisher": "W3C",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "use": "指定一般螢幕文字配對參考，非品牌美感或實物驗收"
+  },
+  "pinterest_observation": {
+    "url": "https://www.pinterest.com/pin/630433647881980276/",
+    "visible_name": "Resident",
+    "visible_pinner": "Gratfix Creatives",
+    "visual_reviewed": true,
+    "original_author_page_verified": false,
+    "official_hex_obtained": false,
+    "commercial_adoption_confirmed": false,
+    "use": "僅保留圖面觀察"
+  },
+  "actual_tool_check": {
+    "checked_at": "2026-10-14",
+    "foreground": "#F5F6F7",
+    "background": "#F3B51B",
+    "alpha": 1,
+    "wcag2_positive_ratio": 1.6970401475914008,
+    "reference_thresholds": {
+      "ordinary_screen_text": 4.5,
+      "large_screen_text": 3
+    },
+    "ordinary_screen_text_meets_reference": false,
+    "large_screen_text_meets_reference": false,
+    "leonardo_ui_raw_display": -1.7,
+    "leonardo_ui_aa_results": [
+      "regular text Fail",
+      "large text Fail",
+      "UI components and graphics Fail"
+    ],
+    "signed_display_explanation": "Leonardo getContrast wcag2分支保留前景/背景方向符號；不是W3C負比值。",
+    "formula_source": "https://www.w3.org/TR/WCAG22/#dfn-relative-luminance",
+    "tool_source": "https://raw.githubusercontent.com/adobe/leonardo/main/packages/contrast-colors/lib/utils.js",
+    "tool_source_read_scope": "getContrast wcag2分支及條件；未執行外來套件，未證實網頁部署與上游main同版本",
+    "limits": [
+      "既有試排碼；未新增定色",
+      "僅不透明sRGB螢幕文字配對",
+      "不驗證反光、油漆、印刷、刺繡、遠距離或市場效果"
+    ],
+    "decision": "工程黃底的一般服務文字優先比較深色字；冷白用作閱讀底面，反白字另在沉冷背景比較。"
+  },
+  "reusable_method_update": {
+    "original_instructions_retained": true,
+    "structure_validation": "passed",
+    "independent_forward_review_cases": 2,
+    "limits": "本機方法更新，未證明所有聊天或設備載入；不公開個人協議或設定"
+  },
+  "reading_coverage": {
+    "open_source_origins": 5,
+    "priority_open_source_methods": 3,
+    "manual_origins": 3,
+    "selected_manual_pages_visually_reviewed": 9,
+    "total_manual_pages_text_extracted": 100,
+    "whole_manual_visual_review": false
+  },
+  "new_palette_codes": [],
+  "logo_created": false,
+  "physical_or_market_validation": false,
+  "permanent_model_training": false
+}
