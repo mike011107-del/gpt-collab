@@ -1,0 +1,64 @@
+{
+ "原版_390": {
+  "組數": 8,
+  "圖片總數": 16,
+  "載入失敗": [
+   "img/d1a_t.jpg",
+   "img/d1b_t.jpg",
+   "img/d2a_t.jpg",
+   "img/d2b_t.jpg",
+   "img/d3a_t.jpg",
+   "img/d3b_t.jpg",
+   "img/d4a_t.jpg",
+   "img/d4b_t.jpg",
+   "img/d1a.jpg",
+   "img/d1b.jpg",
+   "img/d2a.jpg",
+   "img/d2b.jpg",
+   "img/d3a.jpg",
+   "img/d3b.jpg",
+   "img/d4a.jpg",
+   "img/d4b.jpg"
+  ],
+  "水平捲動": false,
+  "頁寬": 390
+ },
+ "原版_1280": {
+  "組數": 8,
+  "圖片總數": 16,
+  "載入失敗": [
+   "img/d1a_t.jpg",
+   "img/d1b_t.jpg",
+   "img/d2a_t.jpg",
+   "img/d2b_t.jpg",
+   "img/d3a_t.jpg",
+   "img/d3b_t.jpg",
+   "img/d4a_t.jpg",
+   "img/d4b_t.jpg",
+   "img/d1a.jpg",
+   "img/d1b.jpg",
+   "img/d2a.jpg",
+   "img/d2b.jpg",
+   "img/d3a.jpg",
+   "img/d3b.jpg",
+   "img/d4a.jpg",
+   "img/d4b.jpg"
+  ],
+  "水平捲動": false,
+  "頁寬": 1280
+ },
+ "路徑修正版_390": {
+  "組數": 8,
+  "圖片總數": 16,
+  "載入失敗": [],
+  "水平捲動": false,
+  "頁寬": 390
+ },
+ "路徑修正版_1280": {
+  "組數": 8,
+  "圖片總數": 16,
+  "載入失敗": [],
+  "水平捲動": false,
+  "頁寬": 1280
+ }
+}

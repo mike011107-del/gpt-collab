@@ -1,0 +1,217 @@
+{
+ "說明": "同業色清單 A：原第十五輪程式實際使用的 53 色（14 家），取自 Claude 側 cl.py 第 3 行，逐字複製。來源是 研究/同業圖片/logo與車輛_20261011/同業色彩整理.md 總表（2026-10-11 取色）。",
+ "colors": [
+  {
+   "company": "華通",
+   "hex": "#2D661F"
+  },
+  {
+   "company": "華通",
+   "hex": "#713E3E"
+  },
+  {
+   "company": "華通",
+   "hex": "#444444"
+  },
+  {
+   "company": "華通",
+   "hex": "#EEEEEE"
+  },
+  {
+   "company": "銘源",
+   "hex": "#082066"
+  },
+  {
+   "company": "銘源",
+   "hex": "#0B98EF"
+  },
+  {
+   "company": "銘源",
+   "hex": "#83A900"
+  },
+  {
+   "company": "邦盛",
+   "hex": "#212122"
+  },
+  {
+   "company": "邦盛",
+   "hex": "#D3151C"
+  },
+  {
+   "company": "邦盛",
+   "hex": "#DB214D"
+  },
+  {
+   "company": "邦盛",
+   "hex": "#00688C"
+  },
+  {
+   "company": "天福",
+   "hex": "#2267AC"
+  },
+  {
+   "company": "天福",
+   "hex": "#21AC68"
+  },
+  {
+   "company": "天福",
+   "hex": "#A4D49C"
+  },
+  {
+   "company": "天福",
+   "hex": "#5DC4F1"
+  },
+  {
+   "company": "天福",
+   "hex": "#7F991A"
+  },
+  {
+   "company": "大亞",
+   "hex": "#060606"
+  },
+  {
+   "company": "大亞",
+   "hex": "#213750"
+  },
+  {
+   "company": "大亞",
+   "hex": "#AD3822"
+  },
+  {
+   "company": "大亞",
+   "hex": "#2D3341"
+  },
+  {
+   "company": "大亞",
+   "hex": "#32587B"
+  },
+  {
+   "company": "久大",
+   "hex": "#B3B8BD"
+  },
+  {
+   "company": "久大",
+   "hex": "#58585A"
+  },
+  {
+   "company": "久大",
+   "hex": "#0A6BB6"
+  },
+  {
+   "company": "久大",
+   "hex": "#029FDC"
+  },
+  {
+   "company": "久大",
+   "hex": "#00153D"
+  },
+  {
+   "company": "久大",
+   "hex": "#02CEBD"
+  },
+  {
+   "company": "久大",
+   "hex": "#EDC421"
+  },
+  {
+   "company": "源昌",
+   "hex": "#414951"
+  },
+  {
+   "company": "源昌",
+   "hex": "#FE6500"
+  },
+  {
+   "company": "源昌",
+   "hex": "#6EC1E4"
+  },
+  {
+   "company": "源昌",
+   "hex": "#111111"
+  },
+  {
+   "company": "森淨家",
+   "hex": "#89C5DF"
+  },
+  {
+   "company": "森淨家",
+   "hex": "#6A9CD1"
+  },
+  {
+   "company": "逸居",
+   "hex": "#222222"
+  },
+  {
+   "company": "逸居",
+   "hex": "#2D6EB1"
+  },
+  {
+   "company": "逸居",
+   "hex": "#0A468E"
+  },
+  {
+   "company": "逸居",
+   "hex": "#0054A7"
+  },
+  {
+   "company": "綠邑",
+   "hex": "#254529"
+  },
+  {
+   "company": "綠邑",
+   "hex": "#96A583"
+  },
+  {
+   "company": "綠邑",
+   "hex": "#AF6021"
+  },
+  {
+   "company": "日技",
+   "hex": "#0070C0"
+  },
+  {
+   "company": "日技",
+   "hex": "#87BBE1"
+  },
+  {
+   "company": "日技",
+   "hex": "#0078C1"
+  },
+  {
+   "company": "日技",
+   "hex": "#013FA4"
+  },
+  {
+   "company": "宏隆",
+   "hex": "#186504"
+  },
+  {
+   "company": "宏隆",
+   "hex": "#F55903"
+  },
+  {
+   "company": "康立",
+   "hex": "#566A1E"
+  },
+  {
+   "company": "康立",
+   "hex": "#50690C"
+  },
+  {
+   "company": "康立",
+   "hex": "#749911"
+  },
+  {
+   "company": "一元",
+   "hex": "#255093"
+  },
+  {
+   "company": "一元",
+   "hex": "#2B6CB0"
+  },
+  {
+   "company": "一元",
+   "hex": "#EDF2F7"
+  }
+ ]
+}
