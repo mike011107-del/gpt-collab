@@ -1,0 +1,45 @@
+[
+ {
+  "name": "e1_amber_hex",
+  "prompt": "Overhead product photograph of a single blank flat matte paper card lying on a plain light grey table, the card is printed solid color #D58401 (amber orange), soft even daylight, no text, no logo, no shadow pattern, realistic paper texture",
+  "negative": "text, logo, gradient, glossy, 3d render, illustration",
+  "size": "1024x768"
+ },
+ {
+  "name": "e1_petrol_hex",
+  "prompt": "Overhead product photograph of a single blank flat matte paper card lying on a plain light grey table, the card is printed solid color #009999 (teal petrol), soft even daylight, no text, no logo, no shadow pattern, realistic paper texture",
+  "negative": "text, logo, gradient, glossy, 3d render, illustration",
+  "size": "1024x768"
+ },
+ {
+  "name": "e1_navy_hex",
+  "prompt": "Overhead product photograph of a single blank flat matte paper card lying on a plain light grey table, the card is printed solid color #041E42 (dark navy), soft even daylight, no text, no logo, no shadow pattern, realistic paper texture",
+  "negative": "text, logo, gradient, glossy, 3d render, illustration",
+  "size": "1024x768"
+ },
+ {
+  "name": "e1_blue_hex",
+  "prompt": "Overhead product photograph of a single blank flat matte paper card lying on a plain light grey table, the card is printed solid color #2071B5 (medium blue), soft even daylight, no text, no logo, no shadow pattern, realistic paper texture",
+  "negative": "text, logo, gradient, glossy, 3d render, illustration",
+  "size": "1024x768"
+ },
+ {
+  "name": "e2_office_standard",
+  "prompt": "Documentary photograph, eye level, 35mm lens. Front office of a small Taiwanese sewer cleaning and CCTV pipe inspection contractor. Off-white painted walls with slight scuffs, worn grey terrazzo floor, a blank matte white rectangular sign panel on the wall above a laminate reception counter. On the desk: an A1 sheet of a municipal sewer network plan with manhole numbers and pipe lines, a stapled inspection report, a monitor showing the inside of a circular concrete sewer pipe seen from a crawler camera, with a dark tunnel center and a timestamp overlay. A white hard hat on a metal shelf. Overcast window light, fluorescent ceiling light, ordinary office, slightly messy, muted colours, natural film grain. No people, no vehicles, no readable text.",
+  "negative": "cgi, 3d render, illustration, glossy, oversaturated, cinematic lighting, bokeh, perfect symmetry, watermark, logo, truck, people, hdr",
+  "size": "1024x768",
+  "mode": "standard"
+ },
+ {
+  "name": "e2_office_v2",
+  "prompt": "Documentary photograph, eye level, 35mm lens. Front office of a small Taiwanese sewer cleaning and CCTV pipe inspection contractor. Off-white painted walls with slight scuffs, worn grey terrazzo floor, a blank matte white rectangular sign panel on the wall above a laminate reception counter. On the desk: an A1 sheet of a municipal sewer network plan with manhole numbers and pipe lines, a stapled inspection report, a monitor showing the inside of a circular concrete sewer pipe seen from a crawler camera, with a dark tunnel center and a timestamp overlay. A white hard hat on a metal shelf. Overcast window light, fluorescent ceiling light, ordinary office, slightly messy, muted colours, natural film grain. No people, no vehicles, no readable text.",
+  "size": "1024x768",
+  "mode": "v2"
+ },
+ {
+  "name": "e2_office_v3",
+  "prompt": "Documentary photograph, eye level, 35mm lens. Front office of a small Taiwanese sewer cleaning and CCTV pipe inspection contractor. Off-white painted walls with slight scuffs, worn grey terrazzo floor, a blank matte white rectangular sign panel on the wall above a laminate reception counter. On the desk: an A1 sheet of a municipal sewer network plan with manhole numbers and pipe lines, a stapled inspection report, a monitor showing the inside of a circular concrete sewer pipe seen from a crawler camera, with a dark tunnel center and a timestamp overlay. A white hard hat on a metal shelf. Overcast window light, fluorescent ceiling light, ordinary office, slightly messy, muted colours, natural film grain. No people, no vehicles, no readable text.",
+  "size": "1024x768",
+  "mode": "v3"
+ }
+]

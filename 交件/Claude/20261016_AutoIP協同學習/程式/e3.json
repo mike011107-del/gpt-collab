@@ -1,0 +1,26 @@
+[
+ {
+  "name": "e3_stationery",
+  "prompt": "Documentary overhead photograph on a worn light oak office desk: a stack of blank plain white business cards, a blank white A4 letterhead sheet, a blank white DL envelope, a blank white A4 report cover folder, a ballpoint pen and a steel ruler. All paper is completely blank pure white with no printing. Soft overcast daylight from a window on the left, gentle natural shadows, real paper texture, slightly imperfect arrangement, shot on 50mm lens, muted natural colours, slight film grain.",
+  "negative": "cgi, 3d render, illustration, mockup template, glossy, oversaturated, cinematic lighting, bokeh, watermark, logo, text, letters, truck, people, hdr, colored paper",
+  "size": "1024x768"
+ },
+ {
+  "name": "e3_fascia",
+  "prompt": "Documentary street photograph in a small Taiwanese town: the ground floor front of an ordinary three storey concrete building with tiled facade, a metal roller shutter half open, and a large blank flat matte white rectangular sign board mounted horizontally above the entrance. The sign board is completely blank with no letters. Scooters parked nearby, electric wires, overcast afternoon light, eye level, 35mm lens, realistic weathering, muted colours, natural film grain.",
+  "negative": "cgi, 3d render, illustration, mockup template, glossy, oversaturated, cinematic lighting, bokeh, watermark, logo, text, letters, truck, people, hdr, colored paper",
+  "size": "1024x768"
+ },
+ {
+  "name": "e3_reception",
+  "prompt": "Documentary photograph, eye level, 35mm lens, of a small Taiwanese engineering contractor office entrance: a plain off-white wall with a large blank matte white rectangular wall panel above a simple laminate reception counter, a potted plant, a water dispenser, grey tile floor, fluorescent ceiling lights mixed with daylight. The wall panel is completely blank. Ordinary, slightly worn, muted colours, natural film grain. No people.",
+  "negative": "cgi, 3d render, illustration, mockup template, glossy, oversaturated, cinematic lighting, bokeh, watermark, logo, text, letters, truck, people, hdr, colored paper",
+  "size": "1024x768"
+ },
+ {
+  "name": "e3_report",
+  "prompt": "Documentary photograph of a printed sewer CCTV inspection report lying open on a meeting table next to a laptop, the report cover is a blank white sheet on top, inner pages show small grey photos of the inside of concrete pipes and tables. A hard hat and a measuring tape nearby. Overcast window light, realistic, muted colours, 50mm lens, slight film grain.",
+  "negative": "cgi, 3d render, illustration, mockup template, glossy, oversaturated, cinematic lighting, bokeh, watermark, logo, text, letters, truck, people, hdr, colored paper",
+  "size": "1024x768"
+ }
+]
