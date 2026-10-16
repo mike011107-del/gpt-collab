@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Taipei",
+  "stage": "learning_only",
+  "organisation": "崧淳環保科技股份有限公司",
+  "pinterest_case": {
+    "name": "KMK Logistics Branding",
+    "author": "Yury Akulin",
+    "pin": "https://www.pinterest.com/pin/318418636178192853/",
+    "primary": "https://www.behance.net/gallery/200602877/KMK-Logistics-Branding",
+    "page_publication_date": "2024-06-26",
+    "query": "industrial branding navy yellow fleet",
+    "source_match": "Pin montage and original author page match on yellow containers and dark angular KMK mark",
+    "visual_coverage": "Pin montage, author-page container hero and yellow business-card area only; selected other regions partially loaded",
+    "text_coverage": "Project title, author, introduction and publication date",
+    "transfer": "Keep legible name and ordinary-text hierarchy across application sizes",
+    "limits": [
+      "Not a competitor",
+      "No complete CIS manual reviewed",
+      "No official colour specification verified",
+      "Mockup or real deployment not independently established",
+      "Latin mark cannot validate Chinese lettering"
+    ],
+    "media_copied": false,
+    "account_content_modified": false,
+    "web_fetch": "403; original page subsequently read and selected images viewed in normal browser"
+  },
+  "open_source_research": {
+    "research_date": "2026-10-16",
+    "timezone": "Asia/Taipei",
+    "stage": "learning_only",
+    "organisation": "崧淳環保科技股份有限公司",
+    "new_resource_count": 2,
+    "execution": {
+      "installed": false,
+      "external_code_executed": false,
+      "gui_operated": false,
+      "new_palette_created": false
+    },
+    "resources": [
+      {
+        "id": "colorjs",
+        "name": "Color.js",
+        "type": "open_source_colour_calculation_library",
+        "observed_docs_version": "0.7.1",
+        "release_commit": "1251997f0dda2f95c41724e4981c071f1defb180",
+        "source_read_ref": "main (mutable; not claimed identical to release)",
+        "license": "MIT",
+        "license_url": "https://github.com/color-js/color.js/blob/main/LICENSE",
+        "release_url": "https://github.com/color-js/color.js/releases/tag/v0.7.1",
+        "primary_urls": [
+          "https://colorjs.io/docs/gamut-mapping.html",
+          "https://colorjs.io/docs/spaces.html",
+          "https://colorjs.io/docs/contrast.html",
+          "https://github.com/color-js/color.js/blob/main/src/toGamut.js",
+          "https://github.com/color-js/color.js/blob/main/src/contrast/WCAG21.js"
+        ],
+        "native_example_review": {
+          "kind": "text_and_documented_numeric_example",
+          "example": "Display P3 green tested separately against sRGB; coordinate conversion is separate from gamut mapping",
+          "executed": false
+        },
+        "method_gain": [
+          "Control OkLCh l/c/h independently when comparing one factor",
+          "Record both original and mapped coordinates before formatting",
+          "Preserve originals because toGamut mutates its target"
+        ],
+        "important_limit": "The gamut documentation's opening CSS explanation uses deltaEOK, while the later historical yellow explanation uses deltaE2000; do not merge them into one assumed scale. Read main css branch uses deltaEOK and JND 0.02.",
+        "coverage": "Official docs relevant sections, LICENSE, release page, toGamut.js css branch and WCAG21.js relevant source; no full repository audit"
+      },
+      {
+        "id": "culori",
+        "name": "Culori",
+        "type": "open_source_colour_calculation_library",
+        "observed_docs_version": "4.0.2",
+        "source_read_ref": "main (mutable; not claimed identical to release)",
+        "license": "MIT",
+        "license_url": "https://github.com/Evercoder/culori/blob/main/LICENSE",
+        "release_url": "https://github.com/Evercoder/culori/releases/tag/v4.0.2",
+        "primary_urls": [
+          "https://culorijs.org/api/",
+          "https://culorijs.org/color-spaces/",
+          "https://github.com/Evercoder/culori/blob/main/src/clamp.js",
+          "https://github.com/Evercoder/culori/blob/main/src/wcag.js"
+        ],
+        "native_example_review": {
+          "kind": "text_and_documented_numeric_example",
+          "input": {
+            "mode": "oklch",
+            "l": 0.5,
+            "c": 0.16,
+            "h": 180
+          },
+          "documented_clampChroma_output_approx": {
+            "mode": "oklch",
+            "l": 0.5,
+            "c": 0.09,
+            "h": 180
+          },
+          "executed": false,
+          "brand_colour": false
+        },
+        "method_gain": [
+          "Use displayable for sRGB or inGamut for an explicit destination",
+          "Do not treat formatHex success as gamut validation: it clips RGB and drops alpha",
+          "Record chosen mapping method and parameters; toGamut is not documented as exactly identical to CSS algorithm"
+        ],
+        "important_limit": "clampChroma can fall back to RGB clipping; formatHex can conceal out-of-gamut coordinates. Alpha compositing requires a known actual background.",
+        "coverage": "API parsing/formatting/gamut/WCAG relevant sections, OkLCh channel documentation, LICENSE, release page, clamp.js and wcag.js relevant source; no complete test suite review"
+      }
+    ],
+    "independent_support": [
+      {
+        "name": "W3C CSS Color 4",
+        "version": "Candidate Recommendation Draft, 2026-10-09",
+        "url": "https://www.w3.org/TR/2026/CRD-css-color-4-20261009/",
+        "coverage": "Selected sections 14.1 and 14.2 only",
+        "finding": "Three permitted CSS gamut mapping algorithms; printer black/white point alignment differs from individual screen colour mapping"
+      },
+      {
+        "name": "Oklab original author",
+        "url": "https://bottosson.github.io/posts/oklab/",
+        "coverage": "Design requirements and orthogonality discussion only",
+        "finding": "Supports separating lightness/chroma/hue as an informative comparison method; does not validate brand preference"
+      },
+      {
+        "name": "W3C WCAG 2.2 contrast minimum explanation",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+        "coverage": "Relevant screen text contrast and logotype exception passages",
+        "finding": "Screen contrast check is distinct from brand aesthetics and physical signage evidence"
+      }
+    ],
+    "proposed_local_comparison": {
+      "status": "method_only_not_run_by_this_research_subtask",
+      "backgrounds": [
+        {
+          "hex": "#F3B51B",
+          "role": "existing engineering-yellow screen study"
+        },
+        {
+          "hex": "#F5F6F7",
+          "role": "existing cool-white screen study"
+        }
+      ],
+      "background_limit": "Neither is an approved paint, film, fabric or paper standard",
+      "fixed_text": [
+        "崧淳",
+        "崧淳環保科技股份有限公司",
+        "公共污水管網清淤",
+        "管內 CCTV 檢視"
+      ],
+      "controls": [
+        "Same font, size, weight, geometry and spacing across corresponding samples",
+        "Separate h-only, l-only and c-only comparisons",
+        "Record original and mapped l/c/h plus output sRGB values",
+        "Use opaque samples first; record actual composite background for transparency",
+        "Inspect CJK positive and reversed type separately"
+      ],
+      "does_not_establish": [
+        "permanent model training",
+        "cross-device settings",
+        "physical material match",
+        "audience trust",
+        "brand adoption",
+        "complete global web coverage"
+      ]
+    }
+  },
+  "material_research": {
+    "title": "螢幕、紙張與工程車實材：配色研讀補強",
+    "research_date": "2026-10-16",
+    "timezone": "Asia/Taipei",
+    "company": "崧淳環保科技股份有限公司",
+    "scope": "學習與互評，不新增 Logo 或色票",
+    "brief_preserved": [
+      "沉冷主色",
+      "工程黃",
+      "白或冷灰"
+    ],
+    "accepted_independent_primary_source_count": 3,
+    "sources": [
+      {
+        "id": "MAT-ICC",
+        "publisher": "International Color Consortium",
+        "title": "Display calibration",
+        "url": "https://www.color.org/displaycalibration/",
+        "source_type": "官方技術說明網頁",
+        "access": "相關本文文字可公開讀取",
+        "read_coverage": [
+          "Display calibration",
+          "Soft proof calibration",
+          "Preliminaries",
+          "Workflow",
+          "Calibration accuracy"
+        ],
+        "evidence_level": "指定文字段落研讀，無網頁圖像目視，無設備實作",
+        "verified_learning": "顯示校正與描述檔共同支援一致性；環境光、螢幕色域與觀察者差異仍會影響結果。",
+        "application_inference": "既有方案比較應記錄色彩空間與觀看條件；車身照片只支援布局觀察。",
+        "not_supported": [
+          "本機螢幕已校準",
+          "由照片確定車漆色號",
+          "實體材質已驗證"
+        ],
+        "code_used": false,
+        "code_license": "不適用；未採用程式碼",
+        "reuse_note": "官方公開閱讀，未將網頁內容視為開源素材授權"
+      },
+      {
+        "id": "MAT-ADOBE",
+        "publisher": "Adobe",
+        "title": "Color-managing documents",
+        "url": "https://helpx.adobe.com/acrobat/using/color-managing-documents.html",
+        "page_updated_date": "2026-02-26",
+        "source_type": "官方產品技術文件",
+        "access": "相關本文文字可公開讀取",
+        "read_coverage": [
+          "Color-managing documents for online viewing",
+          "Proofing colors",
+          "Soft-proof colors",
+          "Color-managing PDFs for printing"
+        ],
+        "evidence_level": "指定文字段落研讀，無網頁圖像目視，無軟體實作",
+        "verified_learning": "線上文件建議使用 sRGB；指定輸出條件的軟打樣受設備、描述檔及環境光影響，可模擬紙色與黑墨。",
+        "application_inference": "電子閱讀稿與紙材打樣分開；檢查深底小字、黃底深字和白／冷灰分界。",
+        "not_supported": [
+          "軟打樣等同印品驗收",
+          "由 HEX 提供通用 CMYK",
+          "崧淳印品已打樣"
+        ],
+        "code_used": false,
+        "code_license": "不適用；未採用程式碼",
+        "reuse_note": "官方公開閱讀，未重製圖表或素材"
+      },
+      {
+        "id": "MAT-FOGRA",
+        "publisher": "Fogra",
+        "title": "Paper testing",
+        "url": "https://fogra.org/en/testing/materials-environment/paper-testing",
+        "source_type": "官方測試方法說明網頁",
+        "access": "相關本文文字可公開讀取",
+        "read_coverage": [
+          "Optical characteristics: Colour 45°/0° - D50",
+          "Colour d/0° - C",
+          "Colour d/0° - D65",
+          "Optical brightener content",
+          "TAPPI gloss 75°",
+          "DIN gloss 75°"
+        ],
+        "evidence_level": "指定文字段落研讀；非全頁研讀，非 ISO 標準全文研讀，無量測",
+        "verified_learning": "紙色需連同照明與觀察條件描述；增白劑會影響不同 UV 成分下的變色程度；光澤另有量測。",
+        "application_inference": "將紙白、冷灰、紙材與表面處理納入同紙比較，另記錄觀看光線。",
+        "not_supported": [
+          "紙張方法直接等同車材標準",
+          "車貼車漆反光材料已驗證",
+          "已讀 ISO 全文"
+        ],
+        "code_used": false,
+        "code_license": "不適用；未採用程式碼",
+        "reuse_note": "官方公開閱讀，未下載或重製素材"
+      }
+    ],
+    "proposed_workflow_is_project_inference": true,
+    "proposed_workflow": [
+      "螢幕比較固定文字、尺寸、色塊面積與工程黃，標示研究稿與色彩空間。",
+      "確定印製設備、紙材、表面處理及輸出條件後，另做文件打樣。",
+      "工程車另用實際材料小樣在預期光線和角度下觀察；不得宣稱上述紙張資料已驗證車材。"
+    ],
+    "claude_review_questions": [
+      "判斷來自螢幕、紙張還是實材？",
+      "觀看條件有無記錄？",
+      "差異是否可能由紙白、光澤、拍照或顯示造成，而非主色？"
+    ],
+    "verification_pending": [
+      "網頁圖像目視",
+      "儀器校色",
+      "輸出描述檔核對",
+      "紙張打樣",
+      "車材小樣",
+      "現場辨讀"
+    ],
+    "not_performed": [
+      "軟體安裝或執行",
+      "素材下載",
+      "系統色管設定變更",
+      "實體色號或材料規格核定"
+    ],
+    "excluded_lead": {
+      "publisher": "Fogra",
+      "title": "Research report 13.009",
+      "reason": "只取得搜尋摘要且報告列表回讀不穩定，未當作完整研讀或有效佐證"
+    }
+  },
+  "local_trial_provenance": {
+    "verified_source_filename": "20261014_專業配色與崧淳應用/三組配色與來源.json",
+    "sha256": "ba6a495e5ca2024238d73dbaae208bd38285a1a5680c749e924adba7860d6911",
+    "original_palette_records": [
+      {
+        "id": "A",
+        "yellow": "#F3B51B",
+        "paper": "#F5F6F7",
+        "yellow_origin": "崧淳既有試排值，未核定車漆／印刷／布料標準色",
+        "paper_origin": "本案冷白試排值；不是來源官方純白",
+        "status": "候選配色，未採用"
+      },
+      {
+        "id": "B",
+        "yellow": "#F3B51B",
+        "paper": "#F5F6F7",
+        "yellow_origin": "崧淳既有試排值，未核定車漆／印刷／布料標準色",
+        "paper_origin": "本案冷白試排值；不是來源官方純白",
+        "status": "候選配色，未採用"
+      },
+      {
+        "id": "C",
+        "yellow": "#F3B51B",
+        "paper": "#F5F6F7",
+        "yellow_origin": "崧淳既有試排值，未核定車漆／印刷／布料標準色",
+        "paper_origin": "本案冷白試排值；不是來源官方純白",
+        "status": "候選配色，未採用"
+      }
+    ],
+    "earliest_creation_not_established": true,
+    "physical_standard": false,
+    "distinct_from_claude_round15_yellow": "#FACA30"
+  },
+  "claude_feedback": {
+    "prior_batch_reply_verified": true,
+    "comment": "https://github.com/mike011107-del/gpt-collab/pull/13#issuecomment-6168951342",
+    "reply_scope": "Claude read prior two research files; did not independently reopen their external sources",
+    "fresh_source_review_revision": "00647a7c2f5ea0ed5dfd29844bebfb4b46bbb3be",
+    "reviewed_folder": "交件/Claude/20261014_全部成果同步/01_第十五輪配色/程式/",
+    "reviewed_blobs": {
+      "sets.py": "f9891e754dde3fe19477835a451a68cde6c0c3ed",
+      "combos.py": "74e22d8e212d099dffeeba9e90a800d3cf3fb6e5",
+      "docs20.py": "7515e61aa4b54e516dc204ed6ae6f2b23054eaa0"
+    },
+    "scope_limit": "Historic round 15; not a current round-20 audit; no imported code execution or fresh full image review",
+    "ral_comment_not_material_validation": true
+  },
+  "pair_recheck": {
+    "date": "2026-10-16",
+    "method": "WCAG sRGB relative luminance; opaque foreground/background; unrounded threshold comparison",
+    "reference": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "source_revision": "00647a7c2f5ea0ed5dfd29844bebfb4b46bbb3be",
+    "source_scope": "Historic round-15 code only; not an audit of round 20 or all rendered images",
+    "pairs": [
+      {
+        "label": "GPT 20261014 獨立試排反例",
+        "foreground": "#F5F6F7",
+        "background": "#F3B51B",
+        "declared_font": null,
+        "ratio": 1.6970401475914008,
+        "screen_normal_text_4_5": false
+      },
+      {
+        "label": "Claude 第十五輪 黃底一般文字",
+        "foreground": "#111417",
+        "background": "#FACA30",
+        "declared_font": null,
+        "ratio": 11.930002935837079,
+        "screen_normal_text_4_5": true
+      },
+      {
+        "label": "Claude 第十五輪 d1 CCTV 字幕",
+        "foreground": "#FACA30",
+        "background": "#395848",
+        "declared_font": "700 10.5px",
+        "ratio": 5.089548561007367,
+        "screen_normal_text_4_5": true
+      },
+      {
+        "label": "Claude 第十五輪 d2 CCTV 字幕",
+        "foreground": "#FACA30",
+        "background": "#086A74",
+        "declared_font": "700 10.5px",
+        "ratio": 4.077967358858751,
+        "screen_normal_text_4_5": false
+      },
+      {
+        "label": "Claude 第十五輪 d3 CCTV 字幕",
+        "foreground": "#FACA30",
+        "background": "#081C2F",
+        "declared_font": "700 10.5px",
+        "ratio": 11.13427958291008,
+        "screen_normal_text_4_5": true
+      },
+      {
+        "label": "Claude 第十五輪 d4 CCTV 字幕",
+        "foreground": "#FACA30",
+        "background": "#14A5B3",
+        "declared_font": "700 10.5px",
+        "ratio": 1.9193266273140812,
+        "screen_normal_text_4_5": false
+      },
+      {
+        "label": "Claude 第十五輪 文件實色內文",
+        "foreground": "#1B1E21",
+        "background": "#F6F6F3",
+        "declared_font": null,
+        "ratio": 15.463212848081563,
+        "screen_normal_text_4_5": true
+      }
+    ],
+    "limits": [
+      "Not physical signage certification",
+      "Not a market or aesthetic score",
+      "No imported code execution",
+      "Does not check CJK outlines, anti-aliasing or image occlusion"
+    ]
+  },
+  "completion_boundary": {
+    "research_text_read": true,
+    "selected_pinterest_original_images_reviewed": true,
+    "new_palette_created": false,
+    "new_logo_created": false,
+    "physical_material_proof": false,
+    "permanent_model_training": false,
+    "other_chat_or_device_activation_verified": false,
+    "new_batch_claude_adoption": "pending separate reply"
+  }
+}
