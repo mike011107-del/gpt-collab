@@ -1,0 +1,766 @@
+[
+ {
+  "name": "中華電信 工程車",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://logos-world.net/chunghwa-telecom-logo/",
+   "grade": "C",
+   "note": "第三方描述：標誌為藍色圓形、內有白色分割線與兩個 C；沒有色碼。官方 CIS 未取得。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://www.7car.tw/articles/read/18256",
+   "grade": "B",
+   "note": "報導原句（經搜尋摘要轉述）：電信工程車「有著和計程車一樣的黃色車身，但是卻多為貨車牌照」。沒有色碼。"
+  },
+  "third": [
+   "白（標誌內白色分割，C 級描述）"
+  ],
+  "vehicle_or_store": "黃色車身（與計程車同一種黃的印象），多掛貨車牌，車上印公司名稱與藍色圓形標誌。車型歷來有雷諾、雪鐵龍、太子 Solio、三陽 Lavita 等。曾有私人車輛仿成電信工程車佔停車格。中華電信 2024 年起分批換 6,000 輛電動工程車，新車是否仍為黃色未取得。",
+  "confusion_risk": "【推論】最高。深藍＋工程黃、尤其黃色廂型車或小貨車配藍色圓形標誌，路人第一個會想到中華電信工程車；大型吸污車車型不同，風險較低，但小車要特別小心。",
+  "sources": [
+   {
+    "url": "https://www.7car.tw/articles/read/18256",
+    "grade": "B",
+    "content": "汽車媒體街頭尋寶：中華電信工程車黃色車身、多為貨車牌"
+   },
+   {
+    "url": "https://www.7car.tw/articles/read/3362",
+    "grade": "B",
+    "content": "同上，早期 Solio、Matrix/Lavita 車型"
+   },
+   {
+    "url": "https://www.ptt.cc/bbs/car/M.1708069608.A.B49.html",
+    "grade": "C",
+    "content": "PTT 討論：計程車顏色和工程車一樣"
+   },
+   {
+    "url": "http://skeletons.blogspot.com/2009/05/blog-post_13.html",
+    "grade": "C",
+    "content": "部落格〈中華電信小黃車〉"
+   },
+   {
+    "url": "https://news.tvbs.com.tw/local/75727",
+    "grade": "B",
+    "content": "仿電信工程車佔停車格；正規工程車會印公司名與 LOGO"
+   },
+   {
+    "url": "https://money.udn.com/money/story/11162/7936415",
+    "grade": "B",
+    "content": "中華電採購 6,000 輛電動工程車（未提車色）"
+   },
+   {
+    "url": "https://logos-world.net/chunghwa-telecom-logo/",
+    "grade": "C",
+    "content": "標誌藍色圓形描述，無色碼"
+   }
+  ],
+  "remark": "網路資料皆經 WebSearch 摘要讀到，未開原頁（WebFetch 不可用）。本專案舊程式用的「中華電信藍 #0069AA」沒有來源，本表不採用。"
+ },
+ {
+  "name": "台電（台灣電力公司）工程車",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://www.ctee.com.tw/news/20260529701075-430503",
+   "grade": "B",
+   "note": "三環公司徽源自資源委員會會徽「三圈藍線」（報導引民國 37 年《勵進月刊》）；2026 年新版識別評論指三環色調由藍轉向青、藍綠。無色碼。出處篇目為推定，見 remark。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://cars.tvbs.com.tw/tech/338009",
+   "grade": "B",
+   "note": "報導：一輛「外觀神似台電工程車的黃色小貨車」被台電證實不是公司車；同批報導稱台電工程車普遍為黃色。無色碼。"
+  },
+  "third": [
+   "未取得"
+  ],
+  "vehicle_or_store": "黃色工程車。台電人員說真車有「台電」Logo、「台灣電力公司」字樣與所屬營業處。台電稱建物、招牌、人孔蓋、公務車續用舊版標誌字，新版只用於數位。帳單另有一套顏色：藍＝一般民生、綠＝欠繳或臨時用電、紫＝高壓、紅橘＝代繳、黃＝再生能源；2026 年 5–12 月為 80 週年藍綠色限定款。",
+  "confusion_risk": "【推論】高。已有水電行把黃色小貨車漆成類似台電工程車、寫「緊急電力搶修車」以便路邊臨停，可見「黃色工程小車＋藍色圓形標誌＋搶修字樣」在民眾心中就是台電。崧淳若用藍色圓形或同心圓標誌放在黃車上，風險最大。",
+  "sources": [
+   {
+    "url": "https://cars.tvbs.com.tw/tech/338009",
+    "grade": "B",
+    "content": "仿台電工程車的黃色小貨車；真車識別方式"
+   },
+   {
+    "url": "https://news.ltn.com.tw/news/society/breakingnews/5414358",
+    "grade": "B",
+    "content": "2026-04 台74線台電工程車事故（車色經摘要轉述）"
+   },
+   {
+    "url": "https://udn.com/news/story/7238/9495315",
+    "grade": "B",
+    "content": "台電：車輛等續用舊 logo"
+   },
+   {
+    "url": "https://ec.ltn.com.tw/article/breakingnews/5433023",
+    "grade": "B",
+    "content": "帳單顏色分類與 80 週年藍綠帳單"
+   },
+   {
+    "url": "https://finance.ettoday.net/news/3163962",
+    "grade": "B",
+    "content": "帳單「藍轉綠」為 80 週年限定"
+   },
+   {
+    "url": "https://www.ctee.com.tw/news/20260529701075-430503",
+    "grade": "B",
+    "content": "三環「三圈藍線」源自資源委員會（推定出處）"
+   },
+   {
+    "url": "https://www.managertoday.com.tw/articles/view/72131",
+    "grade": "B",
+    "content": "2026 新識別說明；評論指三環轉偏青（推定出處之一）"
+   },
+   {
+    "url": "https://www.thenewslens.com/article/267508",
+    "grade": "B",
+    "content": "台電 logo 評論（推定出處之一）"
+   }
+  ],
+  "remark": "「三圈藍線」與「轉偏青」兩句是搜尋摘要合併多篇報導後的轉述，無法確定出自哪一篇；列出的 ctee、經理人、關鍵評論網為最可能的出處。"
+ },
+ {
+  "name": "計程車（法定純黃，含台灣大車隊等車隊）",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "不適用",
+   "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+   "grade": "A",
+   "note": "法規只規定黃色，沒有冷色。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+   "grade": "A",
+   "note": "道路交通安全規則第42條第1項第11款：新領牌照、汰舊換新及變更顏色之計程車，車身應使用「台灣塗料工業同業公會塗料色卡編號一之十八號純黃顏色」。條文沒有色值。"
+  },
+  "third": [
+   "車牌白底紅字、T 開頭（B 級，汽車媒體轉述）"
+  ],
+  "vehicle_or_store": "全車 1-18 純黃。第12款：申請牌照與變更顏色之轎式、旅行式、廂式自用小客車及多元化計程車，不得與計程車同色。第10款：所有汽車車身顏色不得與警用巡邏車相同（警車實際塗裝本次未取得）。另有網友在洛杉磯拍到漆成亮黃色、貼台灣大車隊號碼與 logo 的改裝車。",
+  "confusion_risk": "【推論】中。崧淳若有廂型自用小客車漆成接近 1-18 的黃，可能被當計程車，甚至不合第12款；貨車、特種車條文沒有限制。深藍字標放在純黃車上也會像計程車車隊。",
+  "sources": [
+   {
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+    "grade": "A",
+    "content": "道路交通安全規則第42條（官方網址）"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/kong0107/mojLawSplitJSON/2228a7be144f03ab87869b26af229aa27347a469/FalVMingLing/K0040013.json",
+    "grade": "A",
+    "content": "全國法規資料庫開放資料鏡像，實際讀到第42條全文（最新異動 2026-06-26）"
+   },
+   {
+    "url": "https://www.laws.taipei.gov.tw/Law/File/0000261606",
+    "grade": "A",
+    "content": "臺北市法規系統轉載同條文"
+   },
+   {
+    "url": "https://c.8891.com.tw/news/16665",
+    "grade": "B",
+    "content": "計程車車牌白底紅字、T 開頭"
+   },
+   {
+    "url": "https://cars.tvbs.com.tw/life/212993",
+    "grade": "B",
+    "content": "洛杉磯亮黃車漆、貼台灣大車隊 logo 的改裝車"
+   }
+  ],
+  "remark": "不是公用事業，但它是台灣街頭最主要的『法定黃色車隊』，列入作為黃色的參照。"
+ },
+ {
+  "name": "砂石／土方傾卸車（法定 1-19 黃貨廂外框）",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "不適用",
+   "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+   "grade": "A"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+   "grade": "A",
+   "note": "道路交通安全規則第42條第1項第15款：裝載砂石、土方之傾卸框式大貨車及半拖車，貨廂外框應使用台灣塗料工業同業公會塗料色卡編號一之十九號黃顏色；其他傾卸框式大貨車及半拖車不得使用該顏色。無色值。"
+  },
+  "third": [
+   "未取得"
+  ],
+  "vehicle_or_store": "砂石車的傾卸貨廂外框為法定 1-19 黃，車頭顏色不限。",
+  "confusion_risk": "【推論】中低。崧淳的沖吸車不是傾卸框式，不受限；但大型車箱體若漆成接近 1-19 的黃，遠看可能被聯想成砂石車（工地、大車、黃），和『安心、專業』的形象相反。若公司另有傾卸車，不能用 1-19。",
+  "sources": [
+   {
+    "url": "https://raw.githubusercontent.com/kong0107/mojLawSplitJSON/2228a7be144f03ab87869b26af229aa27347a469/FalVMingLing/K0040013.json",
+    "grade": "A",
+    "content": "第42條第1項第14、15款全文"
+   },
+   {
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+    "grade": "A",
+    "content": "官方網址"
+   }
+  ]
+ },
+ {
+  "name": "各縣市清潔隊垃圾車",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://malaymail.com/news/world/2025/07/29/taiwans-garbage-trucks-offer-classical-music-and-a-catch-up/185470",
+   "grade": "B",
+   "note": "各縣市標誌與飾帶顏色不同，本次未取得來源。本專案舊程式的「台南垃圾車綠」「基隆垃圾車藍」是照片近似值，無來源，不採用。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://malaymail.com/news/world/2025/07/29/taiwans-garbage-trucks-offer-classical-music-and-a-catch-up/185470",
+   "grade": "B",
+   "note": "外電與公廣媒體以「黃色垃圾車」描述台灣垃圾車。無色碼。"
+  },
+  "third": [
+   "資源回收車另為一種車（顏色本次未取得來源）"
+  ],
+  "vehicle_or_store": "黃色垃圾車播放《給愛麗絲》或《少女的祈禱》沿街收運。法規面：使用牌照稅法第7條第1項第4款把灑水車、水肥車、垃圾車列為免稅特種車；道路交通安全規則第42條第1項第17款規定免稅特種車的車身顏色及標識依中央目的事業主管機關規定。",
+  "confusion_risk": "【推論】中高。崧淳的吸污車和垃圾車同屬清潔類大車，常在同樣的街巷作業；黃色大車身＋綠色或藍色字，很容易被當成清潔隊車。深綠＋黃最危險。",
+  "sources": [
+   {
+    "url": "https://malaymail.com/news/world/2025/07/29/taiwans-garbage-trucks-offer-classical-music-and-a-catch-up/185470",
+    "grade": "B",
+    "content": "AFP 外電：台灣黃色垃圾車與音樂"
+   },
+   {
+    "url": "https://www.taiwanplus.com/news/highlights/connected/250811009/taiwans-iconic-garbage-trucks-and-the-classical-tunes-they-play",
+    "grade": "B",
+    "content": "TaiwanPlus 報導"
+   },
+   {
+    "url": "https://www.taiwannews.com.tw/zh/news/5134802",
+    "grade": "B",
+    "content": "黃色垃圾車配合音樂的景象（推定出處之一，摘要轉述）"
+   },
+   {
+    "url": "https://newtalk.tw/news/view/2025-07-28/984522",
+    "grade": "B",
+    "content": "同主題中文報導（推定出處之一）"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/kong0107/mojLawSplitJSON/2228a7be144f03ab87869b26af229aa27347a469/FalVMingLing/G0340095.json",
+    "grade": "A",
+    "content": "使用牌照稅法第7條全文"
+   },
+   {
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340095",
+    "grade": "A",
+    "content": "官方網址"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/kong0107/mojLawSplitJSON/2228a7be144f03ab87869b26af229aa27347a469/FalVMingLing/K0040013.json",
+    "grade": "A",
+    "content": "第42條第1項第17款"
+   }
+  ]
+ },
+ {
+  "name": "公共工程工地告示牌與污水管線警示帶（國土署施工綱要規範）",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://www.nlma.gov.tw/uploads/files/d3f3c6c1bc7d08a6881b5705dcd9b150.pdf",
+   "grade": "A",
+   "note": "第01583章 2.1.2：工程告示牌「以藍底白字正楷書寫」。沒有色號；3.1.1 又交由各案設計圖說決定。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://www.nlma.gov.tw/filesys/file/chinese/dept/sew/02534110.pdf",
+   "grade": "A",
+   "note": "第02534章 2.4：埋設用塑膠警示帶為黃色塑膠布、紅色正楷字。沒有色號。"
+  },
+  "third": [
+   "白（告示牌字）",
+   "紅（警示帶字）"
+  ],
+  "vehicle_or_store": "政府發包的污水下水道工地：告示牌藍底白字、管線上方埋黃底紅字警示帶。這是業主（政府）的現場用色，不是廠商 CI。",
+  "confusion_risk": "【推論】中。崧淳若把深藍＋黃用在圍籬、告示，會和政府工程告示牌融在一起：看起來正規，但分不出是崧淳。",
+  "sources": [
+   {
+    "url": "https://www.nlma.gov.tw/uploads/files/d3f3c6c1bc7d08a6881b5705dcd9b150.pdf",
+    "grade": "A",
+    "content": "第01583章 工程告示牌及工地標誌 V2.0 2013/07（本專案來源清冊已讀原文）"
+   },
+   {
+    "url": "https://www.nlma.gov.tw/filesys/file/chinese/dept/sew/02534110.pdf",
+    "grade": "A",
+    "content": "第02534章 污水下水道用戶接管工程埋設施工（同上）"
+   },
+   {
+    "url": "https://www.nlma.gov.tw/uploads/files/e9dce523851fcc161edf405b2c0894eb.pdf",
+    "grade": "A",
+    "content": "第02532章 同一套警示帶文字（同源，不算獨立佐證）"
+   }
+  ],
+  "remark": "引自本專案 交件/Claude/20261014_第十五輪雲端重跑/來源清冊.md 第5節，本次未重開原檔。"
+ },
+ {
+  "name": "幼童專用車與校車（法定黃色倒三角反光標識）",
+  "category": "公用事業車隊",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0070042",
+   "grade": "A",
+   "note": "車身顏色依教育部公告之「幼童專用車顏色及標識標準圖」，本次未取得該圖。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040013",
+   "grade": "A",
+   "note": "道路交通安全規則第39條第1項第28款、第39-1條第1項第22款：幼童專用車及校車車身左右兩側與後方的倒三角形黃色部分，應使用反光識別材料。無色值。"
+  },
+  "third": [
+   "未取得"
+  ],
+  "vehicle_or_store": "車身兩側與車尾有黃色倒三角形反光標識；幼兒園幼童專用車不得增加其他標識或廣告。",
+  "confusion_risk": "【推論】低。只要崧淳車尾不用黃色倒三角圖形，就不會被當成娃娃車；但車尾若設計三角形黃色反光圖案要避開。",
+  "sources": [
+   {
+    "url": "https://raw.githubusercontent.com/kong0107/mojLawSplitJSON/2228a7be144f03ab87869b26af229aa27347a469/FalVMingLing/K0040013.json",
+    "grade": "A",
+    "content": "第39條第28款、第39-1條第22款、第42條第9款"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/kong0107/mojLawSplitJSON/2228a7be144f03ab87869b26af229aa27347a469/FalVMingLing/H0070042.json",
+    "grade": "A",
+    "content": "幼兒園幼童專用車輛與其駕駛人及隨車人員督導管理辦法第5條"
+   },
+   {
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0070042",
+    "grade": "A",
+    "content": "官方網址"
+   }
+  ]
+ },
+ {
+  "name": "IKEA 台灣",
+  "category": "消費品牌",
+  "primary": {
+   "hex": "#0058A3",
+   "source_url": "https://www.ikea.com/ph/en/this-is-ikea/about-us/the-ikea-logo-history-and-design-pub55d85f50",
+   "grade": "C",
+   "note": "官方頁只寫藍黃是 logo 與店面顏色（A），沒有色碼。#0058A3 來自第三方：Simple Icons（註明取自 ikea.com）、madegooddesigns；其他站另有 #0058AB、#0051BA、#003399。"
+  },
+  "yellow": {
+   "hex": "#FFDA1A",
+   "source_url": "https://www.schemecolor.com/ikea.php",
+   "grade": "C",
+   "note": "第三方說法不一：#FFDA1A（schemecolor 等多站）、#FFCC00（brandcolors.net 資料集）、#FBD914（brandpalettes）、#FFDB00、#FFC600。官方值未取得。"
+  },
+  "third": [
+   "白（推論，未取得來源）"
+  ],
+  "vehicle_or_store": "官方說藍、黃是店面和 logo 的顏色，象徵瑞典；台灣門市沿用全球藍色量體＋黃色字標的做法【台灣門市外觀為推論，未取得台灣來源】。",
+  "confusion_risk": "【推論】中。亮藍＋亮黃已等於 IKEA；崧淳若用中等飽和的藍＋檸檬黃，會像 IKEA。改用深藍或深青、黃偏琥珀，距離就拉開。",
+  "sources": [
+   {
+    "url": "https://www.ikea.com/ph/en/this-is-ikea/about-us/the-ikea-logo-history-and-design-pub55d85f50",
+    "grade": "A",
+    "content": "IKEA 官方：藍黃 logo 與店面顏色"
+   },
+   {
+    "url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+    "grade": "C",
+    "content": "Simple Icons 16.35.0 資料檔：IKEA #0058A3，source https://www.ikea.com"
+   },
+   {
+    "url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+    "grade": "C",
+    "content": "brand-colors 2.1.1（brandcolors.net）：ikea #ffcc00、ikea-2 #003399"
+   },
+   {
+    "url": "https://www.schemecolor.com/ikea.php",
+    "grade": "C",
+    "content": "#FFDA1A、#0051BA"
+   },
+   {
+    "url": "https://brandpalettes.com/ikea-logo-color-codes/",
+    "grade": "C",
+    "content": "#FBD914、#0058AB"
+   },
+   {
+    "url": "https://madegooddesigns.com/?p=57327",
+    "grade": "C",
+    "content": "#0058A3；自承為重建值，非官方"
+   }
+  ]
+ },
+ {
+  "name": "小北百貨",
+  "category": "消費品牌",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://www.mirrormedia.mg/story/20260805edi073",
+   "grade": "B",
+   "note": "冷色部分未取得，無法確認是否為冷色＋黃。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://www.mirrormedia.mg/story/20260805edi073",
+   "grade": "B",
+   "note": "報導：羅東新店「掛上醒目的黃色招牌」。無色碼。"
+  },
+  "third": [
+   "未取得"
+  ],
+  "vehicle_or_store": "門市用醒目的黃色招牌（一家分店的報導）。logo 其他顏色未取得。",
+  "confusion_risk": "【推論】低。零售店面場景和工程車不同；只在崧淳把黃色做成大面積招牌時才可能聯想到。",
+  "sources": [
+   {
+    "url": "https://www.mirrormedia.mg/story/20260805edi073",
+    "grade": "B",
+    "content": "黃色招牌"
+   },
+   {
+    "url": "https://udn.com/news/story/120911/8105861",
+    "grade": "B",
+    "content": "附 logo 圖，文字未描述顏色"
+   }
+  ]
+ },
+ {
+  "name": "台灣中油（查核：藍＋紅，未見黃）",
+  "category": "消費品牌",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://www.ctee.com.tw/news/20260529701075-430503",
+   "grade": "B",
+   "note": "火炬與三環徽記；三環源自資源委員會「三圈藍線」（推定出處）。2024 年委外優化識別，2025 年初決定暫緩。無色碼。"
+  },
+  "yellow": {
+   "hex": "無（來源未提到黃色）",
+   "source_url": "https://finance.ettoday.net/news/1695506",
+   "grade": "B",
+   "note": "報導描述加油站體上中下為紅、白、藍三種線條。出處篇目未能確認，見 remark。"
+  },
+  "third": [
+   "紅",
+   "白"
+  ],
+  "vehicle_or_store": "加油站站體有紅、白、藍三條橫向線條，分別代表熱誠服務、無瑕品質、最大貢獻（報導轉述）。",
+  "confusion_risk": "【推論】低。中油的冷色是配紅不是配黃；崧淳用深藍＋黃不會像中油。只有在加紅色細線時才會靠近。",
+  "sources": [
+   {
+    "url": "https://ec.ltn.com.tw/article/breakingnews/5433392",
+    "grade": "B",
+    "content": "中油：2025 年即決定暫緩 logo 更新"
+   },
+   {
+    "url": "https://finance.ettoday.net/news/3164103",
+    "grade": "B",
+    "content": "中油聲明識別調整過程"
+   },
+   {
+    "url": "https://finance.ettoday.net/news/1695506",
+    "grade": "B",
+    "content": "中油改名代價（推定為站體紅白藍線條描述的出處）"
+   },
+   {
+    "url": "https://www.moneyweekly.com.tw/_Article?AID=85494",
+    "grade": "B",
+    "content": "推定出處之一"
+   },
+   {
+    "url": "https://www.ctee.com.tw/news/20260529701075-430503",
+    "grade": "B",
+    "content": "三環徽記由來（推定出處）"
+   }
+  ],
+  "remark": "委託方要求查中油，所以列入作反例。紅白藍線條一句是搜尋摘要合併多篇報導的轉述，無法確定出自哪一篇。"
+ },
+ {
+  "name": "Komatsu 小松（工程機具，國際品牌）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "#283D99",
+   "source_url": "https://logotyp.us/logo/komatsu/",
+   "grade": "C",
+   "note": "官方說法（A）：機具是黃色配大膽的藍色 logo；2001 年起有三條藍色橫向色帶，2025 年改為三條斜向平行色帶。#283D99 是第三方 logo 站的值，官方色碼未取得。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://www.komatsu.jp/en/aboutus/brandcommunication/stories/vi",
+   "grade": "A",
+   "note": "官方：1996 年起機具用 \"Natural Yellow\"，沿用至今。色名有，色碼未取得。"
+  },
+  "third": [
+   "黑（推論，未取得來源）"
+  ],
+  "vehicle_or_store": "黃色機具車身、藍色 KOMATSU 字標與三條藍色色帶；2025 年起新機改斜向色帶，舊機逐步更換。2025-11 另有與 Williams 車隊合作的限定藍色機具，不是標準塗裝。",
+  "confusion_risk": "【推論】中。深藍字標＋藍色斜帶＋黃色大面積，就是 Komatsu 的公式；崧淳若在黃車上加藍色斜向色帶，懂工程的人（業主承辦、監造）會聯想到小松挖土機。台灣工地常見小松機具為推論，未取得台灣來源。",
+  "sources": [
+   {
+    "url": "https://www.komatsu.jp/en/aboutus/brandcommunication/stories/vi",
+    "grade": "A",
+    "content": "Komatsu 官方：Natural Yellow、藍色色帶、2025 改版"
+   },
+   {
+    "url": "https://www.komatsu.eu/en/news/komatsu-machines-get-first-visual-overhaul-in-24-years",
+    "grade": "A",
+    "content": "Komatsu Europe 官方新聞"
+   },
+   {
+    "url": "https://www.komatsu.jp/en/williamsracing/machines-went-blue",
+    "grade": "A",
+    "content": "限定藍色機具（非標準塗裝）"
+   },
+   {
+    "url": "https://logotyp.us/logo/komatsu/",
+    "grade": "C",
+    "content": "logo 藍 #283d99"
+   }
+  ]
+ },
+ {
+  "name": "Caterpillar 開拓重工（工程黃參照，國際品牌）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "不適用",
+   "source_url": "https://rent.cat.com/en_US/articles/why-equipment-yellow",
+   "grade": "A",
+   "note": "主色是黃，配黑，沒有冷色。"
+  },
+  "yellow": {
+   "hex": "#FFCD11",
+   "source_url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+   "grade": "C",
+   "note": "Simple Icons 值（註明取自 Wikimedia 的 logo 檔）。官方說法（A）：1931 年從灰色改為 Hi-Way Yellow，為了道路工地被看見；1979 年改為較收斂的 Caterpillar Yellow。官方色碼未取得。"
+  },
+  "third": [
+   "黑"
+  ],
+  "vehicle_or_store": "全黃機具、黑色 CAT 字標與黑色底盤。",
+  "confusion_risk": "【推論】低。CAT 沒有冷色；它代表的是『工程黃＝工地機具』這個共識。崧淳黃色若接近 CAT 黃，車會先被讀成工程機具類，這本身不是壞事。",
+  "sources": [
+   {
+    "url": "https://rent.cat.com/en_US/articles/why-equipment-yellow",
+    "grade": "A",
+    "content": "Cat 官方：黃色由來（本專案 02_美感資源與規矩.md 已引用）"
+   },
+   {
+    "url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+    "grade": "C",
+    "content": "Simple Icons：Caterpillar #FFCD11"
+   }
+  ]
+ },
+ {
+  "name": "銘源（同業，清溝／CCTV）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "#082066",
+   "source_url": "https://www.ming-yuan.com.tw/",
+   "grade": "C",
+   "note": "官網畫面取樣（10-11），非官方標準色；另有 #0B98EF、#83A900。首頁找不到 logo。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "https://www.ming-yuan.com.tw/",
+   "grade": "C",
+   "note": "第三份同業報告：清溝車為黃色車身、黑色大字全名。無色碼。"
+  },
+  "third": [
+   "#0B98EF 亮藍（網站）",
+   "#83A900 黃綠（網站）",
+   "黑（車身字）"
+  ],
+  "vehicle_or_store": "黃色清溝車，車身黑色大字公司全名；網站深藍為主。",
+  "confusion_risk": "【推論】高（對業主）。深藍＋黃車身正是銘源目前的樣子；同一批政府標案的承辦人可能分不出崧淳和銘源，差別只剩車身字。",
+  "sources": [
+   {
+    "url": "https://www.ming-yuan.com.tw/",
+    "grade": "C",
+    "content": "官網（網站色取樣）"
+   },
+   {
+    "url": "本專案 研究/對手與市場分析_完整版.md；交件/Claude/20261014_全部成果同步/04_定位與產業研究/01_產業與同業研究.md（10-11 取樣）",
+    "grade": "C",
+    "content": "14 家用色取樣表"
+   },
+   {
+    "url": "本專案 研究/第三份同業報告對照與學習.md（轉述梁特助 10-14 上傳《崧淳｜同業市場與品牌識別觀察》，作者未說明）",
+    "grade": "C",
+    "content": "銘源黃色清溝車"
+   }
+  ]
+ },
+ {
+  "name": "久大管道工程（同業）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "#0A6BB6",
+   "source_url": "https://jiou-da.com/",
+   "grade": "C",
+   "note": "logo 取樣：#0A6BB6、#029FDC 藍，#58585A 灰；網站海軍藍 #00153D。"
+  },
+  "yellow": {
+   "hex": "#EDC421",
+   "source_url": "https://jiou-da.com/",
+   "grade": "C",
+   "note": "網站點綴黃（取樣）。"
+  },
+  "third": [
+   "#02CEBD 青（網站）",
+   "#58585A 灰（logo 扳手）"
+  ],
+  "vehicle_or_store": "藍色漸層 JIOUDA 字標，水滴、扳手、彎頭圖形；網站海軍藍底＋黃色點綴。車身未取得。",
+  "confusion_risk": "【推論】中。海軍藍＋黃＋青的網站組合和『深藍／深青＋工程黃』很近；但久大的客群偏住家社區，和崧淳的政府客戶重疊較少。",
+  "sources": [
+   {
+    "url": "https://jiou-da.com/",
+    "grade": "C",
+    "content": "官網（取樣）"
+   },
+   {
+    "url": "本專案 研究/對手與市場分析_完整版.md；交件/Claude/20261014_全部成果同步/04_定位與產業研究/01_產業與同業研究.md（10-11 取樣）",
+    "grade": "C",
+    "content": "14 家用色取樣表"
+   },
+   {
+    "url": "https://www.findcompany.com.tw/trademark/02163343_110009571",
+    "grade": "B",
+    "content": "久大註冊商標"
+   }
+  ]
+ },
+ {
+  "name": "宏隆（同業，清溝）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "#186504",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "logo 取樣：綠 #186504、橘 #F55903（書法字＋漸層色帶）。網站拒絕讀取，取樣來自梁特助電腦的 logo 檔。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "第三份同業報告：清溝車為黃色車身、黑色大字全名。無色碼。"
+  },
+  "third": [
+   "#F55903 橘（logo）",
+   "黑（車身字）"
+  ],
+  "vehicle_or_store": "黃色清溝車、車身黑色大字全名；logo 是綠色書法字配橘色漸層色帶。",
+  "confusion_risk": "【推論】中高（深綠方案）。深綠＋黃車身會和宏隆撞；深藍、深青則和它分得開。",
+  "sources": [
+   {
+    "url": "本專案 研究/對手與市場分析_完整版.md；交件/Claude/20261014_全部成果同步/04_定位與產業研究/01_產業與同業研究.md（10-11 取樣）",
+    "grade": "C",
+    "content": "14 家用色取樣表"
+   },
+   {
+    "url": "本專案 研究/第三份同業報告對照與學習.md（轉述梁特助 10-14 上傳《崧淳｜同業市場與品牌識別觀察》，作者未說明）",
+    "grade": "C",
+    "content": "宏隆黃色清溝車"
+   }
+  ]
+ },
+ {
+  "name": "升野（同業）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "第三份同業報告：藍色管道箭頭標誌。無色碼。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "同報告：黃底中英文公司名橫幅。無色碼。"
+  },
+  "third": [
+   "未取得"
+  ],
+  "vehicle_or_store": "藍色管道箭頭標誌，搭配黃底中英文名橫幅。車身未取得。",
+  "confusion_risk": "【推論】中高。這是同業裡最明確的『藍＋黃』組合，而且和崧淳同屬 A 級重疊（同工項得標或明示清淤＋CCTV）；崧淳若用藍＋黃底橫幅，會和升野很像。",
+  "sources": [
+   {
+    "url": "本專案 研究/第三份同業報告對照與學習.md（轉述梁特助 10-14 上傳《崧淳｜同業市場與品牌識別觀察》，作者未說明）",
+    "grade": "C",
+    "content": "升野標誌與橫幅"
+   },
+   {
+    "url": "本專案 研究/對手與市場分析_完整版.md",
+    "grade": "C",
+    "content": "升野列為 A 級同業；苗栗標案合格廠商"
+   }
+  ]
+ },
+ {
+  "name": "派浦崴洱（同業，台中）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "logo 未取得（報告二只剩替代文字）。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "第三份同業報告：服務示意圖為黃色車。無色碼。"
+  },
+  "third": [
+   "未取得"
+  ],
+  "vehicle_or_store": "服務示意圖中是黃色作業車；實車與標誌顏色未取得。",
+  "confusion_risk": "【推論】未知但值得追。它在台中、得過苗栗後龍 TV 檢視及清理標，和崧淳地區與工項都重疊；若它的冷色確認是藍或綠，在中部被搞混的機率最高。",
+  "sources": [
+   {
+    "url": "本專案 研究/第三份同業報告對照與學習.md（轉述梁特助 10-14 上傳《崧淳｜同業市場與品牌識別觀察》，作者未說明）",
+    "grade": "C",
+    "content": "派浦崴洱黃色車示意圖"
+   },
+   {
+    "url": "本專案 研究/對手與市場分析_完整版.md",
+    "grade": "C",
+    "content": "臺中的派浦崴洱做苗栗；苗栗後龍 TV 檢視及清理 56 萬得標"
+   }
+  ]
+ },
+ {
+  "name": "全基（同業，管道修復）",
+  "category": "工程同類",
+  "primary": {
+   "hex": "未取得",
+   "source_url": "https://www.polygretco.com/",
+   "grade": "C",
+   "note": "第三份同業報告：綠色管束幾何圖形（2023 台灣國際水週）。無色碼。"
+  },
+  "yellow": {
+   "hex": "未取得",
+   "source_url": "未取得",
+   "grade": "C",
+   "note": "同報告：團隊穿深藍上衣、橘黃反光背心；反光背心屬安全規定，不能算品牌色。"
+  },
+  "third": [
+   "深藍（工作服）"
+  ],
+  "vehicle_or_store": "現場人員深藍上衣＋橘黃反光背心；標誌為綠色幾何圖形。車身未取得。",
+  "confusion_risk": "【推論】中低。『深藍工作服＋黃背心』是工地通用樣子，不是全基獨有；崧淳若也這樣穿，現場照片會跟全基分不開，但這是整個行業的共同畫面。",
+  "sources": [
+   {
+    "url": "https://www.polygretco.com/",
+    "grade": "C",
+    "content": "官網"
+   },
+   {
+    "url": "本專案 研究/第三份同業報告對照與學習.md（轉述梁特助 10-14 上傳《崧淳｜同業市場與品牌識別觀察》，作者未說明）",
+    "grade": "C",
+    "content": "全基標誌、團隊服裝"
+   }
+  ]
+ }
+]

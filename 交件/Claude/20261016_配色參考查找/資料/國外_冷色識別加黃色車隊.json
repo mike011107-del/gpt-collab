@@ -1,0 +1,1109 @@
+[
+  {
+    "name": "Komatsu（小松製作所）",
+    "country": "日本",
+    "sector": "工程機具",
+    "cool_primary": {
+      "hex": "#283D99",
+      "other_codes": "官方未公布色碼；官方文字僅稱 logo 為「bold blue logo」(A：komatsu.jp)。",
+      "source_url": "https://logotyp.us/logo/komatsu/",
+      "grade": "C",
+      "note": "logotyp.us 未註明資料出處，未經官方核實。"
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "官方色名 Natural Yellow（1996 年取代舊黃色，沿用至今）。",
+      "source_url": "https://www.komatsu.eu/en/news/komatsu-machines-get-first-visual-overhaul-in-24-years",
+      "grade": "A",
+      "alternatives": [
+        {
+          "hex": "未取得",
+          "other_codes": "日本建機噴漆一覽列「コマツ ナチュラルイエロー」噴罐品號 No.295A（塗料販售碼，非色彩標準）",
+          "source_url": "https://maxis.co.jp/service/parts/pdf/spray.pdf",
+          "grade": "C"
+        },
+        {
+          "hex": "未取得",
+          "other_codes": "英國零件商販售「Komatsu Yellow」機械漆，未附色碼",
+          "source_url": "https://www.htsspares.com/catalogue/paint/paints/machinery-paint-0/show/komatsu-yellow-machinery-paint",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "三條藍色條紋（機身裝飾）",
+        "hex": "未取得",
+        "other_codes": "2001 年 VI 全面改版時加入；2025 年改為三條斜向平行條紋，先用於新機再擴及全車隊",
+        "source_url": "https://www.komatsu.eu/en/news/komatsu-machines-get-first-visual-overhaul-in-24-years",
+        "grade": "A"
+      },
+      {
+        "name": "灰色（機身副色）",
+        "hex": "未取得",
+        "other_codes": "官方沿革：1984 年為黃＋深藍，之後改為黃＋灰",
+        "source_url": "https://www.komatsu.eu/en/news/komatsu-machines-get-first-visual-overhaul-in-24-years",
+        "grade": "A"
+      }
+    ],
+    "roles": "logo 用藍色；機具車身以 Natural Yellow 為底，加三條藍色條紋與灰色部件。官方說很少看到不是黃色的 Komatsu 機具（2025 年與 Williams 車隊合作的藍色機具是限期活動）。文件用色未取得。",
+    "why_it_works_or_not": "【推論】企業標誌冷藍、產品塗黃，再用與 logo 同色的藍條紋把兩者綁在一起，所以黃色機具在一片黃色同業中仍認得出是 Komatsu。",
+    "sources": [
+      "https://www.komatsu.eu/en/news/komatsu-machines-get-first-visual-overhaul-in-24-years",
+      "https://www.komatsu.jp/en/aboutus/brandcommunication/stories/vi",
+      "https://www.komatsu.jp/en/williamsracing/machines-went-blue",
+      "https://logotyp.us/logo/komatsu/",
+      "https://maxis.co.jp/service/parts/pdf/spray.pdf",
+      "https://www.htsspares.com/catalogue/paint/paints/machinery-paint-0/show/komatsu-yellow-machinery-paint"
+    ]
+  },
+  {
+    "name": "Volvo Construction Equipment",
+    "country": "瑞典",
+    "sector": "工程機具",
+    "cool_primary": {
+      "hex": "#182871",
+      "other_codes": "Pantone 2747 C；CMYK 100/85/0/15；RGB 24/40/113（該站標名 Volvo Blue；CMYK、Pantone 為該站推估）",
+      "source_url": "https://www.brandcolorcode.com/volvo",
+      "grade": "C",
+      "note": "此為 Volvo 品牌通用值，非 Volvo CE 專屬；未取得 Volvo Group／Volvo CE 官方色碼。另：Volvo Cars 官方設計系統（A，但與 Volvo CE 為不同公司）列 #202A44、#1B365D、#7089AC、#CED9E5，見 https://design.volvocars.com/colour/brand-colours，僅供對照。",
+      "alternatives": [
+        {
+          "hex": "#003057",
+          "other_codes": "RGB 0/48/87；該站稱為 Volvo Blue",
+          "source_url": "https://brandkit.pro/color/003057",
+          "grade": "C"
+        },
+        {
+          "hex": "#003057",
+          "other_codes": "simple-icons 16.35.0 的「Volvo」條目，出處標 media.volvocars.com（Volvo Cars）",
+          "source_url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#003057",
+          "other_codes": "brand-colors 2.1.1 的 volvo 條目（另列 #115740、#65665C、#425563、#517891、#212721）",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "BM-Volvo LM 218 裝載機被視為 Volvo CE 起點，是第一台塗黃色的機器，目的是與農用拖拉機區分。",
+      "source_url": "https://www.agriland.co.uk/?p=243515",
+      "grade": "B",
+      "alternatives": [
+        {
+          "hex": "未取得",
+          "other_codes": "售後塗料「Volvo Yellow」400ml 噴罐，品號 HTP1310（未附色碼）",
+          "source_url": "https://www.htsspares.com/catalogue/workshop/paint/paints/machinery-paint/show/volvo-yellow-machinery-paint/volvo-yellow-paint-touch-up-400ml-aerosol",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "灰色（道路機械塗裝副色）",
+        "hex": "未取得",
+        "other_codes": "報導稱 Volvo 道路機械採黃＋灰塗裝",
+        "source_url": "https://www.architectureanddesign.com.au/suppliers/ingersoll-rand-security-technologies/volvo-unveils-new-look-road-machinery",
+        "grade": "B"
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#202A44",
+        "other_codes": "Pantone 533 C（該站推估）",
+        "source_url": "https://www.brandcolorcode.com/volvo",
+        "grade": "C"
+      },
+      {
+        "name": "Black",
+        "hex": "#141414",
+        "other_codes": "Pantone Process Black C（該站推估）",
+        "source_url": "https://www.brandcolorcode.com/volvo",
+        "grade": "C"
+      }
+    ],
+    "roles": "鐵標（iron mark）logo 屬 Volvo 母品牌的藍色系統；機具塗黃色。1985 年與 Clark 合組 VME 後，併入的其他品牌多改用 Volvo 品牌與配色。2020 年起機身只標產品類型與尺寸，型號系列改寫在規格表、銘牌與行銷資料上。文件用色未取得。",
+    "why_it_works_or_not": "【推論】集團層級用冷藍守住企業辨識，機具交給業界通用的黃色，再靠簡化的機身標示與鐵標維持一致，黃色本身並不承擔品牌區隔。",
+    "sources": [
+      "https://www.brandcolorcode.com/volvo",
+      "https://brandkit.pro/color/003057",
+      "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+      "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+      "https://www.agriland.co.uk/?p=243515",
+      "https://www.agriland.co.uk/farming-news/video-where-did-volvo-loading-shovels-come-from/",
+      "https://www.volvoce.com/-/media/volvoce/global/global-site/this-is-volvo-ce/brochures/volvo-ce-the-story.pdf",
+      "https://www.volvo.com/constructionequipment/global/en-gb/AboutUs/history/",
+      "https://www.equipmentworld.com/equipment/article/14972544/volvo-ce-to-drop-model-letters-other-designations-from-machines",
+      "https://www.architectureanddesign.com.au/suppliers/ingersoll-rand-security-technologies/volvo-unveils-new-look-road-machinery",
+      "https://www.htsspares.com/catalogue/workshop/paint/paints/machinery-paint/show/volvo-yellow-machinery-paint/volvo-yellow-paint-touch-up-400ml-aerosol",
+      "https://design.volvocars.com/colour/brand-colours"
+    ]
+  },
+  {
+    "name": "LiuGong（柳工）",
+    "country": "中國",
+    "sector": "工程機具",
+    "cool_primary": {
+      "hex": "#11316E",
+      "other_codes": "CMYK 為該站推估（官方手冊未明列）",
+      "source_url": "https://www.brandcolorcode.com/liugong",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#0C4DA2",
+          "other_codes": "該站稱 cobalt，為近似值；描述 logo 為深藍長方底＋白字 LIUGONG，L 為較淺藍、G 有橘色外框",
+          "source_url": "https://whatthelogo.com/logo/liugong/164188",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "英國零件商販售「Liugong Yellow」機械漆（未附色碼）",
+      "source_url": "https://www.htsspares.com/catalogue/workshop/paint/paints/machinery-paint/show/liugong-yellow-machinery-paint",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "未取得",
+          "other_codes": "印度經銷商 838H 輪式裝載機規格列顏色「Yellow」",
+          "source_url": "https://www.indiamart.com/rbasglobaltrading/wheel-loader.html",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "橘色（logo 輔色）",
+        "hex": "#EC6606",
+        "other_codes": "CMYK 為該站推估",
+        "source_url": "https://www.brandcolorcode.com/liugong",
+        "grade": "C"
+      },
+      {
+        "name": "橘色（另一說，近似值）",
+        "hex": "#F68B1E",
+        "other_codes": "該站稱 tangerine",
+        "source_url": "https://whatthelogo.com/logo/liugong/164188",
+        "grade": "C"
+      }
+    ],
+    "roles": "logo 為深藍底白字，加一點橘色；機具為黃色，但只有售後塗料與經銷商資料佐證，未見官方說明。總部也展示過聯合國白色塗裝的特殊裝載機。文件用色未取得。",
+    "why_it_works_or_not": "【推論】深藍 logo＋黃色機身的結構和 Komatsu 類似，但 logo 再加橘色，品牌色變成三色，辨識重點比較分散。",
+    "sources": [
+      "https://www.brandcolorcode.com/liugong",
+      "https://whatthelogo.com/logo/liugong/164188",
+      "https://www.htsspares.com/catalogue/workshop/paint/paints/machinery-paint/show/liugong-yellow-machinery-paint",
+      "https://www.indiamart.com/rbasglobaltrading/wheel-loader.html",
+      "https://www.earthmoversmagazine.co.uk/news/view,a-taste-of-the-orient-visiting-liugong-in-china_707.htm"
+    ]
+  },
+  {
+    "name": "New Holland Construction（CNH 集團）",
+    "country": "義大利／美國",
+    "sector": "工程機具（同品牌另有農機）",
+    "cool_primary": {
+      "hex": "未取得",
+      "other_codes": "官方：2008 年起用的藍＋黃徽標，於 2023 年 Agritechnica 起改為單色新 logo（保留葉形符號；官方文字未寫新 logo 顏色）。",
+      "source_url": "https://agriculture.newholland.com/en-ie/europe/new-holland-world/news/2023/new-holland-of-the-future",
+      "grade": "A"
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "論壇使用者稱挖掘裝載機為黃色、滑移裝載機為黃＋灰，並說建機常被預期是黃色",
+      "source_url": "https://www.tractorbynet.com/forums/threads/new-holland-paint-colors.9812/post-105902",
+      "grade": "C"
+    },
+    "third_or_neutral": [
+      {
+        "name": "拖拉機藍（農機線）",
+        "hex": "未取得",
+        "other_codes": "profi 測評：伸縮臂叉裝機系列 2003 年由前代的工業黃改為品牌拖拉機藍",
+        "source_url": "https://www.profi.co.uk/test-centre/new-holland-lm415a/",
+        "grade": "B"
+      }
+    ],
+    "roles": "同一品牌下農機用藍色、建機用黃色；但伸縮臂叉裝機在 2003 年從黃色改成藍色，可見黃色只留給被歸為工程機具的產品。文件用色未取得。",
+    "why_it_works_or_not": "【推論】冷色品牌＋黃色工程產品線，讓客戶從顏色就分得出用途；但產品界線模糊時（如伸縮臂叉裝機）就會改色，表示黃色是產品類別色，不是品牌色。",
+    "sources": [
+      "https://agriculture.newholland.com/en-ie/europe/new-holland-world/news/2023/new-holland-of-the-future",
+      "https://www.tractorbynet.com/forums/threads/new-holland-paint-colors.9812/post-105902",
+      "https://www.profi.co.uk/test-centre/new-holland-lm415a/",
+      "https://en.wikipedia.org/wiki/New_Holland_Construction"
+    ]
+  },
+  {
+    "name": "La Poste（法國郵政）",
+    "country": "法國",
+    "sector": "郵政",
+    "cool_primary": {
+      "hex": "#2B39FA",
+      "other_codes": "La Poste Mobile（子品牌）logo 文件列出的藍色，螢幕用值；La Poste 集團主 logo 的藍色色碼未取得",
+      "source_url": "https://www.lebrandcenter.lapostegroupe.com/",
+      "grade": "A",
+      "note": "數值出自 La Poste 品牌中心的 logo PDF；搜尋摘要沒有指明是哪一份，候選文件已列在 sources。",
+      "alternatives": [
+        {
+          "hex": "#003DA5",
+          "other_codes": "Pantone 293 C（子品牌 La Banque Postale 的深藍）",
+          "source_url": "https://www.lebrandcenter.lapostegroupe.com/secure/uploads/document/attachment/20221109_lbp_charte_graphique_regles_d_utilisation_logo-6384697517ff5.pdf",
+          "grade": "A"
+        },
+        {
+          "hex": "#14526C",
+          "other_codes": "第三方從 Groupe La Poste logo 取的近似值（另列 #5C8694），該頁未見黃色",
+          "source_url": "https://whatthelogo.com/logo/groupe-la-poste/297812",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFCB05",
+      "other_codes": "RGB 255/203/5（La Poste Mobile 子品牌，螢幕用值）",
+      "source_url": "https://www.lebrandcenter.lapostegroupe.com/",
+      "grade": "A",
+      "alternatives": [
+        {
+          "hex": "未取得",
+          "other_codes": "Pantone 109 C（1980–90 年代 logo 黃色底框，官方稱 jaune citron 檸檬黃）；車輛黃色源自 Citroën 色號 AC311",
+          "source_url": "https://www.lebrandcenter.lapostegroupe.com/secure/uploads/pages/attachment/20190814_laposte_voyageatravershistoiremarque-5ede33dfd818e.pdf",
+          "grade": "A"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "La Banque Postale 淺藍",
+        "hex": "#39A8E5",
+        "other_codes": "Pantone 292 C（文件註明兩版淺藍不同）",
+        "source_url": "https://www.lebrandcenter.lapostegroupe.com/secure/uploads/document/attachment/20221109_lbp_charte_graphique_regles_d_utilisation_logo-6384697517ff5.pdf",
+        "grade": "A"
+      }
+    ],
+    "roles": "藍色飛鳥是 logo 核心（1960 年起，1978 年簡化）；黃色自 1962 年起用在車輛和郵筒，1984 年建立 La Poste 品牌時把黃色放進 logo 底框。車身以黃為主、藍鳥為辨識點。文件用色未取得。",
+    "why_it_works_or_not": "【推論】黃色原本是為了雨天、昏暗道路上的能見度而選，後來才變成品牌資產，藍鳥負責「這是誰」的辨識。",
+    "sources": [
+      "https://www.lebrandcenter.lapostegroupe.com/secure/uploads/pages/attachment/20190814_laposte_voyageatravershistoiremarque-5ede33dfd818e.pdf",
+      "https://www.lebrandcenter.lapostegroupe.com/secure/uploads/document/attachment/20221109_lbp_charte_graphique_regles_d_utilisation_logo-6384697517ff5.pdf",
+      "https://www.lebrandcenter.lapostegroupe.com/brand/document/pdf/logotype-jaune-et-bleu-en-rvb-1",
+      "https://www.lebrandcenter.lapostegroupe.com/brand/document/pdf/logotype-jaune-et-bleu-en-rvb-3",
+      "https://www.lebrandcenter.lapostegroupe.com/brand/document/pdf/logotype-rvb-sans-signature-1",
+      "https://www.lebrandcenter.lapostegroupe.com/brand/document/pdf/logotype-en-rvb-27",
+      "https://whatthelogo.com/logo/groupe-la-poste/297812",
+      "https://lareclame.fr/carrenoir/realisations/nouvelle-identite-visuelle-6",
+      "https://www.cbnews.fr/creation/image-nouveau-logo-nouvelle-signature-nouvelle-campagne-poste-64955"
+    ]
+  },
+  {
+    "name": "Correos（西班牙郵政）",
+    "country": "西班牙",
+    "sector": "郵政",
+    "cool_primary": {
+      "hex": "未取得",
+      "other_codes": "設計媒體報導：改版保留長期使用的黃、藍兩色並略為加深；另有由號角圖形組成的海軍藍＋黃圖紋",
+      "source_url": "https://www.designweek.co.uk/spains-postal-service-rebrand/",
+      "grade": "B",
+      "alternatives": [
+        {
+          "hex": "#1D306F",
+          "other_codes": "子品牌 BanCorreos logo 的海軍藍近似值",
+          "source_url": "https://whatthelogo.com/logo/bancorreos/114834",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFCB08",
+      "other_codes": "子標誌「Correos Servicio Filatélico」的近似值",
+      "source_url": "https://whatthelogo.com/logo/correos-servicio-filatelico/77357",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#EED71E",
+          "other_codes": "子品牌 BanCorreos logo 的黃色近似值",
+          "source_url": "https://whatthelogo.com/logo/bancorreos/114834",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "灰色",
+        "hex": "#939598",
+        "other_codes": "子標誌 Servicio Filatélico 近似值",
+        "source_url": "https://whatthelogo.com/logo/correos-servicio-filatelico/77357",
+        "grade": "C"
+      }
+    ],
+    "roles": "改版後 logo 只剩郵號角符號；黃、藍是核心配色，另有海軍藍＋黃的號角圖紋。車身配色在本次取得的來源文字中沒有描述。",
+    "why_it_works_or_not": "【推論】黃藍兩色都是主角，屬「黃藍並重」型，和「冷色為主、黃色為輔」的分工不同。",
+    "sources": [
+      "https://www.designweek.co.uk/spains-postal-service-rebrand/",
+      "https://whatthelogo.com/logo/correos-servicio-filatelico/77357",
+      "https://whatthelogo.com/logo/bancorreos/114834"
+    ]
+  },
+  {
+    "name": "Poste Italiane（義大利郵政）",
+    "country": "義大利",
+    "sector": "郵政",
+    "cool_primary": {
+      "hex": "#0060AE",
+      "other_codes": "色名 Endeavour；無 Pantone；該站自稱已與官網比對（無法證實）",
+      "source_url": "https://coloropedia.com/poste-italiane-colors-logo-codes/",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#3046B4",
+          "other_codes": "近似值（該站另列橄欖色、藍灰色）",
+          "source_url": "https://whatthelogo.com/logo/gruppo-poste-italiane/296913",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#EFDD00",
+      "other_codes": "色名 Turbo；無 Pantone",
+      "source_url": "https://coloropedia.com/poste-italiane-colors-logo-codes/",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#F3E400",
+          "other_codes": "近似值",
+          "source_url": "https://whatthelogo.com/logo/gruppo-poste-italiane/296913",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [],
+    "roles": "2000 年 logo 為藍字「Posteitaliane」放在萊姆黃橫條上；新版郵差制服也採黃、藍經典色。車身配色在本次來源文字中未取得。",
+    "why_it_works_or_not": "【推論】黃色橫條當底、藍字當主體，黃藍並重，大眾記住的是「黃底藍字」的郵政形象。",
+    "sources": [
+      "https://coloropedia.com/poste-italiane-colors-logo-codes/",
+      "https://whatthelogo.com/logo/gruppo-poste-italiane/296913",
+      "https://www.museodelmarchioitaliano.it/en/poste-italiane-2/",
+      "https://tgposte.poste.it/?p=74560"
+    ],
+    "note": "制服採黃藍一事出自搜尋摘要，對應頁面推定為 tgposte.poste.it（官方，A），未逐頁核對。"
+  },
+  {
+    "name": "Correios（巴西郵政）",
+    "country": "巴西",
+    "sector": "郵政",
+    "cool_primary": {
+      "hex": "#00416B",
+      "other_codes": "名稱 Azul Correios；Pantone 540C；CMYK 100/35/0/60；RGB 0/65/107",
+      "source_url": "https://www.correios.com.br/acesso-a-informacao/institucional/arquivos/arquivo-da-marca-correios",
+      "grade": "A",
+      "alternatives": [
+        {
+          "hex": "#01325A",
+          "other_codes": "第三方色碼站數值",
+          "source_url": "https://brandpalettes.com/correios-logo-colors/",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFD400",
+      "other_codes": "名稱 Amarelo Correios；Pantone 7549C；CMYK 0/15/100/0；官方表 RGB 寫 255/121/0，與 HEX 換算值（255/212/0）不符，待核對",
+      "source_url": "https://www.correios.com.br/acesso-a-informacao/institucional/arquivos/arquivo-da-marca-correios",
+      "grade": "A",
+      "alternatives": [
+        {
+          "hex": "#FCD800",
+          "other_codes": "第三方色碼站數值",
+          "source_url": "https://brandpalettes.com/correios-logo-colors/",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "白色（logo 首選底色）",
+        "hex": "未取得",
+        "other_codes": "品牌手冊：優先使用漸層彩色版 logo，放在白底；不能用時才改用灰階或線框版",
+        "source_url": "https://www.correios.com.br/acesso-a-informacao/institucional/arquivos/manual-da-marca-correios",
+        "grade": "A"
+      }
+    ],
+    "roles": "品牌手冊（2019 年 5 月版）規定 logo 首選漸層彩色版、優先放白底，另有以 Azul Correios 為底的「機構底色」。車身配色在本次來源文字中未描述。",
+    "why_it_works_or_not": "【推論】官方把藍、黃都正式命名並給齊印刷與螢幕值，是本次郵政案例中唯一取得完整官方黃藍色碼的，可當色碼規格寫法的範本（但 RGB 錯誤也提醒要自行驗算）。",
+    "sources": [
+      "https://www.correios.com.br/acesso-a-informacao/institucional/arquivos/arquivo-da-marca-correios",
+      "https://www.correios.com.br/acesso-a-informacao/institucional/arquivos/manual-da-marca-correios",
+      "https://www.correios.com.br/acesso-a-informacao/institucional/identidade-corporativa",
+      "https://brandpalettes.com/correios-logo-colors/"
+    ]
+  },
+  {
+    "name": "Deutsche Post／DHL（對照：黃＋紅，非冷色）",
+    "country": "德國",
+    "sector": "郵政與物流",
+    "cool_primary": {
+      "hex": "無（非冷色主色，作對照）",
+      "other_codes": "",
+      "source_url": "",
+      "grade": ""
+    },
+    "yellow": {
+      "hex": "#FFCC00",
+      "other_codes": "Pantone 116 C（Deutsche Post；CMYK、Pantone 為該站推估）",
+      "source_url": "https://www.brandcolorcode.com/deutsche-post",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#FFCC00",
+          "other_codes": "RGB 255/204/0（DHL）",
+          "source_url": "https://www.designpieces.com/palette/dhl-color-palette-hex-and-rgb/",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFCC00",
+          "other_codes": "RGB 255/204/0（DHL）",
+          "source_url": "https://codeofcolors.com/dhl-colors.html",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFCC01",
+          "other_codes": "PMS 116 C；RGB 255/204/1（DHL）",
+          "source_url": "https://brandpalettes.com/dhl-colors/",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFCD00",
+          "other_codes": "brand-colors 2.1.1 的 dhl-2 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFCC00",
+          "other_codes": "simple-icons 16.35.0 的 DHL 與 Deutsche Post 條目，出處標 dpdhl-brands.com",
+          "source_url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "DHL 紅",
+        "hex": "#D40511",
+        "other_codes": "RGB 212/5/17",
+        "source_url": "https://www.designpieces.com/palette/dhl-color-palette-hex-and-rgb/",
+        "grade": "C"
+      },
+      {
+        "name": "DHL 紅（另一說）",
+        "hex": "#D2002E",
+        "other_codes": "PMS 199 C；RGB 210/0/46",
+        "source_url": "https://brandpalettes.com/dhl-colors/",
+        "grade": "C"
+      },
+      {
+        "name": "DHL 紅（第三說）",
+        "hex": "#BA0C2F",
+        "other_codes": "brand-colors 2.1.1 的 dhl 條目",
+        "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+        "grade": "C"
+      },
+      {
+        "name": "灰",
+        "hex": "#C9C9C9",
+        "other_codes": "brand-colors 2.1.1 的 dhl-3 條目",
+        "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+        "grade": "C"
+      }
+    ],
+    "roles": "郵政黃是主色，2002 年被加進 DHL 原有字標；DHL 字色為紅。黃色同時是 Deutsche Post 的主色。文件與車身細部分工未取得官方文字。",
+    "why_it_works_or_not": "【推論】「大面積黃＋暖色字」在歐洲物流已被 DHL 強力佔據；冷色主色＋黃色輔色可與之區隔，但黃色比例一高就容易被聯想到 DHL。",
+    "sources": [
+      "https://www.brandcolorcode.com/deutsche-post",
+      "https://www.designpieces.com/palette/dhl-color-palette-hex-and-rgb/",
+      "https://codeofcolors.com/dhl-colors.html",
+      "https://brandpalettes.com/dhl-colors/",
+      "https://www.transformmagazine.net/articles/2014/forwarding-address/",
+      "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+      "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz"
+    ]
+  },
+  {
+    "name": "Swiss Post／Die Post（對照：黃＋黑＋紅，非冷色）",
+    "country": "瑞士",
+    "sector": "郵政",
+    "cool_primary": {
+      "hex": "無（非冷色主色，作對照）",
+      "other_codes": "",
+      "source_url": "",
+      "grade": ""
+    },
+    "yellow": {
+      "hex": "#FFC722",
+      "other_codes": "Pantone 123 C（該站推估，官方手冊未明列）",
+      "source_url": "https://www.brandcolorcode.com/swiss-post",
+      "grade": "C",
+      "note": "官方新聞稿：郵政黃仍是 logo 與整個品牌的主導色（A）；2002 年起黃色在瑞士核心業務取得商標保護（A）。"
+    },
+    "third_or_neutral": [
+      {
+        "name": "黑（P 字）",
+        "hex": "#000000",
+        "other_codes": "Pantone Black 6 C（該站推估）",
+        "source_url": "https://www.brandcolorcode.com/swiss-post",
+        "grade": "C"
+      },
+      {
+        "name": "紅（瑞士十字）",
+        "hex": "#FF0000",
+        "other_codes": "Pantone 2347 C（該站推估）",
+        "source_url": "https://www.brandcolorcode.com/swiss-post",
+        "grade": "C"
+      }
+    ],
+    "roles": "2024 年新 logo 為紅色瑞士十字＋黑色 P，放在郵政黃底上；黃色是 logo 與整個品牌的主導色，郵政與郵政巴士（PostAuto）自此共用一個 logo。",
+    "why_it_works_or_not": "【推論】黃色可以註冊成商標，表示大面積黃色在特定國家、特定產業可能已有法律上的先佔者，使用前要查當地商標。",
+    "sources": [
+      "https://www.brandcolorcode.com/swiss-post",
+      "https://site.post.ch/en/about-us/media-unit/press-releases/swiss-post-to-modernize-its-logo-on-its-175th-anniversary",
+      "https://www.post.ch/en/about-us/profile/the-history-of-swiss-post/1932-the-ptt-brand",
+      "https://www.postauto.ch/fr/portrait-et-actualites/medias/communiques-de-presse/2023/un-seul-logo-moderne-pour-une-seule-image-de-marque-pour-la-poste-et-carpostal"
+    ],
+    "note": "商標保護年份出自搜尋摘要，對應頁面推定為 post.ch 的 1932 PTT 品牌沿革頁。"
+  },
+  {
+    "name": "NEXCO東日本（東日本高速道路）",
+    "country": "日本",
+    "sector": "高速公路管理",
+    "cool_primary": {
+      "hex": "未取得",
+      "other_codes": "官方描述的品牌色：「東日本・北日本の安息を感じさせる自然をイメージした、深みと明るさのある緑色」",
+      "source_url": "https://trafficnews.jp/post/79123",
+      "grade": "B",
+      "note": "色彩描述由 trafficnews 引述各社官網；三家 logo 與品牌名於 2006-03-20 決定（A：e-nexco 新聞稿）。"
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "道路巡邏車車身為黃色（屬 NEXCO 集團子公司車輛，主要用途為道路管理）；另有白＋藏青、類似警車配色的巡邏車。黃色色碼未取得。",
+      "source_url": "https://trafficnews.jp/post/121855",
+      "grade": "B"
+    },
+    "third_or_neutral": [
+      {
+        "name": "白＋藏青（另一款巡邏車配色）",
+        "hex": "未取得",
+        "other_codes": "NEXCO 前員工說法：起初只有黃色車，後來才加入白＋藏青車",
+        "source_url": "https://trafficnews.jp/post/121855",
+        "grade": "B"
+      }
+    ],
+    "roles": "企業 logo 用綠色；道路管理用巡邏車車身黃色，多為耐長途的 SUV，後來另增白＋藏青車。2006 年定 logo 時官方說明維護車輛、看板上的標誌會陸續更換。文件用色未取得。",
+    "why_it_works_or_not": "【推論】企業色與現場車色完全分開：黃色負責道路上的安全辨識，企業色只以 logo 形式出現在車上。",
+    "sources": [
+      "https://trafficnews.jp/post/79123",
+      "https://www.e-nexco.co.jp/pressroom/head_office/2006/0320/00006053.html",
+      "https://trafficnews.jp/post/121855",
+      "https://trafficnews.jp/post/129322"
+    ]
+  },
+  {
+    "name": "NEXCO中日本（中日本高速道路）（對照：企業色橘）",
+    "country": "日本",
+    "sector": "高速公路管理",
+    "cool_primary": {
+      "hex": "無（企業色為橘色，非冷色，作對照）",
+      "other_codes": "色名「ネクスコ・オレンジ」：中部日本エリアの活発なにぎわいをイメージした、力強くいきいきとしたオレンジ色",
+      "source_url": "https://trafficnews.jp/post/79123",
+      "grade": "B"
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "道路巡邏車車身為黃色（屬 NEXCO 集團子公司車輛，主要用途為道路管理）；另有白＋藏青、類似警車配色的巡邏車。黃色色碼未取得。",
+      "source_url": "https://trafficnews.jp/post/121855",
+      "grade": "B"
+    },
+    "third_or_neutral": [
+      {
+        "name": "白＋藏青（另一款巡邏車配色）",
+        "hex": "未取得",
+        "other_codes": "NEXCO 前員工說法：起初只有黃色車，後來才加入白＋藏青車",
+        "source_url": "https://trafficnews.jp/post/121855",
+        "grade": "B"
+      }
+    ],
+    "roles": "企業 logo 用橘色；巡邏車同樣是黃色車身。文件用色未取得。",
+    "why_it_works_or_not": "【推論】三家 NEXCO 企業色各異（綠、橘、藍），巡邏車卻都是黃色，表示黃色在這裡是道路管理的功能色，不是品牌色。",
+    "sources": [
+      "https://trafficnews.jp/post/79123",
+      "https://www.e-nexco.co.jp/pressroom/head_office/2006/0320/00006053.html",
+      "https://trafficnews.jp/post/121855",
+      "https://trafficnews.jp/post/129322"
+    ]
+  },
+  {
+    "name": "NEXCO西日本（西日本高速道路）",
+    "country": "日本",
+    "sector": "高速公路管理",
+    "cool_primary": {
+      "hex": "未取得",
+      "other_codes": "色名「ネクスコ・ブルー」：西日本・南日本の海と空の明るさをイメージした、鮮やかで清潔感のある青色",
+      "source_url": "https://trafficnews.jp/post/79123",
+      "grade": "B"
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "道路巡邏車車身為黃色（屬 NEXCO 集團子公司車輛，主要用途為道路管理）；另有白＋藏青、類似警車配色的巡邏車。黃色色碼未取得。",
+      "source_url": "https://trafficnews.jp/post/121855",
+      "grade": "B"
+    },
+    "third_or_neutral": [
+      {
+        "name": "白＋藏青（另一款巡邏車配色）",
+        "hex": "未取得",
+        "other_codes": "NEXCO 前員工說法：起初只有黃色車，後來才加入白＋藏青車",
+        "source_url": "https://trafficnews.jp/post/121855",
+        "grade": "B"
+      }
+    ],
+    "roles": "企業 logo 用藍色；巡邏車車身黃色。文件用色未取得。",
+    "why_it_works_or_not": "【推論】藍色企業色＋黃色現場車是本次「冷色企業＋黃色車隊」結構最典型的例子，但黃色在日本高速公路是業界共用，不是 NEXCO 西日本獨有。",
+    "sources": [
+      "https://trafficnews.jp/post/79123",
+      "https://www.e-nexco.co.jp/pressroom/head_office/2006/0320/00006053.html",
+      "https://trafficnews.jp/post/121855",
+      "https://trafficnews.jp/post/129322"
+    ]
+  },
+  {
+    "name": "ANWB（荷蘭皇家旅遊協會，含道路救援 Wegenwacht）",
+    "country": "荷蘭",
+    "sector": "道路救援",
+    "cool_primary": {
+      "hex": "#00468E",
+      "other_codes": "第三方 logo 取樣近似值（深藍）",
+      "source_url": "https://whatthelogo.com/logo/anwb/35345",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#00AEEF",
+          "other_codes": "同站列出的 azure 近似值",
+          "source_url": "https://whatthelogo.com/logo/anwb/35345",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFDE00",
+      "other_codes": "第三方 logo 取樣近似值",
+      "source_url": "https://whatthelogo.com/logo/anwb/35345",
+      "grade": "C",
+      "note": "官方沿革：Wegenwacht 於 1946-04-15 以 7 輛漆成黃色的機車起家（A）。"
+    },
+    "third_or_neutral": [
+      {
+        "name": "橘",
+        "hex": "#F7961D",
+        "other_codes": "近似值",
+        "source_url": "https://whatthelogo.com/logo/anwb/35345",
+        "grade": "C"
+      },
+      {
+        "name": "藍綠",
+        "hex": "#4DC7BB",
+        "other_codes": "近似值",
+        "source_url": "https://whatthelogo.com/logo/anwb/35345",
+        "grade": "C"
+      }
+    ],
+    "roles": "道路救援 Wegenwacht 從黃色機車起家，救援車延續黃色；荷蘭交通安全研究機構 SWOV 曾專題研究 Wegenwacht 車輛的能見度。logo 色碼只有第三方近似值，文件用色未取得。",
+    "why_it_works_or_not": "【推論】黃色先在救援現場建立，再累積成會員組織的識別，車隊顏色比 logo 更早成為大眾記憶點。",
+    "sources": [
+      "https://whatthelogo.com/logo/anwb/35345",
+      "https://www.anwb.nl/wegenwacht/informatie/geschiedenis",
+      "https://www.anwb.nl/over-anwb/geschiedenis/de-wegenwacht",
+      "https://www.anwb.nl/over-anwb/geschiedenis/hulpverlening-en-verkeersveiligheid/de-wegenwacht",
+      "https://swov.nl/en/publicatie/de-visuele-waarneembaarheid-van-wegenwachtvoertuigen-verslag-van-een-vooronderzoek"
+    ]
+  },
+  {
+    "name": "ADAC（全德汽車俱樂部）（對照：黃色為企業色）",
+    "country": "德國",
+    "sector": "道路救援",
+    "cool_primary": {
+      "hex": "無（非冷色主色，作對照）",
+      "other_codes": "",
+      "source_url": "",
+      "grade": ""
+    },
+    "yellow": {
+      "hex": "未取得",
+      "other_codes": "RAL 1021 Rapsgelb（油菜黃）；僅見於色彩儀器廠商的詞彙說明，非 ADAC 官方文件",
+      "source_url": "https://techkon.datacolor.com/?p=36641",
+      "grade": "B"
+    },
+    "third_or_neutral": [],
+    "roles": "來源只指出 ADAC 黃對應 RAL 1021；logo、救援車（Straßenwacht）與文件的配色分工，本次未取得來源文字。",
+    "why_it_works_or_not": "【推論】若 ADAC 黃確為品牌主色，德國道路救援的「黃色」識別已被會員組織佔據，黃色在當地帶有「救援」聯想。",
+    "sources": [
+      "https://techkon.datacolor.com/?p=36641"
+    ]
+  },
+  {
+    "name": "Vattenfall（瑞典國營能源公司）",
+    "country": "瑞典",
+    "sector": "電力與能源",
+    "cool_primary": {
+      "hex": "#2071B5",
+      "other_codes": "RGB 32/113/181；Pantone 3506 C",
+      "source_url": "https://www.brandcolorcode.com/vattenfall",
+      "grade": "C",
+      "note": "官方品牌故事：藍色是基礎，代表水與天空（A）。"
+    },
+    "yellow": {
+      "hex": "#FFDA00",
+      "other_codes": "RGB 255/218/0；Pantone 116 C",
+      "source_url": "https://www.brandcolorcode.com/vattenfall",
+      "grade": "C",
+      "note": "官方品牌故事：黃色代表太陽，是遠見與溫暖的顏色（A）。"
+    },
+    "third_or_neutral": [
+      {
+        "name": "灰",
+        "hex": "#4E4B48",
+        "other_codes": "",
+        "source_url": "https://www.brandcolorcode.com/vattenfall",
+        "grade": "C"
+      },
+      {
+        "name": "白",
+        "hex": "#FFFFFF",
+        "other_codes": "",
+        "source_url": "https://www.brandcolorcode.com/vattenfall",
+        "grade": "C"
+      }
+    ],
+    "roles": "官方品牌故事說藍色是基礎（水、天空），黃色代表太陽；logo、車輛與文件的實際分工本次未取得來源文字。",
+    "why_it_works_or_not": "【推論】能源公司用「藍為底、黃為點」說故事，顏色意義直接連到業務（水力、太陽能），是公用事業「冷主色＋黃輔色」的範例。",
+    "sources": [
+      "https://www.brandcolorcode.com/vattenfall",
+      "https://group.vattenfall.com/who-we-are/about-us/brand-story"
+    ]
+  },
+  {
+    "name": "IKEA（對照：深藍＋黃大品牌）",
+    "country": "瑞典",
+    "sector": "家居零售",
+    "cool_primary": {
+      "hex": "#0058A3",
+      "other_codes": "simple-icons 16.35.0 的 IKEA 條目，出處標 ikea.com",
+      "source_url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#0058A3",
+          "other_codes": "韓國設計系統整理站：IKEA Blue (#0058A3)",
+          "source_url": "https://www.oppadu.com/tools/design-systems-site/brand/ikea.html",
+          "grade": "C"
+        },
+        {
+          "hex": "#003399",
+          "other_codes": "brand-colors 2.1.1 的 ikea-2 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFDB00",
+      "other_codes": "同站：Yellow (#FFDB00) 橢圓 logo",
+      "source_url": "https://www.oppadu.com/tools/design-systems-site/brand/ikea.html",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#FFCC00",
+          "other_codes": "brand-colors 2.1.1 的 ikea 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [],
+    "roles": "依第三方整理，logo 為藍色配黃色橢圓；官方品牌手冊未公開，色碼都是外界重建值，各站數值不一。",
+    "why_it_works_or_not": "【推論】IKEA 讓「深藍＋亮黃」在全球大眾心中和瑞典、家居零售強烈綁在一起，這個組合辨識度高，但聯想已被佔走。",
+    "sources": [
+      "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+      "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+      "https://www.oppadu.com/tools/design-systems-site/brand/ikea.html"
+    ]
+  },
+  {
+    "name": "Ryanair（對照：深藍＋黃大品牌）",
+    "country": "愛爾蘭",
+    "sector": "航空（廉價航空）",
+    "cool_primary": {
+      "hex": "#073590",
+      "other_codes": "deep blue",
+      "source_url": "https://www.designpieces.com/palette/ryanair-color-palette-hex-and-rgb/",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#073590",
+          "other_codes": "simple-icons 16.35.0 的 Ryanair 條目，出處標 Ryanair 企業媒體中心",
+          "source_url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#073590",
+          "other_codes": "brand-colors 2.1.1 的 ryanair 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "未取得",
+          "other_codes": "RGB 13/73/192（該站稱 royal blue）",
+          "source_url": "https://www.logo.dev/search/brands/ryanair.com",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#F1C933",
+      "other_codes": "vibrant yellow",
+      "source_url": "https://www.designpieces.com/palette/ryanair-color-palette-hex-and-rgb/",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#F1C933",
+          "other_codes": "brand-colors 2.1.1 的 ryanair-2 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#F4CC34",
+          "other_codes": "airhex 航空 logo 色票",
+          "source_url": "https://airhex.com/airline-logos/ryanair/",
+          "grade": "C"
+        },
+        {
+          "hex": "#ECB707",
+          "other_codes": "該站稱 orange",
+          "source_url": "https://www.logo.dev/search/brands/ryanair.com",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "天藍",
+        "hex": "#2091EB",
+        "other_codes": "sky blue",
+        "source_url": "https://www.designpieces.com/palette/ryanair-color-palette-hex-and-rgb/",
+        "grade": "C"
+      }
+    ],
+    "roles": "來源只提供色票（深藍、黃、天藍），沒有官方色碼；機身與文件的配置本次未取得來源文字。",
+    "why_it_works_or_not": "【推論】廉航用深藍＋黃建立醒目形象，使這個組合在歐洲也帶有「便宜、大眾」的聯想。",
+    "sources": [
+      "https://www.designpieces.com/palette/ryanair-color-palette-hex-and-rgb/",
+      "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+      "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+      "https://airhex.com/airline-logos/ryanair/",
+      "https://www.logo.dev/search/brands/ryanair.com"
+    ]
+  },
+  {
+    "name": "Michelin（對照：藍主色＋黃強調色）",
+    "country": "法國",
+    "sector": "輪胎",
+    "cool_primary": {
+      "hex": "#27509B",
+      "other_codes": "官方設計系統：Primary blue [light]；Pantone 7685 C 為 brandcolorcode 推估（C）",
+      "source_url": "https://designsystem.michelin.com/colors",
+      "grade": "A"
+    },
+    "yellow": {
+      "hex": "#FCE500",
+      "other_codes": "官方設計系統：Primary Yellow；說明 Michelin Yellow 用作按鈕等強調色",
+      "source_url": "https://designsystem.michelin.com/colors",
+      "grade": "A"
+    },
+    "third_or_neutral": [],
+    "roles": "官方設計系統以藍色為主色，Michelin 黃只用在按鈕等強調處，是典型的「冷色為主、黃色點綴」；logo 與產品包裝的分工本次未取得。",
+    "why_it_works_or_not": "【推論】藍為主、黃只做重點，黃色面積小卻仍是品牌記憶點，示範了輔色黃的節制用法。",
+    "sources": [
+      "https://designsystem.michelin.com/colors",
+      "https://www.brandcolorcode.com/michelin"
+    ]
+  },
+  {
+    "name": "Lidl（對照：深藍＋黃大品牌）",
+    "country": "德國",
+    "sector": "零售（平價超市）",
+    "cool_primary": {
+      "hex": "#0050AA",
+      "other_codes": "Pantone 2145 C（CMYK、Pantone 為該站推估）",
+      "source_url": "https://www.brandcolorcode.com/lidl",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#0050AA",
+          "other_codes": "simple-icons 16.35.0 的 Lidl 條目，出處標 lidl.de",
+          "source_url": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#015AA2",
+          "other_codes": "該站自稱經官網核對（無法證實）",
+          "source_url": "https://coloropedia.com/lidl-colors-logo-codes/",
+          "grade": "C"
+        },
+        {
+          "hex": "#0050AA",
+          "other_codes": "",
+          "source_url": "https://www.designyourway.net/blog/lidl-logo/",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFF000",
+      "other_codes": "Pantone 803 C（該站推估）",
+      "source_url": "https://www.brandcolorcode.com/lidl",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#FFF200",
+          "other_codes": "",
+          "source_url": "https://coloropedia.com/lidl-colors-logo-codes/",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFD700",
+          "other_codes": "",
+          "source_url": "https://www.designyourway.net/blog/lidl-logo/",
+          "grade": "C"
+        },
+        {
+          "hex": "#FBCB03",
+          "other_codes": "該站稱 gold",
+          "source_url": "https://www.logo.dev/search/brands/lidl.de",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "紅",
+        "hex": "#E60A14",
+        "other_codes": "Pantone 2035 C（該站推估）",
+        "source_url": "https://www.brandcolorcode.com/lidl",
+        "grade": "C"
+      },
+      {
+        "name": "紅（另一說）",
+        "hex": "#EE1C25",
+        "other_codes": "",
+        "source_url": "https://coloropedia.com/lidl-colors-logo-codes/",
+        "grade": "C"
+      },
+      {
+        "name": "紅（第三說）",
+        "hex": "#CC0000",
+        "other_codes": "",
+        "source_url": "https://www.designyourway.net/blog/lidl-logo/",
+        "grade": "C"
+      }
+    ],
+    "roles": "logo 為藍、黃、紅三色（依第三方色碼站）；官方手冊未公開，各站數值不一。",
+    "why_it_works_or_not": "【推論】Lidl 以藍黃加紅成為歐洲平價超市代表色，「藍＋黃」在歐洲零售業的聯想已相當擁擠。",
+    "sources": [
+      "https://www.brandcolorcode.com/lidl",
+      "https://registry.npmjs.org/simple-icons/-/simple-icons-16.35.0.tgz",
+      "https://coloropedia.com/lidl-colors-logo-codes/",
+      "https://www.designyourway.net/blog/lidl-logo/",
+      "https://www.logo.dev/search/brands/lidl.de"
+    ]
+  },
+  {
+    "name": "Best Buy（對照：深藍＋黃大品牌）",
+    "country": "美國",
+    "sector": "3C 家電零售",
+    "cool_primary": {
+      "hex": "#0A4ABF",
+      "other_codes": "PMS 2728 C",
+      "source_url": "https://brandpalettes.com/best-buy-color-codes/",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#003B64",
+          "other_codes": "deep blue",
+          "source_url": "https://www.designpieces.com/palette/best-buy-color-palette-hex-and-rgb/",
+          "grade": "C"
+        },
+        {
+          "hex": "#003B64",
+          "other_codes": "brand-colors 2.1.1 的 best-buy 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#0046BE",
+          "other_codes": "自動產生的設計 token 檔",
+          "source_url": "https://www.webdesignhot.com/api/design-md/best-buy.md",
+          "grade": "C"
+        }
+      ]
+    },
+    "yellow": {
+      "hex": "#FFED31",
+      "other_codes": "PMS 107 C",
+      "source_url": "https://brandpalettes.com/best-buy-color-codes/",
+      "grade": "C",
+      "alternatives": [
+        {
+          "hex": "#FFF200",
+          "other_codes": "",
+          "source_url": "https://www.designpieces.com/palette/best-buy-color-palette-hex-and-rgb/",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFF200",
+          "other_codes": "brand-colors 2.1.1 的 best-buy-2 條目",
+          "source_url": "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFF000",
+          "other_codes": "自動產生的設計 token 檔",
+          "source_url": "https://www.webdesignhot.com/api/design-md/best-buy.md",
+          "grade": "C"
+        },
+        {
+          "hex": "#FFE000",
+          "other_codes": "該站宣稱為實際使用值，未附證據",
+          "source_url": "https://brandkit.pro/color/FFE000",
+          "grade": "C"
+        }
+      ]
+    },
+    "third_or_neutral": [
+      {
+        "name": "黑",
+        "hex": "#1C252C",
+        "other_codes": "PMS 433 C",
+        "source_url": "https://brandpalettes.com/best-buy-color-codes/",
+        "grade": "C"
+      }
+    ],
+    "roles": "第三方稱 2018 年調整配色，黑、黃、藍為官方色；另一設計網站明言 Best Buy 沒有公開官方 hex。",
+    "why_it_works_or_not": "【推論】在北美「藍＋黃」和 3C 量販強烈連結；各站數值差很多，也顯示外界只能憑印象重建。",
+    "sources": [
+      "https://brandpalettes.com/best-buy-color-codes/",
+      "https://www.designpieces.com/palette/best-buy-color-palette-hex-and-rgb/",
+      "https://registry.npmjs.org/brand-colors/-/brand-colors-2.1.1.tgz",
+      "https://www.webdesignhot.com/api/design-md/best-buy.md",
+      "https://brandkit.pro/color/FFE000",
+      "https://madegooddesigns.com/best-buy-brand-guidelines/"
+    ]
+  }
+]
