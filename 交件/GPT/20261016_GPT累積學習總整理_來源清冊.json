@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "snapshot_checked_at_utc": "2026-10-16T11:49:14Z",
+  "repository": "mike011107-del/gpt-collab",
+  "main_snapshot": "0288bb3af8e6b34d496aebf0628189287a428776",
+  "purpose": "梁特助要求將目前崧淳專案累積學習與Claude同步；摘要、來源索引、更正與驗證範圍",
+  "summary_document": "交件/GPT/20261016_GPT累積學習總整理_與Claude同步.md",
+  "summary_sha256": "2e2a3e72776a0914a7aa5f7f896ca0dd3608c0fe586a325ffc5c9517a1a478eb",
+  "scope": {
+    "current_work": "CIS主視覺色學習同步",
+    "vehicle_colour_change": false,
+    "scope_update_basis": "Claude公開轉述梁特助要求；原始人類訊息未由本雲端回讀",
+    "new_palette": false,
+    "new_logo": false,
+    "new_pdf": false,
+    "auto_merge": false,
+    "private_protocol_or_settings_export": false,
+    "permanent_model_training_claim": false,
+    "all_accounts_or_chats_import_claim": false
+  },
+  "evidence_labels": {
+    "this_sync": "本雲端回讀公開文字、檔案及數值一致性與狀態",
+    "prior_gpt_record": "前批來源GPT工作階段記錄，非本次重新目視或重跑",
+    "claude_record": "Claude交件的研讀/目視/執行/計算陳述，未獨立重做者照標",
+    "inference": "待比較取法，不是採用或驗收"
+  },
+  "existing_gpt_artifact_count": 17,
+  "existing_gpt_artifacts": [
+    {
+      "path": "交件/GPT/20261014_Claude回覆核對與接續.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "454442c85b0263336dd960a22610c4f85e338601",
+      "sha256": "7f6a8594cea6857030bcf201544bd54545e65c84467c5fa34c3e1225740c3ac8",
+      "bytes": 5019,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_Claude%E5%9B%9E%E8%A6%86%E6%A0%B8%E5%B0%8D%E8%88%87%E6%8E%A5%E7%BA%8C.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261014_Pinterest設計學習_來源核對.json",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "7999bbde3e87b6675407290990a101ba71088cf4",
+      "sha256": "b05b47d28ef6e18451a31bfcaf2314e82c4ab4f428973f108d89b38b9bb0a383",
+      "bytes": 4132,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_Pinterest%E8%A8%AD%E8%A8%88%E5%AD%B8%E7%BF%92_%E4%BE%86%E6%BA%90%E6%A0%B8%E5%B0%8D.json",
+      "json_parse_valid": true,
+      "this_sync_access": "json_parse_and_hash"
+    },
+    {
+      "path": "交件/GPT/20261014_Pinterest設計學習_與Claude共用.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "c0f54c596f378770598bbba2137005ef981f879a",
+      "sha256": "8578be9189c4b05095c981e2903a21fc117fe42c1248751a27676ae8907d853e",
+      "bytes": 8928,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_Pinterest%E8%A8%AD%E8%A8%88%E5%AD%B8%E7%BF%92_%E8%88%87Claude%E5%85%B1%E7%94%A8.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261014_崧淳CI協作交接.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "ade125f22e3c78c7247895d6594e63e357c018c0",
+      "sha256": "fb7a84d00b35542d109286b8f944e137a08b26b957128747c8ff630e2ebff973",
+      "bytes": 4164,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_%E5%B4%A7%E6%B7%B3CI%E5%8D%94%E4%BD%9C%E4%BA%A4%E6%8E%A5.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261014_配色資料庫研讀_來源與核對.json",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "a93fdc9e4d783aeb8f6fb624f85236fb72387a5a",
+      "sha256": "91635e0bd4b474919176c954bab680a27a83dc17790accb9eef446c28befecc0",
+      "bytes": 23418,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_%E9%85%8D%E8%89%B2%E8%B3%87%E6%96%99%E5%BA%AB%E7%A0%94%E8%AE%80_%E4%BE%86%E6%BA%90%E8%88%87%E6%A0%B8%E5%B0%8D.json",
+      "json_parse_valid": true,
+      "this_sync_access": "json_parse_and_hash"
+    },
+    {
+      "path": "交件/GPT/20261014_配色資料庫研讀_方法與實際核對.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "2db73f8405e7f271a28651f010d5681403c5cced",
+      "sha256": "fb70d3b32e7d58399f3a5330bbd1ec00d51debca4f0a1d7458f8957d46414066",
+      "bytes": 8141,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_%E9%85%8D%E8%89%B2%E8%B3%87%E6%96%99%E5%BA%AB%E7%A0%94%E8%AE%80_%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E9%9A%9B%E6%A0%B8%E5%B0%8D.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261014_雙方任務進度PDF下載說明.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "6e1f38ed5a303259a6639ec8e64422b8d2a9adf1",
+      "sha256": "a6a8ce22d87766492f993bd238625cf1f389970f326bab9d10e8e7756c2ff4ce",
+      "bytes": 928,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_%E9%9B%99%E6%96%B9%E4%BB%BB%E5%8B%99%E9%80%B2%E5%BA%A6PDF%E4%B8%8B%E8%BC%89%E8%AA%AA%E6%98%8E.md",
+      "this_sync_access": "inventory_and_hash"
+    },
+    {
+      "path": "交件/GPT/20261014_雙方任務進度詳細報告.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "f4456551595641fcb0cea7e916ca39f4c587934b",
+      "sha256": "7bda87d7c1e555dc79a39c46413aa524aa35312827019a38716fa6455c05f2a6",
+      "bytes": 21884,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261014_%E9%9B%99%E6%96%B9%E4%BB%BB%E5%8B%99%E9%80%B2%E5%BA%A6%E8%A9%B3%E7%B4%B0%E5%A0%B1%E5%91%8A.md",
+      "this_sync_access": "inventory_and_hash"
+    },
+    {
+      "path": "交件/GPT/20261016_AutoIP_API範例說明.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "05fe697e9187e7ef77e0d926c2fec67b3664e344",
+      "sha256": "6adc02f4d766c768c8586d7d78ce89217c3109685b26f5a9581411b10874bfea",
+      "bytes": 5024,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_AutoIP_API%E7%AF%84%E4%BE%8B%E8%AA%AA%E6%98%8E.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261016_名稱先行全名字級實作.json",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "be0e624659340a307070c77dead4fca1918864ab",
+      "sha256": "d4872847ec6de24e2b8479c4726a7b98de6d04f83e27f67ccfd70392d94f18ca",
+      "bytes": 30731,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_%E5%90%8D%E7%A8%B1%E5%85%88%E8%A1%8C%E5%85%A8%E5%90%8D%E5%AD%97%E7%B4%9A%E5%AF%A6%E4%BD%9C.json",
+      "json_parse_valid": true,
+      "this_sync_access": "full_json_read_and_method_erratum_checked"
+    },
+    {
+      "path": "交件/GPT/20261016_名稱先行全名字級實作.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "1f7d600b097b1be72feda192028be44c0efb0226",
+      "sha256": "3613484ca8a4555c4946eb211673fcb9eb02ff060044d92be48ade168019d253",
+      "bytes": 3913,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_%E5%90%8D%E7%A8%B1%E5%85%88%E8%A1%8C%E5%85%A8%E5%90%8D%E5%AD%97%E7%B4%9A%E5%AF%A6%E4%BD%9C.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261016_名稱先行字距實作.json",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "c22e07ff6bfb23b7a412fd73352960301e736924",
+      "sha256": "26af4bac9f0ebc649a79c8586e7d8e61a47d2fc56d02a3fc09101bd47ca553e9",
+      "bytes": 9409,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_%E5%90%8D%E7%A8%B1%E5%85%88%E8%A1%8C%E5%AD%97%E8%B7%9D%E5%AF%A6%E4%BD%9C.json",
+      "json_parse_valid": true,
+      "this_sync_access": "json_parse_and_hash"
+    },
+    {
+      "path": "交件/GPT/20261016_名稱先行字距實作.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "43fd7aa8a334af5c4c32497c52aa77ccceb3116f",
+      "sha256": "50367dab9429d312776fe9824b8748b741d95bd68206ac8e9af3eef2641a49ff",
+      "bytes": 4705,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_%E5%90%8D%E7%A8%B1%E5%85%88%E8%A1%8C%E5%AD%97%E8%B7%9D%E5%AF%A6%E4%BD%9C.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/20261016_配色研讀補強.json",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "1f67295d240bc0cf0afe826e8718489b8236c221",
+      "sha256": "cac600606823d8092632d2b3548fadd4233d19799c28af947ddeffa2d541bf06",
+      "bytes": 18380,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_%E9%85%8D%E8%89%B2%E7%A0%94%E8%AE%80%E8%A3%9C%E5%BC%B7.json",
+      "json_parse_valid": true,
+      "this_sync_access": "json_parse_and_hash"
+    },
+    {
+      "path": "交件/GPT/20261016_配色研讀補強.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "fa1149db4833fb2f6ed62de2a7c229dbfa3b3650",
+      "sha256": "2219ef3e47d006f459798714ece00550ff9106c2aced931c47967616e9dddfde",
+      "bytes": 7022,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/20261016_%E9%85%8D%E8%89%B2%E7%A0%94%E8%AE%80%E8%A3%9C%E5%BC%B7.md",
+      "this_sync_access": "full_text_read"
+    },
+    {
+      "path": "交件/GPT/autoip_api_example.py",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "d2a96c10c367bc258803ff2ee97c526065fa5f74",
+      "sha256": "3508cb2b184c4a7f597a4e843a3408cb705b6be639ec48b8e14d7cb77f584530",
+      "bytes": 8786,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/autoip_api_example.py",
+      "this_sync_access": "inventory_and_hash"
+    },
+    {
+      "path": "交件/GPT/test_autoip_api_example.py",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "09e5ff0c9984d2ea673a971fac2a04dc6fc544ac",
+      "sha256": "29541c926ac57412d9fd4b06bda8fe0d0a6a27d7d524104e21bf844ab651dbd8",
+      "bytes": 8189,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/GPT/test_autoip_api_example.py",
+      "this_sync_access": "inventory_and_hash"
+    }
+  ],
+  "peer_materials_read": [
+    {
+      "path": "交件/Claude/20261016_回覆PR15/回覆.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "b78ec9272557dd4b2ef94044809201f00e1e01a0",
+      "sha256": "dd7ff0fb9df07eab54ee7a1c0a01d4280593d09f2c7f4340c803b67c4e19a159",
+      "bytes": 5163,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/Claude/20261016_%E5%9B%9E%E8%A6%86PR15/%E5%9B%9E%E8%A6%86.md",
+      "this_sync_access": "full_text_read_not_external_source_reverification"
+    },
+    {
+      "path": "交件/Claude/20261016_配色參考查找/原作核對_三案.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "20ab3138ad5686d8e3cf92dbf667dc88fa2fc2da",
+      "sha256": "0657de962c688df8a4ee340dd760845a0e58f22ad123364195ee40d44eac9780",
+      "bytes": 6087,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/Claude/20261016_%E9%85%8D%E8%89%B2%E5%8F%83%E8%80%83%E6%9F%A5%E6%89%BE/%E5%8E%9F%E4%BD%9C%E6%A0%B8%E5%B0%8D_%E4%B8%89%E6%A1%88.md",
+      "this_sync_access": "full_text_read_not_external_source_reverification"
+    },
+    {
+      "path": "研究/配色學習筆記.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "8c3f83a932cb722971ad07716b30ad18de17fedd",
+      "sha256": "0e7999d23f7ba8fdd3463dda5fac5120b7d3c7974f853f71b2d43a9eedcb7057",
+      "bytes": 14098,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E7%A0%94%E7%A9%B6/%E9%85%8D%E8%89%B2%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98.md",
+      "this_sync_access": "full_text_read_not_external_source_reverification"
+    },
+    {
+      "path": "交件/Claude/20261016_AutoIP協同學習/說明.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "c723ea14a53dfdce376c74833b59ff9423cffd30",
+      "sha256": "f4f3f23b44adec4bcfea714be1ae07848b777f5cf282d3756fcb6101a43d5bce",
+      "bytes": 4367,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/Claude/20261016_AutoIP%E5%8D%94%E5%90%8C%E5%AD%B8%E7%BF%92/%E8%AA%AA%E6%98%8E.md",
+      "this_sync_access": "full_text_read_not_external_source_reverification"
+    },
+    {
+      "path": "交件/Claude/20261016_學習總整理/學習總整理.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "ba20c9933db4e3522bef433541193a7d37468f57",
+      "sha256": "8be84e1267ed431bdab23800e0c74eb5dbc09d7482361bd098d4b6caffc24cdd",
+      "bytes": 13026,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E4%BA%A4%E4%BB%B6/Claude/20261016_%E5%AD%B8%E7%BF%92%E7%B8%BD%E6%95%B4%E7%90%86/%E5%AD%B8%E7%BF%92%E7%B8%BD%E6%95%B4%E7%90%86.md",
+      "this_sync_access": "full_text_read_not_external_source_reverification"
+    },
+    {
+      "path": "研究/LOGO與CIS美感學習筆記.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "6dccdcc4282aebc97f925bb06830731c91c5342f",
+      "sha256": "0997f11c635065a6dbced5961376aadcc7cd90109a4fce2f3a82f02facd47c01",
+      "bytes": 25456,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E7%A0%94%E7%A9%B6/LOGO%E8%88%87CIS%E7%BE%8E%E6%84%9F%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98.md",
+      "this_sync_access": "collaboration_agent_text_review_not_external_source_reverification"
+    },
+    {
+      "path": "研究/對手與市場分析_完整版.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "03718036f1de6fe54495251f06070aeaf22f6852",
+      "sha256": "f34d12bfd1c7c620625d85b5d847588f3c45f8acbe2f40d00d57d61a7dd14cc3",
+      "bytes": 10359,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E7%A0%94%E7%A9%B6/%E5%B0%8D%E6%89%8B%E8%88%87%E5%B8%82%E5%A0%B4%E5%88%86%E6%9E%90_%E5%AE%8C%E6%95%B4%E7%89%88.md",
+      "this_sync_access": "collaboration_agent_text_review_not_external_source_reverification"
+    },
+    {
+      "path": "研究/第三份同業報告對照與學習.md",
+      "commit": "0288bb3af8e6b34d496aebf0628189287a428776",
+      "git_blob_sha": "325219a9932eaf1496718cac0c55a082ae0f466c",
+      "sha256": "575471418feaa5a42bcce02fbf17ad53c6b8cac8df9c57192bcb8916726cca2a",
+      "bytes": 2964,
+      "url": "https://github.com/mike011107-del/gpt-collab/blob/0288bb3af8e6b34d496aebf0628189287a428776/%E7%A0%94%E7%A9%B6/%E7%AC%AC%E4%B8%89%E4%BB%BD%E5%90%8C%E6%A5%AD%E5%A0%B1%E5%91%8A%E5%B0%8D%E7%85%A7%E8%88%87%E5%AD%B8%E7%BF%92.md",
+      "this_sync_access": "collaboration_agent_text_review_not_external_source_reverification"
+    }
+  ],
+  "pull_request_snapshot": [
+    {
+      "number": 9,
+      "head": "6073ec64cd49b54e833eb49f56f7ae43cf78d1f6",
+      "state": "closed",
+      "merged_at": "2026-10-14T12:25:50Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/9"
+    },
+    {
+      "number": 13,
+      "head": "0741c9a11badd278d1bd9f300ab342c617298388",
+      "state": "closed",
+      "merged_at": "2026-10-14T12:56:48Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/13"
+    },
+    {
+      "number": 15,
+      "head": "575ded5b969c4d4908e325efccf3a49701f4df6a",
+      "state": "closed",
+      "merged_at": "2026-10-16T07:57:16Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/15"
+    },
+    {
+      "number": 16,
+      "head": "905130befdffbd9d8dc6870496f526264f706c51",
+      "state": "closed",
+      "merged_at": "2026-10-16T07:57:34Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/16"
+    },
+    {
+      "number": 17,
+      "head": "f07643ce01bbda7ca51a72ea1ddf09be484b0da3",
+      "state": "closed",
+      "merged_at": "2026-10-16T07:56:58Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/17"
+    },
+    {
+      "number": 19,
+      "head": "9ad01d76bfd937f617f8cd7170c975afdd4590b5",
+      "state": "closed",
+      "merged_at": "2026-10-16T08:12:38Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/19"
+    },
+    {
+      "number": 20,
+      "head": "bb3bb776c754fa701c1d9f998de4aacc8991eba0",
+      "state": "closed",
+      "merged_at": "2026-10-16T08:12:55Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/20"
+    },
+    {
+      "number": 21,
+      "head": "57ad81f4f760c1058d95119e4b1fe485e5527017",
+      "state": "closed",
+      "merged_at": null,
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/21"
+    },
+    {
+      "number": 22,
+      "head": "1ddc107fc952ec91f4e59c2f29aba25a50b3b84e",
+      "state": "closed",
+      "merged_at": "2026-10-16T11:42:40Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/22"
+    },
+    {
+      "number": 24,
+      "head": "eadaaac27845505f109825e048993bf7d105e6a4",
+      "state": "closed",
+      "merged_at": "2026-10-16T11:42:53Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/24"
+    },
+    {
+      "number": 25,
+      "head": "6ce155352ce6cfd1a01e3e72c1b12bf0cf435177",
+      "state": "closed",
+      "merged_at": "2026-10-16T11:43:10Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/25"
+    },
+    {
+      "number": 26,
+      "head": "9381e960c31d9faba8b1dd256e0bc28221409ae7",
+      "state": "closed",
+      "merged_at": "2026-10-16T11:43:21Z",
+      "url": "https://github.com/mike011107-del/gpt-collab/pull/26"
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "L1",
+      "topic": "來源身份與材料分類",
+      "summary_sections": [
+        "一",
+        "八"
+      ],
+      "basis_prs": [
+        2,
+        5,
+        6,
+        8,
+        16,
+        19,
+        26
+      ],
+      "learned": [
+        "Pin追作者與版本，摘要和原文分開",
+        "解碼與雜湊只證檔案狀態，非來源真實或市場代表性",
+        "商標、實際使用、插畫/照片/拼貼、標準色分層；市場表置頂更正與舊表並存須註明"
+      ],
+      "limits": [
+        "十四家用色表/二十三家名單不是整體市場",
+        "Blocko版本、Terra作者、Resident原頁未解；三案原頁未取得"
+      ]
+    },
+    {
+      "id": "L2",
+      "topic": "原作配置與跨應用關係",
+      "summary_sections": [
+        "二"
+      ],
+      "basis_prs": [
+        9,
+        15
+      ],
+      "learned": [
+        "先分色彩工作再比較面積；白底承托真實資料",
+        "固定名稱/全名/兩工項層級，兩服務同等清楚",
+        "刪無證據裝飾；拉丁字標和mockup不能代替中文/商用驗證"
+      ],
+      "limits": [
+        "前批指定圖區目視不是本次重新看圖或完整手冊",
+        "沒有受眾或實物測試"
+      ]
+    },
+    {
+      "id": "L3",
+      "topic": "色階、角色與手冊",
+      "summary_sections": [
+        "三"
+      ],
+      "basis_prs": [
+        13,
+        22,
+        26
+      ],
+      "learned": [
+        "Radix/Reasonable/Leonardo優先，OpenColor/ColorBrewer按原用途限用",
+        "角色命名、明度階及中性色工作分開",
+        "USWDS/Material階差先估後算，實際色對才是結論"
+      ],
+      "limits": [
+        "前批九頁目視不是100頁目視；英美要求不轉臺灣",
+        "LOYD數字差異未解；CapitalPower第三方車隊敘述剔除",
+        "Claude461色計算本次未重跑"
+      ]
+    },
+    {
+      "id": "L4",
+      "topic": "黃色身份與實際文字對比",
+      "summary_sections": [
+        "四"
+      ],
+      "basis_prs": [
+        13,
+        15,
+        17,
+        26
+      ],
+      "learned": [
+        "F3B51B試排、FACA30程式、D58401照片取樣不同身份",
+        "固定提交/輪次/區塊/前景/背景/alpha/用途",
+        "未取整值判門檻；Leonardo方向符號不是負WCAG值"
+      ],
+      "limits": [
+        "原使用紀錄摘錄仍未共享；照片HEX非正式黃",
+        "第十五輪結果不套未審二十輪"
+      ]
+    },
+    {
+      "id": "L5",
+      "topic": "色域、輸出與媒材",
+      "summary_sections": [
+        "五"
+      ],
+      "basis_prs": [
+        15,
+        17
+      ],
+      "learned": [
+        "轉換/檢查色域/映射/格式化分步",
+        "記工具版本、目標、方法、參數、前後座標與alpha",
+        "最終輸出/合成後再算對比；ICC/軟打樣/紙材不同問題"
+      ],
+      "limits": [
+        "Color.js與Culori僅研讀，本次未執行",
+        "formatHex會裁切及省alpha；HEX無通用CMYK或專色對應",
+        "不主張設備已校準、材料已驗收"
+      ]
+    },
+    {
+      "id": "L6",
+      "topic": "字距與全名字級實作、失敗修正",
+      "summary_sections": [
+        "六"
+      ],
+      "basis_prs": [
+        15,
+        17,
+        20,
+        21
+      ],
+      "learned": [
+        "字距四稿未見穩定整體收益，保留0.055em原稿",
+        "全名17/20/24px中24的收益和工項退後代價，只對該構圖成立",
+        "截錯前稿標籤需回讀狀態與重截；字串框/可見空白/墨色邊界不同",
+        "全名字級JSON方法段沿用字距輪，須明確更正而不讓舊段決定本輪條件"
+      ],
+      "limits": [
+        "沒有雲端原HTML、八張字距/六張字級/兩張最終圖",
+        "沒有本次獨立同圖目視、盲測、客群或實材驗證"
+      ]
+    },
+    {
+      "id": "L7",
+      "topic": "AutoIP流程與生成場景",
+      "summary_sections": [
+        "七"
+      ],
+      "basis_prs": [
+        24,
+        25,
+        26
+      ],
+      "learned": [
+        "規格/建立/輪詢/下載分步，UUID續接避免盲目重送POST",
+        "GPT十項測試是模擬；套件兩檔是同源而非兩份佐證",
+        "Claude空白場景/程式貼色/後修分工值得核實；提示HEX不保證色準"
+      ],
+      "limits": [
+        "GPT即時規格遭代理403，未真實生成或確認金鑰",
+        "ClaudeAPI/色差是其紀錄，本次未重跑或驗圖",
+        "原始大圖未共享；單一取樣不保證全圖、後續生成或實材"
+      ]
+    },
+    {
+      "id": "L8",
+      "topic": "撤回、更正及協作狀態",
+      "summary_sections": [
+        "八",
+        "九"
+      ],
+      "basis_prs": [
+        10,
+        11,
+        12,
+        17,
+        19,
+        20,
+        21,
+        26
+      ],
+      "learned": [
+        "已回覆與本批待回讀分開；交件/合併/驗證/採用分開",
+        "勾選不是可讀輸入；巡查已停止的新訊息優先",
+        "色庫先算基準，少人用不是值得選；品牌來源身份修正保留",
+        "收斂一個未知問題，無證據就保留原稿或標未取得"
+      ],
+      "limits": [
+        "原Issue7整包本雲端未獨立重跑驗收",
+        "發文不等於Claude接手或模型永久學會"
+      ]
+    }
+  ],
+  "tracking_issues": [
+    7,
+    18
+  ],
+  "opaque_srgb_ratios_from_prior_gpt_calculation": [
+    {
+      "use": "gpt_trial",
+      "foreground": "#F5F6F7",
+      "background": "#F3B51B",
+      "alpha": 1,
+      "ratio": 1.6970401475914008,
+      "meets_general_text_4_5": false
+    },
+    {
+      "use": "round15_yellow_text",
+      "foreground": "#111417",
+      "background": "#FACA30",
+      "alpha": 1,
+      "ratio": 11.930002935837079,
+      "meets_general_text_4_5": true
+    },
+    {
+      "use": "round15_d1",
+      "foreground": "#FACA30",
+      "background": "#395848",
+      "alpha": 1,
+      "ratio": 5.089548561007367,
+      "meets_general_text_4_5": true
+    },
+    {
+      "use": "round15_d2",
+      "foreground": "#FACA30",
+      "background": "#086A74",
+      "alpha": 1,
+      "ratio": 4.077967358858752,
+      "meets_general_text_4_5": false
+    },
+    {
+      "use": "round15_d3",
+      "foreground": "#FACA30",
+      "background": "#081C2F",
+      "alpha": 1,
+      "ratio": 11.13427958291008,
+      "meets_general_text_4_5": true
+    },
+    {
+      "use": "round15_d4",
+      "foreground": "#FACA30",
+      "background": "#14A5B3",
+      "alpha": 1,
+      "ratio": 1.9193266273140812,
+      "meets_general_text_4_5": false
+    },
+    {
+      "use": "round15_body",
+      "foreground": "#1B1E21",
+      "background": "#F6F6F3",
+      "alpha": 1,
+      "ratio": 15.463212848081563,
+      "meets_general_text_4_5": true
+    }
+  ],
+  "round15_code_commit": "00647a7c2f5ea0ed5dfd29844bebfb4b46bbb3be",
+  "errata": [
+    {
+      "id": "E1",
+      "subject": "全名字級JSON沿用字距方法段",
+      "affected_path": "交件/GPT/20261016_名稱先行全名字級實作.json",
+      "affected_fields": [
+        "method_sources_reused_not_freshly_browsed.scope",
+        "method_sources_reused_not_freshly_browsed.variable",
+        "method_sources_reused_not_freshly_browsed.fixed_conditions"
+      ],
+      "correction": "本輪只改全名字級17/20/24px，500字重；以頂層scope、only_full_name_font_size_varies、measurements為準。原檔保留。",
+      "evidence": "https://github.com/mike011107-del/gpt-collab/pull/20#issuecomment-6214788667"
+    },
+    {
+      "id": "E2",
+      "subject": "Issue18 A勾選與缺件矛盾",
+      "correction": "main仍缺原HTML/字型載入、八張字距圖與清冊、黃色摘錄；另缺六張全名比較與兩張最終圖。A仍待共享證據；勾選不構成交件。"
+    },
+    {
+      "id": "E3",
+      "subject": "Claude字距敘述",
+      "correction": "f07643c已更正：四稿空白5/7/9.5/16px，全距11，放寬相對原稿6.5。本次回讀更正，非本次重繪。"
+    },
+    {
+      "id": "E4",
+      "subject": "巡查與合併狀態",
+      "correction": "Claude最新表示停止巡查；22/24/26已合併，26內未合併說法是舊快照。"
+    },
+    {
+      "id": "E5",
+      "subject": "色庫、品牌來源與範圍",
+      "correction": "裝飾色庫比例需比基準；深青空區不是美感證據；Vattenfall色碼第三方未核，Siemens合作限家電BSH，Ørsted畫家說未確認撤回；不概括所有CIS比例。"
+    }
+  ],
+  "handoff_state": {
+    "this_batch_material_prepared": true,
+    "claude_readback_confirmed": false,
+    "claude_reply_received_for_this_batch": false,
+    "joint_visual_review_completed": false,
+    "owner_design_adoption_confirmed": false,
+    "github_comment_is_not_claude_api_invocation": true,
+    "claude_periodic_polling_latest_report": "stopped",
+    "tracking_issue": "https://github.com/mike011107-del/gpt-collab/issues/18",
+    "status_separation": [
+      "assigned",
+      "acknowledged",
+      "inputs_obtained",
+      "replied_or_delivered",
+      "verified_by_evidence_type",
+      "owner_adopted_or_returned"
+    ]
+  },
+  "key_conversation_evidence": [
+    "https://github.com/mike011107-del/gpt-collab/pull/13#issuecomment-6168951342",
+    "https://github.com/mike011107-del/gpt-collab/pull/15#issuecomment-6210708714",
+    "https://github.com/mike011107-del/gpt-collab/issues/18#issuecomment-6210847336",
+    "https://github.com/mike011107-del/gpt-collab/issues/18#issuecomment-6210922588",
+    "https://github.com/mike011107-del/gpt-collab/issues/18#issuecomment-6211613076",
+    "https://github.com/mike011107-del/gpt-collab/issues/18#issuecomment-6211672451",
+    "https://github.com/mike011107-del/gpt-collab/issues/18#issuecomment-6211841353",
+    "https://github.com/mike011107-del/gpt-collab/pull/20#issuecomment-6214788667"
+  ],
+  "this_sync_validation": {
+    "source_blob_and_sha256_checks": 25,
+    "summary_sha256_matches": true,
+    "existing_json_files_parsed": 5,
+    "opaque_srgb_pairs_independently_recomputed_this_sync": 7,
+    "maximum_ratio_absolute_difference": 8.881784197001252e-16,
+    "staged_scope": "only two new GPT summary/index files",
+    "diff_check_passed": true,
+    "visual_or_api_reexecution": false,
+    "new_test_suite_added": false
+  }
+}
