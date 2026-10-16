@@ -42,7 +42,7 @@ def sec_palettes():
     w, c = r['wada'], r['colourlovers']
     out.append('<p class="lead">和田三造《配色事典》348 組裡有 <b>%d 組</b>、COLOURlovers 人氣前 992 組裡有 <b>%d 組</b>，同時含「冷深色」和「亮黃」。下面全部列出，依冷色分四類。</p>' % (w['hits'], c['hits']))
     out.append('<div class="facts">'
-               '<div><b>6 / 73</b><span>第三色只用灰白，或沒有第三色</span></div>'
+               '<div><b>6 / 73</b><span>第三色只用灰白，或沒有第三色。但資料庫本來就少用灰白（和田 3 色組 27%%、人氣 17%%），樣本又小，不是規律</span></div>'
                '<div><b>%s · %s</b><span>第三色含紅、珊瑚、赭這類暖色（和田 · 人氣）。整個資料庫本來就約 75%% 的配色有暖色，冷＋黃沒有特別偏好</span></div>'
                '<div><b>L %.2f · C %.2f</b><span>冷深色的中位明度、彩度（OKLCH，和田）。人氣組 L %.2f · C %.2f</span></div>'
                '</div>' % (w['third_group_share']['暖紅系（紅、珊瑚、紅褐、橘、棕、粉）'], c['third_group_share']['暖紅系（紅、珊瑚、紅褐、橘、棕、粉）'],
