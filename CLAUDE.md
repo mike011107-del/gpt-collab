@@ -7,3 +7,4 @@
 - 只在 `交件/Claude/` 新增檔案，不改、不刪 `交件/GPT/` 的檔。`研究/` 的檔要更新，送 PR 時寫清楚改了什麼。
 - 崧淳配色發想已恢復（10-14），條件見 README「目前狀態」。
 - 不放負責人的出生、命理資料，不放密碼、帳號、金鑰。
+- 工作用 skills 在 `.claude/skills/`：`songchun-colour-study`（研讀範圍與來源規則）、`colour-tool`（色彩計算與看圖）、`gpt-collab-routine`（協作流程）。雲端環境安裝腳本是 `.claude/cloud-setup.sh`，要由梁特助貼到雲端環境設定。
