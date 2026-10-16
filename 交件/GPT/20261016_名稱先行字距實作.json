@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-16",
+  "organisation": "崧淳環保科技股份有限公司",
+  "stage": "single-variable practice, not brand adoption",
+  "question": "Does changing only the two-character name tracking improve this existing name-first composition?",
+  "source_file": "songchun-identity-reading-studies.html, 名稱先行 section",
+  "source_sha256": "0bd4572d30d24f030c17790737ac767b6e4531ac4288310cf5cab0a1cc112254",
+  "fixed_conditions": {
+    "canvas_css_px": [
+      736,
+      410
+    ],
+    "font": "Noto Sans TC",
+    "weight": 700,
+    "name_size_px": 80.96,
+    "ink": "#23292b",
+    "paper": "#ffffff",
+    "services": [
+      "污水下水道清淤",
+      "管內CCTV檢視"
+    ]
+  },
+  "variants": [
+    {
+      "name": "中間值回修",
+      "tracking_em": 0.025,
+      "computed_tracking": "2.024px",
+      "text_span_width_css_px_including_trailing_spacing": 165.97500610351562,
+      "character_range_boxes_not_ink_bounds": [
+        {
+          "height": 116.80001068115234,
+          "left": 32,
+          "top": 69.5999984741211,
+          "width": 82.98750305175781
+        },
+        {
+          "height": 116.80001068115234,
+          "left": 114.9749984741211,
+          "top": 69.5999984741211,
+          "width": 83.00000762939453
+        }
+      ]
+    },
+    {
+      "name": "原稿",
+      "tracking_em": 0.055,
+      "computed_tracking": "4.4528px",
+      "text_span_width_css_px_including_trailing_spacing": 170.83750915527344,
+      "character_range_boxes_not_ink_bounds": [
+        {
+          "height": 116.80001068115234,
+          "left": 32,
+          "top": 69.5999984741211,
+          "width": 85.42500305175781
+        },
+        {
+          "height": 116.80001068115234,
+          "left": 117.4124984741211,
+          "top": 69.5999984741211,
+          "width": 85.42501068115234
+        }
+      ]
+    },
+    {
+      "name": "收緊字距",
+      "tracking_em": 0,
+      "computed_tracking": "normal",
+      "text_span_width_css_px_including_trailing_spacing": 161.9250030517578,
+      "character_range_boxes_not_ink_bounds": [
+        {
+          "height": 116.80001068115234,
+          "left": 32,
+          "top": 69.5999984741211,
+          "width": 80.9625015258789
+        },
+        {
+          "height": 116.80001068115234,
+          "left": 112.95000457763672,
+          "top": 69.5999984741211,
+          "width": 80.9749984741211
+        }
+      ]
+    },
+    {
+      "name": "放寬字距",
+      "tracking_em": 0.14,
+      "computed_tracking": "11.3344px",
+      "text_span_width_css_px_including_trailing_spacing": 184.6000061035156,
+      "character_range_boxes_not_ink_bounds": [
+        {
+          "height": 116.80001068115234,
+          "left": 32,
+          "top": 69.5999984741211,
+          "width": 92.3000030517578
+        },
+        {
+          "height": 116.80001068115234,
+          "left": 124.2874984741211,
+          "top": 69.5999984741211,
+          "width": 92.31250762939452
+        }
+      ]
+    }
+  ],
+  "method_sources": {
+    "checked_date": "2026-10-16",
+    "scope": "既有名稱先行稿；只改崧淳兩字間距",
+    "independent_origins": 3,
+    "source_role": "比較方法與限制；不指定最佳 em",
+    "sources": [
+      {
+        "id": "w3c-clreq-20261007",
+        "origin": "W3C Chinese Layout Task Force",
+        "title": "Requirements for Chinese Text Layout / 中文排版需求",
+        "url": "https://www.w3.org/TR/2026/DNOTE-clreq-20261007/",
+        "read_sections": [
+          "Status of This Document",
+          "6.3.1",
+          "6.4",
+          "術語表字距與字面"
+        ],
+        "status": "Group Note Draft；進行中資料，未獲 W3C 與會員認可，不作正式規範引用",
+        "supports": [
+          "區分字元外框、字面、字距",
+          "密排與疏排的背景",
+          "短標題依版面平衡調整字距的做法"
+        ],
+        "does_not_support": [
+          "本案最佳字距",
+          "品牌字標適用性驗證",
+          "辨識率改善的實證"
+        ]
+      },
+      {
+        "id": "justfont-typefacemap-20230605",
+        "origin": "justfont",
+        "author": "姜呈穎",
+        "title": "字體風格地圖：團隊溝通、資料庫整理好幫手",
+        "url": "https://blog.justfont.com/2023/06/typefacemap/",
+        "read_sections": [
+          "如何做出自己的字體風格地圖",
+          "設計溝通時的應用方法"
+        ],
+        "supports": [
+          "統一字樣條件以減少干擾",
+          "以相對描述觀察並說明排列原因",
+          "設計判斷沒有唯一標準答案"
+        ],
+        "does_not_support": [
+          "中文字距對照實驗的結果",
+          "本案最佳字距",
+          "政府工程客群偏好"
+        ],
+        "application_is_our_inference": [
+          "固定黑體 700、字級、用色",
+          "以緊密與鬆散、完整名稱與分開兩字描述本輪觀察"
+        ],
+        "media_usage": "未下載、轉載或改作原圖；僅自行摘要並標示來源"
+      },
+      {
+        "id": "ideo-designkit-prototyping",
+        "origin": "IDEO.org / Design Kit",
+        "pages": [
+          {
+            "title": "Determine What to Prototype",
+            "url": "https://www.designkit.org/methods/determine-what-to-prototype.html",
+            "read_sections": [
+              "Process Phase",
+              "Steps"
+            ]
+          },
+          {
+            "title": "Rapid Prototyping",
+            "url": "https://www.designkit.org/methods/rapid-prototyping.html",
+            "read_sections": [
+              "Process Phase",
+              "Steps"
+            ]
+          },
+          {
+            "title": "Get Feedback",
+            "url": "https://www.designkit.org/methods/get-feedback.html",
+            "read_sections": [
+              "Process Phase",
+              "Steps"
+            ]
+          }
+        ],
+        "counts_as_independent_origins": 1,
+        "supports": [
+          "先明確寫下要測的組件、未知與學習目標",
+          "有組織地記錄發現並反覆修正",
+          "向目標使用者取得包含負面意見的真實回饋"
+        ],
+        "does_not_support": [
+          "中文字距規範",
+          "每次原型一律只能改一個變項的規定",
+          "以設計者自評代替目標讀者測試"
+        ],
+        "application_is_our_inference": [
+          "本輪採單一變項以便說明取捨",
+          "每版保留改善與代價，保留失敗版本並再修正"
+        ]
+      }
+    ],
+    "fixed_conditions": [
+      "既有文字",
+      "黑體 700",
+      "字級",
+      "顏色",
+      "左起點",
+      "基線",
+      "既有服務文字及版面"
+    ],
+    "variable": "崧淳兩字之間的間距",
+    "implementation_notes_are_our_inference": [
+      "兩字只有一處內部間距",
+      "程式字距可能含末尾空間，與可見筆畫間距分開記錄",
+      "不另外縮放或移動字樣補齊總寬"
+    ],
+    "validation_boundary": "尚未取得目標讀者回饋時，只能記錄特定既有稿上的設計判斷；不宣稱辨識率、閱讀速度或市場接受度提升"
+  },
+  "verification": {
+    "date": "2026-10-16",
+    "comparison_count": 4,
+    "confirmed_screenshot_count": 8,
+    "scales": [
+      1,
+      0.5
+    ],
+    "original_unchanged": true,
+    "original_sha256": "0bd4572d30d24f030c17790737ac767b6e4531ac4288310cf5cab0a1cc112254",
+    "baseline_matches_original_at_736px": true,
+    "only_name_tracking_varies": true,
+    "font_loaded": true,
+    "fixed_content_and_geometry_equal": true,
+    "geometry_tolerance_css_px": 0.0001,
+    "max_observed_fixed_geometry_delta_css_px": 1.52587890625e-05,
+    "screenshot_label_review": "Root and spacing_visual_critique_1016 visually checked confirmed images",
+    "initial_capture_issue": "Initial refined-full captured previous variant; all initial qa captures superseded by confirmed set",
+    "decision": "Retain original; no stable overall improvement established",
+    "audience_test": false,
+    "blind_test": false,
+    "physical_readability_test": false,
+    "narrow_layout": {
+      "browser_width": 320,
+      "frame_width": 288,
+      "document_scroll_width": 288,
+      "horizontal_overflow": false
+    }
+  },
+  "visual_observations": [
+    "Tight version groups the two characters slightly more; little difference from baseline.",
+    "Loose version increases separation without an observed benefit to full-name or service hierarchy.",
+    "Intermediate revision remains too similar to baseline at half scale to establish a stable advantage.",
+    "Full legal name and service hierarchy are not improved by this tracking change."
+  ],
+  "reviewers": "Root assistant and spacing_visual_critique_1016; known conditions, no blind or target-audience test",
+  "decision": "Keep original 0.055em for now; this is not proof of an optimum.",
+  "failed_capture_preserved": true,
+  "evidence_delivery_boundary": "Confirmed screenshots stored locally; shared text and measurements do not constitute a remote independent visual review."
+}
