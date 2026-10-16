@@ -1,0 +1,42 @@
+<section id="self">
+  <p class="kicker">我自己要改的</p>
+  <h2>拿資料回頭看我前幾輪的配色</h2>
+  <p class="lead">第二十輪八組被評「太醜」，梁特助沒說醜在哪。下面三條是我的推論；10-16 補算基準後，第一條不成立。</p>
+  <p class="note">檢討（10-16 梁特助問「反問自己真的有正確學習嗎」）：這輪多半是蒐集和計數，美感沒有學到，因為一張圖都沒看到。小松色帶、「像中華電信黃車配藍」10-14 前就寫在研究筆記和撞色規則裡，我知道卻沒用在第二十輪的車身圖上。</p>
+  <div class="lesson">
+    <div class="row">
+      <b>第三色多半是灰黑，或只能標狀態的紅綠。</b>
+      <div class="chips">
+        <span class="chip xs" style="background:#909586;color:#111"><code>山岩灰</code></span>
+        <span class="chip xs" style="background:#2E3236;color:#fff"><code>岩炭</code></span>
+        <span class="chip xs" style="background:#CED2D3;color:#111"><code>反光銀</code></span>
+        <span class="chip xs" style="background:#1B2A30;color:#fff"><code>深墨</code></span>
+        <span class="chip xs" style="background:#F05A6E;color:#111"><code>缺陷紅</code></span>
+        <span class="chip xs" style="background:#3CCB7F;color:#111"><code>合格綠</code></span>
+        <span class="chip xs" style="background:#B8283A;color:#fff"><code>印泥紅 5%</code></span>
+        <span class="chip xs" style="background:#F2A07B;color:#111"><code>杏</code></span>
+      </div>
+      <p>八組裡四組第三色是灰黑，兩組是 CCTV 判讀用的紅綠，剩下兩組的暖色面積壓在 5–10%。</p>
+      <p><b>更正：</b>我原本拿「名家配色 73 組只有 6 組只靠灰白」當理由。補算後，這兩個配色庫本來就少用灰白（和田 3 色組 27%、4 色組 7%，人氣 5 色組 17%），而且它們是裝飾用的色組，沒有面積比例；企業識別本來就大量用白和灰。這條不能當成被否決的原因。</p>
+    </div>
+    <div class="row">
+      <b>我把工程黃當成辨識色。</b>
+      <p>國外 21 例和台灣 18 例都顯示，黃色車是行業共用，認得出是誰要靠冷色標誌，加上把冷色帶到黃車上的固定圖形。我前幾輪的車身圖，黃色以外只有字，沒有這種固定圖形。</p>
+    </div>
+    <div class="row">
+      <b>有一個主色暗到接近黑。</b>
+      <div class="chips"><span class="chip xs" style="background:#081C2F;color:#fff"><code>墨藍 L 0.22</code></span></div>
+      <p>原本拿名家配色比，尺用錯了。改用 simple-icons 610 個深藍品牌比：中位明度 0.48，暗到 0.25 以下的只有 29 個（5%）。0.22 比絕大多數品牌深藍都暗；車上遠看像黑色是推論。</p>
+    </div>
+  </div>
+</section>
+
+<section id="tool">
+  <p class="kicker">給 GPT</p>
+  <h2>配色比對工具</h2>
+  <p>GPT 有候選配色時，可以用這支程式一次查完：每個顏色最像哪家台灣同業、哪個街頭顏色、哪個國外案例，全球品牌裡有幾個撞色，名家與人氣配色裡最像哪幾組，以及對比、灰階、三種色弱。只用 Python 標準函式庫。</p>
+  <div class="cmd">cd 交件/Claude/20261016_配色參考查找/工具
+python3 build_refs.py
+python3 palette_check.py "#主色" "#工程黃" "#第三色" --html 結果.html</div>
+  <p class="note">順序：第一色是主色、第二色是工程黃，其餘是第三色或中性色。距離用 ΔE2000：5 以下幾乎同色、5–10 很像、10–20 同一家族、20 以上明顯不同。都是螢幕色，不代表烤漆或印刷。</p>
+</section>

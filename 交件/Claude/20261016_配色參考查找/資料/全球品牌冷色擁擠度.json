@@ -1,0 +1,898 @@
+{
+ "source": "simple-icons 16.35.0（npm，CC0），品牌數 3466",
+ "grid": [
+  {
+   "hue_from": 140,
+   "hue_to": 155,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 0,
+   "global_examples": [],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 155,
+   "hue_to": 170,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 2,
+   "global_examples": [
+    "Carlsberg Group",
+    "Django"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 170,
+   "hue_to": 185,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 1,
+   "global_examples": [
+    "SUSE"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 185,
+   "hue_to": 200,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 0,
+   "global_examples": [],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 200,
+   "hue_to": 215,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 2,
+   "global_examples": [
+    "edX",
+    "STARZ"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 215,
+   "hue_to": 230,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 3,
+   "global_examples": [
+    "Deno Deploy",
+    "Gradle",
+    "NumPy"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 230,
+   "hue_to": 245,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 4,
+   "global_examples": [
+    "FerretDB",
+    "Rimac Automobili",
+    "Wondershare Filmora",
+    "Yeti"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 245,
+   "hue_to": 260,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 17,
+   "global_examples": [
+    "Aeroméxico",
+    "Air France",
+    "De'Longhi",
+    "DeepL",
+    "Ford",
+    "Hyundai",
+    "Indie Hackers",
+    "Maserati"
+   ],
+   "taiwan_peers": [
+    "久大管道工程"
+   ]
+  },
+  {
+   "hue_from": 260,
+   "hue_to": 275,
+   "L_from": 0.2,
+   "L_to": 0.3,
+   "global_count": 37,
+   "global_examples": [
+    "Abbvie",
+    "addy.io",
+    "Air Serbia",
+    "Air Transat",
+    "Airbus",
+    "Aldi Süd",
+    "Bank of America",
+    "Blockchain.com"
+   ],
+   "taiwan_peers": [
+    "銘源工程"
+   ]
+  },
+  {
+   "hue_from": 140,
+   "hue_to": 155,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 2,
+   "global_examples": [
+    "Nunjucks",
+    "Paperless-ngx"
+   ],
+   "taiwan_peers": [
+    "綠邑環保科技"
+   ]
+  },
+  {
+   "hue_from": 155,
+   "hue_to": 170,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 2,
+   "global_examples": [
+    "Jameson",
+    "Paddy Power"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 170,
+   "hue_to": 185,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 2,
+   "global_examples": [
+    "ŠKODA",
+    "Teal"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 185,
+   "hue_to": 200,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 0,
+   "global_examples": [],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 200,
+   "hue_to": 215,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 3,
+   "global_examples": [
+    "Andela",
+    "Dashlane",
+    "Zendesk"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 215,
+   "hue_to": 230,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 6,
+   "global_examples": [
+    "abuse.ch",
+    "Codementor",
+    "Devpost",
+    "MariaDB",
+    "PyPy",
+    "Tampermonkey"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 230,
+   "hue_to": 245,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 13,
+   "global_examples": [
+    "Codecademy",
+    "Codeship",
+    "curl",
+    "Ecovacs",
+    "H2 Database",
+    "Open Badges",
+    "OSMC",
+    "Pastebin"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 245,
+   "hue_to": 260,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 40,
+   "global_examples": [
+    "1&1",
+    "4D",
+    "Aeroflot",
+    "AppSignal",
+    "Authelia",
+    "AutoHotkey",
+    "Buhl",
+    "CBS"
+   ],
+   "taiwan_peers": [
+    "大亞環保"
+   ]
+  },
+  {
+   "hue_from": 260,
+   "hue_to": 275,
+   "L_from": 0.3,
+   "L_to": 0.4,
+   "global_count": 60,
+   "global_examples": [
+    "ActiGraph",
+    "Audacity",
+    "bat",
+    "BigBlueButton",
+    "Booking.com",
+    "Cardano",
+    "China Eastern Airlines",
+    "Copa Airlines"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 140,
+   "hue_to": 155,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 8,
+   "global_examples": [
+    "4chan",
+    "FFmpeg",
+    "Morrisons",
+    "OPPO",
+    "Organic Maps",
+    "Saudia",
+    "Thymeleaf",
+    "Żabka"
+   ],
+   "taiwan_peers": [
+    "宏隆環保"
+   ]
+  },
+  {
+   "hue_from": 155,
+   "hue_to": 170,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 3,
+   "global_examples": [
+    "Starbucks",
+    "StockX",
+    "Thurgauer Kantonalbank"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 170,
+   "hue_to": 185,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 2,
+   "global_examples": [
+    "Kaspersky",
+    "OpenBao"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 185,
+   "hue_to": 200,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 4,
+   "global_examples": [
+    "Aston Martin",
+    "Max-Planck-Gesellschaft",
+    "Slashdot",
+    "Xing"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 200,
+   "hue_to": 215,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 2,
+   "global_examples": [
+    "netcup",
+    "Openlayers"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 215,
+   "hue_to": 230,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 9,
+   "global_examples": [
+    "Beats",
+    "Elastic",
+    "Elastic Cloud",
+    "Elastic Stack",
+    "Elasticsearch",
+    "Kibana",
+    "Logstash",
+    "OpenZFS"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 230,
+   "hue_to": 245,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 18,
+   "global_examples": [
+    "Alpine Linux",
+    "Coveralls",
+    "Dependabot",
+    "Fur Affinity",
+    "IEEE",
+    "Inductive Automation",
+    "Kubespray",
+    "Processing Foundation"
+   ],
+   "taiwan_peers": [
+    "邦盛企業"
+   ]
+  },
+  {
+   "hue_from": 245,
+   "hue_to": 260,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 72,
+   "global_examples": [
+    "1Panel",
+    "Adminer",
+    "Aegis Authenticator",
+    "ANA",
+    "Apache Avro",
+    "Apache Storm",
+    "Beijing Subway",
+    "Botble CMS"
+   ],
+   "taiwan_peers": [
+    "華通清淤工程",
+    "大亞環保",
+    "逸居管必潔",
+    "一元環保"
+   ]
+  },
+  {
+   "hue_from": 260,
+   "hue_to": 275,
+   "L_from": 0.4,
+   "L_to": 0.5,
+   "global_count": 71,
+   "global_examples": [
+    "AIOHTTP",
+    "Algolia",
+    "Answer",
+    "Appian",
+    "Aqua",
+    "Archicad",
+    "Atlassian",
+    "Baidu"
+   ],
+   "taiwan_peers": [
+    "日技管清工程"
+   ]
+  },
+  {
+   "hue_from": 140,
+   "hue_to": 155,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 18,
+   "global_examples": [
+    "Ameba",
+    "Celery",
+    "Dlib",
+    "Douban",
+    "Ecosia",
+    "ESEA",
+    "GeeksforGeeks",
+    "Google Campaign Manager 360"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 155,
+   "hue_to": 170,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 4,
+   "global_examples": [
+    "Geocaching",
+    "Moo",
+    "OpenCage",
+    "Void Linux"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 170,
+   "hue_to": 185,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 6,
+   "global_examples": [
+    "Google Meet",
+    "Grammarly",
+    "LBRY",
+    "Namu Wiki",
+    "ntfy",
+    "Toll"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 185,
+   "hue_to": 200,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 7,
+   "global_examples": [
+    "DeepCool",
+    "GitKraken",
+    "LaTeX",
+    "LineageOS",
+    "LocalSend",
+    "Merck",
+    "Speaker Deck"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 200,
+   "hue_to": 215,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 5,
+   "global_examples": [
+    "Arduino",
+    "CodeStream",
+    "Electron",
+    "HumHub",
+    "Vinted"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 215,
+   "hue_to": 230,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 6,
+   "global_examples": [
+    "Apache Cassandra",
+    "Bandcamp",
+    "Fossil SCM",
+    "OpenAI Gym",
+    "Sat.1",
+    "SitePoint"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 230,
+   "hue_to": 245,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 34,
+   "global_examples": [
+    "ACM",
+    "Apache OpenOffice",
+    "Artifact Hub",
+    "Bioconductor",
+    "Blueprint",
+    "BuiltByBit",
+    "Caddy",
+    "CaixaBank"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 245,
+   "hue_to": 260,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 126,
+   "global_examples": [
+    "Alipay",
+    "AlliedModders",
+    "American Airlines",
+    "American Express",
+    "Animal Planet",
+    "Ant Design",
+    "Anycubic",
+    "Apache Airflow"
+   ],
+   "taiwan_peers": [
+    "天福環保",
+    "久大管道工程",
+    "逸居管必潔",
+    "日技管清工程",
+    "一元環保"
+   ]
+  },
+  {
+   "hue_from": 260,
+   "hue_to": 275,
+   "L_from": 0.5,
+   "L_to": 0.6,
+   "global_count": 107,
+   "global_examples": [
+    "1Password",
+    "AMP",
+    "AntennaPod",
+    "Apache Doris",
+    "Autentique",
+    "Autodesk Revit",
+    "AvaloniaUI",
+    "Behance"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 140,
+   "hue_to": 155,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 54,
+   "global_examples": [
+    "Anaconda",
+    "Bambu Lab",
+    "Bazel",
+    "Castro",
+    "Checkmarx",
+    "Code::Blocks",
+    "Cryptomator",
+    "DLNA"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 155,
+   "hue_to": 170,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 22,
+   "global_examples": [
+    "Aircall",
+    "Arlo",
+    "Brevo",
+    "Fonoma",
+    "Formstack",
+    "Fossa",
+    "Glassdoor",
+    "Greenhouse"
+   ],
+   "taiwan_peers": [
+    "天福環保"
+   ]
+  },
+  {
+   "hue_from": 170,
+   "hue_to": 185,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 16,
+   "global_examples": [
+    "CachyOS",
+    "Calibre-Web",
+    "FastAPI",
+    "Fi",
+    "Fraunhofer-Gesellschaft",
+    "Haystack",
+    "Magisk",
+    "mastercomfig"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 185,
+   "hue_to": 200,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 15,
+   "global_examples": [
+    "Apache Lucene",
+    "Chakra UI",
+    "Codefresh",
+    "Dataiku",
+    "Egnyte",
+    "HERE",
+    "i18next",
+    "KOReader"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 200,
+   "hue_to": 215,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 16,
+   "global_examples": [
+    "AutoCannon",
+    "CodersRank",
+    "DVC",
+    "Exercism",
+    "Falco",
+    "Fitbit",
+    "Flask",
+    "Image.sc"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 215,
+   "hue_to": 230,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 26,
+   "global_examples": [
+    "Apache Groovy",
+    "Apache NiFi",
+    "Apache Superset",
+    "Arm",
+    "Artix Linux",
+    "Autodesk Maya",
+    "B4X",
+    "CheckiO"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 230,
+   "hue_to": 245,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 93,
+   "global_examples": [
+    "Abbott",
+    "Akamai",
+    "Albert Heijn",
+    "Aldi Nord",
+    "AlternativeTo",
+    "Apache CloudStack",
+    "Apache PDFBox",
+    "AppImage"
+   ],
+   "taiwan_peers": [
+    "久大管道工程"
+   ]
+  },
+  {
+   "hue_from": 245,
+   "hue_to": 260,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 156,
+   "global_examples": [
+    "30 seconds of code",
+    "Acode",
+    "AFFiNE",
+    "Agora",
+    "Apache Pulsar",
+    "App Store",
+    "AtlasOS",
+    "Baserow"
+   ],
+   "taiwan_peers": [
+    "銘源工程",
+    "森淨家"
+   ]
+  },
+  {
+   "hue_from": 260,
+   "hue_to": 275,
+   "L_from": 0.6,
+   "L_to": 0.7,
+   "global_count": 13,
+   "global_examples": [
+    "Baremetrics",
+    "Bento",
+    "Clojure",
+    "CloudCannon",
+    "DeepSeek",
+    "Ionic",
+    "KeeWeb",
+    "NordVPN"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 140,
+   "hue_to": 155,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 41,
+   "global_examples": [
+    "AdGuard",
+    "Adyen",
+    "Android",
+    "Android Auto",
+    "Android Studio",
+    "BorgBackup",
+    "Cash App",
+    "Chia Network"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 155,
+   "hue_to": 170,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 30,
+   "global_examples": [
+    "Bitcoin Cash",
+    "Buildkite",
+    "Checkmk",
+    "CircuitVerse",
+    "Cypress",
+    "Dunzo",
+    "Element",
+    "Fiverr"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 170,
+   "hue_to": 185,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 18,
+   "global_examples": [
+    "Bulma",
+    "Contensis",
+    "Create React App",
+    "Deliveroo",
+    "Dovecot",
+    "Every.org",
+    "Fluent Bit",
+    "LottieFiles"
+   ],
+   "taiwan_peers": [
+    "久大管道工程"
+   ]
+  },
+  {
+   "hue_from": 185,
+   "hue_to": 200,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 17,
+   "global_examples": [
+    "AList",
+    "Bandsintown",
+    "Clyp",
+    "Douban Read",
+    "Drooble",
+    "Formbricks",
+    "freelancermap",
+    "Ghostfolio"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 200,
+   "hue_to": 215,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 14,
+   "global_examples": [
+    "Ajv",
+    "dlthub",
+    "Fueler",
+    "Glide",
+    "IPFS",
+    "Jaeger",
+    "Kasa Smart",
+    "Omada Cloud"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 215,
+   "hue_to": 230,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 34,
+   "global_examples": [
+    "Alpine.js",
+    "AppVeyor",
+    "Co-op",
+    "Cocos",
+    "ESPHome",
+    "Fanfou",
+    "Hasura",
+    "Home Assistant"
+   ],
+   "taiwan_peers": [
+    "天福環保",
+    "源昌工程環保科技",
+    "森淨家"
+   ]
+  },
+  {
+   "hue_from": 230,
+   "hue_to": 245,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 46,
+   "global_examples": [
+    "1001Tracklists",
+    "Adroll",
+    "Airtable",
+    "AniChart",
+    "AniList",
+    "Anki",
+    "Apache Parquet",
+    "ArtStation"
+   ],
+   "taiwan_peers": [
+    "日技管清工程"
+   ]
+  },
+  {
+   "hue_from": 245,
+   "hue_to": 260,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 13,
+   "global_examples": [
+    "Biome",
+    "C",
+    "Chocolatey",
+    "Git for Windows",
+    "Krita",
+    "NativeScript",
+    "Open Collective",
+    "OpenRouter"
+   ],
+   "taiwan_peers": []
+  },
+  {
+   "hue_from": 260,
+   "hue_to": 275,
+   "L_from": 0.7,
+   "L_to": 0.8,
+   "global_count": 1,
+   "global_examples": [
+    "SciPy"
+   ],
+   "taiwan_peers": []
+  }
+ ],
+ "note": "色相 140–175 綠、175–200 青綠、200–230 青、230–275 藍；明度 L 是 OKLCH（0 黑、1 白）。"
+}

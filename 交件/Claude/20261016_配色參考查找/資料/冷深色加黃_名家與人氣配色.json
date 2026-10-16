@@ -1,0 +1,3083 @@
+{
+ "wada": {
+  "source": "和田三造《配色事典》（npm dictionary-of-colour-combinations 1.0.2，MIT）",
+  "third_group_share": {
+   "暖紅系（紅、珊瑚、紅褐、橘、棕、粉）": "17/28",
+   "淺中性（白、米白、淺灰、米黃）": "6/28",
+   "深中性（炭黑、中灰）": "3/28",
+   "黃綠／橄欖": "0/28"
+  },
+  "total": 348,
+  "hits": 28,
+  "cool_subfamily": [
+   [
+    "藍",
+    14
+   ],
+   [
+    "青綠",
+    5
+   ],
+   [
+    "綠",
+    5
+   ],
+   [
+    "青",
+    4
+   ]
+  ],
+  "third_family_palettes": [
+   [
+    "紅褐",
+    5
+   ],
+   [
+    "紅",
+    5
+   ],
+   [
+    "珊瑚／橘紅",
+    4
+   ],
+   [
+    "中青綠",
+    4
+   ],
+   [
+    "黃",
+    3
+   ],
+   [
+    "炭黑",
+    3
+   ],
+   [
+    "紫",
+    3
+   ],
+   [
+    "白／米白",
+    3
+   ],
+   [
+    "淺綠",
+    2
+   ],
+   [
+    "棕／赭",
+    2
+   ],
+   [
+    "淺灰",
+    2
+   ],
+   [
+    "橘",
+    2
+   ],
+   [
+    "中藍",
+    1
+   ],
+   [
+    "淺黃／米黃",
+    1
+   ]
+  ],
+  "no_third": 3,
+  "median": {
+   "cool_L": 0.511,
+   "cool_C": 0.111,
+   "cool_H": 229.75,
+   "y_L": 0.851,
+   "y_C": 0.166,
+   "y_H": 92.5,
+   "contrast_cool_yellow": 4.58
+  },
+  "iqr": {
+   "cool_L": [
+    0.393,
+    0.526
+   ],
+   "cool_C": [
+    0.088,
+    0.143
+   ],
+   "y_H": [
+    78.4,
+    105.6
+   ],
+   "contrast_cool_yellow": [
+    3.27,
+    6.2
+   ]
+  },
+  "baseline_all_cool_dark_median_C": 0.099,
+  "palettes": [
+   {
+    "src": "wada",
+    "id": 22,
+    "colors": [
+     {
+      "hex": "#FFF200",
+      "name": "Yellow"
+     },
+     {
+      "hex": "#1C4286",
+      "name": "Deep Lyons Blue"
+     }
+    ],
+    "cool": "#1C4286",
+    "cool_sub": "藍",
+    "yellow": "#FFF200",
+    "others": [],
+    "other_families": [],
+    "cool_L": 0.393,
+    "cool_C": 0.122,
+    "cool_H": 261.0,
+    "y_L": 0.941,
+    "y_C": 0.2,
+    "y_H": 105.7,
+    "contrast_cool_yellow": 8.26
+   },
+   {
+    "src": "wada",
+    "id": 114,
+    "colors": [
+     {
+      "hex": "#FCB315",
+      "name": "Orange Yellow"
+     },
+     {
+      "hex": "#007190",
+      "name": "Antwarp Blue"
+     }
+    ],
+    "cool": "#007190",
+    "cool_sub": "青",
+    "yellow": "#FCB315",
+    "others": [],
+    "other_families": [],
+    "cool_L": 0.511,
+    "cool_C": 0.097,
+    "cool_H": 225.3,
+    "y_L": 0.815,
+    "y_C": 0.166,
+    "y_H": 78.4,
+    "contrast_cool_yellow": 3.08
+   },
+   {
+    "src": "wada",
+    "id": 126,
+    "colors": [
+     {
+      "hex": "#EBD3A2",
+      "name": "Ivory Buff"
+     },
+     {
+      "hex": "#E2B540",
+      "name": "Yellow Ocher"
+     },
+     {
+      "hex": "#1C4286",
+      "name": "Deep Lyons Blue"
+     }
+    ],
+    "cool": "#1C4286",
+    "cool_sub": "藍",
+    "yellow": "#E2B540",
+    "others": [
+     "#EBD3A2"
+    ],
+    "other_families": [
+     "黃"
+    ],
+    "cool_L": 0.393,
+    "cool_C": 0.122,
+    "cool_H": 261.0,
+    "y_L": 0.793,
+    "y_C": 0.14,
+    "y_H": 87.1,
+    "contrast_cool_yellow": 5.02
+   },
+   {
+    "src": "wada",
+    "id": 149,
+    "colors": [
+     {
+      "hex": "#D6B43E",
+      "name": "Olive Ocher"
+     },
+     {
+      "hex": "#F37420",
+      "name": "Orange"
+     },
+     {
+      "hex": "#112F2C",
+      "name": "Deep Slate Green"
+     }
+    ],
+    "cool": "#112F2C",
+    "cool_sub": "青綠",
+    "yellow": "#D6B43E",
+    "others": [
+     "#F37420"
+    ],
+    "other_families": [
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.281,
+    "cool_C": 0.036,
+    "cool_H": 186.6,
+    "y_L": 0.779,
+    "y_C": 0.138,
+    "y_H": 92.5,
+    "contrast_cool_yellow": 7.13
+   },
+   {
+    "src": "wada",
+    "id": 154,
+    "colors": [
+     {
+      "hex": "#CC1236",
+      "name": "Carmine"
+     },
+     {
+      "hex": "#FFF200",
+      "name": "Yellow"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#FFF200",
+    "others": [
+     "#CC1236"
+    ],
+    "other_families": [
+     "紅褐"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.941,
+    "y_C": 0.2,
+    "y_H": 105.7,
+    "contrast_cool_yellow": 4.58
+   },
+   {
+    "src": "wada",
+    "id": 157,
+    "colors": [
+     {
+      "hex": "#7D133A",
+      "name": "Pansy Purple"
+     },
+     {
+      "hex": "#D6B43E",
+      "name": "Olive Ocher"
+     },
+     {
+      "hex": "#5A82B3",
+      "name": "Olympic Blue"
+     }
+    ],
+    "cool": "#5A82B3",
+    "cool_sub": "藍",
+    "yellow": "#D6B43E",
+    "others": [
+     "#7D133A"
+    ],
+    "other_families": [
+     "紅"
+    ],
+    "cool_L": 0.598,
+    "cool_C": 0.088,
+    "cool_H": 254.1,
+    "y_L": 0.779,
+    "y_C": 0.138,
+    "y_H": 92.5,
+    "contrast_cool_yellow": 1.98
+   },
+   {
+    "src": "wada",
+    "id": 163,
+    "colors": [
+     {
+      "hex": "#FFDD00",
+      "name": "Apricot Yellow"
+     },
+     {
+      "hex": "#B5DECC",
+      "name": "Turquoise Green"
+     },
+     {
+      "hex": "#007190",
+      "name": "Antwarp Blue"
+     }
+    ],
+    "cool": "#007190",
+    "cool_sub": "青",
+    "yellow": "#FFDD00",
+    "others": [
+     "#B5DECC"
+    ],
+    "other_families": [
+     "淺綠"
+    ],
+    "cool_L": 0.511,
+    "cool_C": 0.097,
+    "cool_H": 225.3,
+    "y_L": 0.899,
+    "y_C": 0.186,
+    "y_H": 97.9,
+    "contrast_cool_yellow": 4.14
+   },
+   {
+    "src": "wada",
+    "id": 168,
+    "colors": [
+     {
+      "hex": "#F8ED43",
+      "name": "Lemon Yellow"
+     },
+     {
+      "hex": "#064F6E",
+      "name": "Vandar Poel's Blue"
+     },
+     {
+      "hex": "#8C4C62",
+      "name": "Veronia Purple"
+     }
+    ],
+    "cool": "#064F6E",
+    "cool_sub": "藍",
+    "yellow": "#F8ED43",
+    "others": [
+     "#8C4C62"
+    ],
+    "other_families": [
+     "紅"
+    ],
+    "cool_L": 0.404,
+    "cool_C": 0.082,
+    "cool_H": 234.2,
+    "y_L": 0.927,
+    "y_C": 0.178,
+    "y_H": 105.6,
+    "contrast_cool_yellow": 7.31
+   },
+   {
+    "src": "wada",
+    "id": 191,
+    "colors": [
+     {
+      "hex": "#B59392",
+      "name": "Light Brown Drab"
+     },
+     {
+      "hex": "#E2B540",
+      "name": "Yellow Ocher"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#E2B540",
+    "others": [
+     "#B59392"
+    ],
+    "other_families": [
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.793,
+    "y_C": 0.14,
+    "y_H": 87.1,
+    "contrast_cool_yellow": 2.78
+   },
+   {
+    "src": "wada",
+    "id": 215,
+    "colors": [
+     {
+      "hex": "#FDBF68",
+      "name": "Cream Yellow"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     },
+     {
+      "hex": "#BF5892",
+      "name": "Eupatorium Purple"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#FDBF68",
+    "others": [
+     "#BF5892"
+    ],
+    "other_families": [
+     "紅"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.844,
+    "y_C": 0.126,
+    "y_H": 73.9,
+    "contrast_cool_yellow": 3.27
+   },
+   {
+    "src": "wada",
+    "id": 247,
+    "colors": [
+     {
+      "hex": "#BB7125",
+      "name": "Raw Sienna"
+     },
+     {
+      "hex": "#FFDD00",
+      "name": "Apricot Yellow"
+     },
+     {
+      "hex": "#00978D",
+      "name": "Benzol Green"
+     },
+     {
+      "hex": "#1C4286",
+      "name": "Deep Lyons Blue"
+     }
+    ],
+    "cool": "#1C4286",
+    "cool_sub": "藍",
+    "yellow": "#FFDD00",
+    "others": [
+     "#BB7125",
+     "#00978D"
+    ],
+    "other_families": [
+     "棕／赭",
+     "中青綠"
+    ],
+    "cool_L": 0.393,
+    "cool_C": 0.122,
+    "cool_H": 261.0,
+    "y_L": 0.899,
+    "y_C": 0.186,
+    "y_H": 97.9,
+    "contrast_cool_yellow": 7.18
+   },
+   {
+    "src": "wada",
+    "id": 249,
+    "colors": [
+     {
+      "hex": "#793327",
+      "name": "Hay's Russet"
+     },
+     {
+      "hex": "#C2AE93",
+      "name": "Ecru"
+     },
+     {
+      "hex": "#D6B43E",
+      "name": "Olive Ocher"
+     },
+     {
+      "hex": "#547076",
+      "name": "Dark Medici Blue"
+     }
+    ],
+    "cool": "#547076",
+    "cool_sub": "青",
+    "yellow": "#D6B43E",
+    "others": [
+     "#793327",
+     "#C2AE93"
+    ],
+    "other_families": [
+     "紅褐",
+     "黃"
+    ],
+    "cool_L": 0.525,
+    "cool_C": 0.034,
+    "cool_H": 212.3,
+    "y_L": 0.779,
+    "y_C": 0.138,
+    "y_H": 92.5,
+    "contrast_cool_yellow": 2.64
+   },
+   {
+    "src": "wada",
+    "id": 251,
+    "colors": [
+     {
+      "hex": "#A72144",
+      "name": "Red"
+     },
+     {
+      "hex": "#FFF200",
+      "name": "Yellow"
+     },
+     {
+      "hex": "#1A7444",
+      "name": "Diamine Green"
+     },
+     {
+      "hex": "#34454C",
+      "name": "Slate Color"
+     }
+    ],
+    "cool": "#1A7444",
+    "cool_sub": "綠",
+    "yellow": "#FFF200",
+    "others": [
+     "#A72144",
+     "#34454C"
+    ],
+    "other_families": [
+     "紅",
+     "炭黑"
+    ],
+    "cool_L": 0.495,
+    "cool_C": 0.112,
+    "cool_H": 154.6,
+    "y_L": 0.941,
+    "y_C": 0.2,
+    "y_H": 105.7,
+    "contrast_cool_yellow": 4.95
+   },
+   {
+    "src": "wada",
+    "id": 257,
+    "colors": [
+     {
+      "hex": "#E31F26",
+      "name": "Spectrum Red"
+     },
+     {
+      "hex": "#FCB315",
+      "name": "Orange Yellow"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     },
+     {
+      "hex": "#A36AA5",
+      "name": "Aconite Violet"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#FCB315",
+    "others": [
+     "#E31F26",
+     "#A36AA5"
+    ],
+    "other_families": [
+     "珊瑚／橘紅",
+     "紫"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.815,
+    "y_C": 0.166,
+    "y_H": 78.4,
+    "contrast_cool_yellow": 2.96
+   },
+   {
+    "src": "wada",
+    "id": 259,
+    "colors": [
+     {
+      "hex": "#F8ED43",
+      "name": "Lemon Yellow"
+     },
+     {
+      "hex": "#099197",
+      "name": "Green Blue"
+     },
+     {
+      "hex": "#005B8D",
+      "name": "Helvetia Blue"
+     },
+     {
+      "hex": "#A1A39A",
+      "name": "Warm Gray"
+     }
+    ],
+    "cool": "#005B8D",
+    "cool_sub": "藍",
+    "yellow": "#F8ED43",
+    "others": [
+     "#A1A39A"
+    ],
+    "other_families": [
+     "淺灰"
+    ],
+    "cool_L": 0.452,
+    "cool_C": 0.109,
+    "cool_H": 242.8,
+    "y_L": 0.927,
+    "y_C": 0.178,
+    "y_H": 105.6,
+    "contrast_cool_yellow": 5.97
+   },
+   {
+    "src": "wada",
+    "id": 267,
+    "colors": [
+     {
+      "hex": "#FDBF68",
+      "name": "Cream Yellow"
+     },
+     {
+      "hex": "#F99D1B",
+      "name": "Yellow Orange"
+     },
+     {
+      "hex": "#00978D",
+      "name": "Benzol Green"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#FDBF68",
+    "others": [
+     "#F99D1B",
+     "#00978D"
+    ],
+    "other_families": [
+     "橘",
+     "中青綠"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.844,
+    "y_C": 0.126,
+    "y_H": 73.9,
+    "contrast_cool_yellow": 3.27
+   },
+   {
+    "src": "wada",
+    "id": 278,
+    "colors": [
+     {
+      "hex": "#FDBF68",
+      "name": "Cream Yellow"
+     },
+     {
+      "hex": "#D6B43E",
+      "name": "Olive Ocher"
+     },
+     {
+      "hex": "#437742",
+      "name": "Cossack Green"
+     },
+     {
+      "hex": "#004F46",
+      "name": "Dusky Green"
+     }
+    ],
+    "cool": "#004F46",
+    "cool_sub": "青綠",
+    "yellow": "#D6B43E",
+    "others": [],
+    "other_families": [],
+    "cool_L": 0.384,
+    "cool_C": 0.069,
+    "cool_H": 181.9,
+    "y_L": 0.779,
+    "y_C": 0.138,
+    "y_H": 92.5,
+    "contrast_cool_yellow": 4.74
+   },
+   {
+    "src": "wada",
+    "id": 284,
+    "colors": [
+     {
+      "hex": "#E2625E",
+      "name": "Eugenia Red | A"
+     },
+     {
+      "hex": "#FFDD00",
+      "name": "Apricot Yellow"
+     },
+     {
+      "hex": "#00B49B",
+      "name": "Sea Green"
+     },
+     {
+      "hex": "#004F46",
+      "name": "Dusky Green"
+     }
+    ],
+    "cool": "#004F46",
+    "cool_sub": "青綠",
+    "yellow": "#FFDD00",
+    "others": [
+     "#E2625E",
+     "#00B49B"
+    ],
+    "other_families": [
+     "珊瑚／橘紅",
+     "中青綠"
+    ],
+    "cool_L": 0.384,
+    "cool_C": 0.069,
+    "cool_H": 181.9,
+    "y_L": 0.899,
+    "y_C": 0.186,
+    "y_H": 97.9,
+    "contrast_cool_yellow": 7.07
+   },
+   {
+    "src": "wada",
+    "id": 294,
+    "colors": [
+     {
+      "hex": "#F5ECC2",
+      "name": "Sulpher Yellow"
+     },
+     {
+      "hex": "#FDBF68",
+      "name": "Cream Yellow"
+     },
+     {
+      "hex": "#437742",
+      "name": "Cossack Green"
+     },
+     {
+      "hex": "#97ACC8",
+      "name": "Salvia Blue"
+     }
+    ],
+    "cool": "#437742",
+    "cool_sub": "綠",
+    "yellow": "#FDBF68",
+    "others": [
+     "#F5ECC2",
+     "#97ACC8"
+    ],
+    "other_families": [
+     "白／米白",
+     "中藍"
+    ],
+    "cool_L": 0.519,
+    "cool_C": 0.099,
+    "cool_H": 143.6,
+    "y_L": 0.844,
+    "y_C": 0.126,
+    "y_H": 73.9,
+    "contrast_cool_yellow": 3.24
+   },
+   {
+    "src": "wada",
+    "id": 295,
+    "colors": [
+     {
+      "hex": "#FDBF68",
+      "name": "Cream Yellow"
+     },
+     {
+      "hex": "#FFF200",
+      "name": "Yellow"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     },
+     {
+      "hex": "#1E0E3F",
+      "name": "Dull Violet Black"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#FFF200",
+    "others": [
+     "#1E0E3F"
+    ],
+    "other_families": [
+     "紫"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.941,
+    "y_C": 0.2,
+    "y_H": 105.7,
+    "contrast_cool_yellow": 4.58
+   },
+   {
+    "src": "wada",
+    "id": 302,
+    "colors": [
+     {
+      "hex": "#FDBF68",
+      "name": "Cream Yellow"
+     },
+     {
+      "hex": "#C2AE93",
+      "name": "Ecru"
+     },
+     {
+      "hex": "#BCE4E5",
+      "name": "Nile Blue"
+     },
+     {
+      "hex": "#007190",
+      "name": "Antwarp Blue"
+     }
+    ],
+    "cool": "#007190",
+    "cool_sub": "青",
+    "yellow": "#FDBF68",
+    "others": [
+     "#C2AE93",
+     "#BCE4E5"
+    ],
+    "other_families": [
+     "黃",
+     "白／米白"
+    ],
+    "cool_L": 0.511,
+    "cool_C": 0.097,
+    "cool_H": 225.3,
+    "y_L": 0.844,
+    "y_C": 0.126,
+    "y_H": 73.9,
+    "contrast_cool_yellow": 3.41
+   },
+   {
+    "src": "wada",
+    "id": 306,
+    "colors": [
+     {
+      "hex": "#F8ED43",
+      "name": "Lemon Yellow"
+     },
+     {
+      "hex": "#00978D",
+      "name": "Benzol Green"
+     },
+     {
+      "hex": "#009465",
+      "name": "Dull Viridian Green"
+     },
+     {
+      "hex": "#BCE4E5",
+      "name": "Nile Blue"
+     }
+    ],
+    "cool": "#009465",
+    "cool_sub": "綠",
+    "yellow": "#F8ED43",
+    "others": [
+     "#00978D",
+     "#BCE4E5"
+    ],
+    "other_families": [
+     "中青綠",
+     "白／米白"
+    ],
+    "cool_L": 0.589,
+    "cool_C": 0.129,
+    "cool_H": 162.1,
+    "y_L": 0.927,
+    "y_C": 0.178,
+    "y_H": 105.6,
+    "contrast_cool_yellow": 3.17
+   },
+   {
+    "src": "wada",
+    "id": 313,
+    "colors": [
+     {
+      "hex": "#CC1236",
+      "name": "Carmine"
+     },
+     {
+      "hex": "#FFF200",
+      "name": "Yellow"
+     },
+     {
+      "hex": "#1A7444",
+      "name": "Diamine Green"
+     },
+     {
+      "hex": "#111314",
+      "name": "Black"
+     }
+    ],
+    "cool": "#1A7444",
+    "cool_sub": "綠",
+    "yellow": "#FFF200",
+    "others": [
+     "#CC1236",
+     "#111314"
+    ],
+    "other_families": [
+     "紅褐",
+     "炭黑"
+    ],
+    "cool_L": 0.495,
+    "cool_C": 0.112,
+    "cool_H": 154.6,
+    "y_L": 0.941,
+    "y_C": 0.2,
+    "y_H": 105.7,
+    "contrast_cool_yellow": 4.95
+   },
+   {
+    "src": "wada",
+    "id": 319,
+    "colors": [
+     {
+      "hex": "#BB7125",
+      "name": "Raw Sienna"
+     },
+     {
+      "hex": "#FFDD00",
+      "name": "Apricot Yellow"
+     },
+     {
+      "hex": "#F99D1B",
+      "name": "Yellow Orange"
+     },
+     {
+      "hex": "#437742",
+      "name": "Cossack Green"
+     }
+    ],
+    "cool": "#437742",
+    "cool_sub": "綠",
+    "yellow": "#FFDD00",
+    "others": [
+     "#BB7125",
+     "#F99D1B"
+    ],
+    "other_families": [
+     "棕／赭",
+     "橘"
+    ],
+    "cool_L": 0.519,
+    "cool_C": 0.099,
+    "cool_H": 143.6,
+    "y_L": 0.899,
+    "y_C": 0.186,
+    "y_H": 97.9,
+    "contrast_cool_yellow": 3.94
+   },
+   {
+    "src": "wada",
+    "id": 325,
+    "colors": [
+     {
+      "hex": "#DA525D",
+      "name": "Eugenia Red | B"
+     },
+     {
+      "hex": "#FBE6A0",
+      "name": "Naples Yellow"
+     },
+     {
+      "hex": "#E2B540",
+      "name": "Yellow Ocher"
+     },
+     {
+      "hex": "#112F2C",
+      "name": "Deep Slate Green"
+     }
+    ],
+    "cool": "#112F2C",
+    "cool_sub": "青綠",
+    "yellow": "#E2B540",
+    "others": [
+     "#DA525D",
+     "#FBE6A0"
+    ],
+    "other_families": [
+     "紅",
+     "淺黃／米黃"
+    ],
+    "cool_L": 0.281,
+    "cool_C": 0.036,
+    "cool_H": 186.6,
+    "y_L": 0.793,
+    "y_C": 0.14,
+    "y_H": 87.1,
+    "contrast_cool_yellow": 7.44
+   },
+   {
+    "src": "wada",
+    "id": 333,
+    "colors": [
+     {
+      "hex": "#AE5224",
+      "name": "Burnt Sienna"
+     },
+     {
+      "hex": "#F8ED43",
+      "name": "Lemon Yellow"
+     },
+     {
+      "hex": "#96D1AA",
+      "name": "Cobalt Green"
+     },
+     {
+      "hex": "#006EB8",
+      "name": "Blue"
+     }
+    ],
+    "cool": "#006EB8",
+    "cool_sub": "藍",
+    "yellow": "#F8ED43",
+    "others": [
+     "#AE5224",
+     "#96D1AA"
+    ],
+    "other_families": [
+     "紅褐",
+     "淺綠"
+    ],
+    "cool_L": 0.526,
+    "cool_C": 0.143,
+    "cool_H": 248.3,
+    "y_L": 0.927,
+    "y_C": 0.178,
+    "y_H": 105.6,
+    "contrast_cool_yellow": 4.38
+   },
+   {
+    "src": "wada",
+    "id": 338,
+    "colors": [
+     {
+      "hex": "#A62C37",
+      "name": "Carmine Red"
+     },
+     {
+      "hex": "#FCB315",
+      "name": "Orange Yellow"
+     },
+     {
+      "hex": "#004F46",
+      "name": "Dusky Green"
+     },
+     {
+      "hex": "#C0A9B3",
+      "name": "Grayish Lavender - B"
+     }
+    ],
+    "cool": "#004F46",
+    "cool_sub": "青綠",
+    "yellow": "#FCB315",
+    "others": [
+     "#A62C37",
+     "#C0A9B3"
+    ],
+    "other_families": [
+     "紅褐",
+     "淺灰"
+    ],
+    "cool_L": 0.384,
+    "cool_C": 0.069,
+    "cool_H": 181.9,
+    "y_L": 0.815,
+    "y_C": 0.166,
+    "y_H": 78.4,
+    "contrast_cool_yellow": 5.26
+   },
+   {
+    "src": "wada",
+    "id": 344,
+    "colors": [
+     {
+      "hex": "#FDC57E",
+      "name": "Cinnamon Buff"
+     },
+     {
+      "hex": "#1C4286",
+      "name": "Deep Lyons Blue"
+     },
+     {
+      "hex": "#A36AA5",
+      "name": "Aconite Violet"
+     },
+     {
+      "hex": "#111314",
+      "name": "Black"
+     }
+    ],
+    "cool": "#1C4286",
+    "cool_sub": "藍",
+    "yellow": "#FDC57E",
+    "others": [
+     "#A36AA5",
+     "#111314"
+    ],
+    "other_families": [
+     "紫",
+     "炭黑"
+    ],
+    "cool_L": 0.393,
+    "cool_C": 0.122,
+    "cool_H": 261.0,
+    "y_L": 0.859,
+    "y_C": 0.109,
+    "y_H": 72.1,
+    "contrast_cool_yellow": 6.2
+   }
+  ]
+ },
+ "colourlovers": {
+  "source": "COLOURlovers 人氣前 1000（npm nice-color-palettes 4.0.0，MIT；原作者 2018-10-14 擷取）",
+  "third_group_share": {
+   "暖紅系（紅、珊瑚、紅褐、橘、棕、粉）": "33/45",
+   "淺中性（白、米白、淺灰、米黃）": "10/45",
+   "深中性（炭黑、中灰）": "12/45",
+   "黃綠／橄欖": "12/45"
+  },
+  "total": 992,
+  "hits": 45,
+  "cool_subfamily": [
+   [
+    "藍",
+    16
+   ],
+   [
+    "青綠",
+    13
+   ],
+   [
+    "青",
+    12
+   ],
+   [
+    "綠",
+    4
+   ]
+  ],
+  "third_family_palettes": [
+   [
+    "珊瑚／橘紅",
+    24
+   ],
+   [
+    "黃綠／橄欖",
+    12
+   ],
+   [
+    "紅",
+    11
+   ],
+   [
+    "白／米白",
+    10
+   ],
+   [
+    "紫",
+    9
+   ],
+   [
+    "中綠",
+    7
+   ],
+   [
+    "炭黑",
+    7
+   ],
+   [
+    "黃",
+    6
+   ],
+   [
+    "中灰",
+    5
+   ],
+   [
+    "紅褐",
+    4
+   ],
+   [
+    "中青綠",
+    4
+   ],
+   [
+    "橘",
+    3
+   ],
+   [
+    "棕／赭",
+    1
+   ],
+   [
+    "芥末／土黃",
+    1
+   ],
+   [
+    "中藍",
+    1
+   ]
+  ],
+  "no_third": 1,
+  "median": {
+   "cool_L": 0.47,
+   "cool_C": 0.07,
+   "cool_H": 203.0,
+   "y_L": 0.831,
+   "y_C": 0.145,
+   "y_H": 88.7,
+   "contrast_cool_yellow": 4.12
+  },
+  "iqr": {
+   "cool_L": [
+    0.36,
+    0.551
+   ],
+   "cool_C": [
+    0.053,
+    0.094
+   ],
+   "y_H": [
+    79.6,
+    95.0
+   ],
+   "contrast_cool_yellow": [
+    2.88,
+    7.29
+   ]
+  },
+  "baseline_all_cool_dark_median_C": 0.07,
+  "palettes": [
+   {
+    "src": "colourlovers",
+    "id": 3,
+    "colors": [
+     {
+      "hex": "#ECD078"
+     },
+     {
+      "hex": "#D95B43"
+     },
+     {
+      "hex": "#C02942"
+     },
+     {
+      "hex": "#542437"
+     },
+     {
+      "hex": "#53777A"
+     }
+    ],
+    "cool": "#53777A",
+    "cool_sub": "青",
+    "yellow": "#ECD078",
+    "others": [
+     "#D95B43",
+     "#C02942",
+     "#542437"
+    ],
+    "other_families": [
+     "珊瑚／橘紅",
+     "紅",
+     "紅"
+    ],
+    "cool_L": 0.543,
+    "cool_C": 0.041,
+    "cool_H": 202.5,
+    "y_L": 0.863,
+    "y_C": 0.112,
+    "y_H": 92.2,
+    "contrast_cool_yellow": 3.23
+   },
+   {
+    "src": "colourlovers",
+    "id": 24,
+    "colors": [
+     {
+      "hex": "#8C2318"
+     },
+     {
+      "hex": "#5E8C6A"
+     },
+     {
+      "hex": "#88A65E"
+     },
+     {
+      "hex": "#BFB35A"
+     },
+     {
+      "hex": "#F2C45A"
+     }
+    ],
+    "cool": "#5E8C6A",
+    "cool_sub": "綠",
+    "yellow": "#F2C45A",
+    "others": [
+     "#8C2318",
+     "#88A65E"
+    ],
+    "other_families": [
+     "紅褐",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.597,
+    "cool_C": 0.072,
+    "cool_H": 151.9,
+    "y_L": 0.841,
+    "y_C": 0.134,
+    "y_H": 85.6,
+    "contrast_cool_yellow": 2.36
+   },
+   {
+    "src": "colourlovers",
+    "id": 25,
+    "colors": [
+     {
+      "hex": "#FAD089"
+     },
+     {
+      "hex": "#FF9C5B"
+     },
+     {
+      "hex": "#F5634A"
+     },
+     {
+      "hex": "#ED303C"
+     },
+     {
+      "hex": "#3B8183"
+     }
+    ],
+    "cool": "#3B8183",
+    "cool_sub": "青綠",
+    "yellow": "#FAD089",
+    "others": [
+     "#FF9C5B",
+     "#F5634A",
+     "#ED303C"
+    ],
+    "other_families": [
+     "珊瑚／橘紅",
+     "珊瑚／橘紅",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.559,
+    "cool_C": 0.07,
+    "cool_H": 197.9,
+    "y_L": 0.878,
+    "y_C": 0.101,
+    "y_H": 80.0,
+    "contrast_cool_yellow": 3.1
+   },
+   {
+    "src": "colourlovers",
+    "id": 44,
+    "colors": [
+     {
+      "hex": "#E8D5B7"
+     },
+     {
+      "hex": "#0E2430"
+     },
+     {
+      "hex": "#FC3A51"
+     },
+     {
+      "hex": "#F5B349"
+     },
+     {
+      "hex": "#E8D5B9"
+     }
+    ],
+    "cool": "#0E2430",
+    "cool_sub": "藍",
+    "yellow": "#F5B349",
+    "others": [
+     "#E8D5B7",
+     "#FC3A51",
+     "#E8D5B9"
+    ],
+    "other_families": [
+     "白／米白",
+     "珊瑚／橘紅",
+     "白／米白"
+    ],
+    "cool_L": 0.248,
+    "cool_C": 0.036,
+    "cool_H": 234.6,
+    "y_L": 0.81,
+    "y_C": 0.142,
+    "y_H": 75.8,
+    "contrast_cool_yellow": 8.7
+   },
+   {
+    "src": "colourlovers",
+    "id": 82,
+    "colors": [
+     {
+      "hex": "#046D8B"
+     },
+     {
+      "hex": "#309292"
+     },
+     {
+      "hex": "#2FB8AC"
+     },
+     {
+      "hex": "#93A42A"
+     },
+     {
+      "hex": "#ECBE13"
+     }
+    ],
+    "cool": "#046D8B",
+    "cool_sub": "青",
+    "yellow": "#ECBE13",
+    "others": [
+     "#309292",
+     "#2FB8AC",
+     "#93A42A"
+    ],
+    "other_families": [
+     "中青綠",
+     "中青綠",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.498,
+    "cool_C": 0.094,
+    "cool_H": 225.6,
+    "y_L": 0.819,
+    "y_C": 0.165,
+    "y_H": 90.7,
+    "contrast_cool_yellow": 3.35
+   },
+   {
+    "src": "colourlovers",
+    "id": 112,
+    "colors": [
+     {
+      "hex": "#058789"
+     },
+     {
+      "hex": "#503D2E"
+     },
+     {
+      "hex": "#D54B1A"
+     },
+     {
+      "hex": "#E3A72F"
+     },
+     {
+      "hex": "#F0ECC9"
+     }
+    ],
+    "cool": "#058789",
+    "cool_sub": "青綠",
+    "yellow": "#E3A72F",
+    "others": [
+     "#503D2E",
+     "#D54B1A",
+     "#F0ECC9"
+    ],
+    "other_families": [
+     "棕／赭",
+     "珊瑚／橘紅",
+     "白／米白"
+    ],
+    "cool_L": 0.566,
+    "cool_C": 0.095,
+    "cool_H": 196.6,
+    "y_L": 0.766,
+    "y_C": 0.145,
+    "y_H": 79.8,
+    "contrast_cool_yellow": 2.03
+   },
+   {
+    "src": "colourlovers",
+    "id": 122,
+    "colors": [
+     {
+      "hex": "#11644D"
+     },
+     {
+      "hex": "#A0B046"
+     },
+     {
+      "hex": "#F2C94E"
+     },
+     {
+      "hex": "#F78145"
+     },
+     {
+      "hex": "#F24E4E"
+     }
+    ],
+    "cool": "#11644D",
+    "cool_sub": "綠",
+    "yellow": "#F2C94E",
+    "others": [
+     "#A0B046",
+     "#F78145",
+     "#F24E4E"
+    ],
+    "other_families": [
+     "黃綠／橄欖",
+     "珊瑚／橘紅",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.45,
+    "cool_C": 0.084,
+    "cool_H": 168.9,
+    "y_L": 0.85,
+    "y_C": 0.145,
+    "y_H": 90.3,
+    "contrast_cool_yellow": 4.48
+   },
+   {
+    "src": "colourlovers",
+    "id": 127,
+    "colors": [
+     {
+      "hex": "#11766D"
+     },
+     {
+      "hex": "#410936"
+     },
+     {
+      "hex": "#A40B54"
+     },
+     {
+      "hex": "#E46F0A"
+     },
+     {
+      "hex": "#F0B300"
+     }
+    ],
+    "cool": "#11766D",
+    "cool_sub": "青綠",
+    "yellow": "#F0B300",
+    "others": [
+     "#410936",
+     "#A40B54",
+     "#E46F0A"
+    ],
+    "other_families": [
+     "紫",
+     "紅",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.511,
+    "cool_C": 0.086,
+    "cool_H": 185.3,
+    "y_L": 0.802,
+    "y_C": 0.165,
+    "y_H": 83.8,
+    "contrast_cool_yellow": 2.91
+   },
+   {
+    "src": "colourlovers",
+    "id": 128,
+    "colors": [
+     {
+      "hex": "#595643"
+     },
+     {
+      "hex": "#4E6B66"
+     },
+     {
+      "hex": "#ED834E"
+     },
+     {
+      "hex": "#EBCC6E"
+     },
+     {
+      "hex": "#EBE1C5"
+     }
+    ],
+    "cool": "#4E6B66",
+    "cool_sub": "青綠",
+    "yellow": "#EBCC6E",
+    "others": [
+     "#595643",
+     "#ED834E",
+     "#EBE1C5"
+    ],
+    "other_families": [
+     "中灰",
+     "珊瑚／橘紅",
+     "白／米白"
+    ],
+    "cool_L": 0.503,
+    "cool_C": 0.035,
+    "cool_H": 183.1,
+    "y_L": 0.852,
+    "y_C": 0.119,
+    "y_H": 91.5,
+    "contrast_cool_yellow": 3.7
+   },
+   {
+    "src": "colourlovers",
+    "id": 141,
+    "colors": [
+     {
+      "hex": "#FFAB07"
+     },
+     {
+      "hex": "#E9D558"
+     },
+     {
+      "hex": "#72AD75"
+     },
+     {
+      "hex": "#0E8D94"
+     },
+     {
+      "hex": "#434D53"
+     }
+    ],
+    "cool": "#0E8D94",
+    "cool_sub": "青",
+    "yellow": "#FFAB07",
+    "others": [
+     "#72AD75",
+     "#434D53"
+    ],
+    "other_families": [
+     "中綠",
+     "中灰"
+    ],
+    "cool_L": 0.586,
+    "cool_C": 0.097,
+    "cool_H": 201.2,
+    "y_L": 0.803,
+    "y_C": 0.17,
+    "y_H": 73.6,
+    "contrast_cool_yellow": 2.11
+   },
+   {
+    "src": "colourlovers",
+    "id": 148,
+    "colors": [
+     {
+      "hex": "#E7EDEA"
+     },
+     {
+      "hex": "#FFC52C"
+     },
+     {
+      "hex": "#FB0C06"
+     },
+     {
+      "hex": "#030D4F"
+     },
+     {
+      "hex": "#CEECEF"
+     }
+    ],
+    "cool": "#030D4F",
+    "cool_sub": "藍",
+    "yellow": "#FFC52C",
+    "others": [
+     "#E7EDEA",
+     "#FB0C06",
+     "#CEECEF"
+    ],
+    "other_families": [
+     "白／米白",
+     "珊瑚／橘紅",
+     "白／米白"
+    ],
+    "cool_L": 0.216,
+    "cool_C": 0.119,
+    "cool_H": 265.8,
+    "y_L": 0.853,
+    "y_C": 0.165,
+    "y_H": 85.5,
+    "contrast_cool_yellow": 11.3
+   },
+   {
+    "src": "colourlovers",
+    "id": 154,
+    "colors": [
+     {
+      "hex": "#360745"
+     },
+     {
+      "hex": "#D61C59"
+     },
+     {
+      "hex": "#E7D84B"
+     },
+     {
+      "hex": "#EFEAC5"
+     },
+     {
+      "hex": "#1B8798"
+     }
+    ],
+    "cool": "#1B8798",
+    "cool_sub": "青",
+    "yellow": "#E7D84B",
+    "others": [
+     "#360745",
+     "#D61C59",
+     "#EFEAC5"
+    ],
+    "other_families": [
+     "紫",
+     "紅",
+     "白／米白"
+    ],
+    "cool_L": 0.574,
+    "cool_C": 0.094,
+    "cool_H": 211.2,
+    "y_L": 0.87,
+    "y_C": 0.157,
+    "y_H": 103.2,
+    "contrast_cool_yellow": 2.88
+   },
+   {
+    "src": "colourlovers",
+    "id": 188,
+    "colors": [
+     {
+      "hex": "#4B3E4D"
+     },
+     {
+      "hex": "#1E8C93"
+     },
+     {
+      "hex": "#DBD8A2"
+     },
+     {
+      "hex": "#C4AC30"
+     },
+     {
+      "hex": "#D74F33"
+     }
+    ],
+    "cool": "#1E8C93",
+    "cool_sub": "青",
+    "yellow": "#C4AC30",
+    "others": [
+     "#4B3E4D",
+     "#DBD8A2",
+     "#D74F33"
+    ],
+    "other_families": [
+     "炭黑",
+     "黃",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.586,
+    "cool_C": 0.093,
+    "cool_H": 201.6,
+    "y_L": 0.744,
+    "y_C": 0.139,
+    "y_H": 97.7,
+    "contrast_cool_yellow": 1.78
+   },
+   {
+    "src": "colourlovers",
+    "id": 189,
+    "colors": [
+     {
+      "hex": "#161616"
+     },
+     {
+      "hex": "#C94D65"
+     },
+     {
+      "hex": "#E7C049"
+     },
+     {
+      "hex": "#92B35A"
+     },
+     {
+      "hex": "#1F6764"
+     }
+    ],
+    "cool": "#1F6764",
+    "cool_sub": "青綠",
+    "yellow": "#E7C049",
+    "others": [
+     "#161616",
+     "#C94D65",
+     "#92B35A"
+    ],
+    "other_families": [
+     "炭黑",
+     "紅",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.47,
+    "cool_C": 0.07,
+    "cool_H": 191.1,
+    "y_L": 0.821,
+    "y_C": 0.141,
+    "y_H": 90.5,
+    "contrast_cool_yellow": 3.78
+   },
+   {
+    "src": "colourlovers",
+    "id": 210,
+    "colors": [
+     {
+      "hex": "#CCB24C"
+     },
+     {
+      "hex": "#F7D683"
+     },
+     {
+      "hex": "#FFFDC0"
+     },
+     {
+      "hex": "#FFFFFD"
+     },
+     {
+      "hex": "#457D97"
+     }
+    ],
+    "cool": "#457D97",
+    "cool_sub": "青",
+    "yellow": "#CCB24C",
+    "others": [
+     "#FFFDC0",
+     "#FFFFFD"
+    ],
+    "other_families": [
+     "白／米白",
+     "白／米白"
+    ],
+    "cool_L": 0.562,
+    "cool_C": 0.071,
+    "cool_H": 229.9,
+    "y_L": 0.767,
+    "y_C": 0.124,
+    "y_H": 95.0,
+    "contrast_cool_yellow": 2.17
+   },
+   {
+    "src": "colourlovers",
+    "id": 250,
+    "colors": [
+     {
+      "hex": "#2B1719"
+     },
+     {
+      "hex": "#02483E"
+     },
+     {
+      "hex": "#057C46"
+     },
+     {
+      "hex": "#9BB61B"
+     },
+     {
+      "hex": "#F8BE00"
+     }
+    ],
+    "cool": "#02483E",
+    "cool_sub": "青綠",
+    "yellow": "#F8BE00",
+    "others": [
+     "#2B1719",
+     "#9BB61B"
+    ],
+    "other_families": [
+     "炭黑",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.36,
+    "cool_C": 0.065,
+    "cool_H": 179.4,
+    "y_L": 0.831,
+    "y_C": 0.17,
+    "y_H": 86.3,
+    "contrast_cool_yellow": 6.18
+   },
+   {
+    "src": "colourlovers",
+    "id": 299,
+    "colors": [
+     {
+      "hex": "#002C2B"
+     },
+     {
+      "hex": "#FF3D00"
+     },
+     {
+      "hex": "#FFBC11"
+     },
+     {
+      "hex": "#0A837F"
+     },
+     {
+      "hex": "#076461"
+     }
+    ],
+    "cool": "#002C2B",
+    "cool_sub": "青綠",
+    "yellow": "#FFBC11",
+    "others": [
+     "#FF3D00"
+    ],
+    "other_families": [
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.265,
+    "cool_C": 0.045,
+    "cool_H": 192.4,
+    "y_L": 0.835,
+    "y_C": 0.17,
+    "y_H": 82.2,
+    "contrast_cool_yellow": 8.93
+   },
+   {
+    "src": "colourlovers",
+    "id": 310,
+    "colors": [
+     {
+      "hex": "#2F2BAD"
+     },
+     {
+      "hex": "#AD2BAD"
+     },
+     {
+      "hex": "#E42692"
+     },
+     {
+      "hex": "#F71568"
+     },
+     {
+      "hex": "#F7DB15"
+     }
+    ],
+    "cool": "#2F2BAD",
+    "cool_sub": "藍",
+    "yellow": "#F7DB15",
+    "others": [
+     "#AD2BAD",
+     "#E42692",
+     "#F71568"
+    ],
+    "other_families": [
+     "紫",
+     "紅",
+     "紅"
+    ],
+    "cool_L": 0.396,
+    "cool_C": 0.197,
+    "cool_H": 274.0,
+    "y_L": 0.888,
+    "y_C": 0.182,
+    "y_H": 99.7,
+    "contrast_cool_yellow": 7.29
+   },
+   {
+    "src": "colourlovers",
+    "id": 337,
+    "colors": [
+     {
+      "hex": "#FF4746"
+     },
+     {
+      "hex": "#E8DA5E"
+     },
+     {
+      "hex": "#92B55F"
+     },
+     {
+      "hex": "#487D76"
+     },
+     {
+      "hex": "#4B4452"
+     }
+    ],
+    "cool": "#487D76",
+    "cool_sub": "青綠",
+    "yellow": "#E8DA5E",
+    "others": [
+     "#FF4746",
+     "#92B55F",
+     "#4B4452"
+    ],
+    "other_families": [
+     "珊瑚／橘紅",
+     "黃綠／橄欖",
+     "炭黑"
+    ],
+    "cool_L": 0.551,
+    "cool_C": 0.058,
+    "cool_H": 184.9,
+    "y_L": 0.876,
+    "y_C": 0.144,
+    "y_H": 102.9,
+    "contrast_cool_yellow": 3.27
+   },
+   {
+    "src": "colourlovers",
+    "id": 361,
+    "colors": [
+     {
+      "hex": "#565175"
+     },
+     {
+      "hex": "#538A95"
+     },
+     {
+      "hex": "#67B79E"
+     },
+     {
+      "hex": "#FFB727"
+     },
+     {
+      "hex": "#E4491C"
+     }
+    ],
+    "cool": "#538A95",
+    "cool_sub": "青",
+    "yellow": "#FFB727",
+    "others": [
+     "#565175",
+     "#67B79E",
+     "#E4491C"
+    ],
+    "other_families": [
+     "紫",
+     "中綠",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.6,
+    "cool_C": 0.06,
+    "cool_H": 211.8,
+    "y_L": 0.826,
+    "y_C": 0.163,
+    "y_H": 78.3,
+    "contrast_cool_yellow": 2.22
+   },
+   {
+    "src": "colourlovers",
+    "id": 380,
+    "colors": [
+     {
+      "hex": "#43777A"
+     },
+     {
+      "hex": "#442432"
+     },
+     {
+      "hex": "#C02948"
+     },
+     {
+      "hex": "#D95B45"
+     },
+     {
+      "hex": "#ECD079"
+     }
+    ],
+    "cool": "#43777A",
+    "cool_sub": "青",
+    "yellow": "#ECD079",
+    "others": [
+     "#442432",
+     "#C02948",
+     "#D95B45"
+    ],
+    "other_families": [
+     "紅",
+     "紅",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.534,
+    "cool_C": 0.056,
+    "cool_H": 200.4,
+    "y_L": 0.863,
+    "y_C": 0.111,
+    "y_H": 92.1,
+    "contrast_cool_yellow": 3.33
+   },
+   {
+    "src": "colourlovers",
+    "id": 395,
+    "colors": [
+     {
+      "hex": "#E3BA6A"
+     },
+     {
+      "hex": "#BFA374"
+     },
+     {
+      "hex": "#6D756A"
+     },
+     {
+      "hex": "#4D686F"
+     },
+     {
+      "hex": "#364461"
+     }
+    ],
+    "cool": "#364461",
+    "cool_sub": "藍",
+    "yellow": "#E3BA6A",
+    "others": [
+     "#BFA374",
+     "#6D756A"
+    ],
+    "other_families": [
+     "黃",
+     "中灰"
+    ],
+    "cool_L": 0.388,
+    "cool_C": 0.053,
+    "cool_H": 264.3,
+    "y_L": 0.809,
+    "y_C": 0.109,
+    "y_H": 82.8,
+    "contrast_cool_yellow": 5.33
+   },
+   {
+    "src": "colourlovers",
+    "id": 404,
+    "colors": [
+     {
+      "hex": "#204B5E"
+     },
+     {
+      "hex": "#426B65"
+     },
+     {
+      "hex": "#BAAB6A"
+     },
+     {
+      "hex": "#FBEA80"
+     },
+     {
+      "hex": "#FDFAC7"
+     }
+    ],
+    "cool": "#204B5E",
+    "cool_sub": "青",
+    "yellow": "#FBEA80",
+    "others": [
+     "#BAAB6A",
+     "#FDFAC7"
+    ],
+    "other_families": [
+     "黃",
+     "白／米白"
+    ],
+    "cool_L": 0.391,
+    "cool_C": 0.057,
+    "cool_H": 229.6,
+    "y_L": 0.929,
+    "y_C": 0.128,
+    "y_H": 100.3,
+    "contrast_cool_yellow": 7.71
+   },
+   {
+    "src": "colourlovers",
+    "id": 422,
+    "colors": [
+     {
+      "hex": "#F8F69F"
+     },
+     {
+      "hex": "#BAB986"
+     },
+     {
+      "hex": "#7C7B6C"
+     },
+     {
+      "hex": "#3E3E53"
+     },
+     {
+      "hex": "#000039"
+     }
+    ],
+    "cool": "#000039",
+    "cool_sub": "藍",
+    "yellow": "#F8F69F",
+    "others": [
+     "#BAB986",
+     "#7C7B6C",
+     "#3E3E53"
+    ],
+    "other_families": [
+     "黃",
+     "中灰",
+     "紫"
+    ],
+    "cool_L": 0.156,
+    "cool_C": 0.108,
+    "cool_H": 264.1,
+    "y_L": 0.955,
+    "y_C": 0.108,
+    "y_H": 107.2,
+    "contrast_cool_yellow": 17.63
+   },
+   {
+    "src": "colourlovers",
+    "id": 424,
+    "colors": [
+     {
+      "hex": "#172C3C"
+     },
+     {
+      "hex": "#274862"
+     },
+     {
+      "hex": "#995052"
+     },
+     {
+      "hex": "#D96831"
+     },
+     {
+      "hex": "#E6B33D"
+     }
+    ],
+    "cool": "#172C3C",
+    "cool_sub": "藍",
+    "yellow": "#E6B33D",
+    "others": [
+     "#995052",
+     "#D96831"
+    ],
+    "other_families": [
+     "紅",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.283,
+    "cool_C": 0.04,
+    "cool_H": 242.8,
+    "y_L": 0.793,
+    "y_C": 0.142,
+    "y_H": 84.3,
+    "contrast_cool_yellow": 7.44
+   },
+   {
+    "src": "colourlovers",
+    "id": 439,
+    "colors": [
+     {
+      "hex": "#B9340B"
+     },
+     {
+      "hex": "#CEA45C"
+     },
+     {
+      "hex": "#C5BE8B"
+     },
+     {
+      "hex": "#498379"
+     },
+     {
+      "hex": "#3F261C"
+     }
+    ],
+    "cool": "#498379",
+    "cool_sub": "青綠",
+    "yellow": "#CEA45C",
+    "others": [
+     "#B9340B",
+     "#C5BE8B",
+     "#3F261C"
+    ],
+    "other_families": [
+     "紅褐",
+     "黃",
+     "紅褐"
+    ],
+    "cool_L": 0.567,
+    "cool_C": 0.063,
+    "cool_H": 181.6,
+    "y_L": 0.742,
+    "y_C": 0.103,
+    "y_H": 79.6,
+    "contrast_cool_yellow": 1.89
+   },
+   {
+    "src": "colourlovers",
+    "id": 473,
+    "colors": [
+     {
+      "hex": "#482344"
+     },
+     {
+      "hex": "#2B5166"
+     },
+     {
+      "hex": "#429867"
+     },
+     {
+      "hex": "#FAB243"
+     },
+     {
+      "hex": "#E02130"
+     }
+    ],
+    "cool": "#2B5166",
+    "cool_sub": "藍",
+    "yellow": "#FAB243",
+    "others": [
+     "#482344",
+     "#429867",
+     "#E02130"
+    ],
+    "other_families": [
+     "紫",
+     "中綠",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.416,
+    "cool_C": 0.056,
+    "cool_H": 234.5,
+    "y_L": 0.813,
+    "y_C": 0.148,
+    "y_H": 74.1,
+    "contrast_cool_yellow": 4.66
+   },
+   {
+    "src": "colourlovers",
+    "id": 486,
+    "colors": [
+     {
+      "hex": "#FDBF5C"
+     },
+     {
+      "hex": "#F69A0B"
+     },
+     {
+      "hex": "#D43A00"
+     },
+     {
+      "hex": "#9B0800"
+     },
+     {
+      "hex": "#1D2440"
+     }
+    ],
+    "cool": "#1D2440",
+    "cool_sub": "藍",
+    "yellow": "#FDBF5C",
+    "others": [
+     "#F69A0B",
+     "#D43A00",
+     "#9B0800"
+    ],
+    "other_families": [
+     "橘",
+     "珊瑚／橘紅",
+     "紅褐"
+    ],
+    "cool_L": 0.269,
+    "cool_C": 0.053,
+    "cool_H": 271.8,
+    "y_L": 0.843,
+    "y_C": 0.135,
+    "y_H": 76.7,
+    "contrast_cool_yellow": 9.27
+   },
+   {
+    "src": "colourlovers",
+    "id": 494,
+    "colors": [
+     {
+      "hex": "#FFAD08"
+     },
+     {
+      "hex": "#EDD75A"
+     },
+     {
+      "hex": "#73B06F"
+     },
+     {
+      "hex": "#0C8F8F"
+     },
+     {
+      "hex": "#405059"
+     }
+    ],
+    "cool": "#0C8F8F",
+    "cool_sub": "青綠",
+    "yellow": "#FFAD08",
+    "others": [
+     "#73B06F",
+     "#405059"
+    ],
+    "other_families": [
+     "中綠",
+     "中灰"
+    ],
+    "cool_L": 0.589,
+    "cool_C": 0.099,
+    "cool_H": 194.8,
+    "y_L": 0.807,
+    "y_C": 0.169,
+    "y_H": 74.6,
+    "contrast_cool_yellow": 2.1
+   },
+   {
+    "src": "colourlovers",
+    "id": 533,
+    "colors": [
+     {
+      "hex": "#3C515D"
+     },
+     {
+      "hex": "#3D6868"
+     },
+     {
+      "hex": "#40957F"
+     },
+     {
+      "hex": "#A7C686"
+     },
+     {
+      "hex": "#FCEE8C"
+     }
+    ],
+    "cool": "#3C515D",
+    "cool_sub": "藍",
+    "yellow": "#FCEE8C",
+    "others": [
+     "#40957F",
+     "#A7C686"
+    ],
+    "other_families": [
+     "中綠",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.422,
+    "cool_C": 0.033,
+    "cool_H": 233.6,
+    "y_L": 0.94,
+    "y_C": 0.12,
+    "y_H": 101.2,
+    "contrast_cool_yellow": 7.02
+   },
+   {
+    "src": "colourlovers",
+    "id": 574,
+    "colors": [
+     {
+      "hex": "#04394E"
+     },
+     {
+      "hex": "#00875E"
+     },
+     {
+      "hex": "#A7CC15"
+     },
+     {
+      "hex": "#F5CC17"
+     },
+     {
+      "hex": "#F56217"
+     }
+    ],
+    "cool": "#04394E",
+    "cool_sub": "藍",
+    "yellow": "#F5CC17",
+    "others": [
+     "#A7CC15",
+     "#F56217"
+    ],
+    "other_families": [
+     "黃綠／橄欖",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.324,
+    "cool_C": 0.063,
+    "cool_H": 231.3,
+    "y_L": 0.856,
+    "y_C": 0.172,
+    "y_H": 93.8,
+    "contrast_cool_yellow": 7.96
+   },
+   {
+    "src": "colourlovers",
+    "id": 606,
+    "colors": [
+     {
+      "hex": "#22806B"
+     },
+     {
+      "hex": "#A89F1D"
+     },
+     {
+      "hex": "#FACB4B"
+     },
+     {
+      "hex": "#FCAF14"
+     },
+     {
+      "hex": "#ED7615"
+     }
+    ],
+    "cool": "#22806B",
+    "cool_sub": "綠",
+    "yellow": "#FCAF14",
+    "others": [
+     "#A89F1D",
+     "#ED7615"
+    ],
+    "other_families": [
+     "芥末／土黃",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.541,
+    "cool_C": 0.092,
+    "cool_H": 174.3,
+    "y_L": 0.808,
+    "y_C": 0.166,
+    "y_H": 76.3,
+    "contrast_cool_yellow": 2.58
+   },
+   {
+    "src": "colourlovers",
+    "id": 632,
+    "colors": [
+     {
+      "hex": "#001F21"
+     },
+     {
+      "hex": "#029B99"
+     },
+     {
+      "hex": "#EBE7B7"
+     },
+     {
+      "hex": "#DE4F15"
+     },
+     {
+      "hex": "#ECC039"
+     }
+    ],
+    "cool": "#001F21",
+    "cool_sub": "青",
+    "yellow": "#ECC039",
+    "others": [
+     "#029B99",
+     "#EBE7B7",
+     "#DE4F15"
+    ],
+    "other_families": [
+     "中青綠",
+     "白／米白",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.218,
+    "cool_C": 0.037,
+    "cool_H": 200.9,
+    "y_L": 0.825,
+    "y_C": 0.152,
+    "y_H": 89.8,
+    "contrast_cool_yellow": 9.99
+   },
+   {
+    "src": "colourlovers",
+    "id": 640,
+    "colors": [
+     {
+      "hex": "#420B58"
+     },
+     {
+      "hex": "#FC036C"
+     },
+     {
+      "hex": "#F1A20B"
+     },
+     {
+      "hex": "#8D9C09"
+     },
+     {
+      "hex": "#08807B"
+     }
+    ],
+    "cool": "#08807B",
+    "cool_sub": "青綠",
+    "yellow": "#F1A20B",
+    "others": [
+     "#420B58",
+     "#FC036C",
+     "#8D9C09"
+    ],
+    "other_families": [
+     "紫",
+     "紅",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.542,
+    "cool_C": 0.092,
+    "cool_H": 189.9,
+    "y_L": 0.771,
+    "y_C": 0.162,
+    "y_H": 73.8,
+    "contrast_cool_yellow": 2.26
+   },
+   {
+    "src": "colourlovers",
+    "id": 643,
+    "colors": [
+     {
+      "hex": "#CF0638"
+     },
+     {
+      "hex": "#FA6632"
+     },
+     {
+      "hex": "#FECD23"
+     },
+     {
+      "hex": "#0A996F"
+     },
+     {
+      "hex": "#0A6789"
+     }
+    ],
+    "cool": "#0A6789",
+    "cool_sub": "藍",
+    "yellow": "#FECD23",
+    "others": [
+     "#CF0638",
+     "#FA6632",
+     "#0A996F"
+    ],
+    "other_families": [
+     "紅",
+     "珊瑚／橘紅",
+     "中綠"
+    ],
+    "cool_L": 0.482,
+    "cool_C": 0.094,
+    "cool_H": 230.6,
+    "y_L": 0.867,
+    "y_C": 0.171,
+    "y_H": 90.4,
+    "contrast_cool_yellow": 4.22
+   },
+   {
+    "src": "colourlovers",
+    "id": 668,
+    "colors": [
+     {
+      "hex": "#E0BE7E"
+     },
+     {
+      "hex": "#E89D10"
+     },
+     {
+      "hex": "#DB4B23"
+     },
+     {
+      "hex": "#382924"
+     },
+     {
+      "hex": "#136066"
+     }
+    ],
+    "cool": "#136066",
+    "cool_sub": "青",
+    "yellow": "#E89D10",
+    "others": [
+     "#E0BE7E",
+     "#DB4B23",
+     "#382924"
+    ],
+    "other_families": [
+     "黃",
+     "珊瑚／橘紅",
+     "炭黑"
+    ],
+    "cool_L": 0.448,
+    "cool_C": 0.07,
+    "cool_H": 203.0,
+    "y_L": 0.752,
+    "y_C": 0.156,
+    "y_H": 74.2,
+    "contrast_cool_yellow": 3.2
+   },
+   {
+    "src": "colourlovers",
+    "id": 689,
+    "colors": [
+     {
+      "hex": "#FFF7BC"
+     },
+     {
+      "hex": "#FEE78A"
+     },
+     {
+      "hex": "#F8A348"
+     },
+     {
+      "hex": "#E15244"
+     },
+     {
+      "hex": "#3A7B50"
+     }
+    ],
+    "cool": "#3A7B50",
+    "cool_sub": "綠",
+    "yellow": "#FEE78A",
+    "others": [
+     "#FFF7BC",
+     "#F8A348",
+     "#E15244"
+    ],
+    "other_families": [
+     "白／米白",
+     "橘",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.528,
+    "cool_C": 0.096,
+    "cool_H": 152.8,
+    "y_L": 0.927,
+    "y_C": 0.116,
+    "y_H": 95.9,
+    "contrast_cool_yellow": 4.12
+   },
+   {
+    "src": "colourlovers",
+    "id": 700,
+    "colors": [
+     {
+      "hex": "#010D23"
+     },
+     {
+      "hex": "#03223F"
+     },
+     {
+      "hex": "#038BBB"
+     },
+     {
+      "hex": "#FCCB6F"
+     },
+     {
+      "hex": "#E19F41"
+     }
+    ],
+    "cool": "#010D23",
+    "cool_sub": "藍",
+    "yellow": "#E19F41",
+    "others": [],
+    "other_families": [],
+    "cool_L": 0.162,
+    "cool_C": 0.051,
+    "cool_H": 256.6,
+    "y_L": 0.75,
+    "y_C": 0.133,
+    "y_H": 72.5,
+    "contrast_cool_yellow": 8.53
+   },
+   {
+    "src": "colourlovers",
+    "id": 792,
+    "colors": [
+     {
+      "hex": "#17181F"
+     },
+     {
+      "hex": "#314D4A"
+     },
+     {
+      "hex": "#0B8770"
+     },
+     {
+      "hex": "#A6C288"
+     },
+     {
+      "hex": "#EBE68D"
+     }
+    ],
+    "cool": "#314D4A",
+    "cool_sub": "青綠",
+    "yellow": "#EBE68D",
+    "others": [
+     "#17181F",
+     "#A6C288"
+    ],
+    "other_families": [
+     "炭黑",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.397,
+    "cool_C": 0.034,
+    "cool_H": 187.4,
+    "y_L": 0.91,
+    "y_C": 0.111,
+    "y_H": 105.6,
+    "contrast_cool_yellow": 7.09
+   },
+   {
+    "src": "colourlovers",
+    "id": 798,
+    "colors": [
+     {
+      "hex": "#000000"
+     },
+     {
+      "hex": "#7890A8"
+     },
+     {
+      "hex": "#304878"
+     },
+     {
+      "hex": "#181848"
+     },
+     {
+      "hex": "#F0A818"
+     }
+    ],
+    "cool": "#304878",
+    "cool_sub": "藍",
+    "yellow": "#F0A818",
+    "others": [
+     "#000000",
+     "#7890A8",
+     "#181848"
+    ],
+    "other_families": [
+     "炭黑",
+     "中藍",
+     "紫"
+    ],
+    "cool_L": 0.407,
+    "cool_C": 0.086,
+    "cool_H": 263.0,
+    "y_L": 0.781,
+    "y_C": 0.159,
+    "y_H": 76.9,
+    "contrast_cool_yellow": 4.44
+   },
+   {
+    "src": "colourlovers",
+    "id": 822,
+    "colors": [
+     {
+      "hex": "#070743"
+     },
+     {
+      "hex": "#169D99"
+     },
+     {
+      "hex": "#B9CC01"
+     },
+     {
+      "hex": "#FAE894"
+     },
+     {
+      "hex": "#AB0768"
+     }
+    ],
+    "cool": "#070743",
+    "cool_sub": "藍",
+    "yellow": "#FAE894",
+    "others": [
+     "#169D99",
+     "#B9CC01",
+     "#AB0768"
+    ],
+    "other_families": [
+     "中青綠",
+     "黃綠／橄欖",
+     "紅"
+    ],
+    "cool_L": 0.193,
+    "cool_C": 0.107,
+    "cool_H": 270.4,
+    "y_L": 0.927,
+    "y_C": 0.106,
+    "y_H": 97.6,
+    "contrast_cool_yellow": 15.2
+   },
+   {
+    "src": "colourlovers",
+    "id": 845,
+    "colors": [
+     {
+      "hex": "#00686C"
+     },
+     {
+      "hex": "#32C2B9"
+     },
+     {
+      "hex": "#EDECB3"
+     },
+     {
+      "hex": "#FAD928"
+     },
+     {
+      "hex": "#FF9915"
+     }
+    ],
+    "cool": "#00686C",
+    "cool_sub": "青綠",
+    "yellow": "#FAD928",
+    "others": [
+     "#32C2B9",
+     "#EDECB3",
+     "#FF9915"
+    ],
+    "other_families": [
+     "中青綠",
+     "白／米白",
+     "橘"
+    ],
+    "cool_L": 0.47,
+    "cool_C": 0.08,
+    "cool_H": 199.4,
+    "y_L": 0.887,
+    "y_C": 0.175,
+    "y_H": 97.4,
+    "contrast_cool_yellow": 4.7
+   },
+   {
+    "src": "colourlovers",
+    "id": 895,
+    "colors": [
+     {
+      "hex": "#E4B302"
+     },
+     {
+      "hex": "#158FA2"
+     },
+     {
+      "hex": "#DE4F3A"
+     },
+     {
+      "hex": "#722731"
+     },
+     {
+      "hex": "#BD1B43"
+     }
+    ],
+    "cool": "#158FA2",
+    "cool_sub": "青",
+    "yellow": "#E4B302",
+    "others": [
+     "#DE4F3A",
+     "#722731",
+     "#BD1B43"
+    ],
+    "other_families": [
+     "珊瑚／橘紅",
+     "紅",
+     "紅"
+    ],
+    "cool_L": 0.598,
+    "cool_C": 0.1,
+    "cool_H": 211.7,
+    "y_L": 0.789,
+    "y_C": 0.161,
+    "y_H": 88.7,
+    "contrast_cool_yellow": 1.96
+   },
+   {
+    "src": "colourlovers",
+    "id": 955,
+    "colors": [
+     {
+      "hex": "#5B1D99"
+     },
+     {
+      "hex": "#0074B4"
+     },
+     {
+      "hex": "#00B34C"
+     },
+     {
+      "hex": "#FFD41F"
+     },
+     {
+      "hex": "#FC6E3D"
+     }
+    ],
+    "cool": "#0074B4",
+    "cool_sub": "藍",
+    "yellow": "#FFD41F",
+    "others": [
+     "#5B1D99",
+     "#00B34C",
+     "#FC6E3D"
+    ],
+    "other_families": [
+     "紫",
+     "中綠",
+     "珊瑚／橘紅"
+    ],
+    "cool_L": 0.538,
+    "cool_C": 0.132,
+    "cool_H": 243.7,
+    "y_L": 0.881,
+    "y_C": 0.176,
+    "y_H": 93.5,
+    "contrast_cool_yellow": 3.53
+   },
+   {
+    "src": "colourlovers",
+    "id": 966,
+    "colors": [
+     {
+      "hex": "#BD2A33"
+     },
+     {
+      "hex": "#D6AA26"
+     },
+     {
+      "hex": "#93A31C"
+     },
+     {
+      "hex": "#408156"
+     },
+     {
+      "hex": "#30374F"
+     }
+    ],
+    "cool": "#30374F",
+    "cool_sub": "藍",
+    "yellow": "#D6AA26",
+    "others": [
+     "#BD2A33",
+     "#93A31C"
+    ],
+    "other_families": [
+     "紅褐",
+     "黃綠／橄欖"
+    ],
+    "cool_L": 0.341,
+    "cool_C": 0.043,
+    "cool_H": 271.4,
+    "y_L": 0.758,
+    "y_C": 0.145,
+    "y_H": 88.4,
+    "contrast_cool_yellow": 5.4
+   }
+  ]
+ }
+}
