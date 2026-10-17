@@ -332,3 +332,29 @@
 - Southern Water：https://alphabet.com/en-gb/southern-water-case-study
 - Mediafleet：https://www.fleetnews.co.uk/news/latest-news/2018/09/17/poor-livery-can-dent-profitability-says-mediafleet
 - 管清工業：https://www.keidanren.or.jp/journal/monthly/newface/202106a.pdf
+
+---
+
+## 十二、2026-10-17 補充：拿真實標誌量過、看過之後改掉的判斷
+
+完整證據、數字、工具在 `交件/Claude/20261017_LOGO與CIS美感學習/README.md`。這裡只記結論。
+
+1. **一個標誌只放一個想法。** Logo Archive 38 個 1960–80 年代標誌，目視數 33 個只用一個構成方法（重複、旋轉、正負形、一條等寬線），5 個是外框加一個圖形，沒有疊三樣的。Claude 10-11 的三個舊稿各疊三樣。赫爾辛基自來水廠（1971）證明水滴也能用，前提是當形狀做、不當插圖疊。
+2. **外框不幫縮小，只讓剪影跟別人一樣。** simple-icons 1623 個方形標誌：有外框的剪影擁擠度中位數 0.62、沒外框 0.46（差距 95% 區間 0.14～0.17）；16px 保留程度 0.78 對 0.79，沒差。
+3. **細過寬度 1/14 的線，16px 會消失。** 細碎度與 16px 保留程度 Spearman −0.83（2217 個）。做不到就另畫小尺寸版。
+4. **量測只是及格線。** 大師標誌在三項量測都落在一般標誌的中間，不能用數字判斷好不好看。
+5. **車色不改時，靠規則成套。** NASA 1975 p.7.6：保留原車色，淺色車識別用黑、深色車用白，字標大小用字高規定。British Rail 1965：只准四種組合、三個顏色。
+6. **公用事業改版唯一一致的方向是拿掉效果**（飛線、斜體、照片、細線），13 組裡 5 組；圖形去留沒有一致方向。
+7. **自己版面的 AI 感。** 10-11 提案底色正好是 Anthropic frontend-design skill 列為 AI 樣子第一條的 #F4F1EA。以後用白底或實際材質底，不用間隔號串字、不加拉開字距的小標。
+8. **更正：** 先前心裡認為舊稿「圖和字粗細不搭」，量了 British Rail（11 px 對 9 px）和舊稿 A（17 px 對 13 px）比例差不多，這條不成立，不再當理由。
+
+第八節十條自我檢查後面補六條：說得出用哪一個構成方法嗎；拿掉外框站得住嗎；最細線是否低於寬 1/14；量測過了也只代表不會壞；車、招牌、文件規則寫成數字了嗎；展示版面有沒有 AI 樣子。
+
+來源補充：
+- simple-icons 16.35.0：https://registry.npmjs.org/simple-icons （CC0）
+- Logo Archive 專文：https://www.logo-archive.org/articles/repetition-logos 、https://www.logo-archive.org/articles/negative-space-logos
+- NASA 手冊：https://standardsmanual.com/products/nasa-graphics-standards-manual
+- British Rail 手冊重印本：https://www.britishrailmanual.com/
+- Brand New：https://www.underconsideration.com/brandnew/ （15 篇網址見交件資料夾 README 說明）
+- Anthropic frontend-design：https://github.com/anthropics/skills/tree/main/skills/frontend-design
+- rampstack logo-design：https://github.com/rampstackco/claude-skills/tree/main/skills/logo-design
