@@ -1,0 +1,1065 @@
+{
+ "CATS": {
+  "A": "環境服務、廢棄物集團",
+  "W": "水務公司（自來水＋污水）",
+  "B": "清管、疏通、現場服務",
+  "C": "管線修復、工程承包",
+  "D": "管內檢視設備、清淤車輛製造"
+ },
+ "C": [
+  {
+   "key": "Veolia",
+   "name": "Veolia",
+   "cc": "法國",
+   "cat": "A",
+   "url": "https://www.veolia.com/",
+   "biz": "全球水務、廢棄物、能源服務集團。",
+   "logo": [
+    "#E52028"
+   ],
+   "neutral": [],
+   "logo_note": "官網 logo 圖檔讀出 #E52028；官方手冊規定 logo 用紅 #FF0000（兩者差異見第七節）",
+   "web": [
+    "#05C3DD",
+    "#EE0000",
+    "#FF8A00"
+   ],
+   "web_note": "",
+   "id": "紅色雙圓符號加字標，兩者不可分開。2024 年版品牌手冊公開，規定一頁最多兩色，水、廢棄物、能源各配固定顏色的業務圖示。",
+   "tag": "Resourcing the world",
+   "inf": ""
+  },
+  {
+   "key": "SUEZ",
+   "name": "SUEZ",
+   "cc": "法國",
+   "cat": "A",
+   "url": "https://www.suez.com/",
+   "biz": "水務與廢棄物處理集團。",
+   "logo": [
+    "#A2C617",
+    "#1A1D56"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#030F40",
+    "#77B7FC"
+   ],
+   "web_note": "",
+   "id": "黃綠色波浪符號加深藍小寫字標。照片中現場人員穿橘色反光服，背面印白色標誌，白色安全帽也印標誌。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Remondis",
+   "name": "REMONDIS",
+   "cc": "德國",
+   "cat": "A",
+   "url": "https://www.remondis.com/",
+   "biz": "回收、水務、環境服務集團，含下水道清淤服務。",
+   "logo": [
+    "#ED1B29"
+   ],
+   "neutral": [
+    "#231F20"
+   ],
+   "logo_note": "SVG 原檔宣告值；logo 為紅底白字方塊",
+   "web": [],
+   "web_note": "外連 CSS 被擋，未取得網站色",
+   "id": "紅底白字方塊字標，下方標語「IM AUFTRAG DER ZUKUNFT」。照片中作業員統一穿橘／深藍反光服，下水道清淤車為白色車身配紅色標誌。",
+   "tag": "IM AUFTRAG DER ZUKUNFT",
+   "inf": ""
+  },
+  {
+   "key": "Biffa",
+   "name": "Biffa",
+   "cc": "英國",
+   "cat": "A",
+   "url": "https://www.biffa.co.uk/",
+   "biz": "英國廢棄物收運與回收公司。",
+   "logo": [
+    "#E42313"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#051240",
+    "#E42313"
+   ],
+   "web_note": "",
+   "id": "紅色粗體小寫字標。車隊、垃圾箱整面紅色，橘色反光背心背面印紅底白字標誌。網站以深海軍藍 #051240 搭紅色。",
+   "tag": "—",
+   "inf": "車、箱、背心三種載體都用同一個紅，遠看就認得出。"
+  },
+  {
+   "key": "Republic_Services",
+   "name": "Republic Services",
+   "cc": "美國",
+   "cat": "A",
+   "url": "https://www.republicservices.com/",
+   "biz": "美國廢棄物收運、回收、環境服務公司。",
+   "logo": [
+    "#D80025"
+   ],
+   "neutral": [],
+   "logo_note": "只取得反白字版（白字＋紅星），紅星為 #D80025",
+   "web": [
+    "#F44336",
+    "#004A7C",
+    "#D80025",
+    "#05A0E4"
+   ],
+   "web_note": "",
+   "id": "紅色星形符號加斜體字標。車隊與垃圾箱為亮藍色，車身印紅星。人員制服為螢光黃配藍色。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Cleanaway",
+   "name": "Cleanaway",
+   "cc": "澳洲",
+   "cat": "A",
+   "url": "https://www.cleanaway.com.au/",
+   "biz": "澳洲廢棄物、液態廢棄物與工業清洗服務。",
+   "logo": [
+    "#0099D8"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#0085CA",
+    "#00517A",
+    "#78BE20"
+   ],
+   "web_note": "",
+   "id": "淺藍斜體字標。收運車淺藍色，車身大字標加 13 13 39 電話；液態廢棄物槽車也印同一字標。",
+   "tag": "Making a sustainable future possible together",
+   "inf": ""
+  },
+  {
+   "key": "Thames_Water",
+   "name": "Thames Water",
+   "cc": "英國",
+   "cat": "W",
+   "url": "https://www.thameswater.co.uk/",
+   "biz": "倫敦與泰晤士河流域的自來水與污水公司。",
+   "logo": [
+    "#009EDE"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值，只有一色",
+   "web": [
+    "#3A7F1F",
+    "#007BBB"
+   ],
+   "web_note": "網站文字主色為灰藍 #333F48（非彩色，未列）",
+   "id": "圓形徽章 logo，只用一個藍。白色作業廂型車印藍色波浪與標誌，工地用藍色圍籬。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Tideway",
+   "name": "Tideway",
+   "cc": "英國",
+   "cat": "W",
+   "url": "https://www.tideway.london/",
+   "biz": "倫敦泰晤士河超級下水道隧道工程的建設營運公司。",
+   "logo": [
+    "#00B398",
+    "#7CE0D3",
+    "#52BBB3"
+   ],
+   "neutral": [
+    "#5B6770",
+    "#B2B4B2"
+   ],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#00A88F"
+   ],
+   "web_note": "",
+   "id": "波浪條紋符號加灰色字標，名稱和顏色都在呼應河流。工程人員穿橘色／青綠色反光工作服，潛盾機漆青綠色。",
+   "tag": "—",
+   "inf": "把品牌青綠延伸到工作服與大型機具上。"
+  },
+  {
+   "key": "Wessex_Water",
+   "name": "Wessex Water",
+   "cc": "英國",
+   "cat": "W",
+   "url": "https://www.wessexwater.co.uk/",
+   "biz": "英格蘭西南部自來水與污水公司（YTL 集團）。",
+   "logo": [
+    "#249DE3"
+   ],
+   "neutral": [
+    "#A49B94",
+    "#353535"
+   ],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#003663",
+    "#3252A0",
+    "#E41B5B"
+   ],
+   "web_note": "",
+   "id": "灰色字標加藍色建築線條符號，下方標註 YTL GROUP。照片中人員穿橘色反光外套。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Scottish_Water",
+   "name": "Scottish Water",
+   "cc": "英國",
+   "cat": "W",
+   "url": "https://www.scottishwater.co.uk/",
+   "biz": "蘇格蘭公營自來水與污水公司。",
+   "logo": [
+    "#006FBA",
+    "#95CAE7"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出；符號為水杯漸層",
+   "web": [
+    "#1266AE",
+    "#2878C3"
+   ],
+   "web_note": "",
+   "id": "水杯圖形加藍色字標，字標下方小字標語。工地圍籬上的告示板用綠底白字。",
+   "tag": "Trusted to serve Scotland",
+   "inf": "工地告示用綠色，跟 logo 的藍不同，屬於現場標示系統。"
+  },
+  {
+   "key": "Uisce_Eireann",
+   "name": "Uisce Éireann",
+   "cc": "愛爾蘭",
+   "cat": "W",
+   "url": "https://www.water.ie/",
+   "biz": "愛爾蘭國家水務公司（原 Irish Water）。",
+   "logo": [
+    "#0C23C6",
+    "#00B39A",
+    "#7FDFAE"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值＋漸層",
+   "web": [
+    "#0C23C6",
+    "#DD2480",
+    "#4F63AB"
+   ],
+   "web_note": "",
+   "id": "由 UE 字母變形的「水流」符號，藍綠漸層。作業車有品牌塗裝，人員穿品牌藍外套加反光背心，工地告示牌愛爾蘭語、英語並列。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "PUB_Singapore",
+   "name": "PUB",
+   "cc": "新加坡",
+   "cat": "W",
+   "url": "https://www.pub.gov.sg/",
+   "biz": "新加坡國家水務機關。",
+   "logo": [
+    "#21409A",
+    "#009B8F",
+    "#0172BB"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出（白底）",
+   "web": [
+    "#0072BC",
+    "#21409A"
+   ],
+   "web_note": "",
+   "id": "水滴圓形符號加深藍字標，旁附「SINGAPORE'S NATIONAL WATER AGENCY」。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "DC_Water",
+   "name": "DC Water",
+   "cc": "美國",
+   "cat": "W",
+   "url": "https://www.dcwater.com/",
+   "biz": "華盛頓特區自來水與污水機關。",
+   "logo": [
+    "#6BB345",
+    "#0681C5"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#0681C5",
+    "#6BB345"
+   ],
+   "web_note": "",
+   "id": "綠色小寫「dc」加藍色水滴，下方標語「water is life」。",
+   "tag": "water is life",
+   "inf": ""
+  },
+  {
+   "key": "Sydney_Water",
+   "name": "Sydney Water",
+   "cc": "澳洲",
+   "cat": "W",
+   "url": "https://www.sydneywater.com.au/",
+   "biz": "雪梨自來水、污水、再生水與雨水公司。",
+   "logo": [
+    "#00259C",
+    "#29ADCE"
+   ],
+   "neutral": [],
+   "logo_note": "官網 GIF 讀出（白底）",
+   "web": [
+    "#00259B"
+   ],
+   "web_note": "",
+   "id": "深藍字標，「Sydney」用細襯線、「WATER」用粗斜體。活動攤位用品牌色展板與吉祥物。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Watercare",
+   "name": "Watercare",
+   "cc": "紐西蘭",
+   "cat": "W",
+   "url": "https://www.watercare.co.nz/",
+   "biz": "奧克蘭自來水與污水公司。",
+   "logo": [
+    "#001131",
+    "#E61C38",
+    "#5CA246",
+    "#007BC4"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#33699A",
+    "#213D58"
+   ],
+   "web_note": "",
+   "id": "深海軍藍字標加紅、綠、藍三色植物圖形。人員穿橘色反光背心。",
+   "tag": "Caring for Auckland, now and for what comes next",
+   "inf": ""
+  },
+  {
+   "key": "Metawater",
+   "name": "メタウォーター",
+   "cc": "日本",
+   "cat": "W",
+   "url": "https://www.metawater.co.jp/",
+   "biz": "日本上下水道設備與工程公司。",
+   "logo": [
+    "#004697",
+    "#6E9CD0"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#004697",
+    "#6E9CD0"
+   ],
+   "web_note": "",
+   "id": "全大寫字標，「META」深藍、「WATER」淺藍。員工穿藍色制服、白色安全帽。",
+   "tag": "—",
+   "inf": "網站色和 logo 色完全一致。"
+  },
+  {
+   "key": "Dyno-Rod",
+   "name": "Dyno-Rod",
+   "cc": "英國",
+   "cat": "B",
+   "url": "https://www.dyno.com/",
+   "biz": "英國排水疏通與管道服務（加盟）。",
+   "logo": [
+    "#F15A2F"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔，只有一色",
+   "web": [
+    "#F15A2F"
+   ],
+   "web_note": "網站介面另有灰藍 #2E444E",
+   "id": "粗斜體全大寫字標。作業廂型車上半橘色、下半深灰，車身印大字標與電話。官網另有 1960 年代白色 Ford Anglia 舊車照。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Metro_Rod",
+   "name": "Metro Rod",
+   "cc": "英國",
+   "cat": "B",
+   "url": "https://www.metrorod.co.uk/",
+   "biz": "英國排水清淤、CCTV 檢視、管道修復（加盟網）。",
+   "logo": [
+    "#2E1D67",
+    "#2EA836"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#57B14C",
+    "#3A2C6B"
+   ],
+   "web_note": "",
+   "id": "深紫藍字標，「O」做成管口並加綠色斜線。車隊整車綠色，車身印深紫藍字標；反光服背面印字標。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Lanes_Group",
+   "name": "Lanes Group",
+   "cc": "英國",
+   "cat": "B",
+   "url": "https://www.lanesfordrains.co.uk/",
+   "biz": "英國排水、污水、清淤、CCTV 與管道修復。",
+   "logo": [
+    "#E40571"
+   ],
+   "neutral": [
+    "#BCBEC0"
+   ],
+   "logo_note": "取自 Lanes Drainage Services 子網站 logo（SVG 宣告值）",
+   "web": [
+    "#CE0058",
+    "#39B5E1"
+   ],
+   "web_note": "",
+   "id": "洋紅色字標。吸污清洗車與廂型車整車洋紅配白，車身印大字。公司歷史頁稱這個色為 rubine red。",
+   "tag": "—",
+   "inf": "在藍色居多的同業中，洋紅車隊很好認（見第五節）。"
+  },
+  {
+   "key": "Roto-Rooter",
+   "name": "Roto-Rooter",
+   "cc": "美國",
+   "cat": "B",
+   "url": "https://www.rotorooter.com/",
+   "biz": "美國管道疏通與水損清理服務。",
+   "logo": [
+    "#2A1768",
+    "#DA291C"
+   ],
+   "neutral": [],
+   "logo_note": "logo 填色由站方 CSS 決定，以瀏覽器讀出",
+   "web": [
+    "#2A1768",
+    "#DA291C",
+    "#EDB900"
+   ],
+   "web_note": "",
+   "id": "紅色「ROTO-」、深紫藍「ROOTER」的斜體字標，下方深藍波浪。白色廂型車隊印紅藍字標，技師穿藍色條紋制服。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Hydromax_USA",
+   "name": "Hydromax USA",
+   "cc": "美國",
+   "cat": "B",
+   "url": "https://hydromaxusa.com/",
+   "biz": "美國管線檢視、資料分析與修復服務。",
+   "logo": [],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "logo 原檔無彩色；官網上以白色顯示（反白）",
+   "web": [
+    "#0072AE",
+    "#00B2E4",
+    "#FBAA26",
+    "#68BD49"
+   ],
+   "web_note": "",
+   "id": "粗體全大寫字標。白色皮卡車門印字標與 USDOT 號碼，人員戴有標誌的白色安全帽、穿反光背心。",
+   "tag": "understand the present | protect the future",
+   "inf": ""
+  },
+  {
+   "key": "Kanal-Tuerpe",
+   "name": "Kanal-Türpe",
+   "cc": "德國",
+   "cat": "B",
+   "url": "https://kanal-tuerpe.de/",
+   "biz": "德國下水道清淤、檢視、修復服務。",
+   "logo": [
+    "#FA8D02"
+   ],
+   "neutral": [
+    "#1C1C1C"
+   ],
+   "logo_note": "官網 PNG 讀出（logo 含兩名作業員插圖）",
+   "web": [
+    "#EF7F01"
+   ],
+   "web_note": "",
+   "id": "橘底黑字字標加黑白方格。車隊整車橘色；總部大樓外牆有橘色線條，屋頂立橘色大招牌。",
+   "tag": "—",
+   "inf": "車、樓、招牌、工作服全用同一個橘，識別最一致的樣本之一。"
+  },
+  {
+   "key": "Lobbe",
+   "name": "Lobbe",
+   "cc": "德國",
+   "cat": "B",
+   "url": "https://www.lobbe.de/",
+   "biz": "德國工業清洗、環境服務。",
+   "logo": [
+    "#E30613"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#E30613"
+   ],
+   "web_note": "網站另有 #2563EB、#6EC1E4（網站框架預設色，不計）",
+   "id": "紅色粗斜體字標。網站插圖統一用紅白灰等角線稿；清洗機器人機身印紅色字標。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Clancy",
+   "name": "Clancy",
+   "cc": "英國",
+   "cat": "C",
+   "url": "https://www.theclancygroup.co.uk/",
+   "biz": "英國水務、電力基礎設施承包，含管線工程與交通管制。",
+   "logo": [
+    "#D50032",
+    "#97D700"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔讀出（字為白色反白版）",
+   "web": [
+    "#95C11F"
+   ],
+   "web_note": "",
+   "id": "紅、綠兩段弧線組成的「C」符號加字標。白色廂型車印標誌，並與合作水務公司標誌並列；吸挖車為紅色。反光外套背面印標誌。",
+   "tag": "Delivering smarter, greener infrastructure.",
+   "inf": ""
+  },
+  {
+   "key": "Murphy",
+   "name": "J. Murphy & Sons",
+   "cc": "英國",
+   "cat": "C",
+   "url": "https://www.murphygroup.com/",
+   "biz": "英國、愛爾蘭基礎設施工程，含隧道、排水、能源。",
+   "logo": [
+    "#205C42",
+    "#95C120"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#205C42",
+    "#95C11F"
+   ],
+   "web_note": "",
+   "id": "深綠底白色斜體字標，下方黃綠色帶「WORLD-CLASS INFRASTRUCTURE」。車身綠色印大字 MURPHY，人員穿橘色反光服。",
+   "tag": "World-class infrastructure",
+   "inf": ""
+  },
+  {
+   "key": "Kier",
+   "name": "Kier",
+   "cc": "英國",
+   "cat": "C",
+   "url": "https://www.kier.co.uk/",
+   "biz": "英國基礎設施與營建集團。",
+   "logo": [
+    "#DA242A",
+    "#007B86"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#007B86",
+    "#00263A",
+    "#DA242A"
+   ],
+   "web_note": "",
+   "id": "紅色三角加青綠階梯的方形符號，黑色襯線字標。螢光黃背心背面印標誌，白色安全帽也印標誌。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Ventia",
+   "name": "Ventia",
+   "cc": "澳洲",
+   "cat": "C",
+   "url": "https://www.ventia.com/",
+   "biz": "澳紐基礎設施維運服務，含水務、交通、電信。",
+   "logo": [
+    "#004127"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值，只有一色",
+   "web": [
+    "#00994D",
+    "#004825"
+   ],
+   "web_note": "",
+   "id": "深綠小寫字標加 V 形符號。人員穿橘色或螢光黃反光服，胸前印標誌。",
+   "tag": "Together we go further.",
+   "inf": ""
+  },
+  {
+   "key": "Azuria",
+   "name": "Azuria",
+   "cc": "美國",
+   "cat": "C",
+   "url": "https://www.azuria.com/",
+   "biz": "管線修復與水基礎設施集團（原 Aegion），旗下有 Insituform。",
+   "logo": [],
+   "neutral": [],
+   "logo_note": "只取得反白版（白色），彩色版未取得",
+   "web": [
+    "#1D3A6B",
+    "#D26137"
+   ],
+   "web_note": "",
+   "id": "同心圓弧（水紋）符號加小寫字標。2024 年由 Aegion 改名，旗下子公司統一換新標誌。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Insituform",
+   "name": "Insituform",
+   "cc": "美國",
+   "cat": "C",
+   "url": "https://www.azuria.com/insituform",
+   "biz": "CIPP 管內更生工法公司（Azuria 旗下）。",
+   "logo": [
+    "#102E68",
+    "#5096DC"
+   ],
+   "neutral": [],
+   "logo_note": "官網正版 PNG 讀出",
+   "web": [
+    "#1D3A6B",
+    "#D26137"
+   ],
+   "web_note": "與母公司 Azuria 共用網站",
+   "id": "同心圓弧加深藍字標，下方註明「An Azuria Water Solutions Company」。大型白色拖車整面印 logo。",
+   "tag": "—",
+   "inf": "母子品牌共用符號與網站色。"
+  },
+  {
+   "key": "Aarsleff",
+   "name": "Aarsleff",
+   "cc": "丹麥",
+   "cat": "C",
+   "url": "https://www.aarsleff.com/",
+   "biz": "丹麥營建與管線更生集團。",
+   "logo": [
+    "#006CB0"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "官方新聞室正版 PNG 讀出",
+   "web": [
+    "#122459",
+    "#005FAE"
+   ],
+   "web_note": "網站另有少量橘 #F28705（3 次）",
+   "id": "藍色方塊內白色挖土機圖形，下方黑色全大寫字標。現場人員穿橘色反光服。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Interflow",
+   "name": "Interflow",
+   "cc": "澳洲",
+   "cat": "C",
+   "url": "https://www.interflow.com.au/",
+   "biz": "澳洲管線更生、維護服務（SPR 工法授權使用者）。",
+   "logo": [
+    "#009DDC"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "官網 SVG（interflow.svg）讀出",
+   "web": [
+    "#00263E",
+    "#00A3E0",
+    "#FF671F"
+   ],
+   "web_note": "",
+   "id": "粗斜體字標。人員穿橘配深藍的反光工作服。官網首屏是孩子玩水的照片，沒放工程畫面。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Sekisui_SPR",
+   "name": "積水化學 SPR",
+   "cc": "日本",
+   "cat": "C",
+   "url": "https://www.eslontimes.com/product/civil/195/",
+   "biz": "SPR 管內更生工法（積水化學）。",
+   "logo": [
+    "#054A97",
+    "#DA3B49"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 原檔宣告值（積水化學企業標誌）",
+   "web": [
+    "#004EA2",
+    "#DA3B49"
+   ],
+   "web_note": "",
+   "id": "SPR 工法沒有獨立品牌網站，用積水化學的企業識別：藍色全大寫字標加一個紅點。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Kansei_Pipe",
+   "name": "管清工業",
+   "cc": "日本",
+   "cat": "C",
+   "url": "https://www.kansei-pipe.co.jp/",
+   "biz": "日本下水道清淤、檢視、修復。",
+   "logo": [
+    "#0059A6"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "SVG 原檔宣告值",
+   "web": [
+    "#1E53B1"
+   ],
+   "web_note": "",
+   "id": "圓形「C」符號加藍色字標，只用一個藍。作業人員淺藍制服、黃色 X 型反光背帶。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Toa_Grout",
+   "name": "東亜グラウト工業",
+   "cc": "日本",
+   "cat": "C",
+   "url": "https://www.toa-g.co.jp/",
+   "biz": "日本管路更生、地盤改良工程。",
+   "logo": [],
+   "neutral": [],
+   "logo_note": "logo 原檔為白色反白版，看不出品牌色",
+   "web": [],
+   "web_note": "網站色碼與 WordPress Twenty Thirteen 佈景主題預設色相同，不列",
+   "id": "官網照片多為暗色調的管內施工實景，人員戴安全帽、頭燈。",
+   "tag": "インフラ整備のパイオニア",
+   "inf": ""
+  },
+  {
+   "key": "Nippon_Hume",
+   "name": "日本ヒューム",
+   "cc": "日本",
+   "cat": "C",
+   "url": "https://www.nipponhume.co.jp/",
+   "biz": "日本混凝土管材與下水道製品。",
+   "logo": [
+    "#535CA8",
+    "#39B9A6"
+   ],
+   "neutral": [
+    "#231815"
+   ],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#555FAA",
+    "#38BEAA"
+   ],
+   "web_note": "",
+   "id": "直立幾何符號（藍紫＋青綠）加字標。展覽攤位白底配藍紫色帶。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "NJS",
+   "name": "日本水工設計",
+   "cc": "日本",
+   "cat": "C",
+   "url": "https://www.n-suiko.co.jp/",
+   "biz": "日本上下水道、河川、廢棄物顧問設計。",
+   "logo": [
+    "#004EA2"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "官網 PNG 讀出；圓形符號為藍色漸層（約 #004EA2–#022064）",
+   "web": [
+    "#004FA5",
+    "#4BA2D8"
+   ],
+   "web_note": "",
+   "id": "藍色地球圓形符號（NSS）加黑色漢字字標。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "IBAK",
+   "name": "IBAK",
+   "cc": "德國",
+   "cat": "D",
+   "url": "https://www.ibak.de/",
+   "biz": "德國管內 CCTV 檢視設備製造。",
+   "logo": [],
+   "neutral": [],
+   "logo_note": "logo 原檔為白色反白版",
+   "web": [
+    "#283659",
+    "#F6B600",
+    "#F68E00"
+   ],
+   "web_note": "",
+   "id": "粗體全大寫字標。白色檢視車停放時擺紅白交通錐，人員穿螢光黃工作服；推桿式設備為黃色。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "iPEK",
+   "name": "iPEK",
+   "cc": "奧地利",
+   "cat": "D",
+   "url": "https://ipek.at/",
+   "biz": "管內檢視系統製造（IDEX 集團）。",
+   "logo": [
+    "#DF322A"
+   ],
+   "neutral": [
+    "#000000",
+    "#99999A"
+   ],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#DE3428"
+   ],
+   "web_note": "",
+   "id": "紅黑灰三個相連圓環加字標。官網的檢視車塗裝圖為橘白斜切；現場人員穿橘色連身工作服。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Rausch",
+   "name": "RAUSCH",
+   "cc": "德國",
+   "cat": "D",
+   "url": "https://www.rausch.international/",
+   "biz": "德國管內檢視攝影設備製造。",
+   "logo": [],
+   "neutral": [],
+   "logo_note": "集團站 logo 為白色反白版",
+   "web": [
+    "#00652E"
+   ],
+   "web_note": "網站色取自美國子公司站 rauschusa.com",
+   "id": "照片均為產品與檢視車內部；鏡頭金色外殼是產品特徵，檢視車內牆印網址。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Mini-Cam",
+   "name": "Mini-Cam",
+   "cc": "英國",
+   "cat": "D",
+   "url": "https://www.minicam.co.uk/",
+   "biz": "英國管內檢視攝影設備製造（Halma 集團）。",
+   "logo": [
+    "#EC672C",
+    "#FAB500"
+   ],
+   "neutral": [
+    "#1D1D1B"
+   ],
+   "logo_note": "SVG 原檔宣告值；符號為黃到橘的漸層",
+   "web": [],
+   "web_note": "網站 CSS 的彩色為 WordPress 預設色盤，不列",
+   "id": "光圈形符號加黑色小寫字標。產品本身（電纜捲盤、箱子）都是橘色，產品照背景用深綠。",
+   "tag": "—",
+   "inf": "把品牌色直接用在產品外殼，產品就是識別。"
+  },
+  {
+   "key": "CUES",
+   "name": "CUES",
+   "cc": "美國",
+   "cat": "D",
+   "url": "https://cuesinc.com/",
+   "biz": "美國管內檢視設備與檢視車製造。",
+   "logo": [
+    "#008CCF",
+    "#005F9F"
+   ],
+   "neutral": [],
+   "logo_note": "SVG 內嵌點陣圖讀出",
+   "web": [
+    "#00AEEF",
+    "#027B99"
+   ],
+   "web_note": "",
+   "id": "字標旁有管口造型符號。總部屋頂與入口用藍色，牆面立體字標。",
+   "tag": "Go The Distance",
+   "inf": ""
+  },
+  {
+   "key": "Envirosight",
+   "name": "Envirosight",
+   "cc": "美國",
+   "cat": "D",
+   "url": "https://envirosight.com/",
+   "biz": "美國管內檢視設備製造。",
+   "logo": [
+    "#68B745"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "SVG 原檔宣告值（深色字版）",
+   "web": [
+    "#68B745"
+   ],
+   "web_note": "",
+   "id": "綠色 V 形符號加粗體字標。產品照多用深綠或黑底。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "RedZone_Robotics",
+   "name": "RedZone Robotics",
+   "cc": "美國",
+   "cat": "D",
+   "url": "https://redzone.com/",
+   "biz": "美國管線檢視機器人與資料服務。",
+   "logo": [
+    "#E62027"
+   ],
+   "neutral": [
+    "#000000"
+   ],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#121961",
+    "#C02B0A"
+   ],
+   "web_note": "",
+   "id": "紅黑圓形符號加字標。白色皮卡車門印標誌，螢光黃背心胸前印紅色標誌。",
+   "tag": "Better Data. Faster.",
+   "inf": ""
+  },
+  {
+   "key": "Vactor",
+   "name": "Vactor",
+   "cc": "美國",
+   "cat": "D",
+   "url": "https://www.vactor.com/",
+   "biz": "美國組合式下水道清洗車製造。",
+   "logo": [
+    "#00A1DC"
+   ],
+   "neutral": [],
+   "logo_note": "官網彩色版 PNG 讀出",
+   "web": [
+    "#00A1DC"
+   ],
+   "web_note": "",
+   "id": "青藍色襯線字標。產品車多為白色車頭配深藍罐體，罐體印大字標與型號。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Rioned",
+   "name": "Rioned",
+   "cc": "荷蘭",
+   "cat": "D",
+   "url": "https://www.rioned.com/",
+   "biz": "荷蘭高壓清洗設備與檢視系統製造。",
+   "logo": [
+    "#002F6C"
+   ],
+   "neutral": [],
+   "logo_note": "填色由站方 CSS 決定，以瀏覽器讀出",
+   "web": [
+    "#002F6C",
+    "#AF272F",
+    "#FFB81C"
+   ],
+   "web_note": "",
+   "id": "深藍粗體字標，句尾加句點。廂型車與拖車式清洗機都漆深藍，車身印大字。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Kaiser",
+   "name": "KAISER",
+   "cc": "列支敦斯登",
+   "cat": "D",
+   "url": "https://www.kaiser.li/",
+   "biz": "下水道清洗車、工業吸污車與步行式挖掘機製造。",
+   "logo": [
+    "#004186"
+   ],
+   "neutral": [],
+   "logo_note": "官網 PNG 讀出",
+   "web": [
+    "#004186"
+   ],
+   "web_note": "",
+   "id": "深藍皇冠圓形符號加字標。清洗車為藍色車頭配灰藍罐體；員工穿深藍工作服。",
+   "tag": "—",
+   "inf": ""
+  },
+  {
+   "key": "Jurop",
+   "name": "Jurop",
+   "cc": "義大利",
+   "cat": "D",
+   "url": "https://www.jurop.it/",
+   "biz": "義大利吸污車、組合式清洗車上裝製造。",
+   "logo": [
+    "#005EB8"
+   ],
+   "neutral": [
+    "#7A7B7D"
+   ],
+   "logo_note": "官網 PNG 讀出",
+   "web": [],
+   "web_note": "網站 CSS 彩色極少，不列",
+   "id": "藍色小寫粗體字標。車體多為不鏽鋼本色，罐體印藍色字標；車頭顏色依客戶而異。",
+   "tag": "—",
+   "inf": "上裝製造商，車身主色由客戶決定，品牌只出現在罐體字標。"
+  },
+  {
+   "key": "Cappellotto",
+   "name": "Cappellotto",
+   "cc": "義大利",
+   "cat": "D",
+   "url": "https://www.cappellotto.com/",
+   "biz": "義大利吸污車、組合式清洗車製造。",
+   "logo": [],
+   "neutral": [],
+   "logo_note": "logo 原檔為白色反白版",
+   "web": [
+    "#A91B24"
+   ],
+   "web_note": "",
+   "id": "吸污清洗車多為不鏽鋼車身，車側印字樣；工廠牆面為紅色全大寫字標。",
+   "tag": "—",
+   "inf": ""
+  }
+ ],
+ "MISSING": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ]
+}

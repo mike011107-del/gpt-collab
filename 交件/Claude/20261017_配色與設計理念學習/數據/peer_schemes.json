@@ -1,0 +1,435 @@
+[
+ {
+  "t": "一個彩色",
+  "name": "Veolia",
+  "cols": [
+   "#E52028"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色對比",
+  "name": "SUEZ",
+  "cols": [
+   "#A2C617",
+   "#1A1D56"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "REMONDIS",
+  "cols": [
+   "#ED1B29"
+  ],
+  "neutral": [
+   "#231F20"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Biffa",
+  "cols": [
+   "#E42313"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Republic Services",
+  "cols": [
+   "#D80025"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Cleanaway",
+  "cols": [
+   "#0099D8"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Thames Water",
+  "cols": [
+   "#009EDE"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "三色以上",
+  "name": "Tideway",
+  "cols": [
+   "#00B398",
+   "#7CE0D3",
+   "#52BBB3"
+  ],
+  "neutral": [
+   "#5B6770",
+   "#B2B4B2"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Wessex Water",
+  "cols": [
+   "#249DE3"
+  ],
+  "neutral": [
+   "#A49B94",
+   "#353535"
+  ]
+ },
+ {
+  "t": "兩色同色系",
+  "name": "Scottish Water",
+  "cols": [
+   "#006FBA",
+   "#95CAE7"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "三色以上",
+  "name": "Uisce Éireann",
+  "cols": [
+   "#0C23C6",
+   "#00B39A",
+   "#7FDFAE"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "三色以上",
+  "name": "PUB",
+  "cols": [
+   "#21409A",
+   "#009B8F",
+   "#0172BB"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色對比",
+  "name": "DC Water",
+  "cols": [
+   "#6BB345",
+   "#0681C5"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色相鄰",
+  "name": "Sydney Water",
+  "cols": [
+   "#00259C",
+   "#29ADCE"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "三色以上",
+  "name": "Watercare",
+  "cols": [
+   "#001131",
+   "#E61C38",
+   "#5CA246",
+   "#007BC4"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色同色系",
+  "name": "メタウォーター",
+  "cols": [
+   "#004697",
+   "#6E9CD0"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Dyno-Rod",
+  "cols": [
+   "#F15A2F"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色對比",
+  "name": "Metro Rod",
+  "cols": [
+   "#2E1D67",
+   "#2EA836"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Lanes Group",
+  "cols": [
+   "#E40571"
+  ],
+  "neutral": [
+   "#BCBEC0"
+  ]
+ },
+ {
+  "t": "兩色對比",
+  "name": "Roto-Rooter",
+  "cols": [
+   "#2A1768",
+   "#DA291C"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "只有黑白灰",
+  "name": "Hydromax USA",
+  "cols": [],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Kanal-Türpe",
+  "cols": [
+   "#FA8D02"
+  ],
+  "neutral": [
+   "#1C1C1C"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Lobbe",
+  "cols": [
+   "#E30613"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色對比",
+  "name": "Clancy",
+  "cols": [
+   "#D50032",
+   "#97D700"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色同色系",
+  "name": "J. Murphy & Sons",
+  "cols": [
+   "#205C42",
+   "#95C120"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "兩色對比",
+  "name": "Kier",
+  "cols": [
+   "#DA242A",
+   "#007B86"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Ventia",
+  "cols": [
+   "#004127"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "只有黑白灰",
+  "name": "Azuria",
+  "cols": [],
+  "neutral": []
+ },
+ {
+  "t": "兩色同色系",
+  "name": "Insituform",
+  "cols": [
+   "#102E68",
+   "#5096DC"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Aarsleff",
+  "cols": [
+   "#006CB0"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Interflow",
+  "cols": [
+   "#009DDC"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "兩色對比",
+  "name": "積水化學 SPR",
+  "cols": [
+   "#054A97",
+   "#DA3B49"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "管清工業",
+  "cols": [
+   "#0059A6"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "只有黑白灰",
+  "name": "東亜グラウト工業",
+  "cols": [],
+  "neutral": []
+ },
+ {
+  "t": "兩色對比",
+  "name": "日本ヒューム",
+  "cols": [
+   "#535CA8",
+   "#39B9A6"
+  ],
+  "neutral": [
+   "#231815"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "日本水工設計",
+  "cols": [
+   "#004EA2"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "只有黑白灰",
+  "name": "IBAK",
+  "cols": [],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "iPEK",
+  "cols": [
+   "#DF322A"
+  ],
+  "neutral": [
+   "#000000",
+   "#99999A"
+  ]
+ },
+ {
+  "t": "只有黑白灰",
+  "name": "RAUSCH",
+  "cols": [],
+  "neutral": []
+ },
+ {
+  "t": "兩色同色系",
+  "name": "Mini-Cam",
+  "cols": [
+   "#EC672C",
+   "#FAB500"
+  ],
+  "neutral": [
+   "#1D1D1B"
+  ]
+ },
+ {
+  "t": "兩色同色系",
+  "name": "CUES",
+  "cols": [
+   "#008CCF",
+   "#005F9F"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Envirosight",
+  "cols": [
+   "#68B745"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "RedZone Robotics",
+  "cols": [
+   "#E62027"
+  ],
+  "neutral": [
+   "#000000"
+  ]
+ },
+ {
+  "t": "一個彩色",
+  "name": "Vactor",
+  "cols": [
+   "#00A1DC"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Rioned",
+  "cols": [
+   "#002F6C"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "KAISER",
+  "cols": [
+   "#004186"
+  ],
+  "neutral": []
+ },
+ {
+  "t": "一個彩色",
+  "name": "Jurop",
+  "cols": [
+   "#005EB8"
+  ],
+  "neutral": [
+   "#7A7B7D"
+  ]
+ },
+ {
+  "t": "只有黑白灰",
+  "name": "Cappellotto",
+  "cols": [],
+  "neutral": []
+ }
+]
