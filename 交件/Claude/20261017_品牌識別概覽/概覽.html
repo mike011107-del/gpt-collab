@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>崧淳品牌識別概覽</title>
+<style>
+/* 字型：Noto Sans TC（.claude/cloud-setup.sh 會安裝） */
+@font-face{font-family:NS;src:local("Noto Sans TC"),url(file:///root/.local/share/fonts/NotoSansTC-wght.ttf);font-weight:100 900}
+:root{
+  --primary:#333D66; --amber:#D58401; --mist:#B6C5DF; --ink:#1B1F29; --white:#FFFFFF;
+  --page:#F1F3F8; --line:#DFE3EB; --sub:#565D6B;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{background:var(--page);font-family:NS,sans-serif;color:var(--ink);position:relative;font-feature-settings:"palt" 0}
+.num{font-variant-numeric:tabular-nums}
+
+/* 頁首 */
+header{position:absolute;left:48px;right:48px;top:34px;height:80px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:18px}
+.brand svg{width:60px;height:60px;color:var(--primary)}
+.brand .co{font-size:18px;font-weight:500;color:var(--sub);letter-spacing:.06em}
+.brand h1{font-size:36px;font-weight:700;color:var(--primary);letter-spacing:.08em;line-height:1.25}
+.meta{text-align:right}
+.meta .ind{font-size:20px;font-weight:500;color:var(--ink);letter-spacing:.04em}
+.meta .st{font-size:15px;color:var(--sub);margin-top:6px;letter-spacing:.06em}
+
+/* 卡片 */
+.card{position:absolute;background:var(--white);border:1px solid var(--line);border-radius:28px;padding:28px 32px}
+.ttl{display:flex;align-items:center;gap:12px;font-size:19px;font-weight:700;color:var(--ink);letter-spacing:.06em;height:28px}
+.ttl i{display:block;width:26px;height:5px;background:var(--amber);border-radius:0}
+.ttl em{font-style:normal;color:var(--primary);font-weight:600}
+.ttl small{font-size:14px;font-weight:400;color:var(--sub);letter-spacing:.04em;margin-left:4px}
+
+/* 01 標誌 */
+#logo{left:48px;top:132px;width:760px;height:433px}
+.lockwrap{position:absolute;left:32px;top:76px;width:470px;height:330px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.lock{display:flex;align-items:center;gap:26px}
+.lock svg{width:150px;height:150px;color:var(--primary)}
+.lock b{font-size:116px;font-weight:700;letter-spacing:.055em;color:var(--primary);line-height:1;margin-right:-.055em}
+.full{margin-top:22px;font-size:29px;font-weight:500;letter-spacing:.075em;color:var(--ink);margin-right:-.075em}
+.slogan{margin-top:16px;font-size:21px;font-weight:500;color:var(--primary);letter-spacing:.14em;margin-right:-.14em}
+.tiles{position:absolute;right:32px;top:76px;width:208px;display:flex;flex-direction:column;gap:14px}
+.tile{border-radius:18px;height:128px;display:flex;align-items:center;justify-content:center;gap:12px}
+.tile.inv{background:var(--primary)}
+.tile.inv svg{width:64px;height:64px;color:#fff}
+.tile.inv b{font-size:44px;font-weight:700;color:#fff;letter-spacing:.05em}
+.tile.mono{border:1px solid var(--line);align-items:flex-end;padding-bottom:30px;gap:16px}
+.tile.mono svg{color:var(--ink)}
+.tlab{font-size:14px;color:var(--sub);letter-spacing:.06em;margin:-6px 0 0 4px}
+
+/* 02 色彩 */
+#palette{left:832px;top:132px;width:1040px;height:433px}
+.sw{position:absolute;top:76px;width:179px}
+.blk{height:130px;border-radius:18px;position:relative;padding:16px 16px}
+.blk b{font-size:34px;font-weight:700;letter-spacing:.05em;line-height:1}
+.blk span{position:absolute;left:16px;bottom:13px;font-size:14px;font-weight:500;letter-spacing:.02em}
+.sw h3{margin-top:14px;font-size:19px;font-weight:700;letter-spacing:.06em}
+.sw .hex{margin-top:4px;font-size:18px;font-weight:600;letter-spacing:.04em}
+.sw .rgb{margin-top:2px;font-size:14px;color:var(--sub)}
+.sw p{margin-top:6px;font-size:14px;line-height:1.45;color:var(--ink)}
+.grad{position:absolute;left:32px;right:32px;top:346px}
+.grad .gl{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--sub)}
+.grad .gl .ttl{font-size:16px;height:auto}
+.grad .bar{margin-top:9px;height:26px;border-radius:13px;background:linear-gradient(90deg in oklab,#1B1F29 0%,#333D66 38%,#B6C5DF 100%)}
+
+/* 03 字體 */
+#font{left:48px;top:589px;width:420px;height:433px}
+.fbig{margin-top:20px;display:flex;align-items:baseline;gap:20px;white-space:nowrap}
+.fbig b{font-size:92px;font-weight:700;color:var(--primary);letter-spacing:.04em;line-height:1}
+.fbig span{font-size:40px;font-weight:400;color:var(--ink);letter-spacing:.02em}
+.fname{margin-top:16px;font-size:20px;font-weight:700;letter-spacing:.04em}
+.fname span{font-weight:400;color:var(--sub);font-size:16px;margin-left:8px}
+.fw{margin-top:12px;border-top:1px solid var(--line);padding-top:11px}
+.fw .k{font-size:13px;color:var(--sub);letter-spacing:.06em}
+.fw .s{margin-top:3px;font-size:21px;color:var(--ink);letter-spacing:.04em}
+.lic{position:absolute;left:32px;bottom:22px;font-size:13px;color:var(--sub);letter-spacing:.03em}
+
+/* 05 圖示 */
+#icons{left:492px;top:589px;width:520px;height:433px}
+.grp{position:absolute;left:32px;right:32px}
+.grp h4{font-size:17px;font-weight:700;color:var(--primary);letter-spacing:.2em}
+.ics{display:flex;margin-top:12px}
+.ic{width:152px;display:flex;flex-direction:column;align-items:center}
+.ic svg{width:62px;height:62px;color:var(--primary)}
+.ic span{margin-top:9px;font-size:15px;font-weight:500;letter-spacing:.06em}
+
+/* 06 插圖 */
+#illu{left:1036px;top:589px;width:452px;height:433px}
+#illu svg.scene{position:absolute;left:26px;top:72px;width:400px;height:300px}
+.cap{position:absolute;left:32px;right:32px;bottom:22px;font-size:14px;color:var(--sub);letter-spacing:.05em;text-align:center}
+
+/* 07 版面 */
+#layout{left:1512px;top:589px;width:360px;height:433px}
+.mock{position:absolute;left:32px;top:74px}
+.a4{position:absolute;left:0;top:0;width:128px;height:181px;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff}
+.a4 .hd{position:absolute;left:12px;top:12px;display:flex;align-items:center;gap:5px}
+.a4 .hd svg{width:16px;height:16px;color:var(--primary)}
+.a4 .hd b{font-size:11px;font-weight:700;color:var(--primary);letter-spacing:.05em}
+.a4 .t{position:absolute;left:12px;top:66px;font-size:12.5px;font-weight:700;color:var(--primary);line-height:1.35;letter-spacing:.02em}
+.a4 .u{position:absolute;left:12px;top:107px;width:30px;height:3px;background:var(--amber)}
+.a4 .ft{position:absolute;left:0;right:0;bottom:0;height:22px;background:var(--primary)}
+.bc{position:absolute;width:148px;height:89px;border-radius:6px}
+.bc.f{left:148px;top:0;border:1px solid var(--line);background:#fff}
+.bc.f .m{position:absolute;left:12px;top:12px;display:flex;align-items:center;gap:6px}
+.bc.f svg{width:22px;height:22px;color:var(--primary)}
+.bc.f b{font-size:15px;font-weight:700;color:var(--primary);letter-spacing:.05em}
+.bc.f .u{position:absolute;left:12px;bottom:14px;width:26px;height:3px;background:var(--amber)}
+.bc.b{left:148px;top:100px;background:var(--primary);display:flex;align-items:center;justify-content:center}
+.bc.b svg{width:40px;height:40px;color:#fff}
+.rules{position:absolute;left:32px;right:24px;top:282px;font-size:15px;line-height:1.5;color:var(--ink)}
+.rules li{list-style:none;padding-left:16px;position:relative;margin-bottom:8px}
+.rules li::before{content:"";position:absolute;left:0;top:10px;width:8px;height:3px;background:var(--amber)}
+
+footer{position:absolute;left:48px;right:48px;top:1036px;font-size:14px;color:var(--sub);letter-spacing:.03em;display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+
+<!-- 標誌：圓框＋山尖穿出＋工程黃線。currentColor = 主色或反白色 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+  <mask id="gap"><rect x="-10" y="-20" width="220" height="240" fill="#fff"/><polygon points="100,-6 168,124 32,124" fill="#000"/></mask>
+  <clipPath id="inner"><circle cx="100" cy="106" r="77"/></clipPath>
+  <clipPath id="innerInv"><circle cx="100" cy="106" r="77.5"/></clipPath>
+  <symbol id="mark" viewBox="0 0 200 200">
+    <circle cx="100" cy="106" r="84" fill="none" stroke="currentColor" stroke-width="14" mask="url(#gap)"/>
+    <polygon points="100,8 160,124 40,124" fill="currentColor"/>
+    <rect x="0" y="124" width="200" height="15" fill="#D58401" clip-path="url(#inner)"/>
+  </symbol>
+  <!-- 反白版：圓框修細一點（白在深底看起來較粗） -->
+  <symbol id="markInv" viewBox="0 0 200 200">
+    <circle cx="100" cy="106" r="84" fill="none" stroke="currentColor" stroke-width="13" mask="url(#gap)"/>
+    <polygon points="100,9.5 159,124 41,124" fill="currentColor"/>
+    <rect x="0" y="124" width="200" height="15" fill="#D58401" clip-path="url(#innerInv)"/>
+  </symbol>
+  <!-- 單色版：線與山之間留空，避免黏成一塊 -->
+  <symbol id="markMono" viewBox="0 0 200 200">
+    <circle cx="100" cy="106" r="84" fill="none" stroke="currentColor" stroke-width="14" mask="url(#gap)"/>
+    <polygon points="100,8 160,124 40,124" fill="currentColor"/>
+    <rect x="0" y="131" width="200" height="13" fill="currentColor" clip-path="url(#inner)"/>
+  </symbol>
+</defs>
+</svg>
+
+<header>
+  <div class="brand">
+    <svg><use href="#mark"/></svg>
+    <div><div class="co">崧淳環保科技股份有限公司</div><h1>品牌識別概覽</h1></div>
+  </div>
+  <div class="meta">
+    <div class="ind">污水下水道清淤及CCTV檢視工程</div>
+    <div class="st">草案　2026.10.17</div>
+  </div>
+</header>
+
+<!-- 01 標誌 -->
+<section class="card" id="logo">
+  <div class="ttl"><i></i><em>01</em>標誌<small>示意稿</small></div>
+  <div class="lockwrap">
+    <div class="lock"><svg><use href="#mark"/></svg><b>崧淳</b></div>
+    <div class="full">崧淳環保科技股份有限公司</div>
+    <div class="slogan">崧高看標準，淳深下功夫</div>
+  </div>
+  <div class="tiles">
+    <div class="tile inv"><svg><use href="#markInv"/></svg><b>崧淳</b></div>
+    <div class="tlab">反白</div>
+    <div class="tile mono">
+      <svg width="56" height="56"><use href="#markMono"/></svg>
+      <svg width="32" height="32"><use href="#markMono"/></svg>
+      <svg width="18" height="18"><use href="#markMono"/></svg>
+    </div>
+    <div class="tlab">單色・縮小</div>
+  </div>
+</section>
+
+<!-- 02 色彩 -->
+<section class="card" id="palette">
+  <div class="ttl"><i></i><em>02</em>色彩<small>主色冷色系・輔色工程黃</small></div>
+
+  <div class="sw" style="left:32px">
+    <div class="blk" style="background:#333D66"><b style="color:#fff">崧淳</b><span class="num" style="color:#fff">白字 10.5 : 1</span></div>
+    <h3>主色・靛藍</h3><div class="hex num">#333D66</div><div class="rgb num">RGB 51 61 102</div>
+    <p>標誌、標題、大色塊</p>
+  </div>
+  <div class="sw" style="left:231px">
+    <div class="blk" style="background:#D58401"><b style="color:#1B1F29">崧淳</b><span class="num" style="color:#1B1F29">深墨字 5.6 : 1</span></div>
+    <h3>輔色・工程黃</h3><div class="hex num">#D58401</div><div class="rgb num">RGB 213 132 1</div>
+    <p>標誌線、重點標示</p>
+  </div>
+  <div class="sw" style="left:430px">
+    <div class="blk" style="background:#B6C5DF"><b style="color:#333D66">崧淳</b><span class="num" style="color:#333D66">靛藍字 6.0 : 1</span></div>
+    <h3>第三色・淺灰藍</h3><div class="hex num">#B6C5DF</div><div class="rgb num">RGB 182 197 223</div>
+    <p>插圖、底色、分隔</p>
+  </div>
+  <div class="sw" style="left:629px">
+    <div class="blk" style="background:#1B1F29"><b style="color:#fff">崧淳</b><span class="num" style="color:#fff">白字 16.5 : 1</span></div>
+    <h3>深墨</h3><div class="hex num">#1B1F29</div><div class="rgb num">RGB 27 31 41</div>
+    <p>內文、表格</p>
+  </div>
+  <div class="sw" style="left:828px">
+    <div class="blk" style="background:#fff;border:1px solid var(--line)"><b style="color:#333D66">崧淳</b><span class="num" style="color:#333D66">靛藍字 10.5 : 1</span></div>
+    <h3>白</h3><div class="hex num">#FFFFFF</div><div class="rgb num">RGB 255 255 255</div>
+    <p>主要底色</p>
+  </div>
+
+  <div class="grad">
+    <div class="gl"><div class="ttl"><i></i><em>04</em>漸層<small>選用</small></div><div class="num">#1B1F29 → #333D66 → #B6C5DF</div></div>
+    <div class="bar"></div>
+  </div>
+</section>
+
+<!-- 03 字體 -->
+<section class="card" id="font">
+  <div class="ttl"><i></i><em>03</em>字體</div>
+  <div class="fbig"><b>崧淳</b><span>Aa 123</span></div>
+  <div class="fname">Noto Sans TC<span>思源黑體</span></div>
+  <div class="fw"><div class="k">粗體 700｜標誌字、標題</div><div class="s" style="font-weight:700;color:var(--primary)">崧高看標準，淳深下功夫</div></div>
+  <div class="fw"><div class="k">常規 400｜內文、報告</div><div class="s" style="font-weight:400">污水下水道清淤及CCTV檢視</div></div>
+  <div class="lic">開源字型，SIL OFL 1.1 授權</div>
+</section>
+
+<!-- 05 圖示 -->
+<section class="card" id="icons">
+  <div class="ttl"><i></i><em>05</em>圖示</div>
+  <div class="grp" style="top:76px">
+    <h4>崧高看標準</h4>
+    <div class="ics">
+      <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9H45M3 39H45"/><rect x="10" y="20" width="18" height="11" rx="2.5"/>
+        <circle cx="14.5" cy="34" r="2.6"/><circle cx="23.5" cy="34" r="2.6"/><path d="M10 25.5H4"/>
+        <circle cx="32.5" cy="25.5" r="3.4" stroke="#D58401"/><path d="M38 21.5L44 18.5M38 29.5L44 32.5" stroke="#D58401"/>
+      </svg><span>CCTV檢視</span></div>
+      <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="20" cy="20" r="12.5"/><path d="M29.5 29.5L42 42"/>
+        <path d="M12.5 17L17.5 22.5L21 18L27 24" stroke="#D58401"/>
+      </svg><span>缺陷判讀</span></div>
+      <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5H29L37 13V43H12Z"/><path d="M29 5V13H37"/>
+        <path d="M20.5 19V29L28.5 24Z" stroke="#D58401"/><path d="M18 36H31"/>
+      </svg><span>檢視報告</span></div>
+    </div>
+  </div>
+  <div class="grp" style="top:250px">
+    <h4>淳深下功夫</h4>
+    <div class="ics">
+      <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="24" cy="10.5" rx="16" ry="5" stroke="#D58401"/>
+        <path d="M18 15.1V44M30 15.1V44"/><path d="M18 23H30M18 31H30M18 39H30"/>
+      </svg><span>人孔作業</span></div>
+      <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 32C10 32 11 24 17 24"/><path d="M17 19H25L30 24L25 29H17Z"/>
+        <path d="M35 24H44M34 18L42 13M34 30L42 35" stroke="#D58401"/>
+      </svg><span>高壓沖洗</span></div>
+      <div class="ic"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 4V27M30 4V27"/><path d="M24 23V9M19.5 13.5L24 9L28.5 13.5"/>
+        <path d="M6 43C12 33 36 33 42 43Z" stroke="#D58401"/>
+      </svg><span>清淤抽吸</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 插圖 -->
+<section class="card" id="illu">
+  <div class="ttl"><i></i><em>06</em>插圖</div>
+  <svg class="scene" viewBox="0 0 400 300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 地面上：山 -->
+    <polygon points="168,148 262,62 356,148" fill="#B6C5DF"/>
+    <polygon points="44,148 142,22 240,148" fill="#333D66"/>
+    <!-- 地面線 -->
+    <rect x="16" y="148" width="368" height="7" fill="#D58401"/>
+    <!-- 地面下：土層 -->
+    <rect x="16" y="155" width="368" height="125" rx="0" fill="#F1F3F8"/>
+    <!-- 人孔 -->
+    <path d="M296 155V206M326 155V206" stroke="#333D66" stroke-width="3"/>
+    <path d="M296 170H326M296 186H326" stroke="#333D66" stroke-width="2" opacity=".55"/>
+    <!-- 管線與水 -->
+    <path d="M26 206H374M26 262H374" stroke="#333D66" stroke-width="3.2"/>
+    <rect x="27.6" y="244" width="344.8" height="16.4" fill="#B6C5DF"/>
+    <path d="M60 252H96M82 246L96 252L82 258" stroke="#333D66" stroke-width="2.2"/>
+    <path d="M150 252H186M172 246L186 252L172 258" stroke="#333D66" stroke-width="2.2"/>
+    <!-- CCTV 爬行車 -->
+    <rect x="226" y="222" width="34" height="18" rx="3" stroke="#333D66" stroke-width="2.6" fill="#fff"/>
+    <circle cx="233" cy="243" r="3.6" fill="#fff" stroke="#333D66" stroke-width="2.4"/>
+    <circle cx="253" cy="243" r="3.6" fill="#fff" stroke="#333D66" stroke-width="2.4"/>
+    <circle cx="267" cy="231" r="5" stroke="#D58401" stroke-width="2.6" fill="#fff"/>
+    <path d="M276 225L294 217M276 237L294 245" stroke="#D58401" stroke-width="2.2"/>
+    <path d="M226 231H206" stroke="#333D66" stroke-width="2.2"/>
+  </svg>
+  <div class="cap">地面之上是山，地面之下是管與水</div>
+</section>
+
+<!-- 07 版面 -->
+<section class="card" id="layout">
+  <div class="ttl"><i></i><em>07</em>版面</div>
+  <div class="mock">
+    <div class="a4">
+      <div class="hd"><svg><use href="#mark"/></svg><b>崧淳</b></div>
+      <div class="t">管內CCTV<br>檢視報告</div>
+      <div class="u"></div>
+      <div class="ft"></div>
+    </div>
+    <div class="bc f"><div class="m"><svg><use href="#mark"/></svg><b>崧淳</b></div><div class="u"></div></div>
+    <div class="bc b"><svg><use href="#markInv"/></svg></div>
+  </div>
+  <ul class="rules">
+    <li>白底為主，留白要夠</li>
+    <li>主色用在標誌、標題、色塊</li>
+    <li>工程黃只做線條與小面積</li>
+  </ul>
+</section>
+
+<footer>
+  <div>色值為螢幕 sRGB。工程黃 #D58401 取自車體照片，正式色號以車廠／烤漆廠為準。</div>
+  <div>標誌為示意稿，尚未查商標</div>
+</footer>
+
+</body>
+</html>
