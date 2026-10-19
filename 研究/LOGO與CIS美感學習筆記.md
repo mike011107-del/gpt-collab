@@ -358,3 +358,29 @@
 - Brand New：https://www.underconsideration.com/brandnew/ （15 篇網址見交件資料夾 README 說明）
 - Anthropic frontend-design：https://github.com/anthropics/skills/tree/main/skills/frontend-design
 - rampstack logo-design：https://github.com/rampstackco/claude-skills/tree/main/skills/logo-design
+
+---
+
+## 十三、2026-10-19 補充：第二輪（研究文獻、中文字、車身與遠看）
+
+完整內容、出處與證據等級在 `交件/Claude/20261019_LOGO與CIS美感學習第二輪/README.md`。這裡只記改掉或加條件的判斷。證據多數只讀到論文摘要，要連同條件一起用。
+
+1. **改寫開頭結論 1「不再把行業畫進標誌」。** Luffarelli 等 2019（JMR，597 個品牌）：讓人看出賣什麼的描述性標誌，對陌生品牌較有利；品牌熟了好處變小；行業讓人想到負面的事時反過來扣分。描述可以交給字標文字，不一定畫圖。要先問：受眾認不認得、行業聯想好不好。
+2. **外框加意義面的條件。** Fajardo 等 2016（JCR）：購買風險高時外框被讀成「保護」，風險低時被讀成「拘束」。第十二節第 2 點的像素代價照舊。
+3. **「一個構成方法」可能有間接的實驗支持，限於講實用的品牌。** Affonso & Janiszewski 2023（JM）：對稱、規律、幾何讓人覺得有結構，實用定位的品牌表現較好，享樂定位相反（研究測的是「有結構」，不是方法數量，連起來是推論）。亞洲水務與經典企業標誌 22 個裡，除了台電、中油兩個多元素徽章，都只用一種手法；那兩個也是圖形裡線最細（寬的 1/290、1/140）的。
+4. **反 AI 清單會互相矛盾。** Anthropic frontend-design 把米色底配襯線列為 AI 樣子，wholiver/swiftui-design-skill 卻把幾乎同色的暖白底配襯線當解方。第十二節第 7 點改成：不靠清單，問理由是不是只屬於這個品牌。
+5. **中文不能套拉丁字母的字距規則。** W3C clreq：中文預設密排，字少的書眉、圖說可以疏排求平衡。日本高速公路標誌為遠看把字距定在字寬 20%。第十二節第 7 點「不加拉開字距的小標」只管拉丁字母。
+6. **車體規則改寫第十二節第 5 點。** 台灣、香港、日本的公務與工程車 16 張：位置；兩層字高（門上身分約車高 1/40–1/60，車身名稱約 1/7–1/28，照片像素估）；淺色車身用深色字，反白只在加上去的色帶裡。整車漆色與色帶也是識別，屬顏色，交配色串。
+7. **遠看的字高。** 美國招牌 LI 30 約等於 1 公分字高看 3.6 公尺，實際開車時至少降 35%（約 2.3 公尺）；日本高速公路改版實驗換算，全體受測者看日文與英文每公分字高都約 4.3–4.4 公尺，60 歲以上看日文約 3.8 公尺（推論換算）。字體要放在實際字串上測（Vialog 的「12」連成一條）。
+8. **中文標準字逐字調。** 大小（「今」放大、「國」略縮）、重心（高顯緊張、低顯親切）、中宮、粗細靠眼睛、縮到 0.4 公分還要認得、英文另選不用中文字型內建的（justfont、許瀚文、森澤）。
+9. **楷體在台灣的聯想。** 台灣受測者認為楷體最能代表台灣（黃耀明 2023，只見摘要的搜尋片段）；台灣公文多用楷體（clreq）。但亞洲水務與經典企業標誌 22 個裡看得出中文字體的 7 例，沒有一個用楷體。縮小後楷黑哪個好認，這輪沒測完。
+
+第八節自我檢查再加七條，見交件 README 第八節。
+
+來源補充（全部網址見交件 README）：
+- W3C clreq：https://github.com/w3c/clreq
+- anthropics/skills canvas-design：https://github.com/anthropics/skills/tree/main/skills/canvas-design
+- wholiver/swiftui-design-skill（MIT）：https://github.com/wholiver/swiftui-design-skill
+- justfont 部落格：https://blog.justfont.com/
+- 村重至康 2016，IATSS Review（日本高速公路標識改版，全文在梁特助電腦）
+- United States Sign Council 字高與面積公式（2006，全文在梁特助電腦）
