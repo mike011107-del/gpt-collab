@@ -38,3 +38,5 @@ table.ft td { font-size: 7.8pt; padding: 0.75mm 1.2mm; }
 .arb div { height: 100%; }
 .pr { display: flex; height: 7mm; }
 .pr div { flex: 1; }
+.sb div { font-size: 5.6pt; line-height: 4.6mm; padding-left: 0.8mm; overflow: hidden; white-space: nowrap; }
+.sb { border-color: rgba(0,0,0,0.3); }
