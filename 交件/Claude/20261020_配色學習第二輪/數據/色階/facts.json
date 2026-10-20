@@ -1,0 +1,222 @@
+{
+ "targets": {
+  "深青": {
+   "hex": "#0C424A",
+   "hct": {
+    "hue": 211.2,
+    "chroma": 25.1,
+    "tone": 25.2
+   },
+   "hct_max_chroma_at_this_hue_tone": 26.9,
+   "chroma_share_of_max": 0.931,
+   "chroma_percentile_vs_peers": 0.0,
+   "tone_percentile_vs_peers": 12.1,
+   "oklch": [
+    0.35,
+    0.055,
+    209.755
+   ],
+   "radix_nearest_dE2000": [
+    {
+     "scale": "cyan",
+     "step": 12,
+     "hex": "#0d3c48",
+     "dE2000": 3.53,
+     "step_use": "高對比文字"
+    },
+    {
+     "scale": "teal",
+     "step": 12,
+     "hex": "#0d3d38",
+     "dE2000": 7.22,
+     "step_use": "高對比文字"
+    },
+    {
+     "scale": "mint",
+     "step": 12,
+     "hex": "#16433c",
+     "dE2000": 7.91,
+     "step_use": "高對比文字"
+    }
+   ],
+   "radix_nearest_percentile_vs_random": 15.3,
+   "radix_nearest_percentile_vs_peers": 27.3,
+   "radix_generator_match_oklab": {
+    "closest_scale": "cyan",
+    "closest_dist": 0.0197,
+    "second_scale": "mint",
+    "second_dist": 0.0261,
+    "mix_ratio_of_second": 0.329
+   },
+   "radix_generator_keeps_as_step9": true,
+   "radix_generator_text_on_step9": "#ffffff",
+   "material_tone": 25.2,
+   "material_std_tones_around": [
+    20,
+    30
+   ],
+   "material_roles_light_at_those_tones": {
+    "20": "",
+    "30": "onPrimaryContainer（淡底上的字）"
+   },
+   "material_tonal_spot_primary_chroma": 36,
+   "material_dislike_rule_hit": false,
+   "wcag_vs_white": 11.09
+  },
+  "靛藍": {
+   "hex": "#333D66",
+   "hct": {
+    "hue": 275.6,
+    "chroma": 29.8,
+    "tone": 26.7
+   },
+   "hct_max_chroma_at_this_hue_tone": 60.9,
+   "chroma_share_of_max": 0.49,
+   "chroma_percentile_vs_peers": 1.5,
+   "tone_percentile_vs_peers": 12.1,
+   "oklch": [
+    0.371,
+    0.072,
+    272.123
+   ],
+   "radix_nearest_dE2000": [
+    {
+     "scale": "indigo",
+     "step": 12,
+     "hex": "#1f2d5c",
+     "dE2000": 5.32,
+     "step_use": "高對比文字"
+    },
+    {
+     "scale": "blue",
+     "step": 12,
+     "hex": "#113264",
+     "dE2000": 6.0,
+     "step_use": "高對比文字"
+    },
+    {
+     "scale": "iris",
+     "step": 12,
+     "hex": "#272962",
+     "dE2000": 6.84,
+     "step_use": "高對比文字"
+    }
+   ],
+   "radix_nearest_percentile_vs_random": 38.0,
+   "radix_nearest_percentile_vs_peers": 56.1,
+   "radix_generator_match_oklab": {
+    "closest_scale": "sky",
+    "closest_dist": 0.042,
+    "second_scale": "blue",
+    "second_dist": 0.0568,
+    "mix_ratio_of_second": 0.1543
+   },
+   "radix_generator_keeps_as_step9": true,
+   "radix_generator_text_on_step9": "#ffffff",
+   "material_tone": 26.7,
+   "material_std_tones_around": [
+    20,
+    30
+   ],
+   "material_roles_light_at_those_tones": {
+    "20": "",
+    "30": "onPrimaryContainer（淡底上的字）"
+   },
+   "material_tonal_spot_primary_chroma": 36,
+   "material_dislike_rule_hit": false,
+   "wcag_vs_white": 10.5
+  },
+  "工程黃": {
+   "hex": "#D68702",
+   "hct": {
+    "hue": 69.3,
+    "chroma": 54.4,
+    "tone": 63.0
+   },
+   "hct_max_chroma_at_this_hue_tone": 54.6,
+   "chroma_share_of_max": 0.997,
+   "chroma_percentile_vs_peers": 59.1,
+   "tone_percentile_vs_peers": 75.8,
+   "oklch": [
+    0.69,
+    0.15,
+    68.913
+   ],
+   "radix_nearest_dE2000": [
+    {
+     "scale": "amber",
+     "step": 8,
+     "hex": "#e2a336",
+     "dE2000": 8.12,
+     "step_use": "較強框線、焦點環"
+    },
+    {
+     "scale": "orange",
+     "step": 8,
+     "hex": "#ec9455",
+     "dE2000": 11.03,
+     "step_use": "較強框線、焦點環"
+    },
+    {
+     "scale": "amber",
+     "step": 11,
+     "hex": "#ab6400",
+     "dE2000": 13.39,
+     "step_use": "低對比文字"
+    }
+   ],
+   "radix_nearest_percentile_vs_random": 69.4,
+   "radix_nearest_percentile_vs_peers": 86.4,
+   "radix_generator_match_oklab": {
+    "closest_scale": "orange",
+    "closest_dist": 0.068,
+    "second_scale": "amber",
+    "second_dist": 0.072,
+    "mix_ratio_of_second": 0.3379
+   },
+   "radix_generator_keeps_as_step9": true,
+   "radix_generator_text_on_step9": "#ffffff",
+   "material_tone": 63.0,
+   "material_std_tones_around": [
+    60,
+    70
+   ],
+   "material_roles_light_at_those_tones": {
+    "60": "",
+    "70": ""
+   },
+   "material_tonal_spot_primary_chroma": 36,
+   "material_dislike_rule_hit": false,
+   "wcag_vs_white": 2.87
+  }
+ },
+ "baseline": {
+  "random_srgb_n": 2000,
+  "random_seed": 2026,
+  "random_nearest_radix_dE2000_median": 6.3,
+  "random_nearest_radix_dE2000_p10_p90": [
+   3.01,
+   11.06
+  ],
+  "peer_colours_n": 66,
+  "peer_nearest_radix_dE2000_median": 5.03,
+  "peer_nearest_radix_step_counts": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 11,
+   "9": 8,
+   "10": 14,
+   "11": 19,
+   "12": 12
+  },
+  "peer_hct_tone_median": 49.7,
+  "peer_hct_chroma_median": 52.6,
+  "random_rel_chroma_median_n400": 0.87,
+  "peer_rel_chroma_median": 0.967
+ }
+}

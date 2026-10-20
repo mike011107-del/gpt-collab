@@ -1,0 +1,195 @@
+{
+ "verdicts": [
+  {
+   "id": "C1",
+   "verdict": "confirmed",
+   "note": "understanding-the-scale.mdx 第 20–112 行各 Steps 小節與第 296 行逐條對過，用途分法相同。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C2",
+   "verdict": "confirmed",
+   "note": "composing-a-palette.mdx 第 18–24 行原文說色階不要改、品牌色另加自訂色階；generate-radix-colors.tsx 的 getScaleFromColor 找 OKLab 最近兩色系、用三角比例混合、換成來源色相並依比例調彩度，明度用 transposeProgressionStart 依背景調；getStep9Colors 在來源色跟第 1 階 OKLab 距離×100<25 時才不用原色。亮底時「太淺時除外」的說法成立，正確條件是「太接近頁面底色」。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C3",
+   "verdict": "confirmed",
+   "note": "自寫 APCA（v_radix_basic.py）算 light.ts 31 色系 hex：第 11 階對第 2 階最小 Lc 66.15（orange），第 12 階最小 91.73（sky）。文件第 100–101 行寫保證 Lc 60、90。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C4",
+   "verdict": "confirmed",
+   "note": "文件第 202 行說第 9 階彩度最高。P3 值轉 OKLCH：23 色系（不含 gold、bronze）有 10 個最高在第 9 階、8 個在第 11 階（tomato、red、ruby、cyan、teal、jade、green、sky），紅 9–11 階 0.193、0.195、0.198；sRGB hex 版 25 色系有 14 個在第 9 階。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C5",
+   "verdict": "confirmed",
+   "note": "自寫 Radix 產生器（v_radixgen.py，照 tsx 邏輯，D50 Lab 混合、CSS 色域對映）用官方第 9 階 hex 重產，10 色系最大 ΔE2000 跟對方完全相同：teal 2.03、grass 0.85、iris 1.94、jade 2.01、tomato 2.14、indigo 2.2、blue 3.95、cyan 4.8、orange 8.62、amber 9.74。兩份改寫版都沒有跟官網工具逐碼比對過。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C6",
+   "verdict": "confirmed",
+   "note": "自寫產生器輸入 #2071B5 加白底，12 階跟對方 scales.json 逐碼相同：第 9/10/11 階 #2071b5/#0963a6/#1c6eb2，L* 46.2/40.8/45.1，對白 5.13/6.27/5.35。另外補一個事實：輸入更深的色時（例 #1F4E79、#0C424A、#333D66），第 9 階反而比第 10、11 階深（#0C424A 為 L* 25.2 對 32.8、46.6），順序整個倒過來，不只是擠在一起。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C7",
+   "verdict": "confirmed",
+   "note": "color_terms.md 第 58–62、78–79 行寫 HCT 用 CAM16 色相與彩度、T 等於 L*；color_spaces.md 第 72–80 行寫轉 RGB 時保留 tone、降彩度。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C8",
+   "verdict": "confirmed",
+   "note": "dynamic_scheme.ts 2021 delegate 的 TONAL_SPOT 分支：主色 36、次色 16、第三色 hue+60/24、中性 6、中性變體 8；錯誤色 fromHueAndChroma(25,84)（第 270 行）。CONTENT/FIDELITY 用原色彩度；color_spec_2021.ts 的 isFidelity 包含 CONTENT，primaryContainer 取 sourceColorHct.tone。DEFAULT_SPEC_VERSION='2021'，scheme_tonal_spot.ts 註解寫它是 Android 12、13 的預設主題。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C9",
+   "verdict": "confirmed",
+   "note": "color_spec_2021.ts：primary 80/40、onPrimary 20/100、primaryContainer 30/90、onPrimaryContainer 90/30、surface 6/98、onSurface 90/10、outline 60/50（暗/亮），跟原說法相同。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C10",
+   "verdict": "overstated",
+   "note": "自寫 CAM16/HCT（v_hct.py）重現了紅綠藍白 CAM16、#ff6600、藍色板與次色板 12 個 tone 的測試值。拿它重產 Vattenfall 藍的 Tonal Spot 六色板共 78 格，跟對方 scales.json 有 76 格相同。不同的是 tertiary（色相 313）與 error（25°）的 tone 99：對方給 #fcfcfc，這是純灰，等於 argbFromLstar(99)。原庫 HctSolver.solveToInt 在 chroma>0 時會走 bisectToLimit，結果落在 sRGB 立方體表面，至少一個通道是 255，不可能是 #fcfcfc。所以列出的測試值有對上，但「跟原庫一致」只在測過的範圍內成立。",
+   "corrected_text_zh": "HCT 的 Python 改寫通過原庫測試值（紅綠藍 CAM16、#ff6600 的 HCT 42.39/79.39/62.31、藍色板與次色板各 12 個 tone）；但 tone 99 在色域外的色相（tertiary 313°、error 25°）輸出 #fcfcfc 灰，跟原庫 bisectToLimit 的結果不同，所以不是處處一致。"
+  },
+  {
+   "id": "C11",
+   "verdict": "confirmed",
+   "note": "原句在 color_terms.md 第 84–85 行。自算 T50 對 T100 為 4.484:1（Y50=18.42）；tone 差 50 的最小值就在這一對。tone 差 40 的最小值 3.17（T60 對 T100），3:1 的保證成立。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C12",
+   "verdict": "confirmed",
+   "note": "dislike_analyzer.ts：色相四捨五入後在 90–111、彩度>16、tone<65 判為討厭色，fixIfDisliked 把 tone 改成 70；註解引用 Palmer and Schloss 2010 與 2015 手冊第 21 章，寫的是 biological waste and rotting food。論文本身沒有讀。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C13",
+   "verdict": "confirmed",
+   "note": "utils.js：createScale 在 fullScale 時排成白、色鍵、黑三點，色鍵位置是 swatches−swatches×J/100（chroma-plus 的 jch 就是 ciecam02 套件的 J）；searchColors 用 3000 格做二分搜尋，ε 0.01。getContrast 亮底時比背景深回傳正值（程式註解寫反了，但看程式碼結論成立；SKILL.md 第 32 行也寫 positive = darker）。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C14",
+   "verdict": "confirmed",
+   "note": "自寫 Leonardo（v_leonardo.py：chroma.js Lab D65 內插、CIECAM02 J、Leonardo 的 luminance 與二分法、chroma 快取 floor(t·10000)）重現 searchColors.test.js 的 #a379ff、#a77cff/#8154ff。對方 Vattenfall LAB 12 階跟我的 12/12 相同。對方的程式我沒有執行。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C15",
+   "verdict": "confirmed",
+   "note": "自寫 HCT：深青 211.2/25.1/25.2、靛藍 275.6/29.8/26.7、工程黃 69.3/54.4/63.0。最大彩度先照 MCU 做法 Hct.from(h,200,T) 轉 hex 再量，得 26.95/60.85/54.57，用掉 93.1%/49.0%/99.7%，跟對方一致。不經 hex 的連續解是 26.93/60.84/54.62，用掉 93.2%/49.0%/99.6%，差異來自 8 位元取整。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C16",
+   "verdict": "wrong",
+   "note": "三色最近一階：cyan12 3.53、indigo12 5.32、amber8 8.12，正確。隨機基準用對方的種子（Python random 2026）重現 6.3（3.01–11.06）；換我的種子得 6.40（2.87–10.66），屬抽樣差異。66 個同業色全部落在第 7–12 階，正確（7:2、8:11、9:8、10:14、11:19、12:12）。但這 66 色的中位數照標準定義是第 33、34 個的平均 (4.891+5.03)/2=4.96；對方取的是上中位數 sorted[33]=5.03。",
+   "corrected_text_zh": "Radix 最近一階（ΔE2000）：深青 cyan 12（3.53）、靛藍 indigo 12（5.32）、工程黃 amber 8（8.12）。基準：2000 個隨機 sRGB 色中位 6.3（10–90%：3.01–11.06）；66 個同業 logo 色中位 4.96，全部落在第 7–12 階。"
+  },
+  {
+   "id": "C17",
+   "verdict": "confirmed",
+   "note": "自寫產生器的 OKLab 距離：#333D66 到 sky12 0.0420、blue12 0.0568、indigo12 0.0607、iris12 0.0635；產生器配對是 sky 混 blue（比例 0.154）。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C18",
+   "verdict": "confirmed",
+   "note": "色相 211.2、275.6、69.3 都不在 90–111，三色都不觸發討厭色規則；tone 25.2、26.7 落在 20 與 30 之間，63.0 落在 60 與 70 之間。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C19",
+   "verdict": "confirmed",
+   "note": "Radix 25 個彩色色系 hex 每階 L* 中位：99.2、97.9、95.4、92.2、88.5、83.7、77.5、69.2、56.8、52.8、45.6、22.3，有 8 階 ≥69。Tailwind 3.4.17 的 17 個彩色色系（去掉 5 個中性色）為 97.4…15.5，相鄰兩階差 2.9–13.8。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C20",
+   "verdict": "confirmed",
+   "note": "frontend-design SKILL.md 第 39 行（near #F4F1EA、near #D97757）與第 48 行（4–6 named hex values）都在『Process』段；第 45 行寫 brief 沒指定的方向不要用這些預設。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C21",
+   "verdict": "confirmed",
+   "note": "SKILL.md 第 65–66 行註解寫 Colorblind-friendly，6 色就是 seaborn deep；第 282 行另外推薦 sns colorblind。自寫 Machado 2009（severity 1、線性 RGB）：模擬色先取整成 8 位元 hex 時，紅色盲最小 ΔE2000 2.02、綠色盲 4.54，跟對方相同；不取整則是 2.21、4.59。自跑 3000 組隨機 6 色：比 91.6% 的組差（對方 92.3%），綠色盲在第 30.5 百分位。結論成立。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C22",
+   "verdict": "confirmed",
+   "note": "自算：紅→綠 RGB 中點 #808000 L* 51.9，兩端平均 70.49，Lab 中點 L* 70.6；黃→藏青 Lch 中點 #ff164a C* 87.4，Lab 中點 C* 19.9，RGB 中點 C* 35.8。原文 docs/src/index.md 第 860–890 行：說 RGB 發灰、Lab 較好的是黃→藏青例子；紅→綠中段變暗，文件給的解法是 lrgb，不是 Lab。轉述把兩件事併在一起，數字本身都對。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C23",
+   "verdict": "confirmed",
+   "note": "themes/*.md 10 組每組 4 色；最深對最淺 WCAG 全部 ≥4.5（最低 4.79），≥7 的有 6 組。SKILL.md 沒有色階或比例規則。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C24",
+   "verdict": "confirmed",
+   "note": "自算 #d97757、#6a9bcc 對 #faf9f5 為 2.963、2.779。brand-guidelines SKILL.md 第 54–57 行寫 Non-text shapes use accent colors。來源沒寫提交，本機是 dbd4588。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C25",
+   "verdict": "confirmed",
+   "note": "marketplace.json（ea10b21）plugins 共 315 項，搜不到 brand-studio、brand-md、codesign、design-superpowers、color palette；有 design 字樣的只有 frontend-design、superdesign、ui-theme-designer。figma-ui-color-palette 的遠端網址與 MIT 授權、90dd51d 都對。「找到但未安裝」是在哪裡找到的，查不了。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C26",
+   "verdict": "unverifiable",
+   "note": "查得到的部分都對：kwp design/.claude-plugin/plugin.json 是 name design、author Anthropic、1.2.0；七個 skill 裡跟顏色有關的只有 design-system 的 brand/semantic/neutral token、accessibility-review 的 1.4.3/1.4.11，加上 critique 與 handoff 的對比、token 欄位。但「外掛目錄的 Design（Anthropic）就是它」這件事，目錄頁連不到，查不了；對方也標成推論。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C27",
+   "verdict": "confirmed",
+   "note": "skills/leonardo-colors/SKILL.md 第 128–134 行：AA 4.5、AAA 7、大字 3，建議用 LCH 或 LAB 內插；packages/mcp/README.md 與 package.json 的名稱是 @adobe/leonardo-mcp。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C28",
+   "verdict": "confirmed",
+   "note": "自己解析 presets.ts（c212430）：MATERIAL 10、MATERIAL_3 13、TAILWIND 11、ANT 10、BOOTSTRAP 9、RADIX 12、CARBON 10、SPECTRUM 13、POLARIS 16、FLUENT 16。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C29",
+   "verdict": "confirmed",
+   "note": "getScaleFromColor 只把每階的 C、H 換掉，L 留模板混合值；白底時 transposeProgressionStart 的 diff=1−L(白)≈0，L 不變。第 11、12 階只夾彩度，所以第 11 階的明度不看品牌色。推論跟程式一致。",
+   "corrected_text_zh": ""
+  },
+  {
+   "id": "C30",
+   "verdict": "confirmed",
+   "note": "圖檔存在（900×498），看得清楚。Radix 產生器那一列第 9 階有框，第 10、11 階跟第 9 階很近。Leonardo 中段比較灰：自算 OKLCH 彩度，第 6 階 Leonardo 0.034，產生器 0.070、官方 blue 0.068。",
+   "corrected_text_zh": ""
+  }
+ ],
+ "rule_violations": [
+  "summary 寫「Radix 產生器遇到偏深的品牌色……第 9–11 階會擠在一起」，但只測了 Vattenfall 一個例子就推到所有偏深品牌色。查核者另跑 #1F4E79、#0C424A、#333D66：更深的輸入會讓第 9 階比第 10、11 階還深（例 L* 25.2 對 32.8、46.6），順序倒過來，不是擠在一起。只有一個例子就下了一般結論。",
+  "C10 寫「跟原庫一致」說得太滿：tone 99 在 tertiary、error 色板輸出 #fcfcfc，跟原庫演算法不同。",
+  "C16 與 summary 的同業中位數 5.03 是上中位數，標準中位數是 4.96。",
+  "沒有發現替崧淳出配色或推薦主色。候選色都只列事實，有隨機與同業基準，也沒有把模型分數說成好看。"
+ ],
+ "figure_problems": [
+  "fig_vattenfall_scales.png 存在、看得清楚。圖說寫「框線標出原色」，但只有 Radix 產生器那一列有框；其他列本來就不含原色，建議圖說寫明。",
+  "scales.json（列為圖用資料）裡 Material Tonal Spot 的 tertiary、error 色板 tone 99 是 #fcfcfc 灰，跟原庫演算法不符。圖上只畫主色板，沒受影響。",
+  "這張圖只在螢幕上看過，沒有印刷校對。對方 gaps 已經寫明。"
+ ]
+}

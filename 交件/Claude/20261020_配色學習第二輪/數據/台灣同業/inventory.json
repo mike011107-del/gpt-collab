@@ -1,0 +1,462 @@
+{
+ "說明": "主 PDF＝Taiwan_Sewer_CCTV_Competitor_Intelligence_With_Logo_CIS_20261013.pdf p5（01–13）、p6（14–25）登記總表；有圖 11／未取得 14 的分法出自補充 PDF 首頁（主 PDF p28 附錄同一頁）；資料夾＝崧淳同業logo/（同業色彩整理.md 的 14 家，銘源沒有 logo 圖，有圖 13 家）",
+ "有圖公司數": 21,
+ "有圖公司": [
+  "一元",
+  "久大",
+  "九升",
+  "全基",
+  "升野",
+  "大亞",
+  "天福",
+  "宏隆",
+  "康立",
+  "日技",
+  "森淨家",
+  "派浦崴洱",
+  "浩源",
+  "源昌",
+  "積德",
+  "綠邑",
+  "華通",
+  "逸居管必潔",
+  "邦盛",
+  "順捷",
+  "龍祥"
+ ],
+ "主PDF有圖": 11,
+ "主PDF未取得": [
+  "銘源",
+  "力士通",
+  "晨佳",
+  "力賀",
+  "昭揚",
+  "浚富",
+  "瑞碁",
+  "三福",
+  "程堡",
+  "廣村",
+  "盛泰",
+  "鼎宸",
+  "辰福",
+  "鎮海"
+ ],
+ "版本數": 31,
+ "rows": [
+  {
+   "company": "全基",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "quanji",
+    "quanji_fav"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "銘源",
+   "in_pdf25": true,
+   "in_folder14": true,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "首頁找不到 logo，只有網站文字與網站色（補充 PDF 與同業色彩整理.md 都這樣寫）"
+  },
+  {
+   "company": "升野",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "shengye",
+    "shengye_head"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "積德",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "智財局商標圖樣",
+   "versions": [
+    "jide"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "力士通",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "華通衛生行",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "huatong_dredge",
+    "huatong_wsh"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": "補充 PDF：華通清淤品牌與華通衛生行主體的對應待確認"
+  },
+  {
+   "company": "九升",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "第三方頁",
+   "versions": [
+    "jiusheng"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "宏隆",
+   "in_pdf25": true,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "honglong"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "浩源",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "haoyuan_blue",
+    "haoyuan_white"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "晨佳",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "久大",
+   "in_pdf25": true,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "jiuda_full",
+    "jiuda_word",
+    "jiuda_icon"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "派浦崴洱",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "第三方頁",
+   "versions": [
+    "paipu",
+    "paipu_s"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "力賀",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "昭揚",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "浚富",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "瑞碁",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "龍祥",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "第三方頁",
+   "versions": [
+    "longxiang"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "三福",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "程堡",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "廣村",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "盛泰",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "鼎宸",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "辰福",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "鎮海",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": false,
+   "tier": null,
+   "versions": [],
+   "status": "未取得",
+   "note": "補充 PDF 寫未找到可靠 logo"
+  },
+  {
+   "company": "順捷",
+   "in_pdf25": true,
+   "in_folder14": false,
+   "has_image": true,
+   "tier": "智財局商標圖樣",
+   "versions": [
+    "shunjie",
+    "shunjie_man"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "華通",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "huatong_dredge",
+    "huatong_wsh"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": "補充 PDF：華通清淤品牌與華通衛生行主體的對應待確認"
+  },
+  {
+   "company": "邦盛",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網banner字標",
+   "versions": [
+    "bangsheng",
+    "bangsheng_slogan"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "天福",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "tianfu"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "大亞",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "daya",
+    "daya_footer"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "源昌",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "yuanchang"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "森淨家",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "senjingjia"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "逸居管必潔",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "yiju"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "綠邑",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "lvyi"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "日技",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "riji"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "康立",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網banner字標",
+   "versions": [
+    "kangli"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  },
+  {
+   "company": "一元",
+   "in_pdf25": false,
+   "in_folder14": true,
+   "has_image": true,
+   "tier": "官網logo檔",
+   "versions": [
+    "yiyuan"
+   ],
+   "status": "原文已讀（圖檔已開）",
+   "note": ""
+  }
+ ]
+}

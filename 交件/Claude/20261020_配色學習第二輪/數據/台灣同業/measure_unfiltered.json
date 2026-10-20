@@ -1,0 +1,701 @@
+{
+ "huatong_dredge": {
+  "n": 2663,
+  "raw_hue_bins": [
+   {
+    "hue": "0-30",
+    "share": 0.283,
+    "hex": "#713E3E"
+   },
+   {
+    "hue": "120-150",
+    "share": 0.588,
+    "hex": "#2D661F"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.128,
+    "hex": "#000000"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "huatong_wsh": {
+  "n": 1232,
+  "raw_hue_bins": [
+   {
+    "hue": "180-210",
+    "share": 0.918,
+    "hex": "#005959"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.082,
+    "hex": "#363636"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.082,
+    "hex": "#363636"
+   }
+  ]
+ },
+ "bangsheng": {
+  "n": 6346,
+  "raw_hue_bins": [],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.662,
+    "hex": "#212121"
+   },
+   {
+    "name": "深灰",
+    "share": 0.138,
+    "hex": "#565656"
+   },
+   {
+    "name": "灰",
+    "share": 0.119,
+    "hex": "#919191"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "bangsheng_slogan": {
+  "n": 2122,
+  "raw_hue_bins": [
+   {
+    "hue": "0-30",
+    "share": 0.657,
+    "hex": "#D8212F"
+   },
+   {
+    "hue": "30-60",
+    "share": 0.027,
+    "hex": "#E49D85"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "tianfu": {
+  "n": 4701,
+  "raw_hue_bins": [
+   {
+    "hue": "120-150",
+    "share": 0.145,
+    "hex": "#A5D49D"
+   },
+   {
+    "hue": "150-180",
+    "share": 0.146,
+    "hex": "#22AD69"
+   },
+   {
+    "hue": "210-240",
+    "share": 0.13,
+    "hex": "#5EC5F2"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.578,
+    "hex": "#2368AD"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "daya": {
+  "n": 11786,
+  "raw_hue_bins": [
+   {
+    "hue": "30-60",
+    "share": 0.036,
+    "hex": "#AD3923"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.037,
+    "hex": "#255281"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.409,
+    "hex": "#060606"
+   },
+   {
+    "name": "深灰",
+    "share": 0.124,
+    "hex": "#6B6868"
+   },
+   {
+    "name": "灰",
+    "share": 0.079,
+    "hex": "#7A9799"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "daya_footer": {
+  "n": 73820,
+  "raw_hue_bins": [
+   {
+    "hue": "30-60",
+    "share": 0.026,
+    "hex": "#AD3923"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.028,
+    "hex": "#255282"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.316,
+    "hex": "#060606"
+   },
+   {
+    "name": "深灰",
+    "share": 0.138,
+    "hex": "#586868"
+   },
+   {
+    "name": "灰",
+    "share": 0.188,
+    "hex": "#92959A"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "jiuda_full": {
+  "n": 209930,
+  "raw_hue_bins": [
+   {
+    "hue": "210-240",
+    "share": 0.149,
+    "hex": "#279AD5"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.418,
+    "hex": "#216EB3"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.24,
+    "hex": "#58585A"
+   },
+   {
+    "name": "灰",
+    "share": 0.192,
+    "hex": "#B3B8BD"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "jiuda_word": {
+  "n": 104593,
+  "raw_hue_bins": [
+   {
+    "hue": "210-240",
+    "share": 0.234,
+    "hex": "#2799D4"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.635,
+    "hex": "#236EB1"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.129,
+    "hex": "#58585A"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "jiuda_icon": {
+  "n": 19583,
+  "raw_hue_bins": [
+   {
+    "hue": "210-240",
+    "share": 0.071,
+    "hex": "#00A1DD"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.199,
+    "hex": "#076DB8"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.347,
+    "hex": "#58585A"
+   },
+   {
+    "name": "灰",
+    "share": 0.383,
+    "hex": "#B3B8BD"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "yuanchang": {
+  "n": 226668,
+  "raw_hue_bins": [
+   {
+    "hue": "30-60",
+    "share": 0.047,
+    "hex": "#FF6600"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.844,
+    "hex": "#414951"
+   },
+   {
+    "name": "灰",
+    "share": 0.058,
+    "hex": "#929A9D"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "senjingjia": {
+  "n": 24346,
+  "raw_hue_bins": [
+   {
+    "hue": "210-240",
+    "share": 0.957,
+    "hex": "#89C5DF"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "yiju": {
+  "n": 768,
+  "raw_hue_bins": [
+   {
+    "hue": "240-270",
+    "share": 0.44,
+    "hex": "#2D6EB1"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.56,
+    "hex": "#222222"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "lvyi": {
+  "n": 0
+ },
+ "riji": {
+  "n": 4174,
+  "raw_hue_bins": [
+   {
+    "hue": "30-60",
+    "share": 0.029,
+    "hex": "#F5896B"
+   },
+   {
+    "hue": "210-240",
+    "share": 0.021,
+    "hex": "#99C6E6"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.81,
+    "hex": "#0074C0"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [
+   {
+    "hue": "30-60",
+    "share": 0.029,
+    "hex": "#F5896B"
+   }
+  ],
+  "missed_neutral": []
+ },
+ "honglong": {
+  "n": 20524,
+  "raw_hue_bins": [
+   {
+    "hue": "30-60",
+    "share": 0.494,
+    "hex": "#F55802"
+   },
+   {
+    "hue": "120-150",
+    "share": 0.497,
+    "hex": "#186504"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "kangli": {
+  "n": 37217,
+  "raw_hue_bins": [
+   {
+    "hue": "120-150",
+    "share": 0.884,
+    "hex": "#56691D"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "yiyuan": {
+  "n": 12736,
+  "raw_hue_bins": [
+   {
+    "hue": "240-270",
+    "share": 0.97,
+    "hex": "#255092"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "灰",
+    "share": 0.03,
+    "hex": "#7C7B7B"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": [
+   {
+    "name": "灰",
+    "share": 0.03,
+    "hex": "#7C7B7B"
+   }
+  ]
+ },
+ "quanji": {
+  "n": 7065,
+  "raw_hue_bins": [
+   {
+    "hue": "120-150",
+    "share": 0.891,
+    "hex": "#339535"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "quanji_fav": {
+  "n": 2301,
+  "raw_hue_bins": [
+   {
+    "hue": "120-150",
+    "share": 0.897,
+    "hex": "#339635"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "shengye": {
+  "n": 219913,
+  "raw_hue_bins": [
+   {
+    "hue": "90-120",
+    "share": 0.342,
+    "hex": "#FCCB26"
+   },
+   {
+    "hue": "210-240",
+    "share": 0.033,
+    "hex": "#07A0DD"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.031,
+    "hex": "#5CA2D9"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.3,
+    "hex": "#231F20"
+   },
+   {
+    "name": "深灰",
+    "share": 0.095,
+    "hex": "#494646"
+   },
+   {
+    "name": "灰",
+    "share": 0.069,
+    "hex": "#9C9A9B"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "shengye_head": {
+  "n": 26077,
+  "raw_hue_bins": [
+   {
+    "hue": "60-90",
+    "share": 0.493,
+    "hex": "#E4AC29"
+   },
+   {
+    "hue": "90-120",
+    "share": 0.133,
+    "hex": "#F9D479"
+   },
+   {
+    "hue": "210-240",
+    "share": 0.028,
+    "hex": "#00A1DE"
+   },
+   {
+    "hue": "240-270",
+    "share": 0.028,
+    "hex": "#5DA2D8"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "深灰",
+    "share": 0.055,
+    "hex": "#43403A"
+   },
+   {
+    "name": "灰",
+    "share": 0.092,
+    "hex": "#A29B8E"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "jide": {
+  "n": 13068,
+  "raw_hue_bins": [
+   {
+    "hue": "0-30",
+    "share": 0.254,
+    "hex": "#F44355"
+   },
+   {
+    "hue": "120-150",
+    "share": 0.131,
+    "hex": "#216430"
+   },
+   {
+    "hue": "150-180",
+    "share": 0.314,
+    "hex": "#4FB87B"
+   }
+  ],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.034,
+    "hex": "#232421"
+   },
+   {
+    "name": "深灰",
+    "share": 0.035,
+    "hex": "#473F45"
+   },
+   {
+    "name": "灰",
+    "share": 0.027,
+    "hex": "#9E9B9E"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "jiusheng": {
+  "n": 5456,
+  "raw_hue_bins": [
+   {
+    "hue": "240-270",
+    "share": 0.934,
+    "hex": "#5C7AD6"
+   },
+   {
+    "hue": "270-300",
+    "share": 0.034,
+    "hex": "#98AAE4"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "haoyuan_blue": {
+  "n": 2507,
+  "raw_hue_bins": [
+   {
+    "hue": "210-240",
+    "share": 1.0,
+    "hex": "#0086BE"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "haoyuan_white": {
+  "n": 0
+ },
+ "paipu": {
+  "n": 684,
+  "raw_hue_bins": [],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.507,
+    "hex": "#221E1F"
+   },
+   {
+    "name": "深灰",
+    "share": 0.117,
+    "hex": "#4C4A4A"
+   },
+   {
+    "name": "灰",
+    "share": 0.246,
+    "hex": "#9B999A"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "paipu_s": {
+  "n": 809,
+  "raw_hue_bins": [],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.508,
+    "hex": "#211D1E"
+   },
+   {
+    "name": "深灰",
+    "share": 0.072,
+    "hex": "#484646"
+   },
+   {
+    "name": "灰",
+    "share": 0.274,
+    "hex": "#9A9A9A"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "longxiang": {
+  "n": 8985,
+  "raw_hue_bins": [
+   {
+    "hue": "120-150",
+    "share": 0.798,
+    "hex": "#21A23C"
+   },
+   {
+    "hue": "150-180",
+    "share": 0.101,
+    "hex": "#6CB27F"
+   }
+  ],
+  "raw_dark_neutral": [],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "shunjie": {
+  "n": 66447,
+  "raw_hue_bins": [],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.632,
+    "hex": "#000000"
+   },
+   {
+    "name": "深灰",
+    "share": 0.246,
+    "hex": "#727071"
+   },
+   {
+    "name": "灰",
+    "share": 0.083,
+    "hex": "#858585"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ },
+ "shunjie_man": {
+  "n": 50977,
+  "raw_hue_bins": [],
+  "raw_dark_neutral": [
+   {
+    "name": "黑",
+    "share": 0.175,
+    "hex": "#2E2929"
+   },
+   {
+    "name": "深灰",
+    "share": 0.621,
+    "hex": "#342E2E"
+   },
+   {
+    "name": "灰",
+    "share": 0.115,
+    "hex": "#9A9898"
+   }
+  ],
+  "missed_hue": [],
+  "missed_neutral": []
+ }
+}

@@ -1,0 +1,1114 @@
+[
+ {
+  "company": "華通",
+  "full": "華通清淤工程（另有嘉佳／華通衛生行站）",
+  "vid": "huatong_dredge",
+  "alt": [
+   "huatong_wsh"
+  ],
+  "cols": [
+   {
+    "hex": "#2D661F",
+    "share": 0.8043,
+    "oklch": [
+     0.455,
+     0.119,
+     139.9
+    ],
+    "lab_L": 38.1,
+    "hue_bin": "綠"
+   },
+   {
+    "hex": "#713E3E",
+    "share": 0.097,
+    "oklch": [
+     0.427,
+     0.072,
+     20.5
+    ],
+    "lab_L": 32.5,
+    "hue_bin": "紅"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#000000",
+    "share": 0.0987
+   }
+  ],
+  "gradient": false,
+  "font": "黑體（粗）；副標黑體",
+  "font_cls": "黑體",
+  "motif": "無，純字標",
+  "motif_cls": [
+   "純字標"
+  ],
+  "note": "「華通清淤」綠、「工程」黑、副標紅褐。另一站「嘉佳／華通衛生行」只用青 #005959 加深灰副標 #363636（副標去邊時被刪，不去邊量 8%）。補充 PDF 註明華通清淤與指定主體對應待確認。",
+  "tier": "官網logo檔",
+  "source": "資料夾01＝補充PDF p9（像素相同）",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/01_華通清淤工程.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/huatong_dredge.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/huatong_wsh.png"
+  ],
+  "own_logo": true,
+  "n_chromatic": 2,
+  "scheme": "對比",
+  "scheme_first2": "對比",
+  "main": "#2D661F",
+  "dL": 5.6
+ },
+ {
+  "company": "邦盛",
+  "full": "邦盛企業有限公司",
+  "vid": "bangsheng",
+  "alt": [
+   "bangsheng_slogan"
+  ],
+  "cols": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#212121",
+    "share": 0.9992
+   }
+  ],
+  "gradient": false,
+  "font": "粗黑體",
+  "font_cls": "黑體",
+  "motif": "無，banner 字卡",
+  "motif_cls": [
+   "純字標"
+  ],
+  "note": "沒有獨立 logo 檔，公司名印在 banner 白卡上，只有黑字。同一張卡上有紅色標語「專人為您服務」#D7060B；若把標語算進去就變成「一個彩色」。上輪 17 筆主色用的紅 #D3151C 是這行標語。",
+  "tier": "官網banner字標",
+  "source": "資料夾03 banner",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/03_邦盛企業_banner含字標.jpg",
+  "crop": [
+   60,
+   165,
+   280,
+   280
+  ],
+  "img": "/tmp/claude-0/r2/tw/img/bangsheng.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/bangsheng_slogan.png"
+  ],
+  "own_logo": false,
+  "n_chromatic": 0,
+  "scheme": "只有黑白灰",
+  "scheme_first2": "只有黑白灰",
+  "main": null,
+  "dL": null
+ },
+ {
+  "company": "天福",
+  "full": "天福環保有限公司／天順環工有限公司",
+  "vid": "tianfu",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#2368AD",
+    "share": 0.5475,
+    "oklch": [
+     0.51,
+     0.129,
+     251.9
+    ],
+    "lab_L": 43.2,
+    "hue_bin": "藍"
+   },
+   {
+    "hex": "#A6D49D",
+    "share": 0.1656,
+    "oklch": [
+     0.823,
+     0.09,
+     140.5
+    ],
+    "lab_L": 80.5,
+    "hue_bin": "綠"
+   },
+   {
+    "hex": "#5EC5F2",
+    "share": 0.1446,
+    "oklch": [
+     0.78,
+     0.115,
+     229.4
+    ],
+    "lab_L": 75.3,
+    "hue_bin": "藍"
+   },
+   {
+    "hex": "#22AD69",
+    "share": 0.1336,
+    "oklch": [
+     0.661,
+     0.152,
+     155.7
+    ],
+    "lab_L": 62.7,
+    "hue_bin": "綠"
+   }
+  ],
+  "neutral": [],
+  "gradient": false,
+  "font": "黑體（中文藍字）＋英文粗斜無襯線（綠）",
+  "font_cls": "黑體",
+  "motif": "圓形裡的藍綠波帶（像水和山）＋外圈兩支循環箭頭",
+  "motif_cls": [
+   "水",
+   "箭頭循環"
+  ],
+  "note": "四個彩色都是平塗分色帶，沒有漸層。",
+  "tier": "官網logo檔",
+  "source": "資料夾04",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/04_天福環保.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/tianfu.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 4,
+  "scheme": "四色以上",
+  "scheme_first2": "四色以上",
+  "main": "#2368AD",
+  "dL": 37.3
+ },
+ {
+  "company": "大亞",
+  "full": "大亞環保股份有限公司",
+  "vid": "daya",
+  "alt": [
+   "daya_footer"
+  ],
+  "cols": [
+   {
+    "hex": "#243952",
+    "share": 0.2762,
+    "merged": "#83A9A7",
+    "why": "#83A9A7 是槽體漸層的淺端，目視與深藍連成一條漸層",
+    "oklch": [
+     0.339,
+     0.052,
+     253.5
+    ],
+    "lab_L": 23.4,
+    "hue_bin": "藍"
+   },
+   {
+    "hex": "#AD3922",
+    "share": 0.0356,
+    "oklch": [
+     0.51,
+     0.156,
+     33.1
+    ],
+    "lab_L": 41.1,
+    "hue_bin": "紅"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#060606",
+    "share": 0.4465
+   },
+   {
+    "name": "深灰",
+    "hex": "#48646D",
+    "share": 0.0642
+   },
+   {
+    "name": "灰",
+    "hex": "#77999A",
+    "share": 0.0755
+   },
+   {
+    "name": "淺灰",
+    "hex": "#C1D9D2",
+    "share": 0.0909
+   }
+  ],
+  "gradient": true,
+  "font": "黑體（中黑）＋英文無襯線；圖內 T.Y. 為襯線紅字",
+  "font_cls": "黑體",
+  "motif": "黑色圓框裡的槽體／塔形加波浪線",
+  "motif_cls": [
+   "水",
+   "設施"
+  ],
+  "note": "槽體由深藍 #243952 漸到灰青 #83A9A7（去邊版明度跨度 0.13）。大片是黑 #060606（45%）。英文寫成 ENVIROINMENTAL（原圖如此）。頁首、頁尾兩版色相同、大小不同。",
+  "tier": "官網logo檔",
+  "source": "資料夾05",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/05_大亞環保.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/daya.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/daya_footer.png"
+  ],
+  "own_logo": true,
+  "n_chromatic": 2,
+  "scheme": "對比",
+  "scheme_first2": "對比",
+  "main": "#243952",
+  "dL": 17.7
+ },
+ {
+  "company": "久大",
+  "full": "久大管道工程",
+  "vid": "jiuda_full",
+  "alt": [
+   "jiuda_word",
+   "jiuda_icon"
+  ],
+  "cols": [
+   {
+    "hex": "#2298D3",
+    "share": 0.5651,
+    "oklch": [
+     0.645,
+     0.131,
+     237.0
+    ],
+    "lab_L": 59.4,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#58585A",
+    "share": 0.2404
+   },
+   {
+    "name": "灰",
+    "hex": "#B3B8BD",
+    "share": 0.1925
+   }
+  ],
+  "gradient": true,
+  "font": "英文超粗寬黑體（展示用）＋中文粗黑體",
+  "font_cls": "黑體",
+  "motif": "四個灰色管件彎頭排成菱形，中間水滴裡有扳手；字標兩側也有扳手",
+  "motif_cls": [
+   "水",
+   "管",
+   "工具"
+  ],
+  "note": "藍色從上淺到下深的漸層（明度跨度 0.25），補充 PDF 也記了漸層兩個觀察值 #2159A0、#269BD5。站台圖示（資料夾 06）是同一圖形。",
+  "tier": "官網logo檔",
+  "source": "補充PDF p12",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p12_040.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/jiuda_full.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/jiuda_word.png",
+   "/tmp/claude-0/r2/tw/img/jiuda_icon.png"
+  ],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#2298D3",
+  "dL": null
+ },
+ {
+  "company": "源昌",
+  "full": "源昌工程環保科技",
+  "vid": "yuanchang",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#FF6600",
+    "share": 0.0452,
+    "oklch": [
+     0.696,
+     0.204,
+     43.5
+    ],
+    "lab_L": 62.3,
+    "hue_bin": "橘"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#414951",
+    "share": 0.8687
+   },
+   {
+    "name": "灰",
+    "hex": "#92A0A3",
+    "share": 0.0553
+   },
+   {
+    "name": "淺灰",
+    "hex": "#CCCCCC",
+    "share": 0.028
+   }
+  ],
+  "gradient": false,
+  "font": "圓潤手寫毛筆體",
+  "font_cls": "書法毛筆",
+  "motif": "橘色圓環裡四層灰色箭頭（≫），灰由淺到深分階",
+  "motif_cls": [
+   "箭頭循環"
+  ],
+  "note": "唯一彩色是橘圈，只占 5%；字和箭頭是深灰 #414951（87%）。箭頭四階灰是分段，不是連續漸層。",
+  "tier": "官網logo檔",
+  "source": "資料夾07",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/07_源昌工程環保科技.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/yuanchang.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#FF6600",
+  "dL": null
+ },
+ {
+  "company": "森淨家",
+  "full": "森淨家",
+  "vid": "senjingjia",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#89C5DF",
+    "share": 0.9964,
+    "oklch": [
+     0.792,
+     0.072,
+     226.9
+    ],
+    "lab_L": 76.4,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [],
+  "gradient": false,
+  "font": "細黑體（白字）",
+  "font_cls": "黑體",
+  "motif": "不規則圓潤色塊，像水漬或卵石",
+  "motif_cls": [
+   "水"
+  ],
+  "note": "淺藍色塊上反白字，副標「水管清洗職人」。",
+  "tier": "官網logo檔",
+  "source": "資料夾08",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/08_森淨家.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/senjingjia.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#89C5DF",
+  "dL": null
+ },
+ {
+  "company": "逸居管必潔",
+  "full": "逸居管必潔科技",
+  "vid": "yiju",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#2D6EB1",
+    "share": 0.2014,
+    "oklch": [
+     0.53,
+     0.124,
+     251.9
+    ],
+    "lab_L": 45.5,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#222222",
+    "share": 0.7986
+   }
+  ],
+  "gradient": false,
+  "font": "細黑體",
+  "font_cls": "黑體",
+  "motif": "無，純字標",
+  "motif_cls": [
+   "純字標"
+  ],
+  "note": "公司名黑 #222222，副標「專業管路清洗」藍。",
+  "tier": "官網logo檔",
+  "source": "資料夾09",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/09_逸居管必潔.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/yiju.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#2D6EB1",
+  "dL": null
+ },
+ {
+  "company": "綠邑",
+  "full": "綠邑環保科技有限公司",
+  "vid": "lvyi",
+  "alt": [],
+  "cols": [],
+  "neutral": [
+   {
+    "name": "白",
+    "hex": "#FFFFFF",
+    "share": 1.0
+   }
+  ],
+  "gradient": false,
+  "font": "粗黑體＋英文細無襯線",
+  "font_cls": "黑體",
+  "motif": "幾何字母 GE（Greene）",
+  "motif_cls": [
+   "字母"
+  ],
+  "white_only": true,
+  "note": "只取得白色反白版，放在網站深色頁首上用。上輪 17 筆主色裡的 #254529 是網站頁首色，不是 logo 色。",
+  "tier": "官網logo檔",
+  "source": "資料夾10",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/10_綠邑環保科技.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/lvyi.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 0,
+  "scheme": "只有黑白灰",
+  "scheme_first2": "只有黑白灰",
+  "main": null,
+  "dL": null
+ },
+ {
+  "company": "日技",
+  "full": "日技管清工程股份有限公司",
+  "vid": "riji",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#0070C0",
+    "share": 0.9689,
+    "oklch": [
+     0.536,
+     0.15,
+     249.7
+    ],
+    "lab_L": 46.2,
+    "hue_bin": "藍"
+   },
+   {
+    "hex": "#EC1D24",
+    "share": 0.029,
+    "why": "圓徽中 JPN-TEK 小紅字；去邊時被刪，用不去邊色相格占比，色碼取紅字像素眾數",
+    "oklch": [
+     0.602,
+     0.233,
+     27.0
+    ],
+    "lab_L": 50.5,
+    "hue_bin": "紅"
+   }
+  ],
+  "neutral": [],
+  "gradient": false,
+  "font": "黑體；圓徽內 JPN-TEK 為襯線",
+  "font_cls": "黑體",
+  "motif": "藍色圓徽，中間白帶寫 JPN-TEK",
+  "motif_cls": [
+   "字母"
+  ],
+  "note": "圓徽白帶帶一點淺藍（#BBD9EE 左右，彩度 0.04 剛過門檻），算主藍的淺色，不另計。",
+  "tier": "官網logo檔",
+  "source": "資料夾11",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/11_日技管清工程.gif",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/riji.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 2,
+  "scheme": "對比",
+  "scheme_first2": "對比",
+  "main": "#0070C0",
+  "dL": 4.3
+ },
+ {
+  "company": "宏隆",
+  "full": "宏隆環保有限公司",
+  "vid": "honglong",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#186504",
+    "share": 0.5212,
+    "oklch": [
+     0.443,
+     0.142,
+     140.7
+    ],
+    "lab_L": 36.9,
+    "hue_bin": "綠"
+   },
+   {
+    "hex": "#F55802",
+    "share": 0.4773,
+    "oklch": [
+     0.663,
+     0.206,
+     40.5
+    ],
+    "lab_L": 58.4,
+    "hue_bin": "橘"
+   }
+  ],
+  "neutral": [],
+  "gradient": true,
+  "font": "書法（毛筆，綠）＋白色黑體「有限公司」",
+  "font_cls": "書法毛筆",
+  "motif": "無圖形；橘色底帶",
+  "motif_cls": [
+   "純字標"
+  ],
+  "note": "橘色底帶兩端向白色淡出（目視；量測明度跨度 0，因淡出部分像素少被當雜色）。綠橘各約一半。",
+  "tier": "官網logo檔",
+  "source": "資料夾12＝補充PDF p10（像素相同）",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/12_宏隆環保.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/honglong.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 2,
+  "scheme": "對比",
+  "scheme_first2": "對比",
+  "main": "#186504",
+  "dL": 21.5
+ },
+ {
+  "company": "康立",
+  "full": "康立衛生清潔工程",
+  "vid": "kangli",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#566A1F",
+    "share": 0.9874,
+    "merged": "#829437",
+    "why": "#829437 是綠色底塊漸層的亮端",
+    "oklch": [
+     0.492,
+     0.103,
+     123.1
+    ],
+    "lab_L": 41.8,
+    "hue_bin": "綠"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "白",
+    "hex": "#FFFFFF",
+    "share": null
+   }
+  ],
+  "gradient": true,
+  "font": "「康立」粗楷毛筆感＋「清潔工程」黑體＋英文無襯線",
+  "font_cls": "書法毛筆",
+  "motif": "右上角葉片",
+  "motif_cls": [
+   "葉片"
+  ],
+  "note": "沒有獨立 logo 檔，取 banner 上的綠色底塊（白字）。底塊有深淺漸層（明度跨度 0.14）。",
+  "tier": "官網banner字標",
+  "source": "資料夾13 banner",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/13_康立衛生清潔工程_banner含字標.jpg",
+  "crop": [
+   0,
+   40,
+   312,
+   175
+  ],
+  "img": "/tmp/claude-0/r2/tw/img/kangli.png",
+  "alt_img": [],
+  "own_logo": false,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#566A1F",
+  "dL": null
+ },
+ {
+  "company": "一元",
+  "full": "一元環保工程社",
+  "vid": "yiyuan",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#255092",
+    "share": 1.0,
+    "oklch": [
+     0.437,
+     0.119,
+     258.8
+    ],
+    "lab_L": 34.4,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "灰",
+    "hex": "#7C7B7B",
+    "share": 0.03,
+    "why": "英文細襯線字，去邊時被刪，用不去邊值"
+   }
+  ],
+  "gradient": false,
+  "font": "書法（毛筆）＋英文襯線",
+  "font_cls": "書法毛筆",
+  "motif": "毛筆圓圈裡寫書法「一元」",
+  "motif_cls": [
+   "書法圓"
+  ],
+  "note": "全藍單色。",
+  "tier": "官網logo檔",
+  "source": "資料夾14",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/14_一元環保.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/yiyuan.png",
+  "alt_img": [],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#255092",
+  "dL": null
+ },
+ {
+  "company": "全基",
+  "full": "全基企業有限公司",
+  "vid": "quanji",
+  "alt": [
+   "quanji_fav"
+  ],
+  "cols": [
+   {
+    "hex": "#28932A",
+    "share": 0.9078,
+    "oklch": [
+     0.582,
+     0.171,
+     143.2
+    ],
+    "lab_L": 53.5,
+    "hue_bin": "綠"
+   }
+  ],
+  "neutral": [],
+  "gradient": false,
+  "font": "無字（純圖形）",
+  "font_cls": "無字",
+  "motif": "圓點和長條排成箭頭狀（抽象；像管束或水流，推論）",
+  "motif_cls": [
+   "抽象"
+  ],
+  "note": "#CCEFC8（7%）是 JPEG 圓點周圍的淡綠光暈，目視沒有獨立色塊，不計。官網小圖標同色同形。",
+  "tier": "官網logo檔",
+  "source": "補充PDF p2/p7",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p02_000.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/quanji.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/quanji_fav.png"
+  ],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#28932A",
+  "dL": null
+ },
+ {
+  "company": "升野",
+  "full": "升野企業有限公司",
+  "vid": "shengye",
+  "alt": [
+   "shengye_head"
+  ],
+  "cols": [
+   {
+    "hex": "#FCCB26",
+    "share": 0.3772,
+    "oklch": [
+     0.861,
+     0.169,
+     90.1
+    ],
+    "lab_L": 83.7,
+    "hue_bin": "黃"
+   },
+   {
+    "hex": "#5BA1DA",
+    "share": 0.0608,
+    "oklch": [
+     0.687,
+     0.11,
+     245.0
+    ],
+    "lab_L": 64.0,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#231F20",
+    "share": 0.3291
+   },
+   {
+    "name": "深灰",
+    "hex": "#454142",
+    "share": 0.072
+   },
+   {
+    "name": "灰",
+    "hex": "#9E9D9E",
+    "share": 0.0459
+   },
+   {
+    "name": "淺灰",
+    "hex": "#D5D5D5",
+    "share": 0.057
+   }
+  ],
+  "gradient": false,
+  "font": "粗黑體＋英文粗襯線（SERN YUEH）",
+  "font_cls": "黑體",
+  "motif": "黃色方塊裡：藍色管口圓環、箭頭、黑色管內攝影車照出光束",
+  "motif_cls": [
+   "管",
+   "箭頭循環",
+   "管內檢視"
+  ],
+  "note": "光束是很淡的米色 #F4F3D4（1.7%，彩度 0.041），算淺色不另計；管口圓環偏青 #00A1DE（補充 PDF 值），線細，量測併在藍裡。黑占 33%。內頁頁首版是金色漸層底加白字陰影，屬網頁裝飾。",
+  "tier": "官網logo檔",
+  "source": "補充PDF p8",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p08_024.png",
+  "crop": [
+   345,
+   208,
+   1625,
+   600
+  ],
+  "img": "/tmp/claude-0/r2/tw/img/shengye.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/shengye_head.png"
+  ],
+  "own_logo": true,
+  "n_chromatic": 2,
+  "scheme": "對比",
+  "scheme_first2": "對比",
+  "main": "#FCCB26",
+  "dL": 19.7
+ },
+ {
+  "company": "積德",
+  "full": "積德工程股份有限公司",
+  "vid": "jide",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#1E572D",
+    "share": 0.5136,
+    "oklch": [
+     0.408,
+     0.091,
+     149.2
+    ],
+    "lab_L": 32.4,
+    "hue_bin": "綠"
+   },
+   {
+    "hex": "#EF2C26",
+    "share": 0.2681,
+    "oklch": [
+     0.615,
+     0.228,
+     28.3
+    ],
+    "lab_L": 52.2,
+    "hue_bin": "紅"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#242522",
+    "share": 0.0381
+   },
+   {
+    "name": "深灰",
+    "hex": "#403842",
+    "share": 0.0182
+   },
+   {
+    "name": "淺灰",
+    "hex": "#E1D2D5",
+    "share": 0.0255
+   }
+  ],
+  "gradient": true,
+  "font": "無字（純圖形）",
+  "font_cls": "無字",
+  "motif": "四支綠色箭頭繞圈，中間放射狀紅色圓",
+  "motif_cls": [
+   "箭頭循環"
+  ],
+  "note": "智財局 2001 年彩色服務標章圖樣，不等於現行使用。綠、紅都有明顯漸層（明度跨度 0.53、0.31）。JPEG 掃描色差大。",
+  "tier": "智財局商標圖樣",
+  "source": "補充PDF p8",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p08_025.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/jide.png",
+  "alt_img": [],
+  "own_logo": false,
+  "n_chromatic": 2,
+  "scheme": "對比",
+  "scheme_first2": "對比",
+  "main": "#1E572D",
+  "dL": 19.8
+ },
+ {
+  "company": "九升",
+  "full": "九升工程有限公司",
+  "vid": "jiusheng",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#5D7BD7",
+    "share": 0.9918,
+    "oklch": [
+     0.604,
+     0.144,
+     268.3
+    ],
+    "lab_L": 53.4,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [],
+  "gradient": false,
+  "font": "白字「九升」偏楷／明體（小圖，目視不確定）＋英文小字",
+  "font_cls": "楷明",
+  "motif": "圓形色塊",
+  "motif_cls": [
+   "無圖形色塊"
+  ],
+  "note": "取自第三方合作廠商欄，現行版待核。色相 268°，是偏紫的藍。",
+  "tier": "第三方頁",
+  "source": "補充PDF p10",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p10_030.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/jiusheng.png",
+  "alt_img": [],
+  "own_logo": false,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#5D7BD7",
+  "dL": null
+ },
+ {
+  "company": "浩源",
+  "full": "浩源有限公司",
+  "vid": "haoyuan_blue",
+  "alt": [
+   "haoyuan_white"
+  ],
+  "cols": [
+   {
+    "hex": "#0086BE",
+    "share": 1.0,
+    "oklch": [
+     0.587,
+     0.128,
+     236.8
+    ],
+    "lab_L": 52.7,
+    "hue_bin": "藍"
+   }
+  ],
+  "neutral": [],
+  "gradient": false,
+  "font": "粗黑體＋英文粗圓潤無襯線",
+  "font_cls": "黑體",
+  "motif": "藍版無圖形；另一站白版有圓形裡的柱狀圖形",
+  "motif_cls": [
+   "純字標"
+  ],
+  "note": "兩個網站兩個版本：hao-yuan 藍色純字標、pipe-clean 白色反白版加圖形。",
+  "tier": "官網logo檔",
+  "source": "補充PDF p11",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p11_034.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/haoyuan_blue.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/haoyuan_white.png"
+  ],
+  "own_logo": true,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#0086BE",
+  "dL": null
+ },
+ {
+  "company": "派浦崴洱",
+  "full": "派浦崴洱",
+  "vid": "paipu",
+  "alt": [
+   "paipu_s"
+  ],
+  "cols": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#221E1F",
+    "share": 1.0
+   }
+  ],
+  "gradient": false,
+  "font": "無字（P 字形圖形）",
+  "font_cls": "無字",
+  "motif": "圓形 P 字，圓內有水波（像管內水流）",
+  "motif_cls": [
+   "水",
+   "管",
+   "字母"
+  ],
+  "note": "只取得徵才平台上的低清黑白圖，不知道是否有彩色版。",
+  "tier": "第三方頁",
+  "source": "補充PDF p12",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p12_042.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/paipu.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/paipu_s.png"
+  ],
+  "own_logo": false,
+  "n_chromatic": 0,
+  "scheme": "只有黑白灰",
+  "scheme_first2": "只有黑白灰",
+  "main": null,
+  "dL": null
+ },
+ {
+  "company": "龍祥",
+  "full": "龍祥環保國際有限公司",
+  "vid": "longxiang",
+  "alt": [],
+  "cols": [
+   {
+    "hex": "#22AB42",
+    "share": 0.9771,
+    "oklch": [
+     0.65,
+     0.184,
+     146.4
+    ],
+    "lab_L": 61.5,
+    "hue_bin": "綠"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "白",
+    "hex": "#FFFFFF",
+    "share": null
+   }
+  ],
+  "gradient": true,
+  "font": "黑體（白字）",
+  "font_cls": "黑體",
+  "motif": "無，綠色橫幅上寫公司名",
+  "motif_cls": [
+   "純字標"
+  ],
+  "note": "第三方企業專頁橫幅，不是 logo 檔。綠色上淺下深漸層（明度跨度 0.33）。",
+  "tier": "第三方頁",
+  "source": "補充PDF p15",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p15_044.png",
+  "crop": [
+   0,
+   4,
+   300,
+   40
+  ],
+  "img": "/tmp/claude-0/r2/tw/img/longxiang.png",
+  "alt_img": [],
+  "own_logo": false,
+  "n_chromatic": 1,
+  "scheme": "一個彩色",
+  "scheme_first2": "一個彩色",
+  "main": "#22AB42",
+  "dL": null
+ },
+ {
+  "company": "順捷",
+  "full": "順捷營造",
+  "vid": "shunjie",
+  "alt": [
+   "shunjie_man"
+  ],
+  "cols": null,
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#000000",
+    "share": 0.6843
+   },
+   {
+    "name": "深灰",
+    "hex": "#727071",
+    "share": 0.2748
+   },
+   {
+    "name": "灰",
+    "hex": "#747374",
+    "share": 0.0408
+   }
+  ],
+  "gradient": null,
+  "font": "無字（純圖形）",
+  "font_cls": "無字",
+  "motif": "黑灰層疊折塊排成樹／麥穗／向上箭頭形；另一件是戴安全帽的施工人物",
+  "motif_cls": [
+   "抽象"
+  ],
+  "note": "兩件都是智財局墨色商標，墨色登記本來就不帶顏色，所以不計入配色統計。",
+  "tier": "智財局商標圖樣",
+  "source": "補充PDF p16",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p16_045.png",
+  "crop": null,
+  "img": "/tmp/claude-0/r2/tw/img/shunjie.png",
+  "alt_img": [
+   "/tmp/claude-0/r2/tw/img/shunjie_man.png"
+  ],
+  "own_logo": false,
+  "n_chromatic": null,
+  "scheme": "不計（墨色商標）",
+  "scheme_first2": null,
+  "main": null
+ }
+]

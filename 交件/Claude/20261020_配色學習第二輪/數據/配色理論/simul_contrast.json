@@ -1,0 +1,109 @@
+{
+ "what": "同一個工程黃放在五種底上（示意，不是配色提案）",
+ "rows": [
+  {
+   "bg_name": "深青",
+   "bg": "#0C424A",
+   "fg": "#D68702",
+   "wcag": 3.87,
+   "apca_Lc": -38.7,
+   "dE2000": 52.7,
+   "dL": 37.9,
+   "cam02_Yb_used": 4.5,
+   "cam02_J_of_yellow": 59.0,
+   "cam02_M_of_yellow": 50.6,
+   "cam02_h_of_yellow": 70.7,
+   "bg_oklch_h": 209.8,
+   "induced_direction_oklch_h": 29.8,
+   "wcag_protan": 3.17,
+   "wcag_deutan": 4.37,
+   "wcag_tritan": 3.67
+  },
+  {
+   "bg_name": "靛藍",
+   "bg": "#333D66",
+   "fg": "#D68702",
+   "wcag": 3.66,
+   "apca_Lc": -37.8,
+   "dE2000": 56.2,
+   "dL": 36.3,
+   "cam02_Yb_used": 5.0,
+   "cam02_J_of_yellow": 58.7,
+   "cam02_M_of_yellow": 49.8,
+   "cam02_h_of_yellow": 70.7,
+   "bg_oklch_h": 272.1,
+   "induced_direction_oklch_h": 92.1,
+   "wcag_protan": 3.05,
+   "wcag_deutan": 4.09,
+   "wcag_tritan": 3.53
+  },
+  {
+   "bg_name": "白",
+   "bg": "#FFFFFF",
+   "fg": "#D68702",
+   "wcag": 2.87,
+   "apca_Lc": 54.4,
+   "dE2000": 37.3,
+   "dL": -37.0,
+   "cam02_Yb_used": 100.0,
+   "cam02_J_of_yellow": 46.1,
+   "cam02_M_of_yellow": 41.5,
+   "cam02_h_of_yellow": 70.7,
+   "bg_oklch_h": null,
+   "induced_direction_oklch_h": null,
+   "wcag_protan": 3.32,
+   "wcag_deutan": 2.63,
+   "wcag_tritan": 2.92
+  },
+  {
+   "bg_name": "中灰 L*50",
+   "bg": "#777777",
+   "fg": "#D68702",
+   "wcag": 1.56,
+   "apca_Lc": -16.1,
+   "dE2000": 30.0,
+   "dL": 13.0,
+   "cam02_Yb_used": 18.4,
+   "cam02_J_of_yellow": 55.1,
+   "cam02_M_of_yellow": 43.7,
+   "cam02_h_of_yellow": 70.7,
+   "bg_oklch_h": null,
+   "induced_direction_oklch_h": null,
+   "wcag_protan": 1.35,
+   "wcag_deutan": 1.7,
+   "wcag_tritan": 1.53
+  },
+  {
+   "bg_name": "黑",
+   "bg": "#000000",
+   "fg": "#D68702",
+   "wcag": 7.33,
+   "apca_Lc": -47.4,
+   "dE2000": 56.8,
+   "dL": 63.0,
+   "cam02_Yb_used": 1.0,
+   "cam02_J_of_yellow": 61.0,
+   "cam02_M_of_yellow": 64.4,
+   "cam02_h_of_yellow": 70.7,
+   "bg_oklch_h": null,
+   "induced_direction_oklch_h": null,
+   "wcag_protan": 6.33,
+   "wcag_deutan": 7.97,
+   "wcag_tritan": 7.2
+  }
+ ],
+ "cam02_J_range": [
+  46.1,
+  61.0
+ ],
+ "black_bg_J_by_Yb_floor": {
+  "0.5": 61.6,
+  "1.0": 61.0,
+  "2.0": 60.3
+ },
+ "notes": [
+  "CIECAM02 只用背景亮度 Y_b 一個數字模擬底色影響，只能預測「變亮、變暗」，不會預測色相往底色補色方向偏（Albers 圖例裡最明顯的那種）。",
+  "色相偏移方向欄（induced_direction）只是「底色 OKLCH 色相 +180°」，是同時對比理論的方向，不是模型算出的偏移量。",
+  "觀看條件用 colour-science 的 sRGB 預設：L_A = 64/π×0.2 cd/m²、一般環境；黑底 Y_b 下限取 1。"
+ ]
+}

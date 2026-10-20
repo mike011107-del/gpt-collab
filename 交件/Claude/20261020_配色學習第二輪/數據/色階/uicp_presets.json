@@ -1,0 +1,374 @@
+[
+ {
+  "id": "CUSTOM_1_10",
+  "stops": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "n_stops": 6,
+  "lightness_min": 10,
+  "lightness_max": 90,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "CUSTOM_10_100",
+  "stops": [
+   "10",
+   "20",
+   "30",
+   "40",
+   "50",
+   "60"
+  ],
+  "n_stops": 6,
+  "lightness_min": 10,
+  "lightness_max": 90,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "CUSTOM_100_1000",
+  "stops": [
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600"
+  ],
+  "n_stops": 6,
+  "lightness_min": 10,
+  "lightness_max": 90,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "MATERIAL",
+  "stops": [
+   "50",
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900"
+  ],
+  "n_stops": 10,
+  "lightness_min": 24,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "MATERIAL_3",
+  "stops": [
+   "100",
+   "99",
+   "95",
+   "90",
+   "80",
+   "70",
+   "60",
+   "50",
+   "40",
+   "30",
+   "20",
+   "10",
+   "0"
+  ],
+  "n_stops": 13,
+  "lightness_min": 0,
+  "lightness_max": 100,
+  "easing": "NONE"
+ },
+ {
+  "id": "TAILWIND",
+  "stops": [
+   "50",
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900",
+   "950"
+  ],
+  "n_stops": 11,
+  "lightness_min": 16,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "ANT",
+  "stops": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "n_stops": 10,
+  "lightness_min": 24,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "BOOTSTRAP",
+  "stops": [
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900"
+  ],
+  "n_stops": 9,
+  "lightness_min": 15,
+  "lightness_max": 95,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "RADIX",
+  "stops": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "n_stops": 12,
+  "lightness_min": 5,
+  "lightness_max": 95,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "UNTITLED_UI",
+  "stops": [
+   "25",
+   "50",
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900",
+   "950"
+  ],
+  "n_stops": 12,
+  "lightness_min": 5,
+  "lightness_max": 100,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "OPEN_COLOR",
+  "stops": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "n_stops": 10,
+  "lightness_min": 15,
+  "lightness_max": 100,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "ADS",
+  "stops": [
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900",
+   "1000"
+  ],
+  "n_stops": 10,
+  "lightness_min": 24,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "ADS_NEUTRAL",
+  "stops": [
+   "0",
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900",
+   "1000",
+   "1100"
+  ],
+  "n_stops": 12,
+  "lightness_min": 8,
+  "lightness_max": 100,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "SPECTRUM",
+  "stops": [
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900",
+   "1000",
+   "1100",
+   "1200",
+   "1300"
+  ],
+  "n_stops": 13,
+  "lightness_min": 16,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "SPECTRUM_NEUTRAL",
+  "stops": [
+   "50",
+   "75",
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700",
+   "800",
+   "900"
+  ],
+  "n_stops": 11,
+  "lightness_min": 0,
+  "lightness_max": 100,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "CARBON",
+  "stops": [
+   "10",
+   "20",
+   "30",
+   "40",
+   "50",
+   "60",
+   "70",
+   "80",
+   "90",
+   "100"
+  ],
+  "n_stops": 10,
+  "lightness_min": 24,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "BASE",
+  "stops": [
+   "50",
+   "100",
+   "200",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700"
+  ],
+  "n_stops": 8,
+  "lightness_min": 24,
+  "lightness_max": 96,
+  "easing": "LINEAR"
+ },
+ {
+  "id": "POLARIS",
+  "stops": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "n_stops": 16,
+  "lightness_min": 16,
+  "lightness_max": 100,
+  "easing": "EASEOUT_QUAD"
+ },
+ {
+  "id": "FLUENT",
+  "stops": [
+   "10",
+   "20",
+   "30",
+   "40",
+   "50",
+   "60",
+   "70",
+   "80",
+   "90",
+   "100",
+   "110",
+   "120",
+   "130",
+   "140",
+   "150",
+   "160"
+  ],
+  "n_stops": 16,
+  "lightness_min": 10,
+  "lightness_max": 90,
+  "easing": "LINEAR"
+ }
+]

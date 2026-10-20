@@ -1,0 +1,725 @@
+{
+ "criteria": {
+  "色相對比": "一個 logo 裡有幾群色相（OKLCH 色相差 30° 以內算同一群）；取群數最多的",
+  "明暗對比": "兩色色相差 < 30°（同一色相只差深淺），取 L* 差最大",
+  "冷暖對比": "一色 OKLCH 色相 0–110° 或 ≥340°（暖），一色 160–290°（冷）；取 L* 差最小（只剩冷暖在對比）",
+  "補色對比": "兩色 OKLCH C 都 ≥ 0.08，色相差最接近 180°",
+  "彩度對比": "同色相（差 < 30°）或一邊是灰，L* 差 < 8（不靠明暗），取 C* 差最大",
+  "同時對比": "示意：取同業 logo 裡的一個中灰，放在兩個跟灰明度相近（L* 差 < 12）、色相差最大的同業主色上；理論預測灰會往底色的補色方向偏",
+  "面積對比": "同業資料沒有各色面積，不能挑；見 area_balance.json 的公式示意"
+ },
+ "examples": {
+  "色相對比": [
+   {
+    "peer": "Watercare",
+    "n_hues": 3,
+    "cols": [
+     "#001131",
+     "#E61C38",
+     "#5CA246",
+     "#007BC4"
+    ],
+    "okh": [
+     22.5,
+     138.8,
+     245.6,
+     258.1
+    ]
+   },
+   {
+    "peer": "SUEZ",
+    "n_hues": 2,
+    "cols": [
+     "#A2C617",
+     "#1A1D56"
+    ],
+    "okh": [
+     122.1,
+     274.9
+    ]
+   },
+   {
+    "peer": "Uisce Éireann",
+    "n_hues": 2,
+    "cols": [
+     "#0C23C6",
+     "#00B39A",
+     "#7FDFAE"
+    ],
+    "okh": [
+     160.2,
+     177.9,
+     265.4
+    ]
+   },
+   {
+    "peer": "PUB",
+    "n_hues": 2,
+    "cols": [
+     "#21409A",
+     "#009B8F",
+     "#0172BB"
+    ],
+    "okh": [
+     185.2,
+     247.3,
+     265.5
+    ]
+   }
+  ],
+  "明暗對比": [
+   {
+    "peer": "Watercare",
+    "a": {
+     "hex": "#001131",
+     "L": 5.6,
+     "C": 24.0,
+     "okC": 0.069,
+     "okh": 258.1,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#007BC4",
+     "L": 49.7,
+     "C": 45.9,
+     "okC": 0.144,
+     "okh": 245.6,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 12.5,
+    "dL": 44.1,
+    "dC": 21.9,
+    "dE2000": 36.8,
+    "warm_cool": [
+     "cool",
+     "cool"
+    ]
+   },
+   {
+    "peer": "Insituform",
+    "a": {
+     "hex": "#102E68",
+     "L": 20.3,
+     "C": 39.3,
+     "okC": 0.108,
+     "okh": 261.8,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#5096DC",
+     "L": 60.5,
+     "C": 42.2,
+     "okC": 0.127,
+     "okh": 250.3,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 11.5,
+    "dL": 40.2,
+    "dC": 2.9,
+    "dE2000": 37.5,
+    "warm_cool": [
+     "cool",
+     "cool"
+    ]
+   },
+   {
+    "peer": "Scottish Water",
+    "a": {
+     "hex": "#006FBA",
+     "L": 45.5,
+     "C": 46.8,
+     "okC": 0.144,
+     "okh": 248.4,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#95CAE7",
+     "L": 78.7,
+     "C": 22.3,
+     "okC": 0.069,
+     "okh": 232.6,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 15.8,
+    "dL": 33.2,
+    "dC": 24.5,
+    "dE2000": 29.9,
+    "warm_cool": [
+     "cool",
+     "cool"
+    ]
+   },
+   {
+    "peer": "メタウォーター",
+    "a": {
+     "hex": "#004697",
+     "L": 30.9,
+     "C": 51.6,
+     "okC": 0.147,
+     "okh": 257.2,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#6E9CD0",
+     "L": 63.0,
+     "C": 31.5,
+     "okC": 0.092,
+     "okh": 252.2,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 5.0,
+    "dL": 32.1,
+    "dC": 20.1,
+    "dE2000": 31.8,
+    "warm_cool": [
+     "cool",
+     "cool"
+    ]
+   }
+  ],
+  "冷暖對比": [
+   {
+    "peer": "Watercare",
+    "a": {
+     "hex": "#E61C38",
+     "L": 49.4,
+     "C": 82.1,
+     "okC": 0.227,
+     "okh": 22.5,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#007BC4",
+     "L": 49.7,
+     "C": 45.9,
+     "okC": 0.144,
+     "okh": 245.6,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 136.9,
+    "dL": 0.3,
+    "dC": 36.2,
+    "dE2000": 49.4,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   },
+   {
+    "peer": "Kier",
+    "a": {
+     "hex": "#DA242A",
+     "L": 47.4,
+     "C": 80.2,
+     "okC": 0.214,
+     "okh": 26.2,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#007B86",
+     "L": 46.8,
+     "C": 28.2,
+     "okC": 0.091,
+     "okh": 205.7,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 179.5,
+    "dL": 0.6,
+    "dC": 52.0,
+    "dE2000": 51.9,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   },
+   {
+    "peer": "積水化學 SPR",
+    "a": {
+     "hex": "#054A97",
+     "L": 32.2,
+     "C": 49.0,
+     "okC": 0.141,
+     "okh": 256.3,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#DA3B49",
+     "L": 50.1,
+     "C": 68.4,
+     "okC": 0.195,
+     "okh": 20.9,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 124.6,
+    "dL": 17.9,
+    "dC": 19.4,
+    "dE2000": 43.9,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   },
+   {
+    "peer": "Roto-Rooter",
+    "a": {
+     "hex": "#2A1768",
+     "L": 16.0,
+     "C": 54.6,
+     "okC": 0.132,
+     "okh": 285.6,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#DA291C",
+     "L": 47.7,
+     "C": 83.2,
+     "okC": 0.213,
+     "okh": 29.6,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 104.0,
+    "dL": 31.7,
+    "dC": 28.6,
+    "dE2000": 47.1,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   }
+  ],
+  "冷暖對比_同時明暗差大": [
+   {
+    "peer": "Watercare",
+    "a": {
+     "hex": "#001131",
+     "L": 5.6,
+     "C": 24.0,
+     "okC": 0.069,
+     "okh": 258.1,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#E61C38",
+     "L": 49.4,
+     "C": 82.1,
+     "okC": 0.227,
+     "okh": 22.5,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 124.4,
+    "dL": 43.8,
+    "dC": 58.1,
+    "dE2000": 49.5,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   },
+   {
+    "peer": "Roto-Rooter",
+    "a": {
+     "hex": "#2A1768",
+     "L": 16.0,
+     "C": 54.6,
+     "okC": 0.132,
+     "okh": 285.6,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#DA291C",
+     "L": 47.7,
+     "C": 83.2,
+     "okC": 0.213,
+     "okh": 29.6,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 104.0,
+    "dL": 31.7,
+    "dC": 28.6,
+    "dE2000": 47.1,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   },
+   {
+    "peer": "積水化學 SPR",
+    "a": {
+     "hex": "#054A97",
+     "L": 32.2,
+     "C": 49.0,
+     "okC": 0.141,
+     "okh": 256.3,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#DA3B49",
+     "L": 50.1,
+     "C": 68.4,
+     "okC": 0.195,
+     "okh": 20.9,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 124.6,
+    "dL": 17.9,
+    "dC": 19.4,
+    "dE2000": 43.9,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   }
+  ],
+  "補色對比": [
+   {
+    "peer": "Kier",
+    "a": {
+     "hex": "#DA242A",
+     "L": 47.4,
+     "C": 80.2,
+     "okC": 0.214,
+     "okh": 26.2,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#007B86",
+     "L": 46.8,
+     "C": 28.2,
+     "okC": 0.091,
+     "okh": 205.7,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 179.5,
+    "dL": 0.6,
+    "dC": 52.0,
+    "dE2000": 51.9,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   },
+   {
+    "peer": "SUEZ",
+    "a": {
+     "hex": "#A2C617",
+     "L": 74.9,
+     "C": 79.2,
+     "okC": 0.183,
+     "okh": 122.1,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#1A1D56",
+     "L": 14.2,
+     "C": 40.0,
+     "okC": 0.101,
+     "okh": 274.9,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 152.8,
+    "dL": 60.7,
+    "dC": 39.2,
+    "dE2000": 86.3,
+    "warm_cool": [
+     "cool",
+     "mid"
+    ]
+   },
+   {
+    "peer": "Metro Rod",
+    "a": {
+     "hex": "#2E1D67",
+     "L": 17.6,
+     "C": 50.0,
+     "okC": 0.122,
+     "okh": 287.2,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#2EA836",
+     "L": 60.6,
+     "C": 73.1,
+     "okC": 0.186,
+     "okh": 143.9,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 143.3,
+    "dL": 43.0,
+    "dC": 23.1,
+    "dE2000": 63.6,
+    "warm_cool": [
+     "cool",
+     "mid"
+    ]
+   },
+   {
+    "peer": "Watercare",
+    "a": {
+     "hex": "#E61C38",
+     "L": 49.4,
+     "C": 82.1,
+     "okC": 0.227,
+     "okh": 22.5,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#007BC4",
+     "L": 49.7,
+     "C": 45.9,
+     "okC": 0.144,
+     "okh": 245.6,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 136.9,
+    "dL": 0.3,
+    "dC": 36.2,
+    "dE2000": 49.4,
+    "warm_cool": [
+     "cool",
+     "warm"
+    ]
+   }
+  ],
+  "彩度對比": [
+   {
+    "peer": "Tideway",
+    "a": {
+     "hex": "#00B398",
+     "L": 65.4,
+     "C": 44.8,
+     "okC": 0.127,
+     "okh": 176.7,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#B2B4B2",
+     "L": 73.1,
+     "C": 1.3,
+     "okC": 0.004,
+     "okh": 145.5,
+     "chromatic": false,
+     "neutral_listed": true
+    },
+    "both_chromatic": false,
+    "dh": null,
+    "dL": 7.7,
+    "dC": 43.5,
+    "dE2000": 24.2,
+    "warm_cool": [
+     "cool",
+     "neutral"
+    ]
+   },
+   {
+    "peer": "Wessex Water",
+    "a": {
+     "hex": "#249DE3",
+     "L": 61.7,
+     "C": 44.9,
+     "okC": 0.144,
+     "okh": 240.8,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#A49B94",
+     "L": 64.5,
+     "C": 5.2,
+     "okC": 0.015,
+     "okh": 60.5,
+     "chromatic": false,
+     "neutral_listed": true
+    },
+    "both_chromatic": false,
+    "dh": null,
+    "dL": 2.8,
+    "dC": 39.7,
+    "dE2000": 27.4,
+    "warm_cool": [
+     "cool",
+     "neutral"
+    ]
+   },
+   {
+    "peer": "Tideway",
+    "a": {
+     "hex": "#52BBB3",
+     "L": 69.9,
+     "C": 32.5,
+     "okC": 0.098,
+     "okh": 188.4,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#B2B4B2",
+     "L": 73.1,
+     "C": 1.3,
+     "okC": 0.004,
+     "okh": 145.5,
+     "chromatic": false,
+     "neutral_listed": true
+    },
+    "both_chromatic": false,
+    "dh": null,
+    "dL": 3.2,
+    "dC": 31.2,
+    "dE2000": 21.5,
+    "warm_cool": [
+     "cool",
+     "neutral"
+    ]
+   },
+   {
+    "peer": "Tideway",
+    "a": {
+     "hex": "#00B398",
+     "L": 65.4,
+     "C": 44.8,
+     "okC": 0.127,
+     "okh": 176.7,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#52BBB3",
+     "L": 69.9,
+     "C": 32.5,
+     "okC": 0.098,
+     "okh": 188.4,
+     "chromatic": true
+    },
+    "both_chromatic": true,
+    "dh": 11.7,
+    "dL": 4.5,
+    "dC": 12.3,
+    "dE2000": 8.0,
+    "warm_cool": [
+     "cool",
+     "cool"
+    ]
+   }
+  ],
+  "彩度對比_跨公司": [
+   {
+    "peers": [
+     "Uisce Éireann",
+     "KAISER"
+    ],
+    "a": {
+     "hex": "#0C23C6",
+     "L": 27.7,
+     "C": 99.3,
+     "okC": 0.241,
+     "okh": 265.4,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#004186",
+     "L": 28.1,
+     "C": 44.9,
+     "okC": 0.13,
+     "okh": 255.7,
+     "chromatic": true
+    },
+    "dC": 54.4,
+    "dL": 0.4,
+    "dh": 9.7
+   },
+   {
+    "peers": [
+     "Uisce Éireann",
+     "積水化學 SPR"
+    ],
+    "a": {
+     "hex": "#0C23C6",
+     "L": 27.7,
+     "C": 99.3,
+     "okC": 0.241,
+     "okh": 265.4,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#054A97",
+     "L": 32.2,
+     "C": 49.0,
+     "okC": 0.141,
+     "okh": 256.3,
+     "chromatic": true
+    },
+    "dC": 50.3,
+    "dL": 4.5,
+    "dh": 9.1
+   },
+   {
+    "peers": [
+     "Uisce Éireann",
+     "メタウォーター"
+    ],
+    "a": {
+     "hex": "#0C23C6",
+     "L": 27.7,
+     "C": 99.3,
+     "okC": 0.241,
+     "okh": 265.4,
+     "chromatic": true
+    },
+    "b": {
+     "hex": "#004697",
+     "L": 30.9,
+     "C": 51.6,
+     "okC": 0.147,
+     "okh": 257.2,
+     "chromatic": true
+    },
+    "dC": 47.7,
+    "dL": 3.2,
+    "dh": 8.2
+   }
+  ],
+  "同時對比": {
+   "gray_from": "Wessex Water",
+   "gray": {
+    "hex": "#A49B94",
+    "L": 64.5,
+    "C": 5.2,
+    "okC": 0.015,
+    "okh": 60.5,
+    "chromatic": false
+   },
+   "bg1_from": "Kanal-Türpe",
+   "bg1": {
+    "hex": "#FA8D02",
+    "L": 69.0,
+    "C": 82.1,
+    "okC": 0.174,
+    "okh": 60.0,
+    "chromatic": true
+   },
+   "bg2_from": "CUES",
+   "bg2": {
+    "hex": "#008CCF",
+    "L": 55.3,
+    "C": 43.7,
+    "okC": 0.141,
+    "okh": 240.5,
+    "chromatic": true
+   },
+   "bg_dh": 179.5,
+   "predicted_tint_on_bg1_okh": 240.0,
+   "predicted_tint_on_bg2_okh": 60.5
+  }
+ }
+}

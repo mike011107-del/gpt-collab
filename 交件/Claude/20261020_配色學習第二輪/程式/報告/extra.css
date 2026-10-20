@@ -1,0 +1,42 @@
+
+/* 第二輪新增 */
+.fg { margin: 1mm 0 2.4mm; }
+.fg img { width: 100%; display: block; object-fit: contain; }
+.fg figcaption { font-size: 7.2pt; color: #555; line-height: 1.4; margin-top: 0.8mm; }
+.stripes { margin: 1mm 0 1.5mm; }
+.sr { display: flex; align-items: center; margin-bottom: 1.05mm; }
+.sn { width: 17mm; font-size: 7.6pt; line-height: 1.2; }
+.sb { flex: 1; display: flex; height: 4.6mm; border: 0.3pt solid rgba(0,0,0,0.18); }
+.sb div { height: 100%; }
+.ss { width: 22mm; font-size: 6.8pt; color: #444; padding-left: 1.6mm; line-height: 1.2; }
+.gps { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1.6mm; margin: 1mm 0 1mm; }
+.gpt { font-size: 7.4pt; height: 4mm; }
+.gpc { display: flex; height: 9mm; border: 0.3pt solid rgba(0,0,0,0.12); }
+.gpc div { flex: 1; }
+.gpc.g { margin-top: 0.6mm; }
+.gpn { font-size: 6.2pt; color: #444; line-height: 1.3; margin-top: 0.6mm; }
+.irs { margin: 1mm 0 2mm; }
+.ir { display: flex; align-items: stretch; margin-bottom: 1.6mm; }
+.it { width: 44mm; font-size: 7.6pt; line-height: 1.3; padding-right: 2mm; }
+.it span { color: #666; font-size: 6.8pt; }
+.ir.fl .it b, .ir.fl .it span { color: #9A4A00; }
+.ic { flex: 1; }
+.icc { display: flex; height: 7.2mm; }
+.icc div { flex: 1; }
+.icc.g { height: 4.4mm; margin-top: 0.5mm; }
+.scl { font-size: 7.6pt; margin: 1.2mm 0 0.6mm; color: #333; }
+.strip { display: flex; height: 7mm; margin-bottom: 1mm; }
+.strip div { flex: 1; font-size: 5.8pt; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 0.4mm; }
+table.tight td, table.tight th { padding: 0.55mm 1.2mm; }
+.tsw { display: inline-block; width: 5mm; height: 4mm; vertical-align: middle; margin-right: 1mm; border: 0.3pt solid rgba(0,0,0,0.15); }
+table.t td .tsw { display: block; width: 8mm; height: 4mm; }
+table.ft th .tsw { display: inline-block; width: 4mm; height: 4mm; }
+table.ft td { font-size: 7.8pt; padding: 0.75mm 1.2mm; }
+.arw { display: flex; align-items: center; margin-bottom: 1.2mm; }
+.arw span { width: 34mm; font-size: 7.4pt; }
+.arb { flex: 1; display: flex; height: 6mm; }
+.arb div { height: 100%; }
+.pr { display: flex; height: 7mm; }
+.pr div { flex: 1; }
+.sb div { font-size: 5.6pt; line-height: 4.6mm; padding-left: 0.8mm; overflow: hidden; white-space: nowrap; }
+.sb { border-color: rgba(0,0,0,0.3); }

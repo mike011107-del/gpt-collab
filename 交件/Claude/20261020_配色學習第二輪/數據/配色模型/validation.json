@@ -1,0 +1,204 @@
+{
+ "mcu_rawTemperature": {
+  "#0000FF": {
+   "expected": -1.393,
+   "got": -1.3935,
+   "ok": true
+  },
+  "#FF0000": {
+   "expected": 2.351,
+   "got": 2.3514,
+   "ok": true
+  },
+  "#00FF00": {
+   "expected": -0.267,
+   "got": -0.267,
+   "ok": true
+  },
+  "#FFFFFF": {
+   "expected": -0.5,
+   "got": -0.5,
+   "ok": true
+  },
+  "#000000": {
+   "expected": -0.5,
+   "got": -0.5,
+   "ok": true
+  }
+ },
+ "mcu_cam16": {
+  "#FF0000": {
+   "expected": [
+    27.408,
+    113.358,
+    46.445
+   ],
+   "got": [
+    27.4082,
+    113.3579,
+    46.4452
+   ],
+   "ok": true
+  },
+  "#00FF00": {
+   "expected": [
+    142.14,
+    108.41,
+    79.332
+   ],
+   "got": [
+    142.1399,
+    108.4101,
+    79.3316
+   ],
+   "ok": true
+  },
+  "#0000FF": {
+   "expected": [
+    282.788,
+    87.231,
+    25.466
+   ],
+   "got": [
+    282.7882,
+    87.2307,
+    25.4656
+   ],
+   "ok": true
+  },
+  "#FFFFFF": {
+   "expected": [
+    209.492,
+    2.869,
+    100.0
+   ],
+   "got": [
+    209.492,
+    2.869,
+    100.0
+   ],
+   "ok": true
+  }
+ },
+ "mcu_dislike": {
+  "liked_all_false": true,
+  "disliked_all_true": true
+ },
+ "ciede2000_sharma": [
+  {
+   "expected": 2.0425,
+   "got": 2.0425,
+   "got_vec": 2.0425,
+   "ok": true
+  },
+  {
+   "expected": 2.3669,
+   "got": 2.3669,
+   "got_vec": 2.3669,
+   "ok": true
+  },
+  {
+   "expected": 27.1492,
+   "got": 27.1492,
+   "got_vec": 27.1492,
+   "ok": true
+  },
+  {
+   "expected": 1.2644,
+   "got": 1.2644,
+   "got_vec": 1.2644,
+   "ok": true
+  },
+  {
+   "expected": 0.9082,
+   "got": 0.9082,
+   "got_vec": 0.9082,
+   "ok": true
+  }
+ ],
+ "colorgorical_de_bounds": {
+  "expected_max": 122.48163103,
+  "expected_min": 1.02043527056,
+  "got_max": 122.48163102976254,
+  "got_min": 1.020435270560631,
+  "ok": true
+ },
+ "colorgorical_pp_bounds": {
+  "expected_max": 107.909,
+  "expected_min": -101.423,
+  "got_all_chromatic": [
+   125.966,
+   -96.044
+  ],
+  "got_rgb_valid_only": [
+   114.935,
+   -94.584
+  ],
+  "got_wrapped_hue_variant": [
+   125.966,
+   -56.006
+  ],
+  "n_chromatic_grid": 8304,
+  "n_valid_rgb": 6624
+ },
+ "colorgorical_nu_entropy": {
+  "hardcoded_min": -4.5,
+  "got_min": -4.461,
+  "got_max": -0.374
+ },
+ "lab_crosscheck": {
+  "#0C424A": {
+   "mine": [
+    25.165,
+    -13.728,
+    -9.767
+   ],
+   "colourtool": [
+    25.164,
+    -13.735,
+    -9.769
+   ]
+  },
+  "#333D66": {
+   "mine": [
+    26.736,
+    8.389,
+    -25.419
+   ],
+   "colourtool": [
+    26.736,
+    8.383,
+    -25.419
+   ]
+  },
+  "#D68702": {
+   "mine": [
+    63.035,
+    22.441,
+    68.455
+   ],
+   "colourtool": [
+    63.038,
+    22.451,
+    68.452
+   ]
+  },
+  "#FFFFFF": {
+   "mine": [
+    100.0,
+    0.0,
+    -0.0
+   ],
+   "colourtool": [
+    100.0,
+    0.0,
+    0.0
+   ]
+  },
+  "dE_teal_yellow": {
+   "mine": 52.6684,
+   "colourtool": 52.6739
+  }
+ },
+ "seconds": 9.2
+}
