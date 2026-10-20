@@ -1,0 +1,542 @@
+{
+ "source": "github.com/tartarskunk/ColorHarmonization commit b78927988c0c66dc022abffd9fe3c3fd69050757（Cohen-Or 2006 實作；模板源自 Matsuda，原著未取得）",
+ "templates": {
+  "i": [
+   [
+    0.0,
+    0.05
+   ]
+  ],
+  "V": [
+   [
+    0.0,
+    0.26
+   ]
+  ],
+  "L": [
+   [
+    0.0,
+    0.05
+   ],
+   [
+    0.25,
+    0.22
+   ]
+  ],
+  "mirror_L": [
+   [
+    0.0,
+    0.05
+   ],
+   [
+    -0.25,
+    0.22
+   ]
+  ],
+  "I": [
+   [
+    0.0,
+    0.05
+   ],
+   [
+    0.5,
+    0.05
+   ]
+  ],
+  "T": [
+   [
+    0.25,
+    0.5
+   ]
+  ],
+  "Y": [
+   [
+    0.0,
+    0.26
+   ],
+   [
+    0.5,
+    0.05
+   ]
+  ],
+  "X": [
+   [
+    0.0,
+    0.26
+   ],
+   [
+    0.5,
+    0.26
+   ]
+  ]
+ },
+ "peers": [
+  {
+   "peer": "SUEZ",
+   "n_chromatic": 2,
+   "cols": [
+    "#A2C617",
+    "#1A1D56"
+   ],
+   "fits_hsv": [
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Tideway",
+   "n_chromatic": 3,
+   "cols": [
+    "#00B398",
+    "#7CE0D3",
+    "#52BBB3"
+   ],
+   "fits_hsv": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Scottish Water",
+   "n_chromatic": 2,
+   "cols": [
+    "#006FBA",
+    "#95CAE7"
+   ],
+   "fits_hsv": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Uisce Éireann",
+   "n_chromatic": 3,
+   "cols": [
+    "#0C23C6",
+    "#00B39A",
+    "#7FDFAE"
+   ],
+   "fits_hsv": [
+    "V",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ]
+  },
+  {
+   "peer": "PUB",
+   "n_chromatic": 3,
+   "cols": [
+    "#21409A",
+    "#009B8F",
+    "#0172BB"
+   ],
+   "fits_hsv": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "V",
+    "L",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "DC Water",
+   "n_chromatic": 2,
+   "cols": [
+    "#6BB345",
+    "#0681C5"
+   ],
+   "fits_hsv": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ],
+   "fits_oklch": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ]
+  },
+  {
+   "peer": "Sydney Water",
+   "n_chromatic": 2,
+   "cols": [
+    "#00259C",
+    "#29ADCE"
+   ],
+   "fits_hsv": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Watercare",
+   "n_chromatic": 4,
+   "cols": [
+    "#001131",
+    "#E61C38",
+    "#5CA246",
+    "#007BC4"
+   ],
+   "fits_hsv": [],
+   "fits_oklch": []
+  },
+  {
+   "peer": "メタウォーター",
+   "n_chromatic": 2,
+   "cols": [
+    "#004697",
+    "#6E9CD0"
+   ],
+   "fits_hsv": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Metro Rod",
+   "n_chromatic": 2,
+   "cols": [
+    "#2E1D67",
+    "#2EA836"
+   ],
+   "fits_hsv": [
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Roto-Rooter",
+   "n_chromatic": 2,
+   "cols": [
+    "#2A1768",
+    "#DA291C"
+   ],
+   "fits_hsv": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ],
+   "fits_oklch": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ]
+  },
+  {
+   "peer": "Clancy",
+   "n_chromatic": 2,
+   "cols": [
+    "#D50032",
+    "#97D700"
+   ],
+   "fits_hsv": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ]
+  },
+  {
+   "peer": "J. Murphy & Sons",
+   "n_chromatic": 2,
+   "cols": [
+    "#205C42",
+    "#95C120"
+   ],
+   "fits_hsv": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Kier",
+   "n_chromatic": 2,
+   "cols": [
+    "#DA242A",
+    "#007B86"
+   ],
+   "fits_hsv": [
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "I",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "Insituform",
+   "n_chromatic": 2,
+   "cols": [
+    "#102E68",
+    "#5096DC"
+   ],
+   "fits_hsv": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "積水化學 SPR",
+   "n_chromatic": 2,
+   "cols": [
+    "#054A97",
+    "#DA3B49"
+   ],
+   "fits_hsv": [
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "日本ヒューム",
+   "n_chromatic": 2,
+   "cols": [
+    "#535CA8",
+    "#39B9A6"
+   ],
+   "fits_hsv": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "L",
+    "mirror_L",
+    "T",
+    "X"
+   ]
+  },
+  {
+   "peer": "Mini-Cam",
+   "n_chromatic": 2,
+   "cols": [
+    "#EC672C",
+    "#FAB500"
+   ],
+   "fits_hsv": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "V",
+    "L",
+    "mirror_L",
+    "T",
+    "Y",
+    "X"
+   ]
+  },
+  {
+   "peer": "CUES",
+   "n_chromatic": 2,
+   "cols": [
+    "#008CCF",
+    "#005F9F"
+   ],
+   "fits_hsv": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ],
+   "fits_oklch": [
+    "i",
+    "V",
+    "L",
+    "mirror_L",
+    "I",
+    "T",
+    "Y",
+    "X"
+   ]
+  }
+ ],
+ "random_hues_fit_share": {
+  "2": {
+   "i": 0.103,
+   "V": 0.532,
+   "L": 0.769,
+   "mirror_L": 0.769,
+   "I": 0.206,
+   "T": 1.0,
+   "Y": 0.827,
+   "X": 1.0
+  },
+  "3": {
+   "i": 0.009,
+   "V": 0.197,
+   "L": 0.363,
+   "mirror_L": 0.361,
+   "I": 0.032,
+   "T": 0.738,
+   "Y": 0.496,
+   "X": 0.81
+  },
+  "4": {
+   "i": 0.001,
+   "V": 0.073,
+   "L": 0.15,
+   "mirror_L": 0.156,
+   "I": 0.004,
+   "T": 0.502,
+   "Y": 0.223,
+   "X": 0.562
+  }
+ },
+ "note": "色相用 HSV（跟實作一樣）另附 OKLCH；近灰（OKLCH C<0.04）不算。T 型是 180° 半圈，任兩個色相的最短弧都 ≤180°，一定放得進（幾何上 100%）；X 型兩個 93.6° 扇形相對，任兩色也一定放得進。10-19 修正：旋轉改精確判定、hsv_h 通道值修正、隨機基準改 2000 組。"
+}

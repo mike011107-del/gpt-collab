@@ -1,0 +1,2632 @@
+{
+ "roundtrip_check_max_abs_err_linear_rgb": 0.0,
+ "peers": [
+  {
+   "peer": "Veolia",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 50.7,
+   "rel_chroma_main": 0.94,
+   "main": "#E52028"
+  },
+  {
+   "peer": "SUEZ",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 60.7,
+   "max_dE_within": 86.3,
+   "max_dL_vs_white": 85.8,
+   "rel_chroma_main": 0.975,
+   "main": "#A2C617"
+  },
+  {
+   "peer": "REMONDIS",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 38.4,
+   "max_dE_within": 41.8,
+   "max_dL_vs_white": 87.8,
+   "rel_chroma_main": 0.957,
+   "main": "#ED1B29"
+  },
+  {
+   "peer": "Biffa",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 50.8,
+   "rel_chroma_main": 0.953,
+   "main": "#E42313"
+  },
+  {
+   "peer": "Republic Services",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 54.7,
+   "rel_chroma_main": 1.0,
+   "main": "#D80025"
+  },
+  {
+   "peer": "Cleanaway",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 40.3,
+   "rel_chroma_main": 1.0,
+   "main": "#0099D8"
+  },
+  {
+   "peer": "Thames Water",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 38.6,
+   "rel_chroma_main": 1.0,
+   "main": "#009EDE"
+  },
+  {
+   "peer": "Tideway",
+   "group": "三色以上",
+   "n_hues": 1,
+   "n_colours_listed": 5,
+   "max_dL_within": 40.2,
+   "max_dE_within": 39.6,
+   "max_dL_vs_white": 57.1,
+   "rel_chroma_main": 1.0,
+   "main": "#00B398"
+  },
+  {
+   "peer": "Wessex Water",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 3,
+   "max_dL_within": 42.4,
+   "max_dE_within": 42.2,
+   "max_dL_vs_white": 77.8,
+   "rel_chroma_main": 0.931,
+   "main": "#249DE3"
+  },
+  {
+   "peer": "Scottish Water",
+   "group": "兩色同色系",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 33.2,
+   "max_dE_within": 29.9,
+   "max_dL_vs_white": 54.5,
+   "rel_chroma_main": 1.0,
+   "main": "#006FBA"
+  },
+  {
+   "peer": "Uisce Éireann",
+   "group": "三色以上",
+   "n_hues": 2,
+   "n_colours_listed": 3,
+   "max_dL_within": 54.3,
+   "max_dE_within": 70.2,
+   "max_dL_vs_white": 72.3,
+   "rel_chroma_main": 0.879,
+   "main": "#0C23C6"
+  },
+  {
+   "peer": "PUB",
+   "group": "三色以上",
+   "n_hues": 2,
+   "n_colours_listed": 3,
+   "max_dL_within": 27.3,
+   "max_dE_within": 43.4,
+   "max_dL_vs_white": 69.8,
+   "rel_chroma_main": 0.546,
+   "main": "#21409A"
+  },
+  {
+   "peer": "DC Water",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 14.8,
+   "max_dE_within": 55.5,
+   "max_dL_vs_white": 48.4,
+   "rel_chroma_main": 0.777,
+   "main": "#6BB345"
+  },
+  {
+   "peer": "Sydney Water",
+   "group": "兩色相鄰",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 42.9,
+   "max_dE_within": 48.2,
+   "max_dL_vs_white": 77.3,
+   "rel_chroma_main": 1.0,
+   "main": "#00259C"
+  },
+  {
+   "peer": "Watercare",
+   "group": "三色以上",
+   "n_hues": 3,
+   "n_colours_listed": 4,
+   "max_dL_within": 54.8,
+   "max_dE_within": 68.9,
+   "max_dL_vs_white": 94.4,
+   "rel_chroma_main": 1.0,
+   "main": "#001131"
+  },
+  {
+   "peer": "メタウォーター",
+   "group": "兩色同色系",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 32.1,
+   "max_dE_within": 31.8,
+   "max_dL_vs_white": 69.1,
+   "rel_chroma_main": 1.0,
+   "main": "#004697"
+  },
+  {
+   "peer": "Dyno-Rod",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 41.8,
+   "rel_chroma_main": 0.861,
+   "main": "#F15A2F"
+  },
+  {
+   "peer": "Metro Rod",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 43.0,
+   "max_dE_within": 63.6,
+   "max_dL_vs_white": 82.4,
+   "rel_chroma_main": 0.702,
+   "main": "#2E1D67"
+  },
+  {
+   "peer": "Lanes Group",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 27.6,
+   "max_dE_within": 36.6,
+   "max_dL_vs_white": 50.7,
+   "rel_chroma_main": 0.993,
+   "main": "#E40571"
+  },
+  {
+   "peer": "Roto-Rooter",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 31.7,
+   "max_dE_within": 47.1,
+   "max_dL_vs_white": 84.0,
+   "rel_chroma_main": 0.778,
+   "main": "#2A1768"
+  },
+  {
+   "peer": "Hydromax USA",
+   "group": "只有黑白灰",
+   "n_hues": 0,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": null,
+   "main": "#000000"
+  },
+  {
+   "peer": "Kanal-Türpe",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 58.8,
+   "max_dE_within": 59.0,
+   "max_dL_vs_white": 89.7,
+   "rel_chroma_main": 0.998,
+   "main": "#FA8D02"
+  },
+  {
+   "peer": "Lobbe",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 52.4,
+   "rel_chroma_main": 0.992,
+   "main": "#E30613"
+  },
+  {
+   "peer": "Clancy",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 34.4,
+   "max_dE_within": 76.3,
+   "max_dL_vs_white": 55.2,
+   "rel_chroma_main": 1.0,
+   "main": "#D50032"
+  },
+  {
+   "peer": "J. Murphy & Sons",
+   "group": "兩色同色系",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 37.9,
+   "max_dE_within": 42.7,
+   "max_dL_vs_white": 65.3,
+   "rel_chroma_main": 0.807,
+   "main": "#205C42"
+  },
+  {
+   "peer": "Kier",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 3,
+   "max_dL_within": 47.4,
+   "max_dE_within": 51.9,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 0.92,
+   "main": "#DA242A"
+  },
+  {
+   "peer": "Ventia",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 76.6,
+   "rel_chroma_main": 1.0,
+   "main": "#004127"
+  },
+  {
+   "peer": "Azuria",
+   "group": "只有黑白灰",
+   "n_hues": 0,
+   "n_colours_listed": 0,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 0.0,
+   "rel_chroma_main": null,
+   "main": null
+  },
+  {
+   "peer": "Insituform",
+   "group": "兩色同色系",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 40.2,
+   "max_dE_within": 37.5,
+   "max_dL_vs_white": 79.7,
+   "rel_chroma_main": 0.746,
+   "main": "#102E68"
+  },
+  {
+   "peer": "Aarsleff",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 44.0,
+   "max_dE_within": 38.1,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 1.0,
+   "main": "#006CB0"
+  },
+  {
+   "peer": "Interflow",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 61.0,
+   "max_dE_within": 52.4,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 1.0,
+   "main": "#009DDC"
+  },
+  {
+   "peer": "積水化學 SPR",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 2,
+   "max_dL_within": 17.9,
+   "max_dE_within": 43.9,
+   "max_dL_vs_white": 67.8,
+   "rel_chroma_main": 0.971,
+   "main": "#054A97"
+  },
+  {
+   "peer": "管清工業",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 37.7,
+   "max_dE_within": 34.7,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 1.0,
+   "main": "#0059A6"
+  },
+  {
+   "peer": "東亜グラウト工業",
+   "group": "只有黑白灰",
+   "n_hues": 0,
+   "n_colours_listed": 0,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 0.0,
+   "rel_chroma_main": null,
+   "main": null
+  },
+  {
+   "peer": "日本ヒューム",
+   "group": "兩色對比",
+   "n_hues": 2,
+   "n_colours_listed": 3,
+   "max_dL_within": 58.7,
+   "max_dE_within": 60.0,
+   "max_dL_vs_white": 90.5,
+   "rel_chroma_main": 0.427,
+   "main": "#535CA8"
+  },
+  {
+   "peer": "日本水工設計",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 34.1,
+   "max_dE_within": 33.3,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 1.0,
+   "main": "#004EA2"
+  },
+  {
+   "peer": "IBAK",
+   "group": "只有黑白灰",
+   "n_hues": 0,
+   "n_colours_listed": 0,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 0.0,
+   "rel_chroma_main": null,
+   "main": null
+  },
+  {
+   "peer": "iPEK",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 3,
+   "max_dL_within": 63.3,
+   "max_dE_within": 49.9,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 0.868,
+   "main": "#DF322A"
+  },
+  {
+   "peer": "RAUSCH",
+   "group": "只有黑白灰",
+   "n_hues": 0,
+   "n_colours_listed": 0,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 0.0,
+   "rel_chroma_main": null,
+   "main": null
+  },
+  {
+   "peer": "Mini-Cam",
+   "group": "兩色同色系",
+   "n_hues": 2,
+   "n_colours_listed": 3,
+   "max_dL_within": 67.4,
+   "max_dE_within": 69.3,
+   "max_dL_vs_white": 89.3,
+   "rel_chroma_main": 0.882,
+   "main": "#EC672C"
+  },
+  {
+   "peer": "CUES",
+   "group": "兩色同色系",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 16.3,
+   "max_dE_within": 17.1,
+   "max_dL_vs_white": 61.0,
+   "rel_chroma_main": 1.0,
+   "main": "#008CCF"
+  },
+  {
+   "peer": "Envirosight",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 67.5,
+   "max_dE_within": 60.8,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 0.785,
+   "main": "#68B745"
+  },
+  {
+   "peer": "RedZone Robotics",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 49.5,
+   "max_dE_within": 46.5,
+   "max_dL_vs_white": 100.0,
+   "rel_chroma_main": 0.941,
+   "main": "#E62027"
+  },
+  {
+   "peer": "Vactor",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 37.8,
+   "rel_chroma_main": 1.0,
+   "main": "#00A1DC"
+  },
+  {
+   "peer": "Rioned",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 79.5,
+   "rel_chroma_main": 1.0,
+   "main": "#002F6C"
+  },
+  {
+   "peer": "KAISER",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 1,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 71.9,
+   "rel_chroma_main": 1.0,
+   "main": "#004186"
+  },
+  {
+   "peer": "Jurop",
+   "group": "一個彩色",
+   "n_hues": 1,
+   "n_colours_listed": 2,
+   "max_dL_within": 11.2,
+   "max_dE_within": 25.2,
+   "max_dL_vs_white": 59.6,
+   "rel_chroma_main": 1.0,
+   "main": "#005EB8"
+  },
+  {
+   "peer": "Cappellotto",
+   "group": "只有黑白灰",
+   "n_hues": 0,
+   "n_colours_listed": 0,
+   "max_dL_within": 0.0,
+   "max_dE_within": 0.0,
+   "max_dL_vs_white": 0.0,
+   "rel_chroma_main": null,
+   "main": null
+  }
+ ],
+ "by_n_hues": {
+  "0": {
+   "n_peers": 6,
+   "n_with_2plus_colours": 0,
+   "median_max_dL_within": null
+  },
+  "1": {
+   "n_peers": 28,
+   "n_with_2plus_colours": 17,
+   "median_max_dL_within": 40.2
+  },
+  "2": {
+   "n_peers": 13,
+   "n_with_2plus_colours": 13,
+   "median_max_dL_within": 42.9
+  },
+  "3": {
+   "n_peers": 1,
+   "n_with_2plus_colours": 1,
+   "median_max_dL_within": 54.8
+  }
+ },
+ "songchun_rel_chroma": {
+  "深青": {
+   "rel_chroma": 0.907,
+   "max_okC_at_same_L_h": 0.06,
+   "okL": 0.35,
+   "okh": 209.8,
+   "cusp_L_this_hue": 0.84,
+   "cusp_C_this_hue": 0.145
+  },
+  "靛藍": {
+   "rel_chroma": 0.3,
+   "max_okC_at_same_L_h": 0.239,
+   "okL": 0.371,
+   "okh": 272.1,
+   "cusp_L_this_hue": 0.47,
+   "cusp_C_this_hue": 0.302
+  },
+  "工程黃": {
+   "rel_chroma": 0.997,
+   "max_okC_at_same_L_h": 0.15,
+   "okL": 0.69,
+   "okh": 68.9,
+   "cusp_L_this_hue": 0.785,
+   "cusp_C_this_hue": 0.171
+  }
+ },
+ "peer_main_rel_chroma": {
+  "n": 42,
+  "median": 0.992,
+  "p25": 0.88,
+  "min": 0.427,
+  "n_below_0.5": 1
+ },
+ "random_srgb_rel_chroma": {
+  "n": 2879,
+  "median": 0.87,
+  "p25": 0.7
+ },
+ "cusp_by_hue": [
+  {
+   "okh": 0,
+   "cusp_L": 0.645,
+   "cusp_C": 0.261
+  },
+  {
+   "okh": 15,
+   "cusp_L": 0.635,
+   "cusp_C": 0.254
+  },
+  {
+   "okh": 30,
+   "cusp_L": 0.63,
+   "cusp_C": 0.253
+  },
+  {
+   "okh": 45,
+   "cusp_L": 0.7,
+   "cusp_C": 0.2
+  },
+  {
+   "okh": 60,
+   "cusp_L": 0.755,
+   "cusp_C": 0.177
+  },
+  {
+   "okh": 75,
+   "cusp_L": 0.805,
+   "cusp_C": 0.17
+  },
+  {
+   "okh": 90,
+   "cusp_L": 0.86,
+   "cusp_C": 0.176
+  },
+  {
+   "okh": 105,
+   "cusp_L": 0.935,
+   "cusp_C": 0.198
+  },
+  {
+   "okh": 120,
+   "cusp_L": 0.935,
+   "cusp_C": 0.222
+  },
+  {
+   "okh": 135,
+   "cusp_L": 0.89,
+   "cusp_C": 0.26
+  },
+  {
+   "okh": 150,
+   "cusp_L": 0.87,
+   "cusp_C": 0.24
+  },
+  {
+   "okh": 165,
+   "cusp_L": 0.885,
+   "cusp_C": 0.186
+  },
+  {
+   "okh": 180,
+   "cusp_L": 0.895,
+   "cusp_C": 0.162
+  },
+  {
+   "okh": 195,
+   "cusp_L": 0.9,
+   "cusp_C": 0.154
+  },
+  {
+   "okh": 210,
+   "cusp_L": 0.84,
+   "cusp_C": 0.145
+  },
+  {
+   "okh": 225,
+   "cusp_L": 0.78,
+   "cusp_C": 0.148
+  },
+  {
+   "okh": 240,
+   "cusp_L": 0.715,
+   "cusp_C": 0.164
+  },
+  {
+   "okh": 255,
+   "cusp_L": 0.625,
+   "cusp_C": 0.205
+  },
+  {
+   "okh": 270,
+   "cusp_L": 0.465,
+   "cusp_C": 0.305
+  },
+  {
+   "okh": 285,
+   "cusp_L": 0.505,
+   "cusp_C": 0.292
+  },
+  {
+   "okh": 300,
+   "cusp_L": 0.55,
+   "cusp_C": 0.294
+  },
+  {
+   "okh": 315,
+   "cusp_L": 0.62,
+   "cusp_C": 0.305
+  },
+  {
+   "okh": 330,
+   "cusp_L": 0.695,
+   "cusp_C": 0.317
+  },
+  {
+   "okh": 345,
+   "cusp_L": 0.665,
+   "cusp_C": 0.283
+  }
+ ],
+ "cusp_by_hue_note": "15° 取樣，只當粗略參考；細取樣看 cusp_fine。",
+ "cusp_fine": {
+  "method": "sRGB 立方體六條邊各 20001 點，OKLCH 內插到每 1°",
+  "by_hue_1deg": [
+   {
+    "okh": 0,
+    "cusp_L": 0.648,
+    "cusp_C": 0.263
+   },
+   {
+    "okh": 1,
+    "cusp_L": 0.647,
+    "cusp_C": 0.262
+   },
+   {
+    "okh": 2,
+    "cusp_L": 0.646,
+    "cusp_C": 0.261
+   },
+   {
+    "okh": 3,
+    "cusp_L": 0.645,
+    "cusp_C": 0.26
+   },
+   {
+    "okh": 4,
+    "cusp_L": 0.644,
+    "cusp_C": 0.259
+   },
+   {
+    "okh": 5,
+    "cusp_L": 0.643,
+    "cusp_C": 0.258
+   },
+   {
+    "okh": 6,
+    "cusp_L": 0.642,
+    "cusp_C": 0.258
+   },
+   {
+    "okh": 7,
+    "cusp_L": 0.641,
+    "cusp_C": 0.257
+   },
+   {
+    "okh": 8,
+    "cusp_L": 0.641,
+    "cusp_C": 0.257
+   },
+   {
+    "okh": 9,
+    "cusp_L": 0.64,
+    "cusp_C": 0.256
+   },
+   {
+    "okh": 10,
+    "cusp_L": 0.639,
+    "cusp_C": 0.256
+   },
+   {
+    "okh": 11,
+    "cusp_L": 0.638,
+    "cusp_C": 0.255
+   },
+   {
+    "okh": 12,
+    "cusp_L": 0.638,
+    "cusp_C": 0.255
+   },
+   {
+    "okh": 13,
+    "cusp_L": 0.637,
+    "cusp_C": 0.255
+   },
+   {
+    "okh": 14,
+    "cusp_L": 0.636,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 15,
+    "cusp_L": 0.636,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 16,
+    "cusp_L": 0.635,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 17,
+    "cusp_L": 0.634,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 18,
+    "cusp_L": 0.634,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 19,
+    "cusp_L": 0.633,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 20,
+    "cusp_L": 0.633,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 21,
+    "cusp_L": 0.632,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 22,
+    "cusp_L": 0.632,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 23,
+    "cusp_L": 0.631,
+    "cusp_C": 0.255
+   },
+   {
+    "okh": 24,
+    "cusp_L": 0.63,
+    "cusp_C": 0.255
+   },
+   {
+    "okh": 25,
+    "cusp_L": 0.63,
+    "cusp_C": 0.255
+   },
+   {
+    "okh": 26,
+    "cusp_L": 0.629,
+    "cusp_C": 0.256
+   },
+   {
+    "okh": 27,
+    "cusp_L": 0.629,
+    "cusp_C": 0.256
+   },
+   {
+    "okh": 28,
+    "cusp_L": 0.629,
+    "cusp_C": 0.257
+   },
+   {
+    "okh": 29,
+    "cusp_L": 0.628,
+    "cusp_C": 0.258
+   },
+   {
+    "okh": 30,
+    "cusp_L": 0.632,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 31,
+    "cusp_L": 0.638,
+    "cusp_C": 0.249
+   },
+   {
+    "okh": 32,
+    "cusp_L": 0.643,
+    "cusp_C": 0.244
+   },
+   {
+    "okh": 33,
+    "cusp_L": 0.648,
+    "cusp_C": 0.239
+   },
+   {
+    "okh": 34,
+    "cusp_L": 0.653,
+    "cusp_C": 0.235
+   },
+   {
+    "okh": 35,
+    "cusp_L": 0.658,
+    "cusp_C": 0.231
+   },
+   {
+    "okh": 36,
+    "cusp_L": 0.663,
+    "cusp_C": 0.227
+   },
+   {
+    "okh": 37,
+    "cusp_L": 0.668,
+    "cusp_C": 0.223
+   },
+   {
+    "okh": 38,
+    "cusp_L": 0.672,
+    "cusp_C": 0.22
+   },
+   {
+    "okh": 39,
+    "cusp_L": 0.677,
+    "cusp_C": 0.217
+   },
+   {
+    "okh": 40,
+    "cusp_L": 0.681,
+    "cusp_C": 0.214
+   },
+   {
+    "okh": 41,
+    "cusp_L": 0.685,
+    "cusp_C": 0.211
+   },
+   {
+    "okh": 42,
+    "cusp_L": 0.69,
+    "cusp_C": 0.208
+   },
+   {
+    "okh": 43,
+    "cusp_L": 0.694,
+    "cusp_C": 0.205
+   },
+   {
+    "okh": 44,
+    "cusp_L": 0.698,
+    "cusp_C": 0.203
+   },
+   {
+    "okh": 45,
+    "cusp_L": 0.702,
+    "cusp_C": 0.201
+   },
+   {
+    "okh": 46,
+    "cusp_L": 0.706,
+    "cusp_C": 0.198
+   },
+   {
+    "okh": 47,
+    "cusp_L": 0.71,
+    "cusp_C": 0.196
+   },
+   {
+    "okh": 48,
+    "cusp_L": 0.713,
+    "cusp_C": 0.194
+   },
+   {
+    "okh": 49,
+    "cusp_L": 0.717,
+    "cusp_C": 0.192
+   },
+   {
+    "okh": 50,
+    "cusp_L": 0.721,
+    "cusp_C": 0.191
+   },
+   {
+    "okh": 51,
+    "cusp_L": 0.725,
+    "cusp_C": 0.189
+   },
+   {
+    "okh": 52,
+    "cusp_L": 0.728,
+    "cusp_C": 0.187
+   },
+   {
+    "okh": 53,
+    "cusp_L": 0.732,
+    "cusp_C": 0.186
+   },
+   {
+    "okh": 54,
+    "cusp_L": 0.736,
+    "cusp_C": 0.184
+   },
+   {
+    "okh": 55,
+    "cusp_L": 0.739,
+    "cusp_C": 0.183
+   },
+   {
+    "okh": 56,
+    "cusp_L": 0.743,
+    "cusp_C": 0.182
+   },
+   {
+    "okh": 57,
+    "cusp_L": 0.746,
+    "cusp_C": 0.181
+   },
+   {
+    "okh": 58,
+    "cusp_L": 0.75,
+    "cusp_C": 0.179
+   },
+   {
+    "okh": 59,
+    "cusp_L": 0.753,
+    "cusp_C": 0.178
+   },
+   {
+    "okh": 60,
+    "cusp_L": 0.756,
+    "cusp_C": 0.177
+   },
+   {
+    "okh": 61,
+    "cusp_L": 0.76,
+    "cusp_C": 0.176
+   },
+   {
+    "okh": 62,
+    "cusp_L": 0.763,
+    "cusp_C": 0.176
+   },
+   {
+    "okh": 63,
+    "cusp_L": 0.767,
+    "cusp_C": 0.175
+   },
+   {
+    "okh": 64,
+    "cusp_L": 0.77,
+    "cusp_C": 0.174
+   },
+   {
+    "okh": 65,
+    "cusp_L": 0.773,
+    "cusp_C": 0.174
+   },
+   {
+    "okh": 66,
+    "cusp_L": 0.777,
+    "cusp_C": 0.173
+   },
+   {
+    "okh": 67,
+    "cusp_L": 0.78,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 68,
+    "cusp_L": 0.784,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 69,
+    "cusp_L": 0.787,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 70,
+    "cusp_L": 0.79,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 71,
+    "cusp_L": 0.794,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 72,
+    "cusp_L": 0.797,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 73,
+    "cusp_L": 0.801,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 74,
+    "cusp_L": 0.804,
+    "cusp_C": 0.17
+   },
+   {
+    "okh": 75,
+    "cusp_L": 0.808,
+    "cusp_C": 0.17
+   },
+   {
+    "okh": 76,
+    "cusp_L": 0.811,
+    "cusp_C": 0.17
+   },
+   {
+    "okh": 77,
+    "cusp_L": 0.815,
+    "cusp_C": 0.17
+   },
+   {
+    "okh": 78,
+    "cusp_L": 0.818,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 79,
+    "cusp_L": 0.822,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 80,
+    "cusp_L": 0.825,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 81,
+    "cusp_L": 0.829,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 82,
+    "cusp_L": 0.833,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 83,
+    "cusp_L": 0.836,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 84,
+    "cusp_L": 0.84,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 85,
+    "cusp_L": 0.844,
+    "cusp_C": 0.173
+   },
+   {
+    "okh": 86,
+    "cusp_L": 0.848,
+    "cusp_C": 0.174
+   },
+   {
+    "okh": 87,
+    "cusp_L": 0.852,
+    "cusp_C": 0.174
+   },
+   {
+    "okh": 88,
+    "cusp_L": 0.856,
+    "cusp_C": 0.175
+   },
+   {
+    "okh": 89,
+    "cusp_L": 0.86,
+    "cusp_C": 0.176
+   },
+   {
+    "okh": 90,
+    "cusp_L": 0.864,
+    "cusp_C": 0.176
+   },
+   {
+    "okh": 91,
+    "cusp_L": 0.868,
+    "cusp_C": 0.177
+   },
+   {
+    "okh": 92,
+    "cusp_L": 0.872,
+    "cusp_C": 0.178
+   },
+   {
+    "okh": 93,
+    "cusp_L": 0.876,
+    "cusp_C": 0.179
+   },
+   {
+    "okh": 94,
+    "cusp_L": 0.881,
+    "cusp_C": 0.181
+   },
+   {
+    "okh": 95,
+    "cusp_L": 0.885,
+    "cusp_C": 0.182
+   },
+   {
+    "okh": 96,
+    "cusp_L": 0.89,
+    "cusp_C": 0.183
+   },
+   {
+    "okh": 97,
+    "cusp_L": 0.895,
+    "cusp_C": 0.184
+   },
+   {
+    "okh": 98,
+    "cusp_L": 0.899,
+    "cusp_C": 0.186
+   },
+   {
+    "okh": 99,
+    "cusp_L": 0.904,
+    "cusp_C": 0.187
+   },
+   {
+    "okh": 100,
+    "cusp_L": 0.909,
+    "cusp_C": 0.189
+   },
+   {
+    "okh": 101,
+    "cusp_L": 0.915,
+    "cusp_C": 0.191
+   },
+   {
+    "okh": 102,
+    "cusp_L": 0.92,
+    "cusp_C": 0.193
+   },
+   {
+    "okh": 103,
+    "cusp_L": 0.925,
+    "cusp_C": 0.195
+   },
+   {
+    "okh": 104,
+    "cusp_L": 0.931,
+    "cusp_C": 0.197
+   },
+   {
+    "okh": 105,
+    "cusp_L": 0.937,
+    "cusp_C": 0.199
+   },
+   {
+    "okh": 106,
+    "cusp_L": 0.943,
+    "cusp_C": 0.201
+   },
+   {
+    "okh": 107,
+    "cusp_L": 0.949,
+    "cusp_C": 0.204
+   },
+   {
+    "okh": 108,
+    "cusp_L": 0.956,
+    "cusp_C": 0.206
+   },
+   {
+    "okh": 109,
+    "cusp_L": 0.963,
+    "cusp_C": 0.209
+   },
+   {
+    "okh": 110,
+    "cusp_L": 0.967,
+    "cusp_C": 0.211
+   },
+   {
+    "okh": 111,
+    "cusp_L": 0.965,
+    "cusp_C": 0.212
+   },
+   {
+    "okh": 112,
+    "cusp_L": 0.962,
+    "cusp_C": 0.213
+   },
+   {
+    "okh": 113,
+    "cusp_L": 0.959,
+    "cusp_C": 0.214
+   },
+   {
+    "okh": 114,
+    "cusp_L": 0.956,
+    "cusp_C": 0.215
+   },
+   {
+    "okh": 115,
+    "cusp_L": 0.954,
+    "cusp_C": 0.216
+   },
+   {
+    "okh": 116,
+    "cusp_L": 0.951,
+    "cusp_C": 0.217
+   },
+   {
+    "okh": 117,
+    "cusp_L": 0.948,
+    "cusp_C": 0.219
+   },
+   {
+    "okh": 118,
+    "cusp_L": 0.945,
+    "cusp_C": 0.22
+   },
+   {
+    "okh": 119,
+    "cusp_L": 0.942,
+    "cusp_C": 0.221
+   },
+   {
+    "okh": 120,
+    "cusp_L": 0.94,
+    "cusp_C": 0.223
+   },
+   {
+    "okh": 121,
+    "cusp_L": 0.937,
+    "cusp_C": 0.225
+   },
+   {
+    "okh": 122,
+    "cusp_L": 0.934,
+    "cusp_C": 0.227
+   },
+   {
+    "okh": 123,
+    "cusp_L": 0.931,
+    "cusp_C": 0.228
+   },
+   {
+    "okh": 124,
+    "cusp_L": 0.928,
+    "cusp_C": 0.23
+   },
+   {
+    "okh": 125,
+    "cusp_L": 0.925,
+    "cusp_C": 0.233
+   },
+   {
+    "okh": 126,
+    "cusp_L": 0.922,
+    "cusp_C": 0.235
+   },
+   {
+    "okh": 127,
+    "cusp_L": 0.919,
+    "cusp_C": 0.237
+   },
+   {
+    "okh": 128,
+    "cusp_L": 0.916,
+    "cusp_C": 0.24
+   },
+   {
+    "okh": 129,
+    "cusp_L": 0.913,
+    "cusp_C": 0.242
+   },
+   {
+    "okh": 130,
+    "cusp_L": 0.91,
+    "cusp_C": 0.245
+   },
+   {
+    "okh": 131,
+    "cusp_L": 0.907,
+    "cusp_C": 0.248
+   },
+   {
+    "okh": 132,
+    "cusp_L": 0.904,
+    "cusp_C": 0.251
+   },
+   {
+    "okh": 133,
+    "cusp_L": 0.9,
+    "cusp_C": 0.254
+   },
+   {
+    "okh": 134,
+    "cusp_L": 0.897,
+    "cusp_C": 0.257
+   },
+   {
+    "okh": 135,
+    "cusp_L": 0.894,
+    "cusp_C": 0.261
+   },
+   {
+    "okh": 136,
+    "cusp_L": 0.89,
+    "cusp_C": 0.265
+   },
+   {
+    "okh": 137,
+    "cusp_L": 0.887,
+    "cusp_C": 0.269
+   },
+   {
+    "okh": 138,
+    "cusp_L": 0.883,
+    "cusp_C": 0.273
+   },
+   {
+    "okh": 139,
+    "cusp_L": 0.88,
+    "cusp_C": 0.277
+   },
+   {
+    "okh": 140,
+    "cusp_L": 0.876,
+    "cusp_C": 0.282
+   },
+   {
+    "okh": 141,
+    "cusp_L": 0.872,
+    "cusp_C": 0.287
+   },
+   {
+    "okh": 142,
+    "cusp_L": 0.868,
+    "cusp_C": 0.292
+   },
+   {
+    "okh": 143,
+    "cusp_L": 0.867,
+    "cusp_C": 0.29
+   },
+   {
+    "okh": 144,
+    "cusp_L": 0.868,
+    "cusp_C": 0.281
+   },
+   {
+    "okh": 145,
+    "cusp_L": 0.869,
+    "cusp_C": 0.273
+   },
+   {
+    "okh": 146,
+    "cusp_L": 0.87,
+    "cusp_C": 0.266
+   },
+   {
+    "okh": 147,
+    "cusp_L": 0.871,
+    "cusp_C": 0.259
+   },
+   {
+    "okh": 148,
+    "cusp_L": 0.872,
+    "cusp_C": 0.252
+   },
+   {
+    "okh": 149,
+    "cusp_L": 0.873,
+    "cusp_C": 0.246
+   },
+   {
+    "okh": 150,
+    "cusp_L": 0.874,
+    "cusp_C": 0.241
+   },
+   {
+    "okh": 151,
+    "cusp_L": 0.875,
+    "cusp_C": 0.235
+   },
+   {
+    "okh": 152,
+    "cusp_L": 0.876,
+    "cusp_C": 0.23
+   },
+   {
+    "okh": 153,
+    "cusp_L": 0.877,
+    "cusp_C": 0.226
+   },
+   {
+    "okh": 154,
+    "cusp_L": 0.878,
+    "cusp_C": 0.221
+   },
+   {
+    "okh": 155,
+    "cusp_L": 0.878,
+    "cusp_C": 0.217
+   },
+   {
+    "okh": 156,
+    "cusp_L": 0.879,
+    "cusp_C": 0.213
+   },
+   {
+    "okh": 157,
+    "cusp_L": 0.88,
+    "cusp_C": 0.21
+   },
+   {
+    "okh": 158,
+    "cusp_L": 0.881,
+    "cusp_C": 0.206
+   },
+   {
+    "okh": 159,
+    "cusp_L": 0.882,
+    "cusp_C": 0.203
+   },
+   {
+    "okh": 160,
+    "cusp_L": 0.882,
+    "cusp_C": 0.2
+   },
+   {
+    "okh": 161,
+    "cusp_L": 0.883,
+    "cusp_C": 0.197
+   },
+   {
+    "okh": 162,
+    "cusp_L": 0.884,
+    "cusp_C": 0.194
+   },
+   {
+    "okh": 163,
+    "cusp_L": 0.885,
+    "cusp_C": 0.191
+   },
+   {
+    "okh": 164,
+    "cusp_L": 0.885,
+    "cusp_C": 0.189
+   },
+   {
+    "okh": 165,
+    "cusp_L": 0.886,
+    "cusp_C": 0.186
+   },
+   {
+    "okh": 166,
+    "cusp_L": 0.887,
+    "cusp_C": 0.184
+   },
+   {
+    "okh": 167,
+    "cusp_L": 0.887,
+    "cusp_C": 0.182
+   },
+   {
+    "okh": 168,
+    "cusp_L": 0.888,
+    "cusp_C": 0.18
+   },
+   {
+    "okh": 169,
+    "cusp_L": 0.889,
+    "cusp_C": 0.178
+   },
+   {
+    "okh": 170,
+    "cusp_L": 0.889,
+    "cusp_C": 0.176
+   },
+   {
+    "okh": 171,
+    "cusp_L": 0.89,
+    "cusp_C": 0.174
+   },
+   {
+    "okh": 172,
+    "cusp_L": 0.891,
+    "cusp_C": 0.173
+   },
+   {
+    "okh": 173,
+    "cusp_L": 0.891,
+    "cusp_C": 0.171
+   },
+   {
+    "okh": 174,
+    "cusp_L": 0.892,
+    "cusp_C": 0.17
+   },
+   {
+    "okh": 175,
+    "cusp_L": 0.893,
+    "cusp_C": 0.168
+   },
+   {
+    "okh": 176,
+    "cusp_L": 0.893,
+    "cusp_C": 0.167
+   },
+   {
+    "okh": 177,
+    "cusp_L": 0.894,
+    "cusp_C": 0.166
+   },
+   {
+    "okh": 178,
+    "cusp_L": 0.895,
+    "cusp_C": 0.165
+   },
+   {
+    "okh": 179,
+    "cusp_L": 0.895,
+    "cusp_C": 0.164
+   },
+   {
+    "okh": 180,
+    "cusp_L": 0.896,
+    "cusp_C": 0.163
+   },
+   {
+    "okh": 181,
+    "cusp_L": 0.897,
+    "cusp_C": 0.162
+   },
+   {
+    "okh": 182,
+    "cusp_L": 0.897,
+    "cusp_C": 0.161
+   },
+   {
+    "okh": 183,
+    "cusp_L": 0.898,
+    "cusp_C": 0.16
+   },
+   {
+    "okh": 184,
+    "cusp_L": 0.898,
+    "cusp_C": 0.159
+   },
+   {
+    "okh": 185,
+    "cusp_L": 0.899,
+    "cusp_C": 0.158
+   },
+   {
+    "okh": 186,
+    "cusp_L": 0.9,
+    "cusp_C": 0.158
+   },
+   {
+    "okh": 187,
+    "cusp_L": 0.9,
+    "cusp_C": 0.157
+   },
+   {
+    "okh": 188,
+    "cusp_L": 0.901,
+    "cusp_C": 0.157
+   },
+   {
+    "okh": 189,
+    "cusp_L": 0.902,
+    "cusp_C": 0.156
+   },
+   {
+    "okh": 190,
+    "cusp_L": 0.902,
+    "cusp_C": 0.156
+   },
+   {
+    "okh": 191,
+    "cusp_L": 0.903,
+    "cusp_C": 0.155
+   },
+   {
+    "okh": 192,
+    "cusp_L": 0.904,
+    "cusp_C": 0.155
+   },
+   {
+    "okh": 193,
+    "cusp_L": 0.904,
+    "cusp_C": 0.155
+   },
+   {
+    "okh": 194,
+    "cusp_L": 0.905,
+    "cusp_C": 0.155
+   },
+   {
+    "okh": 195,
+    "cusp_L": 0.904,
+    "cusp_C": 0.154
+   },
+   {
+    "okh": 196,
+    "cusp_L": 0.9,
+    "cusp_C": 0.153
+   },
+   {
+    "okh": 197,
+    "cusp_L": 0.895,
+    "cusp_C": 0.152
+   },
+   {
+    "okh": 198,
+    "cusp_L": 0.891,
+    "cusp_C": 0.152
+   },
+   {
+    "okh": 199,
+    "cusp_L": 0.886,
+    "cusp_C": 0.151
+   },
+   {
+    "okh": 200,
+    "cusp_L": 0.882,
+    "cusp_C": 0.15
+   },
+   {
+    "okh": 201,
+    "cusp_L": 0.878,
+    "cusp_C": 0.149
+   },
+   {
+    "okh": 202,
+    "cusp_L": 0.874,
+    "cusp_C": 0.149
+   },
+   {
+    "okh": 203,
+    "cusp_L": 0.87,
+    "cusp_C": 0.148
+   },
+   {
+    "okh": 204,
+    "cusp_L": 0.865,
+    "cusp_C": 0.148
+   },
+   {
+    "okh": 205,
+    "cusp_L": 0.861,
+    "cusp_C": 0.147
+   },
+   {
+    "okh": 206,
+    "cusp_L": 0.857,
+    "cusp_C": 0.147
+   },
+   {
+    "okh": 207,
+    "cusp_L": 0.853,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 208,
+    "cusp_L": 0.849,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 209,
+    "cusp_L": 0.845,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 210,
+    "cusp_L": 0.841,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 211,
+    "cusp_L": 0.837,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 212,
+    "cusp_L": 0.833,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 213,
+    "cusp_L": 0.83,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 214,
+    "cusp_L": 0.826,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 215,
+    "cusp_L": 0.822,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 216,
+    "cusp_L": 0.818,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 217,
+    "cusp_L": 0.814,
+    "cusp_C": 0.145
+   },
+   {
+    "okh": 218,
+    "cusp_L": 0.81,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 219,
+    "cusp_L": 0.806,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 220,
+    "cusp_L": 0.802,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 221,
+    "cusp_L": 0.798,
+    "cusp_C": 0.146
+   },
+   {
+    "okh": 222,
+    "cusp_L": 0.795,
+    "cusp_C": 0.147
+   },
+   {
+    "okh": 223,
+    "cusp_L": 0.791,
+    "cusp_C": 0.147
+   },
+   {
+    "okh": 224,
+    "cusp_L": 0.787,
+    "cusp_C": 0.148
+   },
+   {
+    "okh": 225,
+    "cusp_L": 0.783,
+    "cusp_C": 0.148
+   },
+   {
+    "okh": 226,
+    "cusp_L": 0.779,
+    "cusp_C": 0.149
+   },
+   {
+    "okh": 227,
+    "cusp_L": 0.775,
+    "cusp_C": 0.15
+   },
+   {
+    "okh": 228,
+    "cusp_L": 0.771,
+    "cusp_C": 0.15
+   },
+   {
+    "okh": 229,
+    "cusp_L": 0.766,
+    "cusp_C": 0.151
+   },
+   {
+    "okh": 230,
+    "cusp_L": 0.762,
+    "cusp_C": 0.152
+   },
+   {
+    "okh": 231,
+    "cusp_L": 0.758,
+    "cusp_C": 0.153
+   },
+   {
+    "okh": 232,
+    "cusp_L": 0.754,
+    "cusp_C": 0.154
+   },
+   {
+    "okh": 233,
+    "cusp_L": 0.75,
+    "cusp_C": 0.155
+   },
+   {
+    "okh": 234,
+    "cusp_L": 0.745,
+    "cusp_C": 0.156
+   },
+   {
+    "okh": 235,
+    "cusp_L": 0.741,
+    "cusp_C": 0.157
+   },
+   {
+    "okh": 236,
+    "cusp_L": 0.736,
+    "cusp_C": 0.158
+   },
+   {
+    "okh": 237,
+    "cusp_L": 0.732,
+    "cusp_C": 0.16
+   },
+   {
+    "okh": 238,
+    "cusp_L": 0.727,
+    "cusp_C": 0.161
+   },
+   {
+    "okh": 239,
+    "cusp_L": 0.722,
+    "cusp_C": 0.163
+   },
+   {
+    "okh": 240,
+    "cusp_L": 0.717,
+    "cusp_C": 0.164
+   },
+   {
+    "okh": 241,
+    "cusp_L": 0.712,
+    "cusp_C": 0.166
+   },
+   {
+    "okh": 242,
+    "cusp_L": 0.707,
+    "cusp_C": 0.168
+   },
+   {
+    "okh": 243,
+    "cusp_L": 0.702,
+    "cusp_C": 0.17
+   },
+   {
+    "okh": 244,
+    "cusp_L": 0.697,
+    "cusp_C": 0.172
+   },
+   {
+    "okh": 245,
+    "cusp_L": 0.691,
+    "cusp_C": 0.174
+   },
+   {
+    "okh": 246,
+    "cusp_L": 0.686,
+    "cusp_C": 0.176
+   },
+   {
+    "okh": 247,
+    "cusp_L": 0.68,
+    "cusp_C": 0.179
+   },
+   {
+    "okh": 248,
+    "cusp_L": 0.674,
+    "cusp_C": 0.181
+   },
+   {
+    "okh": 249,
+    "cusp_L": 0.668,
+    "cusp_C": 0.184
+   },
+   {
+    "okh": 250,
+    "cusp_L": 0.661,
+    "cusp_C": 0.187
+   },
+   {
+    "okh": 251,
+    "cusp_L": 0.655,
+    "cusp_C": 0.19
+   },
+   {
+    "okh": 252,
+    "cusp_L": 0.648,
+    "cusp_C": 0.194
+   },
+   {
+    "okh": 253,
+    "cusp_L": 0.64,
+    "cusp_C": 0.197
+   },
+   {
+    "okh": 254,
+    "cusp_L": 0.633,
+    "cusp_C": 0.201
+   },
+   {
+    "okh": 255,
+    "cusp_L": 0.625,
+    "cusp_C": 0.206
+   },
+   {
+    "okh": 256,
+    "cusp_L": 0.616,
+    "cusp_C": 0.21
+   },
+   {
+    "okh": 257,
+    "cusp_L": 0.607,
+    "cusp_C": 0.215
+   },
+   {
+    "okh": 258,
+    "cusp_L": 0.597,
+    "cusp_C": 0.221
+   },
+   {
+    "okh": 259,
+    "cusp_L": 0.586,
+    "cusp_C": 0.227
+   },
+   {
+    "okh": 260,
+    "cusp_L": 0.574,
+    "cusp_C": 0.234
+   },
+   {
+    "okh": 261,
+    "cusp_L": 0.561,
+    "cusp_C": 0.242
+   },
+   {
+    "okh": 262,
+    "cusp_L": 0.545,
+    "cusp_C": 0.252
+   },
+   {
+    "okh": 263,
+    "cusp_L": 0.525,
+    "cusp_C": 0.265
+   },
+   {
+    "okh": 264,
+    "cusp_L": 0.493,
+    "cusp_C": 0.286
+   },
+   {
+    "okh": 265,
+    "cusp_L": 0.454,
+    "cusp_C": 0.312
+   },
+   {
+    "okh": 266,
+    "cusp_L": 0.456,
+    "cusp_C": 0.31
+   },
+   {
+    "okh": 267,
+    "cusp_L": 0.458,
+    "cusp_C": 0.309
+   },
+   {
+    "okh": 268,
+    "cusp_L": 0.46,
+    "cusp_C": 0.307
+   },
+   {
+    "okh": 269,
+    "cusp_L": 0.463,
+    "cusp_C": 0.306
+   },
+   {
+    "okh": 270,
+    "cusp_L": 0.465,
+    "cusp_C": 0.305
+   },
+   {
+    "okh": 271,
+    "cusp_L": 0.467,
+    "cusp_C": 0.304
+   },
+   {
+    "okh": 272,
+    "cusp_L": 0.469,
+    "cusp_C": 0.302
+   },
+   {
+    "okh": 273,
+    "cusp_L": 0.472,
+    "cusp_C": 0.301
+   },
+   {
+    "okh": 274,
+    "cusp_L": 0.474,
+    "cusp_C": 0.3
+   },
+   {
+    "okh": 275,
+    "cusp_L": 0.477,
+    "cusp_C": 0.3
+   },
+   {
+    "okh": 276,
+    "cusp_L": 0.479,
+    "cusp_C": 0.299
+   },
+   {
+    "okh": 277,
+    "cusp_L": 0.481,
+    "cusp_C": 0.298
+   },
+   {
+    "okh": 278,
+    "cusp_L": 0.484,
+    "cusp_C": 0.297
+   },
+   {
+    "okh": 279,
+    "cusp_L": 0.487,
+    "cusp_C": 0.297
+   },
+   {
+    "okh": 280,
+    "cusp_L": 0.489,
+    "cusp_C": 0.296
+   },
+   {
+    "okh": 281,
+    "cusp_L": 0.492,
+    "cusp_C": 0.295
+   },
+   {
+    "okh": 282,
+    "cusp_L": 0.494,
+    "cusp_C": 0.295
+   },
+   {
+    "okh": 283,
+    "cusp_L": 0.497,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 284,
+    "cusp_L": 0.5,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 285,
+    "cusp_L": 0.503,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 286,
+    "cusp_L": 0.506,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 287,
+    "cusp_L": 0.509,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 288,
+    "cusp_L": 0.512,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 289,
+    "cusp_L": 0.515,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 290,
+    "cusp_L": 0.518,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 291,
+    "cusp_L": 0.521,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 292,
+    "cusp_L": 0.524,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 293,
+    "cusp_L": 0.527,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 294,
+    "cusp_L": 0.531,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 295,
+    "cusp_L": 0.534,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 296,
+    "cusp_L": 0.538,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 297,
+    "cusp_L": 0.541,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 298,
+    "cusp_L": 0.545,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 299,
+    "cusp_L": 0.548,
+    "cusp_C": 0.294
+   },
+   {
+    "okh": 300,
+    "cusp_L": 0.552,
+    "cusp_C": 0.295
+   },
+   {
+    "okh": 301,
+    "cusp_L": 0.556,
+    "cusp_C": 0.295
+   },
+   {
+    "okh": 302,
+    "cusp_L": 0.56,
+    "cusp_C": 0.296
+   },
+   {
+    "okh": 303,
+    "cusp_L": 0.564,
+    "cusp_C": 0.296
+   },
+   {
+    "okh": 304,
+    "cusp_L": 0.568,
+    "cusp_C": 0.297
+   },
+   {
+    "okh": 305,
+    "cusp_L": 0.572,
+    "cusp_C": 0.297
+   },
+   {
+    "okh": 306,
+    "cusp_L": 0.577,
+    "cusp_C": 0.298
+   },
+   {
+    "okh": 307,
+    "cusp_L": 0.581,
+    "cusp_C": 0.299
+   },
+   {
+    "okh": 308,
+    "cusp_L": 0.586,
+    "cusp_C": 0.299
+   },
+   {
+    "okh": 309,
+    "cusp_L": 0.59,
+    "cusp_C": 0.3
+   },
+   {
+    "okh": 310,
+    "cusp_L": 0.595,
+    "cusp_C": 0.301
+   },
+   {
+    "okh": 311,
+    "cusp_L": 0.6,
+    "cusp_C": 0.302
+   },
+   {
+    "okh": 312,
+    "cusp_L": 0.605,
+    "cusp_C": 0.303
+   },
+   {
+    "okh": 313,
+    "cusp_L": 0.61,
+    "cusp_C": 0.303
+   },
+   {
+    "okh": 314,
+    "cusp_L": 0.615,
+    "cusp_C": 0.304
+   },
+   {
+    "okh": 315,
+    "cusp_L": 0.62,
+    "cusp_C": 0.305
+   },
+   {
+    "okh": 316,
+    "cusp_L": 0.625,
+    "cusp_C": 0.306
+   },
+   {
+    "okh": 317,
+    "cusp_L": 0.631,
+    "cusp_C": 0.307
+   },
+   {
+    "okh": 318,
+    "cusp_L": 0.636,
+    "cusp_C": 0.309
+   },
+   {
+    "okh": 319,
+    "cusp_L": 0.642,
+    "cusp_C": 0.31
+   },
+   {
+    "okh": 320,
+    "cusp_L": 0.648,
+    "cusp_C": 0.311
+   },
+   {
+    "okh": 321,
+    "cusp_L": 0.654,
+    "cusp_C": 0.312
+   },
+   {
+    "okh": 322,
+    "cusp_L": 0.66,
+    "cusp_C": 0.313
+   },
+   {
+    "okh": 323,
+    "cusp_L": 0.666,
+    "cusp_C": 0.315
+   },
+   {
+    "okh": 324,
+    "cusp_L": 0.672,
+    "cusp_C": 0.316
+   },
+   {
+    "okh": 325,
+    "cusp_L": 0.679,
+    "cusp_C": 0.317
+   },
+   {
+    "okh": 326,
+    "cusp_L": 0.685,
+    "cusp_C": 0.319
+   },
+   {
+    "okh": 327,
+    "cusp_L": 0.692,
+    "cusp_C": 0.32
+   },
+   {
+    "okh": 328,
+    "cusp_L": 0.699,
+    "cusp_C": 0.322
+   },
+   {
+    "okh": 329,
+    "cusp_L": 0.7,
+    "cusp_C": 0.321
+   },
+   {
+    "okh": 330,
+    "cusp_L": 0.697,
+    "cusp_C": 0.318
+   },
+   {
+    "okh": 331,
+    "cusp_L": 0.695,
+    "cusp_C": 0.315
+   },
+   {
+    "okh": 332,
+    "cusp_L": 0.692,
+    "cusp_C": 0.312
+   },
+   {
+    "okh": 333,
+    "cusp_L": 0.69,
+    "cusp_C": 0.31
+   },
+   {
+    "okh": 334,
+    "cusp_L": 0.688,
+    "cusp_C": 0.307
+   },
+   {
+    "okh": 335,
+    "cusp_L": 0.685,
+    "cusp_C": 0.305
+   },
+   {
+    "okh": 336,
+    "cusp_L": 0.683,
+    "cusp_C": 0.302
+   },
+   {
+    "okh": 337,
+    "cusp_L": 0.681,
+    "cusp_C": 0.3
+   },
+   {
+    "okh": 338,
+    "cusp_L": 0.679,
+    "cusp_C": 0.298
+   },
+   {
+    "okh": 339,
+    "cusp_L": 0.677,
+    "cusp_C": 0.295
+   },
+   {
+    "okh": 340,
+    "cusp_L": 0.675,
+    "cusp_C": 0.293
+   },
+   {
+    "okh": 341,
+    "cusp_L": 0.673,
+    "cusp_C": 0.291
+   },
+   {
+    "okh": 342,
+    "cusp_L": 0.672,
+    "cusp_C": 0.289
+   },
+   {
+    "okh": 343,
+    "cusp_L": 0.67,
+    "cusp_C": 0.287
+   },
+   {
+    "okh": 344,
+    "cusp_L": 0.668,
+    "cusp_C": 0.285
+   },
+   {
+    "okh": 345,
+    "cusp_L": 0.667,
+    "cusp_C": 0.283
+   },
+   {
+    "okh": 346,
+    "cusp_L": 0.665,
+    "cusp_C": 0.282
+   },
+   {
+    "okh": 347,
+    "cusp_L": 0.664,
+    "cusp_C": 0.28
+   },
+   {
+    "okh": 348,
+    "cusp_L": 0.662,
+    "cusp_C": 0.278
+   },
+   {
+    "okh": 349,
+    "cusp_L": 0.661,
+    "cusp_C": 0.277
+   },
+   {
+    "okh": 350,
+    "cusp_L": 0.659,
+    "cusp_C": 0.275
+   },
+   {
+    "okh": 351,
+    "cusp_L": 0.658,
+    "cusp_C": 0.274
+   },
+   {
+    "okh": 352,
+    "cusp_L": 0.657,
+    "cusp_C": 0.272
+   },
+   {
+    "okh": 353,
+    "cusp_L": 0.655,
+    "cusp_C": 0.271
+   },
+   {
+    "okh": 354,
+    "cusp_L": 0.654,
+    "cusp_C": 0.269
+   },
+   {
+    "okh": 355,
+    "cusp_L": 0.653,
+    "cusp_C": 0.268
+   },
+   {
+    "okh": 356,
+    "cusp_L": 0.652,
+    "cusp_C": 0.267
+   },
+   {
+    "okh": 357,
+    "cusp_L": 0.651,
+    "cusp_C": 0.266
+   },
+   {
+    "okh": 358,
+    "cusp_L": 0.65,
+    "cusp_C": 0.265
+   },
+   {
+    "okh": 359,
+    "cusp_L": 0.649,
+    "cusp_C": 0.264
+   }
+  ],
+  "highest_cusp": {
+   "okh": 109.8,
+   "cusp_L": 0.968,
+   "cusp_C": 0.211,
+   "srgb_hex_check": "#FFFF00",
+   "hex_oklch": [
+    0.968,
+    0.211,
+    109.769
+   ]
+  },
+  "check_15deg_vs_fine": {
+   "0": {
+    "coarse": 0.645,
+    "fine": 0.648
+   },
+   "15": {
+    "coarse": 0.635,
+    "fine": 0.636
+   },
+   "30": {
+    "coarse": 0.63,
+    "fine": 0.632
+   },
+   "45": {
+    "coarse": 0.7,
+    "fine": 0.702
+   },
+   "60": {
+    "coarse": 0.755,
+    "fine": 0.756
+   },
+   "75": {
+    "coarse": 0.805,
+    "fine": 0.808
+   },
+   "90": {
+    "coarse": 0.86,
+    "fine": 0.864
+   },
+   "105": {
+    "coarse": 0.935,
+    "fine": 0.937
+   },
+   "120": {
+    "coarse": 0.935,
+    "fine": 0.94
+   },
+   "135": {
+    "coarse": 0.89,
+    "fine": 0.894
+   },
+   "150": {
+    "coarse": 0.87,
+    "fine": 0.874
+   },
+   "165": {
+    "coarse": 0.885,
+    "fine": 0.886
+   },
+   "180": {
+    "coarse": 0.895,
+    "fine": 0.896
+   },
+   "195": {
+    "coarse": 0.9,
+    "fine": 0.904
+   },
+   "210": {
+    "coarse": 0.84,
+    "fine": 0.841
+   },
+   "225": {
+    "coarse": 0.78,
+    "fine": 0.783
+   },
+   "240": {
+    "coarse": 0.715,
+    "fine": 0.717
+   },
+   "255": {
+    "coarse": 0.625,
+    "fine": 0.625
+   },
+   "270": {
+    "coarse": 0.465,
+    "fine": 0.465
+   },
+   "285": {
+    "coarse": 0.505,
+    "fine": 0.503
+   },
+   "300": {
+    "coarse": 0.55,
+    "fine": 0.552
+   },
+   "315": {
+    "coarse": 0.62,
+    "fine": 0.62
+   },
+   "330": {
+    "coarse": 0.695,
+    "fine": 0.697
+   },
+   "345": {
+    "coarse": 0.665,
+    "fine": 0.667
+   }
+  },
+  "note": "OKLCH 110° 附近是 sRGB 純黃，不是黃綠；105° 與 120° 約 0.94，原本 15° 取樣（明度步 0.005）只看到 0.935。"
+ },
+ "note": "色相群：OKLCH 色相差 30° 內算同一群；相對彩度 = 顏色 OKLCH C ÷ 同 L、同 h 在 sRGB 的最大 C；1 表示已經是螢幕上這個深淺能做到最鮮的。"
+}

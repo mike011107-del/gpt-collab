@@ -1,0 +1,290 @@
+{
+ "summary_zh": "三套設計系統都把一個品牌色變成一排有工作的深淺，差在每一階怎麼定：Radix 照用途（12 階：1–2 頁底、3–5 元件底、6–8 框線、9–10 實色、11–12 文字），Material 照明度 tone（HCT 的 T 就是 L*，13 個 tone，每個介面角色固定取某個 tone，例如亮色主題 primary 是 tone 40），Leonardo 照跟背景的對比（先寫目標對比，再沿白—品牌色—黑的線找色）。三套程式都改寫成 Python：HCT 與 Leonardo 用原庫測試值核對逐碼相同，Radix 產生器用重產官方色系驗證。驗算原文說法：Radix 11、12 階對第 2 階 APCA 至少 Lc 66.2、91.7（文件說 60、90，成立）；Material『tone 差 50 保證 4.5』在 T50 對 T100 只有 4.48；Radix『第 9 階彩度最高』在 P3 定義下 23 色系只有 10 個成立。Radix 產生器遇到偏深的品牌色（例 Vattenfall 藍 L* 46），第 9–11 階會擠在一起，第 11 階比第 10 階還淺。深青 HCT 211/25/25、靛藍 276/30/27、工程黃 69/54/63；深青已用到該色相該明度最大彩度的 93%，工程黃 99.7%；Radix 最近一階分別是 cyan 12（ΔE2000 3.53）、indigo 12（5.32）、amber 8（8.12），對照 2000 個隨機色中位 6.3、66 個同業 logo 色中位 5.03（全落在第 7–12 階）。盤點 23 項開源資源與 skill；knowledge-work-plugins 資料視覺化 skill 標『色弱友善』的 6 色，紅色盲模擬下最小色差 2.02，比 92% 隨機 6 色組差。brand-studio、brand-md、Codesign、design-superpowers 找到但未安裝，官方外掛目錄沒有同名項目，原始碼未取得。",
+ "new_vs_round1": [
+  "讀了 Radix、Material Color Utilities、Leonardo 三套原始碼與文件，知道一個品牌色展開成色階的三種做法（上一輪只有色相環、60-30-10 簡述）。",
+  "Radix 12 階用途表、Material 角色對 tone 表、Tonal Spot 各色板彩度（36/16/24/6/8，錯誤色 25°/84）都是原文。",
+  "HCT、Radix 自訂色階、Leonardo 三套方法改寫成 Python 並驗證。",
+  "更正原文細節：Material tone 差 50 在 T50/T100 只有 4.48:1；Radix 第 9 階彩度最高 23 色系只有 10 個成立。",
+  "發現 Radix 產生器遇到偏深品牌色時第 9–11 階擠在一起。",
+  "深青、靛藍、工程黃的 HCT 值、離色域極限多遠、Radix 最近一階、Material tone 位置，附隨機與同業基準。",
+  "各系統明度曲線對照：Radix 12 階有 8 階在 L* 69 以上，Tailwind 3 平均分布，Material 每 10 一格。",
+  "上一輪美感串說的米色底 #F4F1EA 是 AI 樣子，原文出處是 anthropics/skills frontend-design。",
+  "knowledge-work-plugins 資料視覺化 skill 的色弱友善色盤驗算不成立。",
+  "Material 的討厭色規則（暗黃綠，色相 90–111、彩度>16、tone<65）在程式註解引用 Palmer 與 Schloss 2010。",
+  "chroma.js 的內插說法驗算：紅→綠 RGB 中點 L* 51.9 比兩端平均 70.5 暗；Lab 是明度平均，不是比較鮮。",
+  "Leonardo repo 自帶 Agent skill 與 MCP 伺服器；UI Color Palette 有公開原始碼與各系統刻度預設。"
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text_zh": "Radix 每系 12 階各有用途：1–2 頁底，3 元件底平常、4 滑過、5 按下，6 不可點框線、7 可點框線、8 強框線與焦點環，9 實色底（最純），10 實色滑過，11 低對比字，12 高對比字。",
+   "grade": "原文已讀",
+   "source": "radix-ui/website 402e749 data/colors/docs/palette-composition/understanding-the-scale.mdx",
+   "check_how": "打開該 mdx 看各 Steps 小節"
+  },
+  {
+   "id": "C2",
+   "text_zh": "Radix 官方說色階不要改，品牌色另加自訂色階：找 OKLab 最近兩條官方色階混合，換成品牌色相，明度照背景重排，第 9 階直接放品牌色（太淺時除外）。",
+   "grade": "原文已讀",
+   "source": "radix-ui/website 402e749 composing-a-palette.mdx、components/generate-radix-colors.tsx",
+   "check_how": "讀 getScaleFromColor、getStep9Colors 兩個函式"
+  },
+  {
+   "id": "C3",
+   "text_zh": "31 個官方 Radix 色系，第 11、12 階放在第 2 階上的 APCA 最小值為 Lc 66.2、91.7，符合文件說的至少 60、90。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/expand_example.py → scales.json radix.apca_official_min_over_all_scales；資料 radix-ui/colors dbdb854 src/light.ts",
+   "check_how": "python3 -I expand_example.py，或用任一 APCA 計算器算 light.ts 的 step11/step2"
+  },
+  {
+   "id": "C4",
+   "text_zh": "Radix 文件說第 9 階彩度最高；用 OKLCH 彩度量 P3 定義，23 個彩色色系只有 10 個成立，8 個最高在第 11 階，但 9–11 階差很小（紅 0.193、0.195、0.198）。sRGB hex 版 25 色系有 14 個成立。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/scale_curves.py；radix_gen.py 的 LIGHT",
+   "check_how": "把 light.ts 的 P3 值轉 OKLCH，比較每系 12 階的 C"
+  },
+  {
+   "id": "C5",
+   "text_zh": "Radix 產生器改寫版用官方第 9 階重產 10 色系：teal、grass、iris、jade、tomato、indigo 最大 ΔE2000 ≤2.2，blue 3.95、cyan 4.8、orange 8.6、amber 9.7。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/radix_validate.py → radix_validate.json",
+   "check_how": "python3 -I radix_validate.py"
+  },
+  {
+   "id": "C6",
+   "text_zh": "Radix 產生器輸入 Vattenfall 藍 #2071B5（L* 46.2）時，第 10 階 L* 40.8、第 11 階 L* 45.1，第 11 階比第 10 階淺且接近第 9 階（對白 5.35 對 5.13）。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/expand_example.py → scales.json radix.accent_scale；圖 fig_vattenfall_scales.png",
+   "check_how": "在 Radix 官網 custom palette 工具輸入 #2071B5、灰 #8B8D98、白底，比對第 9–11 階（本環境連不到官網）"
+  },
+  {
+   "id": "C7",
+   "text_zh": "HCT 的 T 就是 CIELAB L*；色相、彩度來自 CAM16；做不到的彩度會保留 tone、降彩度。",
+   "grade": "原文已讀",
+   "source": "material-color-utilities dd62982 concepts/color_spaces.md、color_terms.md",
+   "check_how": "讀兩份 md 的 HCT 與 Tone 段"
+  },
+  {
+   "id": "C8",
+   "text_zh": "MCU 預設 Tonal Spot 變體：主色板原色相彩度固定 36，次色 16，第三色色相 +60° 彩度 24，中性 6，中性變體 8，錯誤色 25°/84；Fidelity、Content 變體才保留原色彩度並把 primaryContainer 設成原色 tone。",
+   "grade": "原文已讀",
+   "source": "material-color-utilities dd62982 typescript/dynamiccolor/dynamic_scheme.ts、color_spec_2021.ts",
+   "check_how": "讀 getPrimaryPalette 等函式的 TONAL_SPOT 分支與 primaryContainer 的 tone 函式"
+  },
+  {
+   "id": "C9",
+   "text_zh": "2021 規格角色起始 tone：亮色 primary 40、onPrimary 100、primaryContainer 90、onPrimaryContainer 30、surface 98、onSurface 10、outline 50；暗色 primary 80、onPrimary 20、primaryContainer 30、surface 6。",
+   "grade": "原文已讀",
+   "source": "material-color-utilities dd62982 typescript/dynamiccolor/color_spec_2021.ts",
+   "check_how": "搜尋各角色 name 後的 tone: (s) => s.isDark ? 80 : 40 等"
+  },
+  {
+   "id": "C10",
+   "text_zh": "HCT 的 Python 改寫跟原庫一致：紅綠藍 CAM16、#ff6600 的 HCT 42.39/79.39/62.31、藍色板與次色板各 12 個 tone 全部逐碼相同。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/hct.py selftest；測試值來自 typescript/hct/hct_test.ts、palettes/palettes_test.ts、concepts/color_spaces.md",
+   "check_how": "python3 -I hct.py，應印 ALL OK"
+  },
+  {
+   "id": "C11",
+   "text_zh": "MCU 文件說 tone 差 50 保證 WCAG 4.5；實算 tone 50 對 tone 100 只有 4.484:1。tone 差 40 最小 3.17，保證 3:1 成立。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/check_claims.py；說法出處 concepts/color_terms.md、contrast_for_accessibility.md",
+   "check_how": "Y(L*=50)=18.42，(100+5)/(18.42+5)=4.48"
+  },
+  {
+   "id": "C12",
+   "text_zh": "MCU 的討厭色規則：色相 90–111、彩度 >16、tone <65 的暗黃綠，會提亮到 tone 70；程式註解引用 Palmer 與 Schloss 2010，說與排泄物、腐爛食物有關。論文本身未讀。",
+   "grade": "原文已讀",
+   "source": "material-color-utilities dd62982 typescript/dislike/dislike_analyzer.ts",
+   "check_how": "讀該檔註解與 isDisliked"
+  },
+  {
+   "id": "C13",
+   "text_zh": "Leonardo 的做法：白—色鍵—黑排成一條，色鍵位置依 CIECAM02 J，切 3000 格，對每個目標對比用二分法找色；亮底時比背景深為正值。",
+   "grade": "原文已讀",
+   "source": "adobe/leonardo eb6481d packages/contrast-colors/lib/utils.js（createScale、searchColors、getContrast）",
+   "check_how": "讀三個函式"
+  },
+  {
+   "id": "C14",
+   "text_zh": "Leonardo 的 Python 改寫用原庫 searchColors.test.js 兩組測試值（#0000ff、LAB、白底，3.12 與 3/4.5）核對，逐碼相同。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/leonardo.py selftest",
+   "check_how": "python3 -I leonardo.py"
+  },
+  {
+   "id": "C15",
+   "text_zh": "深青 #0C424A 的 HCT 為 211.2/25.1/25.2，同色相同 tone 最大彩度 26.9（已用 93%）；靛藍 #333D66 為 275.6/29.8/26.7（最大 60.9，用 49%）；工程黃 #D68702 為 69.3/54.4/63.0（最大 54.6，用 99.7%）。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/compute_facts.py → facts.json",
+   "check_how": "python3 -I compute_facts.py；或用 MCU 原庫 Hct.fromInt 核對"
+  },
+  {
+   "id": "C16",
+   "text_zh": "Radix 最近一階（ΔE2000）：深青 cyan 12（3.53）、靛藍 indigo 12（5.32）、工程黃 amber 8（8.12）。基準：2000 個隨機 sRGB 色中位 6.3（10–90%：3.01–11.06）；66 個同業 logo 色中位 5.03，全部落在第 7–12 階。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/compute_facts.py → facts.json；同業資料 /tmp/claude-0/work/peer_schemes.json",
+   "check_how": "用任一 CIEDE2000 計算器比對 light.ts 全部 hex"
+  },
+  {
+   "id": "C17",
+   "text_zh": "靛藍用 ΔE2000 最近的是 indigo 12，用 Radix 產生器的 OKLab 距離最近的是 sky 12（0.042 對 indigo 12 的 0.061）。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/radix_gen.py（OKLab 距離）、compute_facts.py",
+   "check_how": "把 #333D66 與 sky12、indigo12 的 P3 值轉 OKLab 算歐氏距離"
+  },
+  {
+   "id": "C18",
+   "text_zh": "三個候選色都不觸發 Material 討厭色規則；深青、靛藍 tone 落在標準 tone 20 與 30 之間，工程黃在 60 與 70 之間。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/facts.json",
+   "check_how": "看 HCT 值套 dislike 規則"
+  },
+  {
+   "id": "C19",
+   "text_zh": "明度曲線中位 L*：Radix 1–12 為 99.2…69.2（第 8 階）、56.8、52.8、45.6、22.3，12 階有 8 階在 69 以上；Tailwind 3.4.17 的 50–950 為 97.4…15.5，較平均；Material tone 即 L*。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/scale_curves.py → scale_curves.json；Tailwind 資料 npm tailwindcss-3.4.17 lib/public/colors.js",
+   "check_how": "把各 hex 轉 CIELAB L* 取中位"
+  },
+  {
+   "id": "C20",
+   "text_zh": "anthropics/skills frontend-design 把米色底 #F4F1EA 配陶土橘 #D97757 列為 AI 設計常見預設，沒被要求就不要用；顏色先寫成 4–6 個具名色碼。",
+   "grade": "原文已讀",
+   "source": "anthropics/skills dbd4588 skills/frontend-design/SKILL.md 第 39、48 行",
+   "check_how": "打開 SKILL.md 看 Process 段"
+  },
+  {
+   "id": "C21",
+   "text_zh": "knowledge-work-plugins 資料視覺化 skill 標為色弱友善的 6 色（#4C72B0 等），紅色盲模擬下最小 ΔE2000 2.02，比 92.3% 的隨機 6 色組差；綠色盲 4.54（第 30 百分位）。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/resources_measure.py；原文 anthropics/knowledge-work-plugins 33eeda1 data/skills/data-visualization/SKILL.md",
+   "check_how": "用 Machado 2009 模擬後算兩兩 CIEDE2000"
+  },
+  {
+   "id": "C22",
+   "text_zh": "chroma.js 文件說 RGB 內插中段會暗、Lab 較好、Lch 太鮮。用文件例子驗算：紅→綠 RGB 中點 L* 51.9（兩端平均 70.5），Lab 70.6；黃→藏青 Lch 中點 #ff164a（C* 87），Lab 中點 C* 19.9 比 RGB 35.8 還灰。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/interp_check.py；原文 gka/chroma.js 14e2b8a docs/src/index.md scale.mode",
+   "check_how": "python3 -I interp_check.py"
+  },
+  {
+   "id": "C23",
+   "text_zh": "theme-factory 10 組主題每組 4 色，最深對最淺 WCAG 全部 ≥4.5，6 組 ≥7；skill 沒有色階或比例規則。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/resources_measure.py；原文 anthropics/skills dbd4588 skills/theme-factory",
+   "check_how": "讀 themes/*.md 色碼算對比"
+  },
+  {
+   "id": "C24",
+   "text_zh": "Anthropic 品牌強調色橘 #d97757、藍 #6a9bcc 在淺底 #faf9f5 上對比 2.96、2.78；brand-guidelines 只把強調色用在非文字形狀。",
+   "grade": "資料與程式已跑",
+   "source": "/tmp/claude-0/r2/scales/resources_measure.py；原文 anthropics/skills skills/brand-guidelines/SKILL.md",
+   "check_how": "WCAG 對比計算"
+  },
+  {
+   "id": "C25",
+   "text_zh": "官方外掛目錄 anthropics/claude-plugins-official（315 項）沒有 brand-studio、brand-md、Codesign、design-superpowers、UI Color Palette；這幾個找到但未安裝，原始碼未取得。UI Color Palette 同名 Figma 外掛原始碼在 a-ng-d/figma-ui-color-palette（MIT），是否就是 Claude 外掛未確認。",
+   "grade": "原文已讀",
+   "source": "/tmp/claude-0/r2/src/claude-plugins-official/repo/.claude-plugin/marketplace.json（提交 ea10b21）；a-ng-d/figma-ui-color-palette 90dd51d",
+   "check_how": "在 marketplace.json 搜尋外掛名稱"
+  },
+  {
+   "id": "C26",
+   "text_zh": "外掛目錄的『Design（Anthropic）』應是 anthropics/knowledge-work-plugins 的 design 外掛（plugin.json 名稱 design、作者 Anthropic、v1.2.0）；它的顏色內容只有 token 分品牌／語意／中性與 WCAG 1.4.3、1.4.11 檢查。",
+   "grade": "推論",
+   "source": "/tmp/claude-0/r2/src/kwp/repo/design/.claude-plugin/plugin.json、skills/*/SKILL.md（提交 33eeda1）",
+   "check_how": "在外掛目錄頁對照來源網址"
+  },
+  {
+   "id": "C27",
+   "text_zh": "Leonardo repo 自帶 Agent skill（skills/leonardo-colors）與 MCP 伺服器（@adobe/leonardo-mcp），建議 AA 用 4.5、AAA 7、大字 3，內插建議 LCH 或 LAB。",
+   "grade": "原文已讀",
+   "source": "adobe/leonardo eb6481d skills/leonardo-colors/SKILL.md、packages/mcp/README.md",
+   "check_how": "打開兩個檔"
+  },
+  {
+   "id": "C28",
+   "text_zh": "UI Color Palette 外掛的刻度預設：Material 2 十階、M3 十三階、Tailwind 十一階、Ant 十階、Bootstrap 九階、Radix 十二階、Carbon 十階、Spectrum 十三階、Polaris 與 Fluent 十六階（外掛作者的近似值）。",
+   "grade": "原文已讀",
+   "source": "a-ng-d/ui-ui-color-palette c212430 src/stores/presets.ts → /tmp/claude-0/r2/scales/uicp_presets.json",
+   "check_how": "python3 -I parse_uicp_presets.py <presets.ts>"
+  },
+  {
+   "id": "C29",
+   "text_zh": "Radix 產生器第 9–11 階擠在一起的原因是第 11 階明度取自模板色階、不看品牌色。",
+   "grade": "推論",
+   "source": "generate-radix-colors.tsx 程式邏輯；radix_gen.py",
+   "check_how": "看 getScaleFromColor 只把 hue、chroma 換成來源色，明度用 transposeProgressionStart 依背景重排"
+  },
+  {
+   "id": "C30",
+   "text_zh": "色條圖（Material 兩版、Radix 產生器、Radix 官方 blue、Leonardo、Tailwind blue）已在螢幕目視：產生器第 9 階等於原色，第 10、11 階接近第 9 階；Leonardo 中段較灰。",
+   "grade": "目視",
+   "source": "/tmp/claude-0/r2/scales/fig_vattenfall_scales.png",
+   "check_how": "打開 PNG"
+  }
+ ],
+ "figures": [
+  {
+   "path": "/tmp/claude-0/r2/scales/fig_vattenfall_scales.png",
+   "caption_zh": "示意例子 Vattenfall 藍 #2071B5（與崧淳無關）用 Material Tonal Spot、Material Fidelity、Radix 產生器、Leonardo 展開，對照 Radix 官方 blue 與 Tailwind 3 blue；框線標出原色。",
+   "third_party": false
+  },
+  {
+   "path": "/tmp/claude-0/r2/scales/scales.json",
+   "caption_zh": "畫圖用資料：Vattenfall 藍三套展開色碼、Radix 12 階用途、Material 角色 tone、崧淳候選色事實、各系統明度曲線、UI Color Palette 刻度預設。",
+   "third_party": false
+  },
+  {
+   "path": "/tmp/claude-0/r2/scales/scale_curves.json",
+   "caption_zh": "Radix 25 色系、Tailwind 3 的 17 色系每階中位 L* 與範圍，給明度曲線圖用。",
+   "third_party": false
+  },
+  {
+   "path": "/tmp/claude-0/r2/scales/facts.json",
+   "caption_zh": "深青、靛藍、工程黃的 HCT、Radix 最近一階、Material tone，附隨機與同業基準。",
+   "third_party": false
+  }
+ ],
+ "files": [
+  "/tmp/claude-0/r2/scales/設計系統色階學習筆記.md",
+  "/tmp/claude-0/r2/scales/scales.json",
+  "/tmp/claude-0/r2/scales/resources.json",
+  "/tmp/claude-0/r2/scales/facts.json",
+  "/tmp/claude-0/r2/scales/scale_curves.json",
+  "/tmp/claude-0/r2/scales/uicp_presets.json",
+  "/tmp/claude-0/r2/scales/radix_validate.json",
+  "/tmp/claude-0/r2/scales/resources_measure.json",
+  "/tmp/claude-0/r2/scales/fig_vattenfall_scales.png",
+  "/tmp/claude-0/r2/scales/fig_vattenfall_scales.html",
+  "/tmp/claude-0/r2/scales/hct.py",
+  "/tmp/claude-0/r2/scales/radix_gen.py",
+  "/tmp/claude-0/r2/scales/radix_validate.py",
+  "/tmp/claude-0/r2/scales/leonardo.py",
+  "/tmp/claude-0/r2/scales/compute_facts.py",
+  "/tmp/claude-0/r2/scales/expand_example.py",
+  "/tmp/claude-0/r2/scales/check_claims.py",
+  "/tmp/claude-0/r2/scales/scale_curves.py",
+  "/tmp/claude-0/r2/scales/resources_measure.py",
+  "/tmp/claude-0/r2/scales/interp_check.py",
+  "/tmp/claude-0/r2/scales/parse_uicp_presets.py",
+  "/tmp/claude-0/r2/scales/merge_outputs.py",
+  "/tmp/claude-0/r2/scales/make_fig.py",
+  "/tmp/claude-0/r2/scales/write_result.py",
+  "/tmp/claude-0/r2/scales/progress.md",
+  "/tmp/claude-0/r2/scales/result.json"
+ ],
+ "gaps": [
+  "Radix 產生器是 Python 改寫版，沒拿官網 custom palette 工具輸出逐碼比對（官網連不到，也不執行下載的 JS）。",
+  "Material 只做 2021 規格起始 tone，未做對比微調後的最終值，未讀 2025／2026 規格。",
+  "Leonardo 只做 LAB、RGB 內插、單一白底；CAM02 內插、平滑、深色背景未做。CIECAM02 的 XYZ 矩陣用標準 sRGB 矩陣，原庫用 ciebase 依原色推導，色鍵位置可能有極小差。",
+  "m3.material.io、radix-ui.com、leonardocolor.io 網站版說明連不到，只讀 repo 原始檔。",
+  "brand-studio、brand-md、Codesign、design-superpowers 找不到公開原始碼；UI Color Palette 的 Claude 外掛與 Figma 外掛是否同一份程式未確認。",
+  "Palmer 與 Schloss 2010 只讀到 MCU 程式註解的引用，論文本身未讀。",
+  "Matthew Ström〈How to generate color palettes for design systems〉網站連不到，未取得。",
+  "色條圖只在螢幕目視，沒印刷、沒找真人看。",
+  "superdesign skill 只掃關鍵字段落，沒有全文讀。"
+ ]
+}

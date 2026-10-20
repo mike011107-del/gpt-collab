@@ -1,0 +1,249 @@
+{
+ "source": "npm color-name-lists 3.34.0 lib/colors/sanzo-wada-I.json（來源標 sanzo-wada.dmbk.io）",
+ "n_colours": 159,
+ "n_combos": 348,
+ "combo_sizes": {
+  "3": 110,
+  "4": 101,
+  "2": 123,
+  "1": 9,
+  "5": 5
+ },
+ "hex_matches_naive_cmyk_conversion": "158/159",
+ "hex_fixed": [
+  {
+   "name": "Citrine",
+   "hex_in_data": "#000000",
+   "cmyk": [
+    36,
+    32,
+    100,
+    0
+   ],
+   "hex_used": "#A3AD00"
+  }
+ ],
+ "wada_2colour": {
+  "n": 123,
+  "dL_median": 28.6,
+  "dL_ge26_share": 0.593,
+  "dL_lt10_share": 0.146,
+  "dh_median": 88.7,
+  "dh_lt30_share": 0.117,
+  "dh_30_90_share": 0.387,
+  "dh_ge150_share": 0.117,
+  "dE_median": 45.7
+ },
+ "baseline_all_pairs_159": {
+  "n": 12561,
+  "dL_median": 23.9,
+  "dL_ge26_share": 0.461,
+  "dL_lt10_share": 0.218,
+  "dh_median": 84.5,
+  "dh_lt30_share": 0.198,
+  "dh_30_90_share": 0.334,
+  "dh_ge150_share": 0.138,
+  "dE_median": 44.7
+ },
+ "baseline_weighted_used_in_2colour": {
+  "n": 19845,
+  "dL_median": 27.5,
+  "dL_ge26_share": 0.527,
+  "dL_lt10_share": 0.197,
+  "dh_median": 87.0,
+  "dh_lt30_share": 0.172,
+  "dh_30_90_share": 0.342,
+  "dh_ge150_share": 0.151,
+  "dE_median": 46.2
+ },
+ "wada_3plus_all_pairs": {
+  "n": 986,
+  "dL_median": 25.8,
+  "dL_ge26_share": 0.494,
+  "dL_lt10_share": 0.21,
+  "dh_median": 86.3,
+  "dh_lt30_share": 0.183,
+  "dh_30_90_share": 0.34,
+  "dh_ge150_share": 0.132,
+  "dE_median": 45.6
+ },
+ "wada_3plus_max_dL": {
+  "n": 216,
+  "median": 47.2
+ },
+ "baseline_3plus_max_dL_same_size_random": {
+  "n": 6480,
+  "median": 45.4
+ },
+ "n_hues_by_size": {
+  "1色組_1群色相": 9,
+  "2色組_0群色相": 1,
+  "2色組_1群色相": 24,
+  "2色組_2群色相": 98,
+  "3色組_1群色相": 6,
+  "3色組_2群色相": 51,
+  "3色組_3群色相": 53,
+  "4色組_1群色相": 4,
+  "4色組_2群色相": 24,
+  "4色組_3群色相": 50,
+  "4色組_4群色相": 23,
+  "5色組_1群色相": 1,
+  "5色組_2群色相": 2,
+  "5色組_3群色相": 1,
+  "5色組_4群色相": 1
+ },
+ "test_vs_weighted_random_fresh_123x20000x2seeds": {
+  "dL_median": {
+   "wada": 28.622,
+   "seed11": {
+    "sim_mean": 27.78,
+    "sim_median": 27.525,
+    "two_sided_p": 0.716
+   },
+   "seed2027": {
+    "sim_mean": 27.748,
+    "sim_median": 27.481,
+    "two_sided_p": 0.709
+   },
+   "sim_median": 27.525,
+   "sim_mean": 27.78,
+   "two_sided_p": 0.712,
+   "p_range": [
+    0.709,
+    0.716
+   ]
+  },
+  "dL_lt10_share": {
+   "wada": 0.146,
+   "seed11": {
+    "sim_mean": 0.194,
+    "sim_median": 0.195,
+    "two_sided_p": 0.204
+   },
+   "seed2027": {
+    "sim_mean": 0.195,
+    "sim_median": 0.195,
+    "two_sided_p": 0.203
+   },
+   "sim_median": 0.195,
+   "sim_mean": 0.194,
+   "two_sided_p": 0.204,
+   "p_range": [
+    0.203,
+    0.204
+   ]
+  },
+  "dL_ge26_share": {
+   "wada": 0.593,
+   "seed11": {
+    "sim_mean": 0.528,
+    "sim_median": 0.528,
+    "two_sided_p": 0.176
+   },
+   "seed2027": {
+    "sim_mean": 0.528,
+    "sim_median": 0.528,
+    "two_sided_p": 0.17
+   },
+   "sim_median": 0.528,
+   "sim_mean": 0.528,
+   "two_sided_p": 0.173,
+   "p_range": [
+    0.17,
+    0.176
+   ]
+  },
+  "dh_lt30_share": {
+   "wada": 0.117,
+   "seed11": {
+    "sim_mean": 0.177,
+    "sim_median": 0.176,
+    "two_sided_p": 0.092
+   },
+   "seed2027": {
+    "sim_mean": 0.177,
+    "sim_median": 0.175,
+    "two_sided_p": 0.089
+   },
+   "sim_median": 0.176,
+   "sim_mean": 0.177,
+   "two_sided_p": 0.09,
+   "p_range": [
+    0.089,
+    0.092
+   ]
+  },
+  "dh_ge150_share": {
+   "wada": 0.117,
+   "seed11": {
+    "sim_mean": 0.148,
+    "sim_median": 0.148,
+    "two_sided_p": 0.368
+   },
+   "seed2027": {
+    "sim_mean": 0.148,
+    "sim_median": 0.147,
+    "two_sided_p": 0.371
+   },
+   "sim_median": 0.148,
+   "sim_mean": 0.148,
+   "two_sided_p": 0.369,
+   "p_range": [
+    0.368,
+    0.371
+   ]
+  },
+  "dh_median": {
+   "wada": 88.719,
+   "seed11": {
+    "sim_mean": 87.233,
+    "sim_median": 86.69,
+    "two_sided_p": 0.798
+   },
+   "seed2027": {
+    "sim_mean": 87.221,
+    "sim_median": 86.631,
+    "two_sided_p": 0.793
+   },
+   "sim_median": 86.69,
+   "sim_mean": 87.233,
+   "two_sided_p": 0.796,
+   "p_range": [
+    0.793,
+    0.798
+   ]
+  }
+ },
+ "power_note": {
+  "n_pairs": 123,
+  "n_pairs_both_chromatic": 111,
+  "se_share_at_0.17": 0.036,
+  "reading": "123 組（色相項只有 111 組兩色都有彩度）檢定力有限：色相差 <30° 和田 11.7% 對隨機約 17.7%，差 6 個百分點只約 1.7 個標準誤，p 約 0.09，在邊界；方向（同色相配對偏少）跟刻意拉開色相一致，但不顯著。不顯著不等於沒有差別。",
+  "pool_note": "baseline_weighted_used_in_2colour 是一個固定 2 萬對的描述用池（色相差 <30° 0.172，剛好偏低）；檢定改用每次重新抽樣，不再從這個池重抽。"
+ },
+ "pccs_same_tone_test": {
+  "wada_same_tone_share": 0.154,
+  "random_same_tone_share_median": 0.154,
+  "p_same": 1.0,
+  "wada_tone_distance_median": 4.68,
+  "random_tone_distance_median": 4.8,
+  "p_dist": 0.745,
+  "palette_tone_counts": {
+   "v": 52,
+   "b": 23,
+   "dp": 20,
+   "dk": 13,
+   "lt+": 9,
+   "lt": 9,
+   "p+": 8,
+   "d": 7,
+   "sf": 5,
+   "s": 5,
+   "ltg": 3,
+   "N": 2,
+   "g": 1,
+   "dkg": 1,
+   "p": 1
+  }
+ }
+}

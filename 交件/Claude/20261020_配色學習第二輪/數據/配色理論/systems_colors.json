@@ -1,0 +1,3825 @@
+{
+ "note": "Munsell 用 colour-science renotation（commit 248121e）反查；PCCS 用 pccs 0.2a3 公式（Kobayashi & Yosiki 2001）；ISCC-NBS 是 267 中心色 ΔE2000 最近，不是官方區塊判定；CIECAM02 色相組成以紅黃綠藍獨特色相為基準，跟 NCS 色相同一種想法，但不是 NCS 編號；OSA-UCS 用 2° 近似（定義是 10°）。",
+ "songchun": {
+  "深青": {
+   "hex": "#0C424A",
+   "munsell": "0.6B 2.5/3.7",
+   "munsell_H": 60.61,
+   "munsell_V": 2.49,
+   "munsell_C": 3.7,
+   "pccs_hue": "15:BG",
+   "pccs_s": 3.7,
+   "pccs_tone": "dk",
+   "pccs_tone_fixed_variant": "dk",
+   "iscc_nbs": [
+    {
+     "name": "Dark Greenish Blue",
+     "hex": "#004958",
+     "dE2000": 3.7
+    },
+    {
+     "name": "Dark Bluish Green",
+     "hex": "#004B49",
+     "dE2000": 6.9
+    }
+   ],
+   "cam02_J": 17.4,
+   "cam02_C": 25.9,
+   "cam02_h": 211.9,
+   "cam02_hue_comp": "G69B",
+   "osa_Ljg": [
+    -6.47,
+    -1.39,
+    2.25
+   ],
+   "oklch": [
+    0.35,
+    0.055,
+    209.755
+   ],
+   "lab_L": 25.2
+  },
+  "靛藍": {
+   "hex": "#333D66",
+   "munsell": "7.0PB 2.7/5.7",
+   "munsell_H": 76.96,
+   "munsell_V": 2.65,
+   "munsell_C": 5.69,
+   "pccs_hue": "19:pB",
+   "pccs_s": 4.7,
+   "pccs_tone": "dk",
+   "pccs_tone_fixed_variant": "d",
+   "iscc_nbs": [
+    {
+     "name": "Moderate Purplish Blue",
+     "hex": "#4E5180",
+     "dE2000": 7.6
+    },
+    {
+     "name": "Grayish Purplish Blue",
+     "hex": "#4C516D",
+     "dE2000": 7.9
+    }
+   ],
+   "cam02_J": 18.9,
+   "cam02_C": 31.4,
+   "cam02_h": 264.9,
+   "cam02_hue_comp": "B14R",
+   "osa_Ljg": [
+    -5.94,
+    -4.0,
+    0.1
+   ],
+   "oklch": [
+    0.371,
+    0.072,
+    272.123
+   ],
+   "lab_L": 26.7
+  },
+  "工程黃": {
+   "hex": "#D68702",
+   "munsell": "7.7YR 6.2/11.7",
+   "munsell_H": 17.68,
+   "munsell_V": 6.2,
+   "munsell_C": 11.7,
+   "pccs_hue": "6:yO",
+   "pccs_s": 8.6,
+   "pccs_tone": "s",
+   "pccs_tone_fixed_variant": "s",
+   "iscc_nbs": [
+    {
+     "name": "Deep Orange Yellow",
+     "hex": "#C98500",
+     "dE2000": 3.1
+    },
+    {
+     "name": "Dark Orange Yellow",
+     "hex": "#BE8A3D",
+     "dE2000": 6.9
+    }
+   ],
+   "cam02_J": 54.8,
+   "cam02_C": 60.2,
+   "cam02_h": 70.7,
+   "cam02_hue_comp": "R70Y",
+   "osa_Ljg": [
+    0.53,
+    9.17,
+    -3.64
+   ],
+   "oklch": [
+    0.69,
+    0.15,
+    68.913
+   ],
+   "lab_L": 63.0
+  }
+ },
+ "peers": [
+  {
+   "name": "Veolia",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#E52028",
+     "munsell": "6.9R 4.9/17.2",
+     "munsell_H": 6.95,
+     "munsell_V": 4.85,
+     "munsell_C": 17.17,
+     "pccs_hue": "3:yR",
+     "pccs_s": 12.2,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 10.6
+      },
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 10.8
+      }
+     ],
+     "cam02_J": 42.4,
+     "cam02_C": 93.2,
+     "cam02_h": 27.2,
+     "cam02_hue_comp": "R9Y",
+     "osa_Ljg": [
+      -1.05,
+      5.52,
+      -13.53
+     ],
+     "oklch": [
+      0.59,
+      0.226,
+      26.437
+     ],
+     "lab_L": 49.3
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "SUEZ",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#A2C617",
+     "munsell": "5.0GY 7.4/11.1",
+     "munsell_H": 35.05,
+     "munsell_V": 7.4,
+     "munsell_C": 11.14,
+     "pccs_hue": "10:YG",
+     "pccs_s": 9.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Yellow Green",
+       "hex": "#8DB600",
+       "dE2000": 4.7
+      },
+      {
+       "name": "Brilliant Yellow Green",
+       "hex": "#BDDA57",
+       "dE2000": 6.3
+      }
+     ],
+     "cam02_J": 66.0,
+     "cam02_C": 70.5,
+     "cam02_h": 117.2,
+     "cam02_hue_comp": "Y45G",
+     "osa_Ljg": [
+      2.24,
+      10.2,
+      4.88
+     ],
+     "oklch": [
+      0.773,
+      0.183,
+      122.078
+     ],
+     "lab_L": 74.9
+    },
+    {
+     "hex": "#1A1D56",
+     "munsell": "7.4PB 1.4/8.3",
+     "munsell_H": 77.35,
+     "munsell_V": 1.41,
+     "munsell_C": 8.34,
+     "pccs_hue": "19:pB",
+     "pccs_s": 7.5,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "dp",
+     "iscc_nbs": [
+      {
+       "name": "Deep Purplish Blue",
+       "hex": "#272458",
+       "dE2000": 2.8
+      },
+      {
+       "name": "Vivid Purplish Blue",
+       "hex": "#30267A",
+       "dE2000": 6.9
+      }
+     ],
+     "cam02_J": 10.5,
+     "cam02_C": 38.3,
+     "cam02_h": 268.4,
+     "cam02_hue_comp": "B16R",
+     "osa_Ljg": [
+      -7.93,
+      -5.14,
+      -0.03
+     ],
+     "oklch": [
+      0.268,
+      0.101,
+      274.944
+     ],
+     "lab_L": 14.2
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "REMONDIS",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#ED1B29",
+     "munsell": "6.8R 5.0/17.9",
+     "munsell_H": 6.76,
+     "munsell_V": 4.98,
+     "munsell_C": 17.94,
+     "pccs_hue": "3:yR",
+     "pccs_s": 12.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 10.5
+      },
+      {
+       "name": "Deep Yellowish Pink",
+       "hex": "#E66761",
+       "dE2000": 11.5
+      }
+     ],
+     "cam02_J": 43.9,
+     "cam02_C": 96.8,
+     "cam02_h": 26.8,
+     "cam02_hue_comp": "R8Y",
+     "osa_Ljg": [
+      -0.71,
+      5.66,
+      -14.26
+     ],
+     "oklch": [
+      0.603,
+      0.235,
+      26.025
+     ],
+     "lab_L": 50.6
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#231F20",
+     "munsell": "N 1.2",
+     "munsell_H": 2.93,
+     "munsell_V": 1.18,
+     "munsell_C": 0.34,
+     "pccs_hue": "2:R",
+     "pccs_s": 0.5,
+     "pccs_tone": "dkg",
+     "pccs_tone_fixed_variant": "dkg",
+     "iscc_nbs": [
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 1.5
+      },
+      {
+       "name": "Reddish Black",
+       "hex": "#282022",
+       "dE2000": 2.7
+      }
+     ],
+     "cam02_J": 9.6,
+     "cam02_C": 2.5,
+     "cam02_h": 355.5,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      -8.77,
+      -0.04,
+      -0.26
+     ],
+     "oklch": [
+      0.244,
+      0.006,
+      0.594
+     ],
+     "lab_L": 12.2
+    }
+   ]
+  },
+  {
+   "name": "Biffa",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#E42313",
+     "munsell": "8.0R 4.8/17.6",
+     "munsell_H": 7.96,
+     "munsell_V": 4.84,
+     "munsell_C": 17.63,
+     "pccs_hue": "3:yR",
+     "pccs_s": 12.8,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Reddish Orange",
+       "hex": "#E25822",
+       "dE2000": 9.2
+      },
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 9.3
+      }
+     ],
+     "cam02_J": 42.2,
+     "cam02_C": 95.3,
+     "cam02_h": 32.0,
+     "cam02_hue_comp": "R15Y",
+     "osa_Ljg": [
+      -1.04,
+      6.62,
+      -13.03
+     ],
+     "oklch": [
+      0.589,
+      0.225,
+      29.932
+     ],
+     "lab_L": 49.2
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Republic Services",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#D80025",
+     "munsell": "6.6R 4.5/17.1",
+     "munsell_H": 6.58,
+     "munsell_V": 4.46,
+     "munsell_C": 17.12,
+     "pccs_hue": "3:yR",
+     "pccs_s": 12.1,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Red",
+       "hex": "#BE0032",
+       "dE2000": 7.7
+      },
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 9.0
+      }
+     ],
+     "cam02_J": 38.4,
+     "cam02_C": 94.7,
+     "cam02_h": 25.2,
+     "cam02_hue_comp": "R6Y",
+     "osa_Ljg": [
+      -1.73,
+      4.96,
+      -13.81
+     ],
+     "oklch": [
+      0.556,
+      0.225,
+      24.601
+     ],
+     "lab_L": 45.3
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Cleanaway",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#0099D8",
+     "munsell": "1.2PB 5.9/10.7",
+     "munsell_H": 71.22,
+     "munsell_V": 5.87,
+     "munsell_C": 10.7,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.8,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 3.8
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 8.0
+      }
+     ],
+     "cam02_J": 47.5,
+     "cam02_C": 57.9,
+     "cam02_h": 235.2,
+     "cam02_hue_comp": "G97B",
+     "osa_Ljg": [
+      0.52,
+      -7.22,
+      4.55
+     ],
+     "oklch": [
+      0.647,
+      0.141,
+      236.7
+     ],
+     "lab_L": 59.7
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Thames Water",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#009EDE",
+     "munsell": "1.3PB 6.0/10.9",
+     "munsell_H": 71.26,
+     "munsell_V": 6.05,
+     "munsell_C": 10.94,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.9,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 4.4
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 7.6
+      }
+     ],
+     "cam02_J": 49.3,
+     "cam02_C": 58.8,
+     "cam02_h": 234.9,
+     "cam02_hue_comp": "G97B",
+     "osa_Ljg": [
+      0.89,
+      -7.35,
+      4.69
+     ],
+     "oklch": [
+      0.662,
+      0.143,
+      236.331
+     ],
+     "lab_L": 61.4
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Tideway",
+   "group": "三色以上",
+   "cols": [
+    {
+     "hex": "#00B398",
+     "munsell": "1.2BG 6.4/8.4",
+     "munsell_H": 51.23,
+     "munsell_V": 6.43,
+     "munsell_C": 8.43,
+     "pccs_hue": "13:bG",
+     "pccs_s": 6.1,
+     "pccs_tone": "lt+",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Bluish Green",
+       "hex": "#00A693",
+       "dE2000": 4.3
+      },
+      {
+       "name": "Brilliant Green",
+       "hex": "#3EB489",
+       "dE2000": 5.5
+      }
+     ],
+     "cam02_J": 53.7,
+     "cam02_C": 47.6,
+     "cam02_h": 179.2,
+     "cam02_hue_comp": "G24B",
+     "osa_Ljg": [
+      0.9,
+      0.68,
+      6.68
+     ],
+     "oklch": [
+      0.685,
+      0.127,
+      176.735
+     ],
+     "lab_L": 65.4
+    },
+    {
+     "hex": "#7CE0D3",
+     "munsell": "5.3BG 8.3/6.0",
+     "munsell_H": 55.35,
+     "munsell_V": 8.26,
+     "munsell_C": 6.0,
+     "pccs_hue": "14:BG",
+     "pccs_s": 4.7,
+     "pccs_tone": "lt",
+     "pccs_tone_fixed_variant": "lt",
+     "iscc_nbs": [
+      {
+       "name": "Very Light Bluish Green",
+       "hex": "#96DED1",
+       "dE2000": 3.5
+      },
+      {
+       "name": "Very Light Green",
+       "hex": "#8ED1B2",
+       "dE2000": 8.5
+      }
+     ],
+     "cam02_J": 75.3,
+     "cam02_C": 39.4,
+     "cam02_h": 188.1,
+     "cam02_hue_comp": "G37B",
+     "osa_Ljg": [
+      4.14,
+      -0.35,
+      5.26
+     ],
+     "oklch": [
+      0.842,
+      0.096,
+      184.73
+     ],
+     "lab_L": 83.1
+    },
+    {
+     "hex": "#52BBB3",
+     "munsell": "5.9BG 6.9/6.5",
+     "munsell_H": 55.95,
+     "munsell_V": 6.89,
+     "munsell_C": 6.5,
+     "pccs_hue": "14:BG",
+     "pccs_s": 5.0,
+     "pccs_tone": "lt",
+     "pccs_tone_fixed_variant": "lt+",
+     "iscc_nbs": [
+      {
+       "name": "Light Bluish Green",
+       "hex": "#66ADA4",
+       "dE2000": 4.8
+      },
+      {
+       "name": "Brilliant Bluish Green",
+       "hex": "#00A693",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 59.2,
+     "cam02_C": 40.1,
+     "cam02_h": 191.7,
+     "cam02_hue_comp": "G42B",
+     "osa_Ljg": [
+      1.81,
+      -0.74,
+      5.24
+     ],
+     "oklch": [
+      0.728,
+      0.098,
+      188.444
+     ],
+     "lab_L": 69.9
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#5B6770",
+     "munsell": "0.4PB 4.2/1.7",
+     "munsell_H": 70.43,
+     "munsell_V": 4.21,
+     "munsell_C": 1.68,
+     "pccs_hue": "17:B",
+     "pccs_s": 1.9,
+     "pccs_tone": "g",
+     "pccs_tone_fixed_variant": "g",
+     "iscc_nbs": [
+      {
+       "name": "Grayish Blue, slate blue",
+       "hex": "#536878",
+       "dE2000": 3.6
+      },
+      {
+       "name": "Dark Bluish Gray",
+       "hex": "#51585E",
+       "dE2000": 5.6
+      }
+     ],
+     "cam02_J": 32.4,
+     "cam02_C": 12.8,
+     "cam02_h": 234.7,
+     "cam02_hue_comp": "G97B",
+     "osa_Ljg": [
+      -3.49,
+      -1.07,
+      0.56
+     ],
+     "oklch": [
+      0.507,
+      0.021,
+      240.319
+     ],
+     "lab_L": 42.9
+    },
+    {
+     "hex": "#B2B4B2",
+     "munsell": "N 7.2",
+     "munsell_H": 41.25,
+     "munsell_V": 7.23,
+     "munsell_C": 0.2,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Light Gray",
+       "hex": "#B9B8B5",
+       "dE2000": 2.0
+      },
+      {
+       "name": "Light Bluish Gray",
+       "hex": "#B4BCC0",
+       "dE2000": 4.2
+      }
+     ],
+     "cam02_J": 64.7,
+     "cam02_C": 3.4,
+     "cam02_h": 181.4,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      2.34,
+      0.01,
+      0.13
+     ],
+     "oklch": [
+      0.768,
+      0.004,
+      145.541
+     ],
+     "lab_L": 73.1
+    }
+   ]
+  },
+  {
+   "name": "Wessex Water",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#249DE3",
+     "munsell": "2.3PB 6.1/11.3",
+     "munsell_H": 72.26,
+     "munsell_V": 6.07,
+     "munsell_C": 11.27,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.9,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 3.2
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 6.8
+      }
+     ],
+     "cam02_J": 49.7,
+     "cam02_C": 59.0,
+     "cam02_h": 238.5,
+     "cam02_hue_comp": "B",
+     "osa_Ljg": [
+      0.98,
+      -7.81,
+      4.24
+     ],
+     "oklch": [
+      0.666,
+      0.144,
+      240.845
+     ],
+     "lab_L": 61.7
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#A49B94",
+     "munsell": "7.8YR 6.4/0.8",
+     "munsell_H": 17.83,
+     "munsell_V": 6.35,
+     "munsell_C": 0.84,
+     "pccs_hue": "6:yO",
+     "pccs_s": 0.8,
+     "pccs_tone": "ltg",
+     "pccs_tone_fixed_variant": "ltg",
+     "iscc_nbs": [
+      {
+       "name": "Light Grayish Yellowish Brown",
+       "hex": "#AE9B82",
+       "dE2000": 7.5
+      },
+      {
+       "name": "Brownish Pink",
+       "hex": "#C2AC99",
+       "dE2000": 8.4
+      }
+     ],
+     "cam02_J": 55.0,
+     "cam02_C": 4.5,
+     "cam02_h": 65.6,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      0.71,
+      0.67,
+      -0.49
+     ],
+     "oklch": [
+      0.695,
+      0.015,
+      60.474
+     ],
+     "lab_L": 64.5
+    },
+    {
+     "hex": "#353535",
+     "munsell": "N 2.2",
+     "munsell_H": null,
+     "munsell_V": 2.19,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 6.0
+      },
+      {
+       "name": "Bluish Black",
+       "hex": "#202428",
+       "dE2000": 6.4
+      }
+     ],
+     "cam02_J": 15.9,
+     "cam02_C": 1.2,
+     "cam02_h": 210.7,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      -7.11,
+      -0.05,
+      -0.01
+     ],
+     "oklch": [
+      0.329,
+      0.0,
+      89.876
+     ],
+     "lab_L": 22.2
+    }
+   ]
+  },
+  {
+   "name": "Scottish Water",
+   "group": "兩色同色系",
+   "cols": [
+    {
+     "hex": "#006FBA",
+     "munsell": "4.4PB 4.5/11.6",
+     "munsell_H": 74.43,
+     "munsell_V": 4.48,
+     "munsell_C": 11.55,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.5,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 3.6
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 5.7
+      }
+     ],
+     "cam02_J": 33.6,
+     "cam02_C": 57.3,
+     "cam02_h": 245.2,
+     "cam02_hue_comp": "B4R",
+     "osa_Ljg": [
+      -2.37,
+      -7.76,
+      3.15
+     ],
+     "oklch": [
+      0.53,
+      0.144,
+      248.405
+     ],
+     "lab_L": 45.5
+    },
+    {
+     "hex": "#95CAE7",
+     "munsell": "10.0B 7.8/5.5",
+     "munsell_H": 69.98,
+     "munsell_V": 7.81,
+     "munsell_C": 5.52,
+     "pccs_hue": "17:B",
+     "pccs_s": 5.3,
+     "pccs_tone": "lt",
+     "pccs_tone_fixed_variant": "lt",
+     "iscc_nbs": [
+      {
+       "name": "Very Light Blue, baby blue",
+       "hex": "#A1CAF1",
+       "dE2000": 5.2
+      },
+      {
+       "name": "Very Light Greenish Blue",
+       "hex": "#9CD1DC",
+       "dE2000": 7.0
+      }
+     ],
+     "cam02_J": 70.5,
+     "cam02_C": 33.8,
+     "cam02_h": 230.1,
+     "cam02_hue_comp": "G91B",
+     "osa_Ljg": [
+      3.63,
+      -3.47,
+      2.48
+     ],
+     "oklch": [
+      0.812,
+      0.069,
+      232.628
+     ],
+     "lab_L": 78.7
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Uisce Éireann",
+   "group": "三色以上",
+   "cols": [
+    {
+     "hex": "#0C23C6",
+     "munsell": "7.0PB 2.8/22.0",
+     "munsell_H": 76.98,
+     "munsell_V": 2.8,
+     "munsell_C": 21.95,
+     "pccs_hue": "19:pB",
+     "pccs_s": 13.3,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Purplish Blue",
+       "hex": "#30267A",
+       "dE2000": 10.7
+      },
+      {
+       "name": "Dark Grayish Blue",
+       "hex": "#36454F",
+       "dE2000": 13.9
+      }
+     ],
+     "cam02_J": 18.4,
+     "cam02_C": 75.1,
+     "cam02_h": 259.7,
+     "cam02_hue_comp": "B11R",
+     "osa_Ljg": [
+      -5.13,
+      -13.97,
+      2.72
+     ],
+     "oklch": [
+      0.4,
+      0.241,
+      265.355
+     ],
+     "lab_L": 27.7
+    },
+    {
+     "hex": "#00B39A",
+     "munsell": "1.8BG 6.4/8.4",
+     "munsell_H": 51.79,
+     "munsell_V": 6.43,
+     "munsell_C": 8.37,
+     "pccs_hue": "14:BG",
+     "pccs_s": 6.1,
+     "pccs_tone": "lt+",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Bluish Green",
+       "hex": "#00A693",
+       "dE2000": 4.1
+      },
+      {
+       "name": "Brilliant Green",
+       "hex": "#3EB489",
+       "dE2000": 6.1
+      }
+     ],
+     "cam02_J": 53.7,
+     "cam02_C": 47.4,
+     "cam02_h": 180.6,
+     "cam02_hue_comp": "G26B",
+     "osa_Ljg": [
+      0.92,
+      0.51,
+      6.64
+     ],
+     "oklch": [
+      0.686,
+      0.126,
+      177.949
+     ],
+     "lab_L": 65.4
+    },
+    {
+     "hex": "#7FDFAE",
+     "munsell": "4.6G 8.1/6.9",
+     "munsell_H": 44.62,
+     "munsell_V": 8.14,
+     "munsell_C": 6.93,
+     "pccs_hue": "12:G",
+     "pccs_s": 5.6,
+     "pccs_tone": "lt",
+     "pccs_tone_fixed_variant": "lt+",
+     "iscc_nbs": [
+      {
+       "name": "Very Light Green",
+       "hex": "#8ED1B2",
+       "dE2000": 5.7
+      },
+      {
+       "name": "Very Light Yellowish Green",
+       "hex": "#B6E5AF",
+       "dE2000": 8.4
+      }
+     ],
+     "cam02_J": 74.0,
+     "cam02_C": 41.8,
+     "cam02_h": 161.2,
+     "cam02_hue_comp": "Y97G",
+     "osa_Ljg": [
+      3.73,
+      2.68,
+      5.78
+     ],
+     "oklch": [
+      0.831,
+      0.116,
+      160.187
+     ],
+     "lab_L": 82.0
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "PUB",
+   "group": "三色以上",
+   "cols": [
+    {
+     "hex": "#21409A",
+     "munsell": "6.9PB 3.0/12.6",
+     "munsell_H": 76.88,
+     "munsell_V": 3.01,
+     "munsell_C": 12.63,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.8,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Blue, royal blue",
+       "hex": "#00416A",
+       "dE2000": 8.7
+      },
+      {
+       "name": "Vivid Purplish Blue",
+       "hex": "#30267A",
+       "dE2000": 9.6
+      }
+     ],
+     "cam02_J": 21.0,
+     "cam02_C": 55.7,
+     "cam02_h": 259.9,
+     "cam02_hue_comp": "B11R",
+     "osa_Ljg": [
+      -4.96,
+      -8.62,
+      1.21
+     ],
+     "oklch": [
+      0.407,
+      0.152,
+      265.524
+     ],
+     "lab_L": 30.2
+    },
+    {
+     "hex": "#009B8F",
+     "munsell": "4.1BG 5.6/7.2",
+     "munsell_H": 54.11,
+     "munsell_V": 5.63,
+     "munsell_C": 7.21,
+     "pccs_hue": "14:BG",
+     "pccs_s": 5.4,
+     "pccs_tone": "sf",
+     "pccs_tone_fixed_variant": "lt+",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Bluish Green",
+       "hex": "#00A693",
+       "dE2000": 4.0
+      },
+      {
+       "name": "Vivid Bluish Green",
+       "hex": "#008882",
+       "dE2000": 6.8
+      }
+     ],
+     "cam02_J": 45.4,
+     "cam02_C": 43.0,
+     "cam02_h": 188.4,
+     "cam02_hue_comp": "G37B",
+     "osa_Ljg": [
+      -0.92,
+      -0.4,
+      5.46
+     ],
+     "oklch": [
+      0.62,
+      0.109,
+      185.233
+     ],
+     "lab_L": 57.5
+    },
+    {
+     "hex": "#0172BB",
+     "munsell": "4.1PB 4.6/11.3",
+     "munsell_H": 74.14,
+     "munsell_V": 4.57,
+     "munsell_C": 11.3,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.4,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 4.4
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 6.2
+      }
+     ],
+     "cam02_J": 34.5,
+     "cam02_C": 56.9,
+     "cam02_h": 244.2,
+     "cam02_hue_comp": "B3R",
+     "osa_Ljg": [
+      -2.22,
+      -7.6,
+      3.22
+     ],
+     "oklch": [
+      0.538,
+      0.142,
+      247.298
+     ],
+     "lab_L": 46.5
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "DC Water",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#6BB345",
+     "munsell": "8.4GY 6.5/10.0",
+     "munsell_H": 38.38,
+     "munsell_V": 6.52,
+     "munsell_C": 9.98,
+     "pccs_hue": "11:yG",
+     "pccs_s": 8.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Strong Yellow Green",
+       "hex": "#7E9F2E",
+       "dE2000": 8.2
+      },
+      {
+       "name": "Vivid Yellowish Green see #115",
+       "hex": "#27A64C",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 55.5,
+     "cam02_C": 58.4,
+     "cam02_h": 132.1,
+     "cam02_hue_comp": "Y65G",
+     "osa_Ljg": [
+      0.76,
+      7.25,
+      5.92
+     ],
+     "oklch": [
+      0.696,
+      0.162,
+      136.334
+     ],
+     "lab_L": 66.4
+    },
+    {
+     "hex": "#0681C5",
+     "munsell": "2.9PB 5.1/10.9",
+     "munsell_H": 72.89,
+     "munsell_V": 5.07,
+     "munsell_C": 10.91,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.5,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 8.1
+      },
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 9.9
+      }
+     ],
+     "cam02_J": 39.4,
+     "cam02_C": 56.6,
+     "cam02_h": 240.6,
+     "cam02_hue_comp": "B1R",
+     "osa_Ljg": [
+      -1.34,
+      -7.23,
+      3.62
+     ],
+     "oklch": [
+      0.58,
+      0.139,
+      243.083
+     ],
+     "lab_L": 51.6
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Sydney Water",
+   "group": "兩色相鄰",
+   "cols": [
+    {
+     "hex": "#00259C",
+     "munsell": "6.8PB 2.3/16.9",
+     "munsell_H": 76.79,
+     "munsell_V": 2.29,
+     "munsell_C": 16.86,
+     "pccs_hue": "19:pB",
+     "pccs_s": 11.4,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Purplish Blue",
+       "hex": "#30267A",
+       "dE2000": 6.2
+      },
+      {
+       "name": "Dark Blue, navy blue",
+       "hex": "#00304E",
+       "dE2000": 11.9
+      }
+     ],
+     "cam02_J": 15.1,
+     "cam02_C": 63.6,
+     "cam02_h": 258.5,
+     "cam02_hue_comp": "B10R",
+     "osa_Ljg": [
+      -6.15,
+      -10.76,
+      2.19
+     ],
+     "oklch": [
+      0.35,
+      0.193,
+      263.722
+     ],
+     "lab_L": 22.7
+    },
+    {
+     "hex": "#29ADCE",
+     "munsell": "5.9B 6.5/8.2",
+     "munsell_H": 65.92,
+     "munsell_V": 6.46,
+     "munsell_C": 8.16,
+     "pccs_hue": "16:gB",
+     "pccs_s": 7.3,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Blue, ultramarine",
+       "hex": "#00A1C2",
+       "dE2000": 3.8
+      },
+      {
+       "name": "Brilliant Greenish Blue",
+       "hex": "#239EBA",
+       "dE2000": 4.7
+      }
+     ],
+     "cam02_J": 54.1,
+     "cam02_C": 50.0,
+     "cam02_h": 220.5,
+     "cam02_hue_comp": "G80B",
+     "osa_Ljg": [
+      1.39,
+      -4.52,
+      5.09
+     ],
+     "oklch": [
+      0.694,
+      0.117,
+      219.515
+     ],
+     "lab_L": 65.6
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Watercare",
+   "group": "三色以上",
+   "cols": [
+    {
+     "hex": "#001131",
+     "munsell": "5.7PB 0.6/4.9",
+     "munsell_H": 75.65,
+     "munsell_V": 0.56,
+     "munsell_C": 4.92,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.0,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "dp",
+     "iscc_nbs": [
+      {
+       "name": "Dark Purplish Blue",
+       "hex": "#252440",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Deep Purplish Blue",
+       "hex": "#272458",
+       "dE2000": 9.5
+      }
+     ],
+     "cam02_J": 5.7,
+     "cam02_C": 28.4,
+     "cam02_h": 253.9,
+     "cam02_hue_comp": "B8R",
+     "osa_Ljg": [
+      -9.59,
+      -2.2,
+      0.56
+     ],
+     "oklch": [
+      0.186,
+      0.069,
+      258.146
+     ],
+     "lab_L": 5.6
+    },
+    {
+     "hex": "#E61C38",
+     "munsell": "5.5R 4.9/17.0",
+     "munsell_H": 5.53,
+     "munsell_V": 4.86,
+     "munsell_C": 17.0,
+     "pccs_hue": "3:yR",
+     "pccs_s": 11.6,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 8.4
+      },
+      {
+       "name": "Vivid Red",
+       "hex": "#BE0032",
+       "dE2000": 9.7
+      }
+     ],
+     "cam02_J": 42.6,
+     "cam02_C": 91.9,
+     "cam02_h": 22.6,
+     "cam02_hue_comp": "R3Y",
+     "osa_Ljg": [
+      -1.07,
+      4.34,
+      -14.06
+     ],
+     "oklch": [
+      0.592,
+      0.227,
+      22.483
+     ],
+     "lab_L": 49.4
+    },
+    {
+     "hex": "#5CA246",
+     "munsell": "9.0GY 5.9/8.9",
+     "munsell_H": 38.98,
+     "munsell_V": 5.92,
+     "munsell_C": 8.91,
+     "pccs_hue": "11:yG",
+     "pccs_s": 7.8,
+     "pccs_tone": "s",
+     "pccs_tone_fixed_variant": "s",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Yellowish Green see #115",
+       "hex": "#27A64C",
+       "dE2000": 5.5
+      },
+      {
+       "name": "Strong Yellowish Green",
+       "hex": "#44944A",
+       "dE2000": 6.1
+      }
+     ],
+     "cam02_J": 49.0,
+     "cam02_C": 52.5,
+     "cam02_h": 135.0,
+     "cam02_hue_comp": "Y69G",
+     "osa_Ljg": [
+      -0.74,
+      5.91,
+      5.27
+     ],
+     "oklch": [
+      0.645,
+      0.145,
+      138.788
+     ],
+     "lab_L": 60.4
+    },
+    {
+     "hex": "#007BC4",
+     "munsell": "3.7PB 4.9/11.5",
+     "munsell_H": 73.72,
+     "munsell_V": 4.88,
+     "munsell_C": 11.47,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.6,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 7.7
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 37.5,
+     "cam02_C": 57.9,
+     "cam02_h": 242.8,
+     "cam02_hue_comp": "B2R",
+     "osa_Ljg": [
+      -1.65,
+      -7.64,
+      3.47
+     ],
+     "oklch": [
+      0.564,
+      0.144,
+      245.618
+     ],
+     "lab_L": 49.7
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "メタウォーター",
+   "group": "兩色同色系",
+   "cols": [
+    {
+     "hex": "#004697",
+     "munsell": "6.0PB 3.1/11.7",
+     "munsell_H": 76.02,
+     "munsell_V": 3.07,
+     "munsell_C": 11.75,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.5,
+     "pccs_tone": "s",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Blue, royal blue",
+       "hex": "#00416A",
+       "dE2000": 6.3
+      },
+      {
+       "name": "Strong Purplish Blue",
+       "hex": "#545AA7",
+       "dE2000": 10.7
+      }
+     ],
+     "cam02_J": 21.3,
+     "cam02_C": 55.3,
+     "cam02_h": 252.9,
+     "cam02_hue_comp": "B7R",
+     "osa_Ljg": [
+      -4.88,
+      -8.08,
+      2.16
+     ],
+     "oklch": [
+      0.409,
+      0.147,
+      257.223
+     ],
+     "lab_L": 30.9
+    },
+    {
+     "hex": "#6E9CD0",
+     "munsell": "4.2PB 6.2/8.1",
+     "munsell_H": 74.18,
+     "munsell_V": 6.21,
+     "munsell_C": 8.09,
+     "pccs_hue": "18:B",
+     "pccs_s": 6.4,
+     "pccs_tone": "lt+",
+     "pccs_tone_fixed_variant": "lt+",
+     "iscc_nbs": [
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 3.5
+      },
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 5.4
+      }
+     ],
+     "cam02_J": 52.2,
+     "cam02_C": 41.7,
+     "cam02_h": 246.9,
+     "cam02_hue_comp": "B4R",
+     "osa_Ljg": [
+      1.0,
+      -5.54,
+      1.85
+     ],
+     "oklch": [
+      0.68,
+      0.092,
+      252.182
+     ],
+     "lab_L": 63.0
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Dyno-Rod",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#F15A2F",
+     "munsell": "9.0R 5.7/14.9",
+     "munsell_H": 8.98,
+     "munsell_V": 5.73,
+     "munsell_C": 14.85,
+     "pccs_hue": "3:yR",
+     "pccs_s": 11.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Reddish Orange",
+       "hex": "#E25822",
+       "dE2000": 3.8
+      },
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 4.3
+      }
+     ],
+     "cam02_J": 51.2,
+     "cam02_C": 75.4,
+     "cam02_h": 37.4,
+     "cam02_hue_comp": "R22Y",
+     "osa_Ljg": [
+      0.48,
+      7.07,
+      -10.45
+     ],
+     "oklch": [
+      0.661,
+      0.194,
+      36.19
+     ],
+     "lab_L": 58.2
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Metro Rod",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#2E1D67",
+     "munsell": "8.8PB 1.8/10.5",
+     "munsell_H": 78.82,
+     "munsell_V": 1.76,
+     "munsell_C": 10.49,
+     "pccs_hue": "20:V",
+     "pccs_s": 8.3,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Purplish Blue",
+       "hex": "#30267A",
+       "dE2000": 3.8
+      },
+      {
+       "name": "Deep Purplish Blue",
+       "hex": "#272458",
+       "dE2000": 5.0
+      }
+     ],
+     "cam02_J": 12.8,
+     "cam02_C": 43.1,
+     "cam02_h": 280.7,
+     "cam02_hue_comp": "B22R",
+     "osa_Ljg": [
+      -7.27,
+      -6.35,
+      -1.3
+     ],
+     "oklch": [
+      0.303,
+      0.122,
+      287.225
+     ],
+     "lab_L": 17.6
+    },
+    {
+     "hex": "#2EA836",
+     "munsell": "10.0GY 5.9/11.8",
+     "munsell_H": 39.99,
+     "munsell_V": 5.94,
+     "munsell_C": 11.8,
+     "pccs_hue": "11:yG",
+     "pccs_s": 9.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Yellowish Green see #115",
+       "hex": "#27A64C",
+       "dE2000": 3.6
+      },
+      {
+       "name": "Strong Yellowish Green",
+       "hex": "#44944A",
+       "dE2000": 7.8
+      }
+     ],
+     "cam02_J": 48.7,
+     "cam02_C": 67.4,
+     "cam02_h": 139.5,
+     "cam02_hue_comp": "Y74G",
+     "osa_Ljg": [
+      -0.43,
+      6.79,
+      7.23
+     ],
+     "oklch": [
+      0.642,
+      0.186,
+      143.869
+     ],
+     "lab_L": 60.6
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Lanes Group",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#E40571",
+     "munsell": "8.4RP 4.9/17.7",
+     "munsell_H": 98.43,
+     "munsell_V": 4.85,
+     "munsell_C": 17.73,
+     "pccs_hue": "1:pR",
+     "pccs_s": 11.8,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Purplish Red",
+       "hex": "#CE4676",
+       "dE2000": 5.1
+      },
+      {
+       "name": "Strong Purplish Red",
+       "hex": "#B3446C",
+       "dE2000": 8.5
+      }
+     ],
+     "cam02_J": 42.6,
+     "cam02_C": 88.8,
+     "cam02_h": 3.7,
+     "cam02_hue_comp": "B84R",
+     "osa_Ljg": [
+      -1.31,
+      -1.18,
+      -15.49
+     ],
+     "oklch": [
+      0.594,
+      0.238,
+      2.86
+     ],
+     "lab_L": 49.3
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#BCBEC0",
+     "munsell": "N 7.6",
+     "munsell_H": 72.46,
+     "munsell_V": 7.62,
+     "munsell_C": 0.4,
+     "pccs_hue": "18:B",
+     "pccs_s": 0.4,
+     "pccs_tone": "ltg",
+     "pccs_tone_fixed_variant": "ltg",
+     "iscc_nbs": [
+      {
+       "name": "Light Bluish Gray",
+       "hex": "#B4BCC0",
+       "dE2000": 2.8
+      },
+      {
+       "name": "Light Gray",
+       "hex": "#B9B8B5",
+       "dE2000": 3.2
+      }
+     ],
+     "cam02_J": 69.3,
+     "cam02_C": 4.6,
+     "cam02_h": 226.4,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      3.05,
+      -0.34,
+      0.05
+     ],
+     "oklch": [
+      0.801,
+      0.004,
+      247.868
+     ],
+     "lab_L": 76.9
+    }
+   ]
+  },
+  {
+   "name": "Roto-Rooter",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#2A1768",
+     "munsell": "8.5PB 1.6/11.5",
+     "munsell_H": 78.48,
+     "munsell_V": 1.6,
+     "munsell_C": 11.54,
+     "pccs_hue": "20:V",
+     "pccs_s": 9.1,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Purplish Blue",
+       "hex": "#30267A",
+       "dE2000": 4.4
+      },
+      {
+       "name": "Deep Purplish Blue",
+       "hex": "#272458",
+       "dE2000": 6.3
+      }
+     ],
+     "cam02_J": 11.7,
+     "cam02_C": 45.2,
+     "cam02_h": 279.1,
+     "cam02_hue_comp": "B22R",
+     "osa_Ljg": [
+      -7.52,
+      -6.79,
+      -1.18
+     ],
+     "oklch": [
+      0.29,
+      0.132,
+      285.575
+     ],
+     "lab_L": 16.0
+    },
+    {
+     "hex": "#DA291C",
+     "munsell": "7.9R 4.7/16.3",
+     "munsell_H": 7.9,
+     "munsell_V": 4.69,
+     "munsell_C": 16.34,
+     "pccs_hue": "3:yR",
+     "pccs_s": 12.1,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Reddish Orange",
+       "hex": "#AA381E",
+       "dE2000": 9.0
+      },
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 10.0
+      }
+     ],
+     "cam02_J": 40.5,
+     "cam02_C": 88.6,
+     "cam02_h": 31.0,
+     "cam02_hue_comp": "R14Y",
+     "osa_Ljg": [
+      -1.44,
+      6.02,
+      -12.17
+     ],
+     "oklch": [
+      0.575,
+      0.213,
+      29.553
+     ],
+     "lab_L": 47.7
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Hydromax USA",
+   "group": "只有黑白灰",
+   "cols": [],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Kanal-Türpe",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#FA8D02",
+     "munsell": "4.9YR 6.8/13.8",
+     "munsell_H": 14.95,
+     "munsell_V": 6.81,
+     "munsell_C": 13.82,
+     "pccs_hue": "5:O",
+     "pccs_s": 10.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Orange",
+       "hex": "#F38400",
+       "dE2000": 2.7
+      },
+      {
+       "name": "Strong Orange",
+       "hex": "#ED872D",
+       "dE2000": 4.5
+      }
+     ],
+     "cam02_J": 62.3,
+     "cam02_C": 68.8,
+     "cam02_h": 62.7,
+     "cam02_hue_comp": "R58Y",
+     "osa_Ljg": [
+      1.92,
+      10.02,
+      -5.8
+     ],
+     "oklch": [
+      0.746,
+      0.174,
+      60.041
+     ],
+     "lab_L": 69.0
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#1C1C1C",
+     "munsell": "N 1.0",
+     "munsell_H": null,
+     "munsell_V": 0.99,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 1.9
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 3.8
+      }
+     ],
+     "cam02_J": 8.5,
+     "cam02_C": 0.9,
+     "cam02_h": 210.7,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      -9.11,
+      -0.02,
+      -0.01
+     ],
+     "oklch": [
+      0.226,
+      0.0,
+      89.876
+     ],
+     "lab_L": 10.3
+    }
+   ]
+  },
+  {
+   "name": "Lobbe",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#E30613",
+     "munsell": "7.7R 4.7/18.2",
+     "munsell_H": 7.66,
+     "munsell_V": 4.69,
+     "munsell_C": 18.23,
+     "pccs_hue": "3:yR",
+     "pccs_s": 13.0,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Reddish Orange",
+       "hex": "#AA381E",
+       "dE2000": 10.2
+      },
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 11.2
+      }
+     ],
+     "cam02_J": 40.8,
+     "cam02_C": 100.3,
+     "cam02_h": 29.8,
+     "cam02_hue_comp": "R12Y",
+     "osa_Ljg": [
+      -1.19,
+      6.35,
+      -14.0
+     ],
+     "oklch": [
+      0.577,
+      0.234,
+      27.954
+     ],
+     "lab_L": 47.6
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Clancy",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#D50032",
+     "munsell": "5.3R 4.4/16.5",
+     "munsell_H": 5.27,
+     "munsell_V": 4.41,
+     "munsell_C": 16.53,
+     "pccs_hue": "2:R",
+     "pccs_s": 11.4,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Red",
+       "hex": "#BE0032",
+       "dE2000": 5.2
+      },
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 6.6
+      }
+     ],
+     "cam02_J": 37.9,
+     "cam02_C": 91.6,
+     "cam02_h": 21.4,
+     "cam02_hue_comp": "R2Y",
+     "osa_Ljg": [
+      -1.9,
+      3.88,
+      -13.89
+     ],
+     "oklch": [
+      0.552,
+      0.222,
+      21.342
+     ],
+     "lab_L": 44.8
+    },
+    {
+     "hex": "#97D700",
+     "munsell": "6.5GY 7.8/13.1",
+     "munsell_H": 36.48,
+     "munsell_V": 7.84,
+     "munsell_C": 13.12,
+     "pccs_hue": "11:yG",
+     "pccs_s": 10.7,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Yellow Green",
+       "hex": "#BDDA57",
+       "dE2000": 6.5
+      },
+      {
+       "name": "Vivid Yellow Green",
+       "hex": "#8DB600",
+       "dE2000": 8.4
+      }
+     ],
+     "cam02_J": 70.7,
+     "cam02_C": 80.7,
+     "cam02_h": 122.7,
+     "cam02_hue_comp": "Y53G",
+     "osa_Ljg": [
+      3.07,
+      10.94,
+      6.61
+     ],
+     "oklch": [
+      0.805,
+      0.211,
+      128.085
+     ],
+     "lab_L": 79.1
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "J. Murphy & Sons",
+   "group": "兩色同色系",
+   "cols": [
+    {
+     "hex": "#205C42",
+     "munsell": "4.1G 3.4/5.1",
+     "munsell_H": 44.1,
+     "munsell_V": 3.41,
+     "munsell_C": 5.09,
+     "pccs_hue": "12:G",
+     "pccs_s": 4.7,
+     "pccs_tone": "dk",
+     "pccs_tone_fixed_variant": "dk",
+     "iscc_nbs": [
+      {
+       "name": "Deep Green",
+       "hex": "#00543D",
+       "dE2000": 3.5
+      },
+      {
+       "name": "Dark Yellowish Green",
+       "hex": "#355E3B",
+       "dE2000": 4.8
+      }
+     ],
+     "cam02_J": 24.7,
+     "cam02_C": 29.6,
+     "cam02_h": 162.3,
+     "cam02_hue_comp": "Y98G",
+     "osa_Ljg": [
+      -5.08,
+      1.44,
+      3.34
+     ],
+     "oklch": [
+      0.428,
+      0.076,
+      161.737
+     ],
+     "lab_L": 34.7
+    },
+    {
+     "hex": "#95C120",
+     "munsell": "5.7GY 7.2/11.1",
+     "munsell_H": 35.67,
+     "munsell_V": 7.17,
+     "munsell_C": 11.08,
+     "pccs_hue": "11:yG",
+     "pccs_s": 9.5,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Yellow Green",
+       "hex": "#8DB600",
+       "dE2000": 3.0
+      },
+      {
+       "name": "Brilliant Yellow Green",
+       "hex": "#BDDA57",
+       "dE2000": 7.7
+      }
+     ],
+     "cam02_J": 63.2,
+     "cam02_C": 68.8,
+     "cam02_h": 120.0,
+     "cam02_hue_comp": "Y49G",
+     "osa_Ljg": [
+      1.85,
+      9.7,
+      5.2
+     ],
+     "oklch": [
+      0.752,
+      0.18,
+      124.927
+     ],
+     "lab_L": 72.6
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Kier",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#DA242A",
+     "munsell": "6.9R 4.7/16.2",
+     "munsell_H": 6.88,
+     "munsell_V": 4.66,
+     "munsell_C": 16.16,
+     "pccs_hue": "3:yR",
+     "pccs_s": 11.7,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 9.2
+      },
+      {
+       "name": "Vivid Red",
+       "hex": "#BE0032",
+       "dE2000": 9.5
+      }
+     ],
+     "cam02_J": 40.3,
+     "cam02_C": 87.9,
+     "cam02_h": 26.8,
+     "cam02_hue_comp": "R8Y",
+     "osa_Ljg": [
+      -1.51,
+      5.09,
+      -12.7
+     ],
+     "oklch": [
+      0.573,
+      0.214,
+      26.166
+     ],
+     "lab_L": 47.4
+    },
+    {
+     "hex": "#007B86",
+     "munsell": "0.7B 4.6/5.9",
+     "munsell_H": 60.67,
+     "munsell_V": 4.59,
+     "munsell_C": 5.95,
+     "pccs_hue": "15:BG",
+     "pccs_s": 5.1,
+     "pccs_tone": "d",
+     "pccs_tone_fixed_variant": "d",
+     "iscc_nbs": [
+      {
+       "name": "Deep Greenish Blue",
+       "hex": "#2E8495",
+       "dE2000": 5.3
+      },
+      {
+       "name": "Strong Greenish Blue",
+       "hex": "#007791",
+       "dE2000": 6.4
+      }
+     ],
+     "cam02_J": 35.0,
+     "cam02_C": 39.4,
+     "cam02_h": 208.4,
+     "cam02_hue_comp": "G65B",
+     "osa_Ljg": [
+      -2.69,
+      -2.15,
+      4.14
+     ],
+     "oklch": [
+      0.532,
+      0.091,
+      205.746
+     ],
+     "lab_L": 46.8
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Ventia",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#004127",
+     "munsell": "2.7G 2.3/5.6",
+     "munsell_H": 42.66,
+     "munsell_V": 2.31,
+     "munsell_C": 5.58,
+     "pccs_hue": "12:G",
+     "pccs_s": 5.9,
+     "pccs_tone": "dk",
+     "pccs_tone_fixed_variant": "dk",
+     "iscc_nbs": [
+      {
+       "name": "Very Deep Yellowish Green",
+       "hex": "#003118",
+       "dE2000": 5.0
+      },
+      {
+       "name": "Very Dark Yellowish Green",
+       "hex": "#173620",
+       "dE2000": 5.5
+      }
+     ],
+     "cam02_J": 16.1,
+     "cam02_C": 29.4,
+     "cam02_h": 158.7,
+     "cam02_hue_comp": "Y95G",
+     "osa_Ljg": [
+      -6.96,
+      1.51,
+      3.05
+     ],
+     "oklch": [
+      0.331,
+      0.076,
+      159.202
+     ],
+     "lab_L": 23.4
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Azuria",
+   "group": "只有黑白灰",
+   "cols": [],
+   "neutral": []
+  },
+  {
+   "name": "Insituform",
+   "group": "兩色同色系",
+   "cols": [
+    {
+     "hex": "#102E68",
+     "munsell": "6.3PB 2.0/8.6",
+     "munsell_H": 76.25,
+     "munsell_V": 2.02,
+     "munsell_C": 8.56,
+     "pccs_hue": "19:pB",
+     "pccs_s": 7.0,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "dp",
+     "iscc_nbs": [
+      {
+       "name": "Dark Blue, navy blue",
+       "hex": "#00304E",
+       "dE2000": 6.8
+      },
+      {
+       "name": "Deep Purplish Blue",
+       "hex": "#272458",
+       "dE2000": 6.8
+      }
+     ],
+     "cam02_J": 14.0,
+     "cam02_C": 42.6,
+     "cam02_h": 256.7,
+     "cam02_hue_comp": "B9R",
+     "osa_Ljg": [
+      -6.87,
+      -5.73,
+      1.11
+     ],
+     "oklch": [
+      0.317,
+      0.108,
+      261.824
+     ],
+     "lab_L": 20.3
+    },
+    {
+     "hex": "#5096DC",
+     "munsell": "4.2PB 6.0/10.6",
+     "munsell_H": 74.24,
+     "munsell_V": 5.96,
+     "munsell_C": 10.64,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.0,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 3.0
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 5.7
+      }
+     ],
+     "cam02_J": 48.9,
+     "cam02_C": 53.2,
+     "cam02_h": 246.0,
+     "cam02_hue_comp": "B4R",
+     "osa_Ljg": [
+      0.71,
+      -7.46,
+      2.75
+     ],
+     "oklch": [
+      0.658,
+      0.127,
+      250.319
+     ],
+     "lab_L": 60.5
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Aarsleff",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#006CB0",
+     "munsell": "4.0PB 4.3/10.7",
+     "munsell_H": 73.96,
+     "munsell_V": 4.33,
+     "munsell_C": 10.7,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.1,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 2.1
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 5.3
+      }
+     ],
+     "cam02_J": 32.3,
+     "cam02_C": 54.6,
+     "cam02_h": 243.7,
+     "cam02_hue_comp": "B3R",
+     "osa_Ljg": [
+      -2.69,
+      -7.13,
+      3.1
+     ],
+     "oklch": [
+      0.516,
+      0.135,
+      246.697
+     ],
+     "lab_L": 44.0
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Interflow",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#009DDC",
+     "munsell": "1.1PB 6.0/10.8",
+     "munsell_H": 71.13,
+     "munsell_V": 6.01,
+     "munsell_C": 10.81,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.9,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 4.3
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 7.7
+      }
+     ],
+     "cam02_J": 48.9,
+     "cam02_C": 58.3,
+     "cam02_h": 234.7,
+     "cam02_hue_comp": "G97B",
+     "osa_Ljg": [
+      0.8,
+      -7.25,
+      4.67
+     ],
+     "oklch": [
+      0.658,
+      0.142,
+      236.066
+     ],
+     "lab_L": 61.0
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "積水化學 SPR",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#054A97",
+     "munsell": "5.9PB 3.2/11.3",
+     "munsell_H": 75.9,
+     "munsell_V": 3.19,
+     "munsell_C": 11.3,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.2,
+     "pccs_tone": "s",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Blue, royal blue",
+       "hex": "#00416A",
+       "dE2000": 6.4
+      },
+      {
+       "name": "Strong Purplish Blue",
+       "hex": "#545AA7",
+       "dE2000": 10.4
+      }
+     ],
+     "cam02_J": 22.3,
+     "cam02_C": 54.1,
+     "cam02_h": 252.1,
+     "cam02_hue_comp": "B7R",
+     "osa_Ljg": [
+      -4.69,
+      -7.74,
+      2.16
+     ],
+     "oklch": [
+      0.419,
+      0.141,
+      256.334
+     ],
+     "lab_L": 32.2
+    },
+    {
+     "hex": "#DA3B49",
+     "munsell": "4.8R 4.9/14.3",
+     "munsell_H": 4.76,
+     "munsell_V": 4.93,
+     "munsell_C": 14.33,
+     "pccs_hue": "2:R",
+     "pccs_s": 10.0,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 6.1
+      },
+      {
+       "name": "Moderate Red",
+       "hex": "#AB4E52",
+       "dE2000": 9.1
+      }
+     ],
+     "cam02_J": 42.8,
+     "cam02_C": 75.2,
+     "cam02_h": 20.8,
+     "cam02_hue_comp": "R1Y",
+     "osa_Ljg": [
+      -1.33,
+      3.28,
+      -11.65
+     ],
+     "oklch": [
+      0.594,
+      0.195,
+      20.888
+     ],
+     "lab_L": 50.1
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "管清工業",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#0059A6",
+     "munsell": "5.4PB 3.7/11.6",
+     "munsell_H": 75.43,
+     "munsell_V": 3.72,
+     "munsell_C": 11.59,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.3,
+     "pccs_tone": "s",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 5.6
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 7.1
+      }
+     ],
+     "cam02_J": 26.7,
+     "cam02_C": 55.8,
+     "cam02_h": 249.2,
+     "cam02_hue_comp": "B6R",
+     "osa_Ljg": [
+      -3.74,
+      -7.84,
+      2.59
+     ],
+     "oklch": [
+      0.464,
+      0.143,
+      252.991
+     ],
+     "lab_L": 37.7
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "東亜グラウト工業",
+   "group": "只有黑白灰",
+   "cols": [],
+   "neutral": []
+  },
+  {
+   "name": "日本ヒューム",
+   "group": "兩色對比",
+   "cols": [
+    {
+     "hex": "#535CA8",
+     "munsell": "7.9PB 4.1/10.6",
+     "munsell_H": 77.9,
+     "munsell_V": 4.11,
+     "munsell_C": 10.56,
+     "pccs_hue": "20:V",
+     "pccs_s": 7.4,
+     "pccs_tone": "s",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Purplish Blue",
+       "hex": "#545AA7",
+       "dE2000": 0.8
+      },
+      {
+       "name": "Strong Violet",
+       "hex": "#604E97",
+       "dE2000": 7.2
+      }
+     ],
+     "cam02_J": 31.1,
+     "cam02_C": 47.1,
+     "cam02_h": 268.9,
+     "cam02_hue_comp": "B16R",
+     "osa_Ljg": [
+      -3.11,
+      -7.07,
+      -0.23
+     ],
+     "oklch": [
+      0.504,
+      0.12,
+      276.114
+     ],
+     "lab_L": 41.7
+    },
+    {
+     "hex": "#39B9A6",
+     "munsell": "3.2BG 6.7/7.5",
+     "munsell_H": 53.18,
+     "munsell_V": 6.72,
+     "munsell_C": 7.52,
+     "pccs_hue": "14:BG",
+     "pccs_s": 5.6,
+     "pccs_tone": "lt+",
+     "pccs_tone_fixed_variant": "lt+",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Bluish Green",
+       "hex": "#00A693",
+       "dE2000": 5.9
+      },
+      {
+       "name": "Light Bluish Green",
+       "hex": "#66ADA4",
+       "dE2000": 6.5
+      }
+     ],
+     "cam02_J": 57.1,
+     "cam02_C": 43.9,
+     "cam02_h": 183.9,
+     "cam02_hue_comp": "G31B",
+     "osa_Ljg": [
+      1.46,
+      0.09,
+      6.04
+     ],
+     "oklch": [
+      0.712,
+      0.113,
+      180.921
+     ],
+     "lab_L": 68.3
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#231815",
+     "munsell": "4.9YR 0.9/0.9",
+     "munsell_H": 14.95,
+     "munsell_V": 0.91,
+     "munsell_C": 0.91,
+     "pccs_hue": "5:O",
+     "pccs_s": 2.1,
+     "pccs_tone": "dkg",
+     "pccs_tone_fixed_variant": "dkg",
+     "iscc_nbs": [
+      {
+       "name": "Brownish Black",
+       "hex": "#28201C",
+       "dE2000": 3.2
+      },
+      {
+       "name": "Reddish Black",
+       "hex": "#282022",
+       "dE2000": 4.3
+      }
+     ],
+     "cam02_J": 8.3,
+     "cam02_C": 7.3,
+     "cam02_h": 35.9,
+     "cam02_hue_comp": "R20Y",
+     "osa_Ljg": [
+      -9.24,
+      0.38,
+      -0.58
+     ],
+     "oklch": [
+      0.222,
+      0.019,
+      35.784
+     ],
+     "lab_L": 9.5
+    }
+   ]
+  },
+  {
+   "name": "日本水工設計",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#004EA2",
+     "munsell": "6.0PB 3.4/12.3",
+     "munsell_H": 75.97,
+     "munsell_V": 3.38,
+     "munsell_C": 12.3,
+     "pccs_hue": "19:pB",
+     "pccs_s": 8.7,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Blue, royal blue",
+       "hex": "#00416A",
+       "dE2000": 7.8
+      },
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 9.5
+      }
+     ],
+     "cam02_J": 23.8,
+     "cam02_C": 57.2,
+     "cam02_h": 252.2,
+     "cam02_hue_comp": "B7R",
+     "osa_Ljg": [
+      -4.31,
+      -8.39,
+      2.34
+     ],
+     "oklch": [
+      0.436,
+      0.151,
+      256.417
+     ],
+     "lab_L": 34.1
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "IBAK",
+   "group": "只有黑白灰",
+   "cols": [],
+   "neutral": []
+  },
+  {
+   "name": "iPEK",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#DF322A",
+     "munsell": "7.4R 4.9/15.8",
+     "munsell_H": 7.42,
+     "munsell_V": 4.88,
+     "munsell_C": 15.8,
+     "pccs_hue": "3:yR",
+     "pccs_s": 11.6,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 9.1
+      },
+      {
+       "name": "Vivid Reddish Orange",
+       "hex": "#E25822",
+       "dE2000": 10.3
+      }
+     ],
+     "cam02_J": 42.5,
+     "cam02_C": 85.1,
+     "cam02_h": 29.1,
+     "cam02_hue_comp": "R11Y",
+     "osa_Ljg": [
+      -1.18,
+      5.54,
+      -12.1
+     ],
+     "oklch": [
+      0.591,
+      0.21,
+      28.31
+     ],
+     "lab_L": 49.7
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    },
+    {
+     "hex": "#99999A",
+     "munsell": "N 6.2",
+     "munsell_H": 81.04,
+     "munsell_V": 6.22,
+     "munsell_C": 0.2,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Bluish Gray",
+       "hex": "#81878B",
+       "dE2000": 7.2
+      },
+      {
+       "name": "Purplish Gray",
+       "hex": "#8B8589",
+       "dE2000": 7.4
+      }
+     ],
+     "cam02_J": 53.4,
+     "cam02_C": 2.8,
+     "cam02_h": 228.4,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      0.5,
+      -0.2,
+      -0.05
+     ],
+     "oklch": [
+      0.683,
+      0.001,
+      286.362
+     ],
+     "lab_L": 63.3
+    }
+   ]
+  },
+  {
+   "name": "RAUSCH",
+   "group": "只有黑白灰",
+   "cols": [],
+   "neutral": []
+  },
+  {
+   "name": "Mini-Cam",
+   "group": "兩色同色系",
+   "cols": [
+    {
+     "hex": "#EC672C",
+     "munsell": "0.4YR 5.9/13.6",
+     "munsell_H": 10.43,
+     "munsell_V": 5.87,
+     "munsell_C": 13.62,
+     "pccs_hue": "4:rO",
+     "pccs_s": 11.0,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Reddish Orange",
+       "hex": "#E25822",
+       "dE2000": 4.2
+      },
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 5.9
+      }
+     ],
+     "cam02_J": 52.3,
+     "cam02_C": 68.9,
+     "cam02_h": 43.3,
+     "cam02_hue_comp": "R30Y",
+     "osa_Ljg": [
+      0.53,
+      7.5,
+      -8.77
+     ],
+     "oklch": [
+      0.67,
+      0.179,
+      41.858
+     ],
+     "lab_L": 59.6
+    },
+    {
+     "hex": "#FAB500",
+     "munsell": "0.7Y 7.7/12.6",
+     "munsell_H": 20.69,
+     "munsell_V": 7.74,
+     "munsell_C": 12.64,
+     "pccs_hue": "7:rY",
+     "pccs_s": 8.5,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Orange Yellow",
+       "hex": "#FFC14F",
+       "dE2000": 4.8
+      },
+      {
+       "name": "Vivid Orange Yellow",
+       "hex": "#F6A600",
+       "dE2000": 4.8
+      }
+     ],
+     "cam02_J": 72.3,
+     "cam02_C": 66.4,
+     "cam02_h": 81.3,
+     "cam02_hue_comp": "R86Y",
+     "osa_Ljg": [
+      3.1,
+      11.09,
+      -2.11
+     ],
+     "oklch": [
+      0.816,
+      0.169,
+      80.881
+     ],
+     "lab_L": 78.1
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#1D1D1B",
+     "munsell": "N 1.0",
+     "munsell_H": 29.2,
+     "munsell_V": 1.03,
+     "munsell_C": 0.21,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 2.2
+      },
+      {
+       "name": "Greenish Black",
+       "hex": "#1E2321",
+       "dE2000": 3.6
+      }
+     ],
+     "cam02_J": 8.7,
+     "cam02_C": 1.7,
+     "cam02_h": 120.2,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      -9.06,
+      0.13,
+      0.02
+     ],
+     "oklch": [
+      0.23,
+      0.004,
+      106.693
+     ],
+     "lab_L": 10.7
+    }
+   ]
+  },
+  {
+   "name": "CUES",
+   "group": "兩色同色系",
+   "cols": [
+    {
+     "hex": "#008CCF",
+     "munsell": "2.2PB 5.4/11.0",
+     "munsell_H": 72.23,
+     "munsell_V": 5.44,
+     "munsell_C": 10.96,
+     "pccs_hue": "18:B",
+     "pccs_s": 8.7,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 4.8
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 10.2
+      }
+     ],
+     "cam02_J": 43.1,
+     "cam02_C": 57.7,
+     "cam02_h": 238.4,
+     "cam02_hue_comp": "B",
+     "osa_Ljg": [
+      -0.63,
+      -7.23,
+      3.98
+     ],
+     "oklch": [
+      0.611,
+      0.141,
+      240.483
+     ],
+     "lab_L": 55.3
+    },
+    {
+     "hex": "#005F9F",
+     "munsell": "4.2PB 3.8/10.0",
+     "munsell_H": 74.17,
+     "munsell_V": 3.85,
+     "munsell_C": 10.02,
+     "pccs_hue": "18:B",
+     "pccs_s": 7.7,
+     "pccs_tone": "s",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 3.0
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 6.1
+      }
+     ],
+     "cam02_J": 28.0,
+     "cam02_C": 51.8,
+     "cam02_h": 244.8,
+     "cam02_hue_comp": "B3R",
+     "osa_Ljg": [
+      -3.59,
+      -6.72,
+      2.78
+     ],
+     "oklch": [
+      0.474,
+      0.127,
+      247.911
+     ],
+     "lab_L": 39.0
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Envirosight",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#68B745",
+     "munsell": "8.7GY 6.6/10.4",
+     "munsell_H": 38.66,
+     "munsell_V": 6.63,
+     "munsell_C": 10.42,
+     "pccs_hue": "11:yG",
+     "pccs_s": 8.8,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Vivid Yellowish Green see #115",
+       "hex": "#27A64C",
+       "dE2000": 8.8
+      },
+      {
+       "name": "Brilliant Yellowish Green",
+       "hex": "#83D37D",
+       "dE2000": 9.1
+      }
+     ],
+     "cam02_J": 56.6,
+     "cam02_C": 60.8,
+     "cam02_h": 133.1,
+     "cam02_hue_comp": "Y66G",
+     "osa_Ljg": [
+      0.99,
+      7.43,
+      6.29
+     ],
+     "oklch": [
+      0.704,
+      0.169,
+      137.37
+     ],
+     "lab_L": 67.5
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "RedZone Robotics",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#E62027",
+     "munsell": "7.1R 4.9/17.2",
+     "munsell_H": 7.07,
+     "munsell_V": 4.87,
+     "munsell_C": 17.22,
+     "pccs_hue": "3:yR",
+     "pccs_s": 12.3,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Reddish Orange",
+       "hex": "#D9603B",
+       "dE2000": 10.5
+      },
+      {
+       "name": "Strong Red",
+       "hex": "#BC3F4A",
+       "dE2000": 11.1
+      }
+     ],
+     "cam02_J": 42.6,
+     "cam02_C": 93.7,
+     "cam02_h": 27.5,
+     "cam02_hue_comp": "R9Y",
+     "osa_Ljg": [
+      -1.0,
+      5.62,
+      -13.58
+     ],
+     "oklch": [
+      0.592,
+      0.227,
+      26.654
+     ],
+     "lab_L": 49.5
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#000000",
+     "munsell": "N 0.0",
+     "munsell_H": 0.0,
+     "munsell_V": 0.0,
+     "munsell_C": 0.0,
+     "pccs_hue": "n",
+     "pccs_s": 0.0,
+     "pccs_tone": "N",
+     "pccs_tone_fixed_variant": "N",
+     "iscc_nbs": [
+      {
+       "name": "Black",
+       "hex": "#222222",
+       "dE2000": 8.0
+      },
+      {
+       "name": "Purplish Black",
+       "hex": "#242124",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 0.0,
+     "cam02_C": 0.0,
+     "cam02_h": 180.0,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "oklch": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lab_L": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Vactor",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#00A1DC",
+     "munsell": "0.4PB 6.1/10.4",
+     "munsell_H": 70.41,
+     "munsell_V": 6.13,
+     "munsell_C": 10.41,
+     "pccs_hue": "17:B",
+     "pccs_s": 8.8,
+     "pccs_tone": "b",
+     "pccs_tone_fixed_variant": "b",
+     "iscc_nbs": [
+      {
+       "name": "Brilliant Blue, celestial blue",
+       "hex": "#4997D0",
+       "dE2000": 5.4
+      },
+      {
+       "name": "Light Blue, sky blue",
+       "hex": "#70A3CC",
+       "dE2000": 7.7
+      }
+     ],
+     "cam02_J": 50.2,
+     "cam02_C": 57.6,
+     "cam02_h": 232.7,
+     "cam02_hue_comp": "G94B",
+     "osa_Ljg": [
+      1.0,
+      -6.91,
+      4.82
+     ],
+     "oklch": [
+      0.668,
+      0.139,
+      233.688
+     ],
+     "lab_L": 62.2
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Rioned",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#002F6C",
+     "munsell": "5.9PB 2.0/9.0",
+     "munsell_H": 75.89,
+     "munsell_V": 2.04,
+     "munsell_C": 9.03,
+     "pccs_hue": "19:pB",
+     "pccs_s": 7.4,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "dp",
+     "iscc_nbs": [
+      {
+       "name": "Dark Blue, navy blue",
+       "hex": "#00304E",
+       "dE2000": 6.1
+      },
+      {
+       "name": "Deep Blue, royal blue",
+       "hex": "#00416A",
+       "dE2000": 7.5
+      }
+     ],
+     "cam02_J": 14.0,
+     "cam02_C": 45.2,
+     "cam02_h": 253.4,
+     "cam02_hue_comp": "B8R",
+     "osa_Ljg": [
+      -6.8,
+      -6.1,
+      1.59
+     ],
+     "oklch": [
+      0.319,
+      0.117,
+      257.729
+     ],
+     "lab_L": 20.5
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "KAISER",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#004186",
+     "munsell": "5.7PB 2.8/10.2",
+     "munsell_H": 75.72,
+     "munsell_V": 2.8,
+     "munsell_C": 10.18,
+     "pccs_hue": "19:pB",
+     "pccs_s": 7.7,
+     "pccs_tone": "dp",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Deep Blue, royal blue",
+       "hex": "#00416A",
+       "dE2000": 4.7
+      },
+      {
+       "name": "Dark Blue, navy blue",
+       "hex": "#00304E",
+       "dE2000": 8.6
+      }
+     ],
+     "cam02_J": 19.3,
+     "cam02_C": 50.4,
+     "cam02_h": 251.6,
+     "cam02_hue_comp": "B7R",
+     "osa_Ljg": [
+      -5.44,
+      -7.0,
+      2.02
+     ],
+     "oklch": [
+      0.384,
+      0.13,
+      255.72
+     ],
+     "lab_L": 28.1
+    }
+   ],
+   "neutral": []
+  },
+  {
+   "name": "Jurop",
+   "group": "一個彩色",
+   "cols": [
+    {
+     "hex": "#005EB8",
+     "munsell": "5.9PB 4.0/13.4",
+     "munsell_H": 75.87,
+     "munsell_V": 3.98,
+     "munsell_C": 13.45,
+     "pccs_hue": "19:pB",
+     "pccs_s": 9.2,
+     "pccs_tone": "v",
+     "pccs_tone_fixed_variant": "v",
+     "iscc_nbs": [
+      {
+       "name": "Strong Blue, bright blue",
+       "hex": "#0067A5",
+       "dE2000": 5.3
+      },
+      {
+       "name": "Moderate Blue, cerulean blue",
+       "hex": "#436B95",
+       "dE2000": 6.1
+      }
+     ],
+     "cam02_J": 29.0,
+     "cam02_C": 60.9,
+     "cam02_h": 250.9,
+     "cam02_hue_comp": "B6R",
+     "osa_Ljg": [
+      -3.18,
+      -8.99,
+      2.7
+     ],
+     "oklch": [
+      0.489,
+      0.161,
+      254.944
+     ],
+     "lab_L": 40.4
+    }
+   ],
+   "neutral": [
+    {
+     "hex": "#7A7B7D",
+     "munsell": "N 5.1",
+     "munsell_H": 74.66,
+     "munsell_V": 5.06,
+     "munsell_C": 0.31,
+     "pccs_hue": "19:pB",
+     "pccs_s": 0.3,
+     "pccs_tone": "g",
+     "pccs_tone_fixed_variant": "g",
+     "iscc_nbs": [
+      {
+       "name": "Medium Gray",
+       "hex": "#848482",
+       "dE2000": 4.1
+      },
+      {
+       "name": "Bluish Gray",
+       "hex": "#81878B",
+       "dE2000": 4.9
+      }
+     ],
+     "cam02_J": 41.0,
+     "cam02_C": 3.7,
+     "cam02_h": 235.8,
+     "cam02_hue_comp": "N",
+     "osa_Ljg": [
+      -2.04,
+      -0.28,
+      0.0
+     ],
+     "oklch": [
+      0.583,
+      0.003,
+      264.534
+     ],
+     "lab_L": 51.6
+    }
+   ]
+  },
+  {
+   "name": "Cappellotto",
+   "group": "只有黑白灰",
+   "cols": [],
+   "neutral": []
+  }
+ ],
+ "stats_main": {
+  "n": 42,
+  "munsell_family": {
+   "PB": 23,
+   "R": 10,
+   "GY": 3,
+   "YR": 2,
+   "G": 2,
+   "BG": 1,
+   "RP": 1
+  },
+  "V": {
+   "n": 42,
+   "median": 4.57,
+   "p25": 3.1,
+   "p75": 5.83
+  },
+  "C": {
+   "n": 42,
+   "median": 11.54,
+   "p25": 10.51,
+   "p75": 16.07
+  },
+  "pccs_tone": {
+   "v": 21,
+   "b": 8,
+   "dp": 6,
+   "s": 4,
+   "dk": 2,
+   "lt+": 1
+  }
+ },
+ "stats_allcols": {
+  "n": 66,
+  "pccs_tone": {
+   "v": 27,
+   "b": 14,
+   "dp": 7,
+   "s": 6,
+   "lt+": 4,
+   "lt": 4,
+   "dk": 2,
+   "sf": 1,
+   "d": 1
+  },
+  "V": {
+   "n": 66,
+   "median": 4.88,
+   "p25": 3.88,
+   "p75": 6.12
+  },
+  "C": {
+   "n": 66,
+   "median": 11.11,
+   "p25": 8.94,
+   "p75": 13.77
+  }
+ },
+ "baseline_random_srgb": {
+  "n": 1984,
+  "pccs_tone_share": {
+   "v": 0.381,
+   "b": 0.172,
+   "lt+": 0.091,
+   "dp": 0.062,
+   "s": 0.054,
+   "dk": 0.049,
+   "lt": 0.046,
+   "d": 0.041,
+   "sf": 0.039,
+   "p+": 0.024,
+   "g": 0.013,
+   "p": 0.011,
+   "ltg": 0.01,
+   "dkg": 0.008
+  },
+  "V": {
+   "n": 1984,
+   "median": 5.67,
+   "p25": 4.3,
+   "p75": 7.24
+  },
+  "C": {
+   "n": 1984,
+   "median": 10.53,
+   "p25": 7.23,
+   "p75": 14.63
+  }
+ }
+}

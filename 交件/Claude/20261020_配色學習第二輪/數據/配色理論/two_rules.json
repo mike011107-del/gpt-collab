@@ -1,0 +1,9 @@
+{
+ "n_pairs_within_logo": 30,
+ "share_dC_lt5_real": 0.133,
+ "share_dC_lt5_shuffled_median": 0.172,
+ "p_share_lower": 0.29,
+ "median_dC_real": 20.3,
+ "median_dC_shuffled": 20.4,
+ "note": "C* 用 CIELAB；「同彩度」定義為 C* 差 < 5（自訂）。打亂：同業全部彩色隨機兩兩配，配對數同真實。"
+}

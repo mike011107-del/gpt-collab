@@ -1,0 +1,154 @@
+{
+ "說明": "md＝/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/同業色彩整理.md 總表「logo 主色」欄；this＝data/measure_raw.json（tw_decide.py 定案）",
+ "rows": [
+  {
+   "company": "華通",
+   "md_hex": "#2D661F",
+   "this_hex": "#2D661F",
+   "dE2000": 0.0,
+   "note": "logo 綠"
+  },
+  {
+   "company": "華通",
+   "md_hex": "#713E3E",
+   "this_hex": "#713E3E",
+   "dE2000": 0.0,
+   "note": "副標紅褐"
+  },
+  {
+   "company": "邦盛",
+   "md_hex": "#D3151C",
+   "this_hex": "#D7060B",
+   "dE2000": 2.58,
+   "note": "md 當 logo 色；這輪判定是標語「專人為您服務」"
+  },
+  {
+   "company": "天福",
+   "md_hex": "#2267AC",
+   "this_hex": "#2368AD",
+   "dE2000": 0.36,
+   "note": "藍"
+  },
+  {
+   "company": "天福",
+   "md_hex": "#21AC68",
+   "this_hex": "#22AD69",
+   "dE2000": 0.3,
+   "note": "綠"
+  },
+  {
+   "company": "天福",
+   "md_hex": "#A4D49C",
+   "this_hex": "#A6D49D",
+   "dE2000": 0.4,
+   "note": "淺綠"
+  },
+  {
+   "company": "天福",
+   "md_hex": "#5DC4F1",
+   "this_hex": "#5EC5F2",
+   "dE2000": 0.26,
+   "note": "天藍"
+  },
+  {
+   "company": "大亞",
+   "md_hex": "#213750",
+   "this_hex": "#243952",
+   "dE2000": 0.71,
+   "note": "深藍（槽體漸層深端）"
+  },
+  {
+   "company": "大亞",
+   "md_hex": "#AD3822",
+   "this_hex": "#AD3922",
+   "dE2000": 0.28,
+   "note": "紅 T.Y."
+  },
+  {
+   "company": "久大",
+   "md_hex": "#0A6BB6",
+   "this_hex": "#2298D3",
+   "dE2000": 17.06,
+   "note": "md 站台圖示藍深端；這輪取補充 PDF 全版 logo 眾數"
+  },
+  {
+   "company": "久大",
+   "md_hex": "#029FDC",
+   "this_hex": "#2298D3",
+   "dE2000": 2.38,
+   "note": "md 站台圖示藍淺端"
+  },
+  {
+   "company": "源昌",
+   "md_hex": "#FE6500",
+   "this_hex": "#FF6600",
+   "dE2000": 0.31,
+   "note": "橘圈"
+  },
+  {
+   "company": "森淨家",
+   "md_hex": "#89C5DF",
+   "this_hex": "#89C5DF",
+   "dE2000": 0.0,
+   "note": "淺藍"
+  },
+  {
+   "company": "逸居管必潔",
+   "md_hex": "#2D6EB1",
+   "this_hex": "#2D6EB1",
+   "dE2000": 0.0,
+   "note": "副標藍"
+  },
+  {
+   "company": "日技",
+   "md_hex": "#0070C0",
+   "this_hex": "#0070C0",
+   "dE2000": 0.0,
+   "note": "圓徽藍"
+  },
+  {
+   "company": "日技",
+   "md_hex": "#87BBE1",
+   "this_hex": null,
+   "dE2000": null,
+   "note": "md 記淺藍；這輪判定為圓徽白帶的淺色，不另計"
+  },
+  {
+   "company": "日技",
+   "md_hex": null,
+   "this_hex": "#EC1D24",
+   "dE2000": null,
+   "note": "md 沒記；這輪找到 JPN-TEK 小紅字 2.9%"
+  },
+  {
+   "company": "宏隆",
+   "md_hex": "#186504",
+   "this_hex": "#186504",
+   "dE2000": 0.0,
+   "note": "綠"
+  },
+  {
+   "company": "宏隆",
+   "md_hex": "#F55903",
+   "this_hex": "#F55802",
+   "dE2000": 0.2,
+   "note": "橘"
+  },
+  {
+   "company": "康立",
+   "md_hex": "#566A1E",
+   "this_hex": "#566A1F",
+   "dE2000": 0.16,
+   "note": "底塊橄欖綠"
+  },
+  {
+   "company": "一元",
+   "md_hex": "#255093",
+   "this_hex": "#255092",
+   "dE2000": 0.14,
+   "note": "藍"
+  }
+ ],
+ "dE小於2筆數": 16,
+ "可比筆數": 19
+}

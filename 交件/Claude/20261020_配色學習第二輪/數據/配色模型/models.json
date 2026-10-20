@@ -1,0 +1,2574 @@
+{
+ "date": "2026-10-19",
+ "thread": "models",
+ "seed": 20261019,
+ "models": [
+  {
+   "id": "ou2004_warm_cool",
+   "name": "Ou 等人 2004 單色冷暖",
+   "status": "已用",
+   "formula": "WC = -0.5 + 0.02 × C*^1.07 × cos(h − 50°)（CIELAB D65，h 為色相角）；>0 偏暖、<0 偏冷",
+   "source": "google/material-color-utilities 提交 dd62982dfdefdfc9232ce8d76e122fb1c6d188ae，typescript/temperature/temperature_cache.ts rawTemperature（註明 Ou, Woodcock and Wright 演算法）",
+   "grade_code": "原文已讀",
+   "grade_paper": "只讀到摘要或轉述（Ou 原文未取得）",
+   "subjects_conditions": "原文未取得，受試者與實驗條件未讀到",
+   "validation": {
+    "#0000FF": {
+     "expected": -1.393,
+     "got": -1.3935,
+     "ok": true
+    },
+    "#FF0000": {
+     "expected": 2.351,
+     "got": 2.3514,
+     "ok": true
+    },
+    "#00FF00": {
+     "expected": -0.267,
+     "got": -0.267,
+     "ok": true
+    },
+    "#FFFFFF": {
+     "expected": -0.5,
+     "got": -0.5,
+     "ok": true
+    },
+    "#000000": {
+     "expected": -0.5,
+     "got": -0.5,
+     "ok": true
+    }
+   }
+  },
+  {
+   "id": "ou2004_heavy_light_active_passive",
+   "name": "Ou 等人 2004 輕重、主動被動",
+   "status": "未取得",
+   "note": "本機各 repo、npm 搜尋、PyPI 套件名都找不到公式；lit 串上網也查不到。不從記憶補。"
+  },
+  {
+   "id": "ou_luo2006_harmony",
+   "name": "Ou 與 Luo 2006 兩色和諧",
+   "status": "未取得",
+   "note": "同上。只知道有彩度差、明度和、明度差、色相效應四項（lit 串，只讀到轉述），沒有係數。"
+  },
+  {
+   "id": "colorgorical",
+   "name": "Colorgorical 配色評分（Gramazio、Laidlaw、Schloss 2017）",
+   "status": "已用",
+   "source": "connorgr/colorgorical 提交 90649656a57ce9743b00390473adce51a821cadc（2016-10-14）：src/model/c/scores/pairPreference.c、nameDifference.c、nameUniqueness.c、ciede2000.c、src/model/c/numpyColorgorical.c（懲罰）、src/model/model.py；論文 src/public/static/pdf/colorgorical.pdf",
+   "grade": "原文已讀（程式與 repo 內論文 PDF）",
+   "scores": {
+    "perceptual_distance": "CIEDE2000",
+    "name_difference": "Heer & Stone 2012 色名分布的 Hellinger 距離，153 個英文色名（xkcd 群眾資料）；0＝名字分布相同，1＝完全不重疊",
+    "name_uniqueness": "色名分布的熵 ÷ 4.5（程式回傳值）；論文說：名字越分散分數越高",
+    "pair_preference": "PP = 47.6133·norm(|ΔL|) − 46.4222·norm(|ΔH|) + 75.1481·norm(κ1+κ2)，L、H 在 C 光源 CIELAB；κ＝冷度（Munsell 10R 起算的色相步數，Colorgorical 線性內插）；norm 用程式內上下限",
+    "penalty": "Lab 色相 70–115：L≤75 乘 0.8、L>75 乘 0.85；色相 115–138 且 L≤45 乘 0.75（作者手訂，產生調色盤時用）"
+   },
+   "subjects_conditions": "PP 來自 Schloss & Palmer 2011：柏克萊 48 人（男女各 24），32 個彩色、992 組圖底配對（小方塊在大方塊中），螢幕、灰背景，評「多喜歡這個組合」。Colorgorical 把原本 Munsell 迴歸改成 CIE LCh，解釋 51.8% 變異（原 Munsell 版 53.5%）。白、灰、黑配對用 Colorgorical 自己的重心內插表（原實驗沒有無彩色）。Colorgorical 自己的實驗：Amazon Mechanical Turk，每種色數 20 人。",
+   "validation": {
+    "de_bounds": {
+     "expected_max": 122.48163103,
+     "expected_min": 1.02043527056,
+     "got_max": 122.48163102976254,
+     "got_min": 1.020435270560631,
+     "ok": true
+    },
+    "pp_bounds": {
+     "expected_max": 107.909,
+     "expected_min": -101.423,
+     "got_all_chromatic": [
+      125.966,
+      -96.044
+     ],
+     "got_rgb_valid_only": [
+      114.935,
+      -94.584
+     ],
+     "got_wrapped_hue_variant": [
+      125.966,
+      -56.006
+     ],
+     "n_chromatic_grid": 8304,
+     "n_valid_rgb": 6624
+    },
+    "nu_entropy": {
+     "hardcoded_min": -4.5,
+     "got_min": -4.461,
+     "got_max": -0.374
+    }
+   },
+   "code_notes": [
+    "程式的色相差直接相減取絕對值，沒有取 360 補角；正規化上限卻是 179.27。跨 0° 的配對（藍紫配紅橘黃）分數會更低。我兩種都算。",
+    "model.py 寫的 PP 正規化上下限 107.909／−101.423，用 repo 現有查表重現不了（我算 125.97／−96.04）。所以只比相對位置，不用 0–1 分數下結論。",
+    "所有查表要先把顏色放到 5 單位格點，本次最遠移動 3.49（工程黃）。"
+   ]
+  },
+  {
+   "id": "mcu_dislike",
+   "name": "Material Color Utilities 不喜歡色判斷",
+   "status": "已用",
+   "formula": "HCT 色相 90–111 且 彩度 >16 且 tone <65 → 判為不喜歡（暗黃綠）",
+   "source": "google/material-color-utilities 提交 dd62982d，typescript/dislike/dislike_analyzer.ts（註明依 Palmer & Schloss 2010）",
+   "grade": "原文已讀（程式）",
+   "validation": {
+    "liked_all_false": true,
+    "disliked_all_true": true
+   }
+  },
+  {
+   "id": "palettailor",
+   "name": "Palettailor",
+   "status": "讀過，不適用",
+   "source": "Palettailor/Palettailor 提交 ca7d9213d24dc57835ef7f124405808cadbff00d，js/optimizeFunc.js evaluatePalette",
+   "note": "評分只有類別分辨度、色名差、與背景的最小色差，沒有偏好或和諧分數。"
+  },
+  {
+   "id": "schloss_palmer_2011_harmony",
+   "name": "Schloss & Palmer 2011 和諧迴歸",
+   "status": "只有因子，沒有係數",
+   "source": "/tmp/claude-0/r2/lit/txt/Schloss_2011.txt（lit 串取得的原文文字）p.553 附近",
+   "note": "較和諧的配對：色相較近、較冷、較不鮮、冷度較接近（67.3%）。文字沒有給係數，不能算。"
+  }
+ ],
+ "single": {
+  "targets": {
+   "深青": {
+    "hex": "#0C424A",
+    "L": 25.17,
+    "C": 16.85,
+    "h": 215.4,
+    "ou_warm_cool": -0.897,
+    "hct": [
+     211.2,
+     25.1,
+     25.2
+    ],
+    "mcu_disliked": false,
+    "cg_grid": [
+     25,
+     -15,
+     -10
+    ],
+    "cg_snap_dist": 1.3,
+    "cg_achromatic": false,
+    "cg_coolness": 13.33,
+    "cg_name_uniqueness": 0.935,
+    "cg_top_terms": [
+     [
+      "teal",
+      0.123
+     ],
+     [
+      "blue",
+      0.118
+     ],
+     [
+      "darkteal",
+      0.118
+     ]
+    ],
+    "cg_penalty": 1.0,
+    "cg_ugly_filtered": false
+   },
+   "靛藍": {
+    "hex": "#333D66",
+    "L": 26.74,
+    "C": 26.77,
+    "h": 288.3,
+    "ou_warm_cool": -0.854,
+    "hct": [
+     275.6,
+     29.8,
+     26.7
+    ],
+    "mcu_disliked": false,
+    "cg_grid": [
+     25,
+     10,
+     -25
+    ],
+    "cg_snap_dist": 2.41,
+    "cg_achromatic": false,
+    "cg_coolness": 9.9,
+    "cg_name_uniqueness": 0.746,
+    "cg_top_terms": [
+     [
+      "navyblue",
+      0.237
+     ],
+     [
+      "blue",
+      0.215
+     ],
+     [
+      "darkblue",
+      0.184
+     ]
+    ],
+    "cg_penalty": 1.0,
+    "cg_ugly_filtered": false
+   },
+   "工程黃": {
+    "hex": "#D68702",
+    "L": 63.03,
+    "C": 72.04,
+    "h": 71.8,
+    "ou_warm_cool": 1.304,
+    "hct": [
+     69.3,
+     54.4,
+     63.0
+    ],
+    "mcu_disliked": false,
+    "cg_grid": [
+     65,
+     20,
+     70
+    ],
+    "cg_snap_dist": 3.49,
+    "cg_achromatic": false,
+    "cg_coolness": 3.63,
+    "cg_name_uniqueness": 0.592,
+    "cg_top_terms": [
+     [
+      "orange",
+      0.572
+     ],
+     [
+      "burntorange",
+      0.055
+     ],
+     [
+      "brown",
+      0.043
+     ]
+    ],
+    "cg_penalty": 0.8,
+    "cg_ugly_filtered": false
+   },
+   "白": {
+    "hex": "#FFFFFF",
+    "L": 100.0,
+    "C": 0.0,
+    "h": 340.8,
+    "ou_warm_cool": -0.5,
+    "hct": [
+     209.5,
+     2.9,
+     100.0
+    ],
+    "mcu_disliked": false,
+    "cg_grid": [
+     100,
+     0,
+     0
+    ],
+    "cg_snap_dist": 0.0,
+    "cg_achromatic": true,
+    "cg_coolness": null,
+    "cg_name_uniqueness": 0.653,
+    "cg_top_terms": [
+     [
+      "white",
+      0.403
+     ],
+     [
+      "offwhite",
+      0.137
+     ],
+     [
+      "grey",
+      0.094
+     ]
+    ],
+    "cg_penalty": 1.0,
+    "cg_ugly_filtered": false
+   }
+  },
+  "peer_main_stats": {
+   "ou_warm_cool": {
+    "n": 42,
+    "median": -0.932,
+    "q1": -1.289,
+    "q3": 1.498,
+    "min": -1.531,
+    "max": 1.963
+   },
+   "L": {
+    "n": 42,
+    "median": 46.465,
+    "q1": 31.227,
+    "q3": 59.282,
+    "min": 5.62,
+    "max": 74.91
+   },
+   "C": {
+    "n": 42,
+    "median": 53.72,
+    "q1": 43.973,
+    "q3": 79.567,
+    "min": 23.98,
+    "max": 99.27
+   },
+   "cg_coolness": {
+    "n": 42,
+    "median": 11.41,
+    "q1": 4.723,
+    "q3": 13.45,
+    "min": 0.0,
+    "max": 16.28
+   },
+   "cg_name_uniqueness": {
+    "n": 42,
+    "median": 0.483,
+    "q1": 0.382,
+    "q3": 0.577,
+    "min": 0.166,
+    "max": 0.762
+   }
+  },
+  "peer_allcol_stats": {
+   "ou_warm_cool": {
+    "n": 66,
+    "median": -1.039,
+    "q1": -1.289,
+    "q3": 0.81,
+    "min": -1.531,
+    "max": 1.963
+   },
+   "L": {
+    "n": 66,
+    "median": 49.58,
+    "q1": 39.375,
+    "q3": 62.085,
+    "min": 5.62,
+    "max": 83.07
+   },
+   "C": {
+    "n": 66,
+    "median": 48.645,
+    "q1": 42.195,
+    "q3": 77.472,
+    "min": 22.29,
+    "max": 99.27
+   },
+   "cg_coolness": {
+    "n": 66,
+    "median": 11.81,
+    "q1": 5.843,
+    "q3": 14.742,
+    "min": 0.0,
+    "max": 17.6
+   },
+   "cg_name_uniqueness": {
+    "n": 66,
+    "median": 0.526,
+    "q1": 0.44,
+    "q3": 0.665,
+    "min": 0.166,
+    "max": 0.866
+   }
+  },
+  "peer_counts": {
+   "n_peers": 48,
+   "n_with_colour": 42,
+   "n_all_chromatic_cols": 66,
+   "main_warm": 14,
+   "main_cool": 28,
+   "main_mcu_disliked": [],
+   "allcol_mcu_disliked": [],
+   "main_cg_penalised": [],
+   "allcol_cg_penalised": [
+    [
+     "Mini-Cam",
+     "#FAB500",
+     0.85
+    ]
+   ]
+  },
+  "targets_pct_in_peer_main": {
+   "深青": {
+    "ou_warm_cool": 50.0,
+    "L": 16.7,
+    "C": 0.0,
+    "cg_coolness": 73.8,
+    "cg_name_uniqueness": 100.0
+   },
+   "靛藍": {
+    "ou_warm_cool": 50.0,
+    "L": 16.7,
+    "C": 2.4,
+    "cg_coolness": 33.3,
+    "cg_name_uniqueness": 95.2
+   },
+   "工程黃": {
+    "ou_warm_cool": 71.4,
+    "L": 88.1,
+    "C": 61.9,
+    "cg_coolness": 21.4,
+    "cg_name_uniqueness": 78.6
+   }
+  },
+  "random_single_stats": {
+   "ou_warm_cool": {
+    "n": 3000,
+    "median": -0.397,
+    "q1": -0.9,
+    "q3": 0.183,
+    "min": -1.646,
+    "max": 2.163
+   },
+   "L": {
+    "n": 3000,
+    "median": 56.805,
+    "q1": 41.795,
+    "q3": 73.547,
+    "min": 3.07,
+    "max": 97.59
+   },
+   "C": {
+    "n": 3000,
+    "median": 56.57,
+    "q1": 37.16,
+    "q3": 77.293,
+    "min": 0.57,
+    "max": 130.76
+   },
+   "cg_coolness": {
+    "n": 2995,
+    "median": 7.9,
+    "q1": 2.375,
+    "q3": 11.46,
+    "min": 0.0,
+    "max": 18.0
+   },
+   "cg_name_uniqueness": {
+    "n": 3000,
+    "median": 0.645,
+    "q1": 0.524,
+    "q3": 0.751,
+    "min": 0.109,
+    "max": 0.991
+   },
+   "share_warm": 0.315,
+   "share_mcu_disliked": 0.012,
+   "share_cg_penalised": 0.125
+  },
+  "extras": {
+   "yellow_vs_mcu_disliked_tests": {
+    "yellow_hct": [
+     69.3,
+     54.4,
+     63.0
+    ],
+    "tests": [
+     {
+      "hex": "#95884B",
+      "hct": [
+       99.7,
+       28.3,
+       56.6
+      ],
+      "dE2000_to_yellow": 18.97
+     },
+     {
+      "hex": "#716B40",
+      "hct": [
+       104.1,
+       21.8,
+       44.8
+      ],
+      "dE2000_to_yellow": 27.14
+     },
+     {
+      "hex": "#B08E00",
+      "hct": [
+       93.0,
+       50.0,
+       60.4
+      ],
+      "dE2000_to_yellow": 12.76
+     },
+     {
+      "hex": "#4C4308",
+      "hct": [
+       101.3,
+       29.7,
+       28.3
+      ],
+      "dE2000_to_yellow": 37.68
+     },
+     {
+      "hex": "#464521",
+      "hct": [
+       109.8,
+       20.7,
+       28.6
+      ],
+      "dE2000_to_yellow": 39.94
+     }
+    ],
+    "zone": "HCT 色相 90–111、彩度 >16、tone <65"
+   },
+   "yellow_hue_gap_to_dislike_zone": 20.7,
+   "coolness_curve_L50": {
+    "n": 124,
+    "min": 1.485272659763102,
+    "max": 17.98131898583368,
+    "h_at_max": [
+     198.4
+    ],
+    "h_at_min": [
+     9.5
+    ]
+   },
+   "ou_wc_zero_hues_C40": [
+    111.0,
+    111.5,
+    348.5,
+    349.0
+   ]
+  }
+ },
+ "pair": {
+  "targets": {
+   "深青×工程黃": {
+    "a": "#0C424A",
+    "b": "#D68702",
+    "dE2000": 52.67,
+    "dL": 37.87,
+    "pp_code": 27.39,
+    "pp_wrapped": 27.39,
+    "pp_norm_code": 0.615,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 40.0,
+     "dH_illC": 127.77,
+     "coolness": [
+      13.325214223602146,
+      3.6294615535812023
+     ],
+     "term_lightness": 30.06,
+     "term_hue": -33.08,
+     "term_coolness": 30.42
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.425,
+    "wc_a": -0.897,
+    "wc_b": 1.304
+   },
+   "靛藍×工程黃": {
+    "a": "#333D66",
+    "b": "#D68702",
+    "dE2000": 56.16,
+    "dL": 36.3,
+    "pp_code": -2.58,
+    "pp_wrapped": 14.23,
+    "pp_norm_code": 0.472,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 40.0,
+     "dH_illC": 212.45,
+     "coolness": [
+      9.902307064766605,
+      3.6294615535812023
+     ],
+     "term_lightness": 30.06,
+     "term_hue": -55.02,
+     "term_coolness": 22.38
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.454,
+    "wc_a": -0.854,
+    "wc_b": 1.304
+   },
+   "深青×白": {
+    "a": "#0C424A",
+    "b": "#FFFFFF",
+    "dE2000": 65.28,
+    "dL": 74.83,
+    "pp_code": 56.23,
+    "pp_wrapped": 56.23,
+    "pp_norm_code": 0.753,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.949,
+    "de_norm": 0.529,
+    "wc_a": -0.897,
+    "wc_b": -0.5
+   },
+   "靛藍×白": {
+    "a": "#333D66",
+    "b": "#FFFFFF",
+    "dE2000": 63.93,
+    "dL": 73.26,
+    "pp_code": 29.27,
+    "pp_wrapped": 29.27,
+    "pp_norm_code": 0.624,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.947,
+    "de_norm": 0.518,
+    "wc_a": -0.854,
+    "wc_b": -0.5
+   },
+   "工程黃×白": {
+    "a": "#D68702",
+    "b": "#FFFFFF",
+    "dE2000": 37.29,
+    "dL": 36.97,
+    "pp_code": 12.02,
+    "pp_wrapped": 12.02,
+    "pp_norm_code": 0.542,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.299,
+    "wc_a": 1.304,
+    "wc_b": -0.5
+   }
+  },
+  "percentiles": {
+   "深青×工程黃": {
+    "dE2000": {
+     "vs_random": 65.5,
+     "vs_peer": 70.0,
+     "vs_peer_shuffled": 67.6
+    },
+    "dL": {
+     "vs_random": 80.7,
+     "vs_peer": 70.0,
+     "vs_peer_shuffled": 86.0
+    },
+    "pp_code": {
+     "vs_random": 66.2,
+     "vs_peer": 36.7,
+     "vs_peer_shuffled": 50.7
+    },
+    "pp_wrapped": {
+     "vs_random": 64.3,
+     "vs_peer": 30.0,
+     "vs_peer_shuffled": 48.4
+    },
+    "name_diff": {
+     "vs_random": 78.6,
+     "vs_peer": 80.0,
+     "vs_peer_shuffled": 75.7
+    }
+   },
+   "靛藍×工程黃": {
+    "dE2000": {
+     "vs_random": 71.0,
+     "vs_peer": 76.7,
+     "vs_peer_shuffled": 73.5
+    },
+    "dL": {
+     "vs_random": 78.6,
+     "vs_peer": 66.7,
+     "vs_peer_shuffled": 84.4
+    },
+    "pp_code": {
+     "vs_random": 27.9,
+     "vs_peer": 13.3,
+     "vs_peer_shuffled": 22.9
+    },
+    "pp_wrapped": {
+     "vs_random": 42.3,
+     "vs_peer": 20.0,
+     "vs_peer_shuffled": 30.5
+    },
+    "name_diff": {
+     "vs_random": 78.6,
+     "vs_peer": 80.0,
+     "vs_peer_shuffled": 75.7
+    }
+   },
+   "深青×白": {
+    "dE2000": {
+     "vs_random": 91.8,
+     "vs_peer": 81.0
+    },
+    "dL": {
+     "vs_random": 93.7,
+     "vs_peer": 83.3
+    },
+    "pp_code": {
+     "vs_random": 98.0,
+     "vs_peer": 97.6
+    },
+    "pp_wrapped": {
+     "vs_random": 98.0,
+     "vs_peer": 97.6
+    },
+    "name_diff": {
+     "vs_random": 41.4,
+     "vs_peer": 45.2
+    }
+   },
+   "靛藍×白": {
+    "dE2000": {
+     "vs_random": 90.2,
+     "vs_peer": 78.6
+    },
+    "dL": {
+     "vs_random": 92.5,
+     "vs_peer": 83.3
+    },
+    "pp_code": {
+     "vs_random": 77.0,
+     "vs_peer": 52.4
+    },
+    "pp_wrapped": {
+     "vs_random": 77.0,
+     "vs_peer": 52.4
+    },
+    "name_diff": {
+     "vs_random": 40.2,
+     "vs_peer": 45.2
+    }
+   },
+   "工程黃×白": {
+    "dE2000": {
+     "vs_random": 46.3,
+     "vs_peer": 23.8
+    },
+    "dL": {
+     "vs_random": 40.5,
+     "vs_peer": 11.9
+    },
+    "pp_code": {
+     "vs_random": 41.9,
+     "vs_peer": 21.4
+    },
+    "pp_wrapped": {
+     "vs_random": 41.9,
+     "vs_peer": 21.4
+    },
+    "name_diff": {
+     "vs_random": 88.2,
+     "vs_peer": 91.7
+    }
+   }
+  },
+  "baselines": {
+   "random_sRGB_5000": {
+    "dE2000": {
+     "n": 5000,
+     "median": 43.31,
+     "q1": 28.457,
+     "q3": 59.032,
+     "min": 1.51,
+     "max": 110.16
+    },
+    "dL": {
+     "n": 5000,
+     "median": 19.785,
+     "q1": 9.4,
+     "q3": 33.852,
+     "min": 0.01,
+     "max": 90.16
+    },
+    "pp_code": {
+     "n": 5000,
+     "median": 15.75,
+     "q1": -6.205,
+     "q3": 35.31,
+     "min": -86.77,
+     "max": 105.06
+    },
+    "pp_wrapped": {
+     "n": 5000,
+     "median": 18.425,
+     "q1": 3.542,
+     "q3": 35.962,
+     "min": -44.02,
+     "max": 105.06
+    },
+    "name_diff": {
+     "n": 5000,
+     "median": 0.985,
+     "q1": 0.834,
+     "q3": 1.0,
+     "min": 0.048,
+     "max": 1.0
+    },
+    "pp_nan_count": 0
+   },
+   "peer_shuffled": {
+    "dE2000": {
+     "n": 2115,
+     "median": 46.35,
+     "q1": 25.655,
+     "q3": 56.92,
+     "min": 0.34,
+     "max": 102.18
+    },
+    "dL": {
+     "n": 2115,
+     "median": 17.47,
+     "q1": 8.65,
+     "q3": 29.8,
+     "min": 0.02,
+     "max": 77.45
+    },
+    "pp_code": {
+     "n": 2115,
+     "median": 26.41,
+     "q1": -0.295,
+     "q3": 57.59,
+     "min": -63.53,
+     "max": 96.23
+    },
+    "pp_wrapped": {
+     "n": 2115,
+     "median": 28.61,
+     "q1": 11.195,
+     "q3": 57.59,
+     "min": -19.6,
+     "max": 96.23
+    },
+    "name_diff": {
+     "n": 2115,
+     "median": 0.986,
+     "q1": 0.624,
+     "q3": 1.0,
+     "min": 0.0,
+     "max": 1.0
+    },
+    "n_pairs": 2115
+   },
+   "peer_actual_pairs": {
+    "dE2000": {
+     "n": 30,
+     "median": 43.685,
+     "q1": 30.093,
+     "q3": 54.875,
+     "min": 7.96,
+     "max": 86.29
+    },
+    "dL": {
+     "n": 30,
+     "median": 26.905,
+     "q1": 15.16,
+     "q3": 39.642,
+     "min": 0.26,
+     "max": 60.68
+    },
+    "pp_code": {
+     "n": 30,
+     "median": 47.645,
+     "q1": 14.725,
+     "q3": 67.35,
+     "min": -25.05,
+     "max": 82.21
+    },
+    "pp_wrapped": {
+     "n": 30,
+     "median": 47.645,
+     "q1": 22.938,
+     "q3": 67.35,
+     "min": -3.8,
+     "max": 82.21
+    },
+    "name_diff": {
+     "n": 30,
+     "median": 0.852,
+     "q1": 0.651,
+     "q3": 1.0,
+     "min": 0.319,
+     "max": 1.0
+    }
+   },
+   "random_x_white_2000": {
+    "dE2000": {
+     "n": 2000,
+     "median": 38.925,
+     "q1": 30.93,
+     "q3": 51.002,
+     "min": 8.8,
+     "max": 96.5
+    },
+    "dL": {
+     "n": 2000,
+     "median": 42.56,
+     "q1": 26.247,
+     "q3": 57.48,
+     "min": 2.16,
+     "max": 97.07
+    },
+    "pp_code": {
+     "n": 2000,
+     "median": 15.975,
+     "q1": 2.087,
+     "q3": 28.203,
+     "min": -45.19,
+     "max": 67.62
+    },
+    "pp_wrapped": {
+     "n": 2000,
+     "median": 15.975,
+     "q1": 2.087,
+     "q3": 28.203,
+     "min": -45.19,
+     "max": 67.62
+    },
+    "name_diff": {
+     "n": 2000,
+     "median": 0.965,
+     "q1": 0.911,
+     "q3": 0.994,
+     "min": 0.365,
+     "max": 1.0
+    },
+    "pp_nan_count": 0
+   },
+   "peer_main_x_white": {
+    "dE2000": {
+     "n": 42,
+     "median": 48.04,
+     "q1": 38.84,
+     "q3": 60.995,
+     "min": 32.72,
+     "max": 93.68
+    },
+    "dL": {
+     "n": 42,
+     "median": 53.535,
+     "q1": 40.718,
+     "q3": 68.773,
+     "min": 25.09,
+     "max": 94.38
+    },
+    "pp_code": {
+     "n": 42,
+     "median": 28.27,
+     "q1": 16.082,
+     "q3": 33.92,
+     "min": 1.88,
+     "max": 60.35
+    },
+    "pp_wrapped": {
+     "n": 42,
+     "median": 28.27,
+     "q1": 16.082,
+     "q3": 33.92,
+     "min": 1.88,
+     "max": 60.35
+    },
+    "name_diff": {
+     "n": 42,
+     "median": 0.958,
+     "q1": 0.917,
+     "q3": 0.992,
+     "min": 0.845,
+     "max": 1.0
+    }
+   }
+  },
+  "hue_wrap_share": {
+   "random": 0.27,
+   "peer_actual": 0.167
+  },
+  "random_corr": {
+   "order": [
+    "dE2000",
+    "dL",
+    "pp_code",
+    "name_diff"
+   ],
+   "matrix": [
+    [
+     1.0,
+     0.562,
+     -0.19,
+     0.683
+    ],
+    [
+     0.562,
+     1.0,
+     0.292,
+     0.267
+    ],
+    [
+     -0.19,
+     0.292,
+     1.0,
+     -0.328
+    ],
+    [
+     0.683,
+     0.267,
+     -0.328,
+     1.0
+    ]
+   ]
+  },
+  "term_breakdown": {
+   "peer_actual": {
+    "n": 30,
+    "term_lightness": 20.66,
+    "term_hue": -25.2,
+    "term_coolness": 52.15,
+    "dH_illC": 97.34,
+    "dL_illC": 27.5,
+    "median_coolness_sum": 26.21
+   },
+   "peer_shuffled": {
+    "n": 2115,
+    "term_lightness": 11.27,
+    "term_hue": -26.81,
+    "term_coolness": 42.54,
+    "dH_illC": 103.54,
+    "dL_illC": 15.0,
+    "median_coolness_sum": 22.11
+   },
+   "random_sRGB": {
+    "n": 4981,
+    "term_lightness": 15.03,
+    "term_hue": -29.01,
+    "term_coolness": 26.48,
+    "dH_illC": 112.03,
+    "dL_illC": 20.0,
+    "median_coolness_sum": 15.28
+   }
+  },
+  "peer_pairs": [
+   {
+    "a": "#A2C617",
+    "b": "#1A1D56",
+    "dE2000": 86.29,
+    "dL": 60.68,
+    "pp_code": 39.33,
+    "pp_wrapped": 40.0,
+    "pp_norm_code": 0.672,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 60.0,
+     "dH_illC": 181.29,
+     "coolness": [
+      10.317844052717824,
+      11.223827094170897
+     ],
+     "term_lightness": 45.08,
+     "term_hue": -46.95,
+     "term_coolness": 41.19
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.702,
+    "wc_a": 0.431,
+    "wc_b": -0.874,
+    "name": "SUEZ",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#00B398",
+    "b": "#7CE0D3",
+    "dE2000": 14.29,
+    "dL": 17.71,
+    "pp_code": 79.17,
+    "pp_wrapped": 79.17,
+    "pp_norm_code": 0.863,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 20.0,
+     "dH_illC": 10.43,
+     "coolness": [
+      15.363106916346364,
+      17.094894651534087
+     ],
+     "term_lightness": 15.03,
+     "term_hue": -2.69,
+     "term_coolness": 66.83
+    },
+    "name_diff": 0.537,
+    "de_norm": 0.109,
+    "wc_a": -1.19,
+    "wc_b": -1.086,
+    "name": "Tideway",
+    "group": "三色以上"
+   },
+   {
+    "a": "#00B398",
+    "b": "#52BBB3",
+    "dE2000": 7.96,
+    "dL": 4.52,
+    "pp_code": 67.58,
+    "pp_wrapped": 67.58,
+    "pp_norm_code": 0.807,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 5.0,
+     "dH_illC": 11.63,
+     "coolness": [
+      15.363106916346364,
+      17.094894651534087
+     ],
+     "term_lightness": 3.76,
+     "term_hue": -3.0,
+     "term_coolness": 66.83
+    },
+    "name_diff": 0.341,
+    "de_norm": 0.057,
+    "wc_a": -1.19,
+    "wc_b": -1.126,
+    "name": "Tideway",
+    "group": "三色以上"
+   },
+   {
+    "a": "#7CE0D3",
+    "b": "#52BBB3",
+    "dE2000": 9.61,
+    "dL": 13.19,
+    "pp_code": 81.87,
+    "pp_wrapped": 81.87,
+    "pp_norm_code": 0.876,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 15.0,
+     "dH_illC": 1.2,
+     "coolness": [
+      17.094894651534087,
+      17.094894651534087
+     ],
+     "term_lightness": 11.27,
+     "term_hue": -0.3,
+     "term_coolness": 70.9
+    },
+    "name_diff": 0.319,
+    "de_norm": 0.071,
+    "wc_a": -1.086,
+    "wc_b": -1.126,
+    "name": "Tideway",
+    "group": "三色以上"
+   },
+   {
+    "a": "#006FBA",
+    "b": "#95CAE7",
+    "dE2000": 29.88,
+    "dL": 33.18,
+    "pp_code": 74.17,
+    "pp_wrapped": 74.17,
+    "pp_norm_code": 0.839,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 35.0,
+     "dH_illC": 39.65,
+     "coolness": [
+      14.637139475285217,
+      14.116558249356636
+     ],
+     "term_lightness": 26.3,
+     "term_hue": -10.26,
+     "term_coolness": 58.13
+    },
+    "name_diff": 0.563,
+    "de_norm": 0.238,
+    "wc_a": -1.399,
+    "wc_b": -1.04,
+    "name": "Scottish Water",
+    "group": "兩色同色系"
+   },
+   {
+    "a": "#0C23C6",
+    "b": "#00B39A",
+    "dE2000": 57.44,
+    "dL": 37.69,
+    "pp_code": 21.88,
+    "pp_wrapped": 21.88,
+    "pp_norm_code": 0.589,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 35.0,
+     "dH_illC": 127.52,
+     "coolness": [
+      0.0,
+      16.18022493416177
+     ],
+     "term_lightness": 26.3,
+     "term_hue": -33.02,
+     "term_coolness": 28.6
+    },
+    "name_diff": 0.851,
+    "de_norm": 0.465,
+    "wc_a": -1.278,
+    "wc_b": -1.201,
+    "name": "Uisce Éireann",
+    "group": "三色以上"
+   },
+   {
+    "a": "#0C23C6",
+    "b": "#7FDFAE",
+    "dE2000": 70.23,
+    "dL": 54.29,
+    "pp_code": 21.94,
+    "pp_wrapped": 21.94,
+    "pp_norm_code": 0.589,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 50.0,
+     "dH_illC": 146.52,
+     "coolness": [
+      0.0,
+      13.5
+     ],
+     "term_lightness": 37.57,
+     "term_hue": -37.94,
+     "term_coolness": 22.31
+    },
+    "name_diff": 0.896,
+    "de_norm": 0.57,
+    "wc_a": -1.278,
+    "wc_b": -0.853,
+    "name": "Uisce Éireann",
+    "group": "三色以上"
+   },
+   {
+    "a": "#00B39A",
+    "b": "#7FDFAE",
+    "dE2000": 14.73,
+    "dL": 16.61,
+    "pp_code": 66.66,
+    "pp_wrapped": 66.66,
+    "pp_norm_code": 0.803,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 15.0,
+     "dH_illC": 19.0,
+     "coolness": [
+      16.18022493416177,
+      13.5
+     ],
+     "term_lightness": 11.27,
+     "term_hue": -4.91,
+     "term_coolness": 60.31
+    },
+    "name_diff": 0.385,
+    "de_norm": 0.113,
+    "wc_a": -1.201,
+    "wc_b": -0.853,
+    "name": "Uisce Éireann",
+    "group": "三色以上"
+   },
+   {
+    "a": "#21409A",
+    "b": "#009B8F",
+    "dE2000": 43.43,
+    "dL": 27.27,
+    "pp_code": 47.94,
+    "pp_wrapped": 47.94,
+    "pp_norm_code": 0.714,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 25.0,
+     "dH_illC": 113.65,
+     "coolness": [
+      11.874487363363746,
+      17.072209351150306
+     ],
+     "term_lightness": 18.78,
+     "term_hue": -29.43,
+     "term_coolness": 58.58
+    },
+    "name_diff": 0.853,
+    "de_norm": 0.349,
+    "wc_a": -1.18,
+    "wc_b": -1.178,
+    "name": "PUB",
+    "group": "三色以上"
+   },
+   {
+    "a": "#21409A",
+    "b": "#0172BB",
+    "dE2000": 18.59,
+    "dL": 16.27,
+    "pp_code": 56.42,
+    "pp_wrapped": 56.42,
+    "pp_norm_code": 0.754,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 15.0,
+     "dH_illC": 29.82,
+     "coolness": [
+      11.874487363363746,
+      14.637139475285217
+     ],
+     "term_lightness": 11.27,
+     "term_hue": -7.72,
+     "term_coolness": 52.87
+    },
+    "name_diff": 0.464,
+    "de_norm": 0.145,
+    "wc_a": -1.18,
+    "wc_b": -1.402,
+    "name": "PUB",
+    "group": "三色以上"
+   },
+   {
+    "a": "#009B8F",
+    "b": "#0172BB",
+    "dE2000": 30.73,
+    "dL": 11.0,
+    "pp_code": 50.88,
+    "pp_wrapped": 50.88,
+    "pp_norm_code": 0.728,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 10.0,
+     "dH_illC": 83.83,
+     "coolness": [
+      17.072209351150306,
+      14.637139475285217
+     ],
+     "term_lightness": 7.51,
+     "term_hue": -21.7,
+     "term_coolness": 65.07
+    },
+    "name_diff": 0.71,
+    "de_norm": 0.245,
+    "wc_a": -1.178,
+    "wc_b": -1.402,
+    "name": "PUB",
+    "group": "三色以上"
+   },
+   {
+    "a": "#6BB345",
+    "b": "#0681C5",
+    "dE2000": 55.51,
+    "dL": 14.79,
+    "pp_code": 30.47,
+    "pp_wrapped": 30.47,
+    "pp_norm_code": 0.63,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 15.0,
+     "dH_illC": 129.51,
+     "coolness": [
+      11.177339660677589,
+      15.27800754437621
+     ],
+     "term_lightness": 11.27,
+     "term_hue": -33.54,
+     "term_coolness": 52.73
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.449,
+    "wc_a": -0.244,
+    "wc_b": -1.436,
+    "name": "DC Water",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#00259C",
+    "b": "#29ADCE",
+    "dE2000": 48.19,
+    "dL": 42.87,
+    "pp_code": 65.4,
+    "pp_wrapped": 65.4,
+    "pp_norm_code": 0.797,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 40.0,
+     "dH_illC": 85.71,
+     "coolness": [
+      11.390922129491397,
+      17.107928342463133
+     ],
+     "term_lightness": 30.06,
+     "term_hue": -22.19,
+     "term_coolness": 57.53
+    },
+    "name_diff": 0.71,
+    "de_norm": 0.388,
+    "wc_a": -1.186,
+    "wc_b": -1.402,
+    "name": "Sydney Water",
+    "group": "兩色相鄰"
+   },
+   {
+    "a": "#001131",
+    "b": "#E61C38",
+    "dE2000": 49.48,
+    "dL": 43.8,
+    "pp_code": -2.2,
+    "pp_wrapped": 32.92,
+    "pp_norm_code": 0.474,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 45.0,
+     "dH_illC": 247.81,
+     "coolness": [
+      11.546887608304573,
+      4.443957766116665
+     ],
+     "term_lightness": 33.81,
+     "term_hue": -64.17,
+     "term_coolness": 28.16
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.399,
+    "wc_a": -0.833,
+    "wc_b": 1.58,
+    "name": "Watercare",
+    "group": "三色以上"
+   },
+   {
+    "a": "#001131",
+    "b": "#5CA246",
+    "dE2000": 61.3,
+    "dL": 54.77,
+    "pp_code": 48.77,
+    "pp_wrapped": 48.77,
+    "pp_norm_code": 0.718,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 55.0,
+     "dH_illC": 144.8,
+     "coolness": [
+      11.546887608304573,
+      11.59161636933765
+     ],
+     "term_lightness": 41.33,
+     "term_hue": -37.5,
+     "term_coolness": 44.94
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.496,
+    "wc_a": -0.833,
+    "wc_b": -0.356,
+    "name": "Watercare",
+    "group": "三色以上"
+   },
+   {
+    "a": "#001131",
+    "b": "#007BC4",
+    "dE2000": 36.78,
+    "dL": 44.05,
+    "pp_code": 82.21,
+    "pp_wrapped": 82.21,
+    "pp_norm_code": 0.877,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 45.0,
+     "dH_illC": 14.31,
+     "coolness": [
+      11.546887608304573,
+      14.637139475285217
+     ],
+     "term_lightness": 33.81,
+     "term_hue": -3.7,
+     "term_coolness": 52.1
+    },
+    "name_diff": 0.793,
+    "de_norm": 0.294,
+    "wc_a": -0.833,
+    "wc_b": -1.437,
+    "name": "Watercare",
+    "group": "三色以上"
+   },
+   {
+    "a": "#E61C38",
+    "b": "#5CA246",
+    "dE2000": 68.95,
+    "dL": 10.97,
+    "pp_code": 9.11,
+    "pp_wrapped": 9.11,
+    "pp_norm_code": 0.528,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 10.0,
+     "dH_illC": 103.0,
+     "coolness": [
+      4.443957766116665,
+      11.59161636933765
+     ],
+     "term_lightness": 7.51,
+     "term_hue": -26.67,
+     "term_coolness": 28.26
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.559,
+    "wc_a": 1.58,
+    "wc_b": -0.356,
+    "name": "Watercare",
+    "group": "三色以上"
+   },
+   {
+    "a": "#E61C38",
+    "b": "#007BC4",
+    "dE2000": 49.41,
+    "dL": 0.26,
+    "pp_code": -25.05,
+    "pp_wrapped": 2.66,
+    "pp_norm_code": 0.365,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 0.0,
+     "dH_illC": 233.5,
+     "coolness": [
+      4.443957766116665,
+      14.637139475285217
+     ],
+     "term_lightness": 0.0,
+     "term_hue": -60.47,
+     "term_coolness": 35.42
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.398,
+    "wc_a": 1.58,
+    "wc_b": -1.437,
+    "name": "Watercare",
+    "group": "三色以上"
+   },
+   {
+    "a": "#5CA246",
+    "b": "#007BC4",
+    "dE2000": 52.97,
+    "dL": 10.71,
+    "pp_code": 25.93,
+    "pp_wrapped": 25.93,
+    "pp_norm_code": 0.608,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 10.0,
+     "dH_illC": 130.49,
+     "coolness": [
+      11.59161636933765,
+      14.637139475285217
+     ],
+     "term_lightness": 7.51,
+     "term_hue": -33.79,
+     "term_coolness": 52.2
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.428,
+    "wc_a": -0.356,
+    "wc_b": -1.437,
+    "name": "Watercare",
+    "group": "三色以上"
+   },
+   {
+    "a": "#004697",
+    "b": "#6E9CD0",
+    "dE2000": 31.85,
+    "dL": 32.14,
+    "pp_code": 75.66,
+    "pp_wrapped": 75.66,
+    "pp_norm_code": 0.846,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 35.0,
+     "dH_illC": 23.5,
+     "coolness": [
+      12.889365474744698,
+      14.717874078631967
+     ],
+     "term_lightness": 26.3,
+     "term_hue": -6.08,
+     "term_coolness": 55.44
+    },
+    "name_diff": 0.662,
+    "de_norm": 0.254,
+    "wc_a": -1.247,
+    "wc_b": -1.136,
+    "name": "メタウォーター",
+    "group": "兩色同色系"
+   },
+   {
+    "a": "#2E1D67",
+    "b": "#2EA836",
+    "dE2000": 63.62,
+    "dL": 43.01,
+    "pp_code": 28.52,
+    "pp_wrapped": 28.52,
+    "pp_norm_code": 0.621,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 40.0,
+     "dH_illC": 169.08,
+     "coolness": [
+      10.72258507975608,
+      11.26992445567411
+     ],
+     "term_lightness": 30.06,
+     "term_hue": -43.78,
+     "term_coolness": 42.25
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.515,
+    "wc_a": -0.828,
+    "wc_b": -0.478,
+    "name": "Metro Rod",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#2A1768",
+    "b": "#DA291C",
+    "dE2000": 47.14,
+    "dL": 31.69,
+    "pp_code": -14.37,
+    "pp_wrapped": 28.95,
+    "pp_norm_code": 0.416,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 35.0,
+     "dH_illC": 263.63,
+     "coolness": [
+      11.098301082728257,
+      4.654555713536333
+     ],
+     "term_lightness": 26.3,
+     "term_hue": -68.27,
+     "term_coolness": 27.6
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.38,
+    "wc_a": -0.843,
+    "wc_b": 1.719,
+    "name": "Roto-Rooter",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#D50032",
+    "b": "#97D700",
+    "dE2000": 76.32,
+    "dL": 34.38,
+    "pp_code": -0.08,
+    "pp_wrapped": -0.08,
+    "pp_norm_code": 0.484,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 35.0,
+     "dH_illC": 91.67,
+     "coolness": [
+      2.8728592828993786,
+      0.0
+     ],
+     "term_lightness": 26.3,
+     "term_hue": -23.73,
+     "term_coolness": -2.65
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.62,
+    "wc_a": 1.498,
+    "wc_b": 0.346,
+    "name": "Clancy",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#205C42",
+    "b": "#95C120",
+    "dE2000": 42.68,
+    "dL": 37.94,
+    "pp_code": 60.24,
+    "pp_wrapped": 60.24,
+    "pp_norm_code": 0.772,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 40.0,
+     "dH_illC": 37.71,
+     "coolness": [
+      10.69132337061513,
+      10.317844052717824
+     ],
+     "term_lightness": 30.06,
+     "term_hue": -9.76,
+     "term_coolness": 39.94
+    },
+    "name_diff": 0.784,
+    "de_norm": 0.343,
+    "wc_a": -0.746,
+    "wc_b": 0.297,
+    "name": "J. Murphy & Sons",
+    "group": "兩色同色系"
+   },
+   {
+    "a": "#DA242A",
+    "b": "#007B86",
+    "dE2000": 51.9,
+    "dL": 0.58,
+    "pp_code": -3.8,
+    "pp_wrapped": -3.8,
+    "pp_norm_code": 0.466,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 0.0,
+     "dH_illC": 166.02,
+     "coolness": [
+      3.083457230319046,
+      17.604554058060195
+     ],
+     "term_lightness": 0.0,
+     "term_hue": -42.99,
+     "term_coolness": 39.19
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.419,
+    "wc_a": 1.59,
+    "wc_b": -1.169,
+    "name": "Kier",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#102E68",
+    "b": "#5096DC",
+    "dE2000": 37.47,
+    "dL": 40.21,
+    "pp_code": 76.58,
+    "pp_wrapped": 76.58,
+    "pp_norm_code": 0.85,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 40.0,
+     "dH_illC": 27.73,
+     "coolness": [
+      12.11179072039226,
+      14.754967627330535
+     ],
+     "term_lightness": 30.06,
+     "term_hue": -7.17,
+     "term_coolness": 53.7
+    },
+    "name_diff": 0.75,
+    "de_norm": 0.3,
+    "wc_a": -1.022,
+    "wc_b": -1.349,
+    "name": "Insituform",
+    "group": "兩色同色系"
+   },
+   {
+    "a": "#054A97",
+    "b": "#DA3B49",
+    "dE2000": 43.94,
+    "dL": 17.94,
+    "pp_code": -23.56,
+    "pp_wrapped": 13.16,
+    "pp_norm_code": 0.372,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 20.0,
+     "dH_illC": 250.89,
+     "coolness": [
+      13.235026083517326,
+      2.0
+     ],
+     "term_lightness": 15.03,
+     "term_hue": -64.97,
+     "term_coolness": 26.38
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.353,
+    "wc_a": -1.245,
+    "wc_b": 1.173,
+    "name": "積水化學 SPR",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#535CA8",
+    "b": "#39B9A6",
+    "dE2000": 43.22,
+    "dL": 26.54,
+    "pp_code": 47.35,
+    "pp_wrapped": 47.35,
+    "pp_norm_code": 0.711,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 30.0,
+     "dH_illC": 120.74,
+     "coolness": [
+      11.753233164375743,
+      16.121693359802165
+     ],
+     "term_lightness": 22.54,
+     "term_hue": -31.26,
+     "term_coolness": 56.07
+    },
+    "name_diff": 0.885,
+    "de_norm": 0.347,
+    "wc_a": -1.038,
+    "wc_b": -1.155,
+    "name": "日本ヒューム",
+    "group": "兩色對比"
+   },
+   {
+    "a": "#EC672C",
+    "b": "#FAB500",
+    "dE2000": 28.75,
+    "dL": 18.46,
+    "pp_code": 12.34,
+    "pp_wrapped": 12.34,
+    "pp_norm_code": 0.543,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 20.0,
+     "dH_illC": 31.62,
+     "coolness": [
+      2.0,
+      4.339258721464132
+     ],
+     "term_lightness": 15.03,
+     "term_hue": -8.18,
+     "term_coolness": 5.49
+    },
+    "name_diff": 0.648,
+    "de_norm": 0.228,
+    "wc_a": 1.497,
+    "wc_b": 1.42,
+    "name": "Mini-Cam",
+    "group": "兩色同色系"
+   },
+   {
+    "a": "#008CCF",
+    "b": "#005F9F",
+    "dE2000": 17.08,
+    "dL": 16.29,
+    "pp_code": 70.5,
+    "pp_wrapped": 70.5,
+    "pp_norm_code": 0.821,
+    "pp_parts": {
+     "path": "chromatic",
+     "dL_illC": 15.0,
+     "dH_illC": 7.41,
+     "coolness": [
+      15.27800754437621,
+      14.754967627330535
+     ],
+     "term_lightness": 11.27,
+     "term_hue": -1.91,
+     "term_coolness": 61.14
+    },
+    "name_diff": 0.327,
+    "de_norm": 0.132,
+    "wc_a": -1.478,
+    "wc_b": -1.294,
+    "name": "CUES",
+    "group": "兩色同色系"
+   }
+  ],
+  "peer_main_x_white": [
+   {
+    "a": "#E52028",
+    "b": "#FFFFFF",
+    "dE2000": 47.31,
+    "dL": 50.69,
+    "pp_code": 20.06,
+    "pp_wrapped": 20.06,
+    "pp_norm_code": 0.58,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.992,
+    "de_norm": 0.381,
+    "wc_a": 1.74,
+    "wc_b": -0.5,
+    "name": "Veolia"
+   },
+   {
+    "a": "#A2C617",
+    "b": "#FFFFFF",
+    "dE2000": 32.72,
+    "dL": 25.09,
+    "pp_code": 25.62,
+    "pp_wrapped": 25.62,
+    "pp_norm_code": 0.607,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.261,
+    "wc_a": 0.431,
+    "wc_b": -0.5,
+    "name": "SUEZ"
+   },
+   {
+    "a": "#ED1B29",
+    "b": "#FFFFFF",
+    "dE2000": 46.57,
+    "dL": 49.37,
+    "pp_code": 4.82,
+    "pp_wrapped": 4.82,
+    "pp_norm_code": 0.508,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.99,
+    "de_norm": 0.375,
+    "wc_a": 1.825,
+    "wc_b": -0.5,
+    "name": "REMONDIS"
+   },
+   {
+    "a": "#E42313",
+    "b": "#FFFFFF",
+    "dE2000": 47.7,
+    "dL": 50.82,
+    "pp_code": 5.81,
+    "pp_wrapped": 5.81,
+    "pp_norm_code": 0.512,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.995,
+    "de_norm": 0.384,
+    "wc_a": 1.918,
+    "wc_b": -0.5,
+    "name": "Biffa"
+   },
+   {
+    "a": "#D80025",
+    "b": "#FFFFFF",
+    "dE2000": 50.33,
+    "dL": 54.73,
+    "pp_code": 19.48,
+    "pp_wrapped": 19.48,
+    "pp_norm_code": 0.578,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.989,
+    "de_norm": 0.406,
+    "wc_a": 1.681,
+    "wc_b": -0.5,
+    "name": "Republic Services"
+   },
+   {
+    "a": "#0099D8",
+    "b": "#FFFFFF",
+    "dE2000": 35.6,
+    "dL": 40.35,
+    "pp_code": 27.95,
+    "pp_wrapped": 27.95,
+    "pp_norm_code": 0.618,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.845,
+    "de_norm": 0.285,
+    "wc_a": -1.509,
+    "wc_b": -0.5,
+    "name": "Cleanaway"
+   },
+   {
+    "a": "#009EDE",
+    "b": "#FFFFFF",
+    "dE2000": 34.57,
+    "dL": 38.58,
+    "pp_code": 27.95,
+    "pp_wrapped": 27.95,
+    "pp_norm_code": 0.618,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.845,
+    "de_norm": 0.276,
+    "wc_a": -1.531,
+    "wc_b": -0.5,
+    "name": "Thames Water"
+   },
+   {
+    "a": "#00B398",
+    "b": "#FFFFFF",
+    "dE2000": 33.82,
+    "dL": 34.64,
+    "pp_code": 41.59,
+    "pp_wrapped": 41.59,
+    "pp_norm_code": 0.683,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.956,
+    "de_norm": 0.27,
+    "wc_a": -1.19,
+    "wc_b": -0.5,
+    "name": "Tideway"
+   },
+   {
+    "a": "#249DE3",
+    "b": "#FFFFFF",
+    "dE2000": 34.55,
+    "dL": 38.32,
+    "pp_code": 27.2,
+    "pp_wrapped": 27.2,
+    "pp_norm_code": 0.614,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.846,
+    "de_norm": 0.276,
+    "wc_a": -1.513,
+    "wc_b": -0.5,
+    "name": "Wessex Water"
+   },
+   {
+    "a": "#006FBA",
+    "b": "#FFFFFF",
+    "dE2000": 46.75,
+    "dL": 54.48,
+    "pp_code": 31.29,
+    "pp_wrapped": 31.29,
+    "pp_norm_code": 0.634,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.879,
+    "de_norm": 0.376,
+    "wc_a": -1.399,
+    "wc_b": -0.5,
+    "name": "Scottish Water"
+   },
+   {
+    "a": "#0C23C6",
+    "b": "#FFFFFF",
+    "dE2000": 67.69,
+    "dL": 72.27,
+    "pp_code": 1.88,
+    "pp_wrapped": 1.88,
+    "pp_norm_code": 0.493,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.921,
+    "de_norm": 0.549,
+    "wc_a": -1.278,
+    "wc_b": -0.5,
+    "name": "Uisce Éireann"
+   },
+   {
+    "a": "#21409A",
+    "b": "#FFFFFF",
+    "dE2000": 62.59,
+    "dL": 69.79,
+    "pp_code": 28.59,
+    "pp_wrapped": 28.59,
+    "pp_norm_code": 0.621,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.943,
+    "de_norm": 0.507,
+    "wc_a": -1.18,
+    "wc_b": -0.5,
+    "name": "PUB"
+   },
+   {
+    "a": "#6BB345",
+    "b": "#FFFFFF",
+    "dE2000": 34.71,
+    "dL": 33.64,
+    "pp_code": 34.15,
+    "pp_wrapped": 34.15,
+    "pp_norm_code": 0.648,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.277,
+    "wc_a": -0.244,
+    "wc_b": -0.5,
+    "name": "DC Water"
+   },
+   {
+    "a": "#00259C",
+    "b": "#FFFFFF",
+    "dE2000": 72.39,
+    "dL": 77.26,
+    "pp_code": 29.63,
+    "pp_wrapped": 29.63,
+    "pp_norm_code": 0.626,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.941,
+    "de_norm": 0.588,
+    "wc_a": -1.186,
+    "wc_b": -0.5,
+    "name": "Sydney Water"
+   },
+   {
+    "a": "#001131",
+    "b": "#FFFFFF",
+    "dE2000": 93.68,
+    "dL": 94.38,
+    "pp_code": 48.51,
+    "pp_wrapped": 48.51,
+    "pp_norm_code": 0.716,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.976,
+    "de_norm": 0.763,
+    "wc_a": -0.833,
+    "wc_b": -0.5,
+    "name": "Watercare"
+   },
+   {
+    "a": "#004697",
+    "b": "#FFFFFF",
+    "dE2000": 61.39,
+    "dL": 69.09,
+    "pp_code": 33.23,
+    "pp_wrapped": 33.23,
+    "pp_norm_code": 0.643,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.928,
+    "de_norm": 0.497,
+    "wc_a": -1.247,
+    "wc_b": -0.5,
+    "name": "メタウォーター"
+   },
+   {
+    "a": "#F15A2F",
+    "b": "#FFFFFF",
+    "dE2000": 40.64,
+    "dL": 41.76,
+    "pp_code": 5.01,
+    "pp_wrapped": 5.01,
+    "pp_norm_code": 0.508,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.326,
+    "wc_a": 1.589,
+    "wc_b": -0.5,
+    "name": "Dyno-Rod"
+   },
+   {
+    "a": "#2E1D67",
+    "b": "#FFFFFF",
+    "dE2000": 77.51,
+    "dL": 82.36,
+    "pp_code": 30.32,
+    "pp_wrapped": 30.32,
+    "pp_norm_code": 0.629,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.971,
+    "de_norm": 0.63,
+    "wc_a": -0.828,
+    "wc_b": -0.5,
+    "name": "Metro Rod"
+   },
+   {
+    "a": "#E40571",
+    "b": "#FFFFFF",
+    "dE2000": 46.79,
+    "dL": 50.75,
+    "pp_code": 7.66,
+    "pp_wrapped": 7.66,
+    "pp_norm_code": 0.521,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.944,
+    "de_norm": 0.377,
+    "wc_a": 0.937,
+    "wc_b": -0.5,
+    "name": "Lanes Group"
+   },
+   {
+    "a": "#2A1768",
+    "b": "#FFFFFF",
+    "dE2000": 79.97,
+    "dL": 83.97,
+    "pp_code": 35.25,
+    "pp_wrapped": 35.25,
+    "pp_norm_code": 0.653,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.963,
+    "de_norm": 0.65,
+    "wc_a": -0.843,
+    "wc_b": -0.5,
+    "name": "Roto-Rooter"
+   },
+   {
+    "a": "#FA8D02",
+    "b": "#FFFFFF",
+    "dE2000": 35.37,
+    "dL": 30.98,
+    "pp_code": 6.89,
+    "pp_wrapped": 6.89,
+    "pp_norm_code": 0.517,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.283,
+    "wc_a": 1.657,
+    "wc_b": -0.5,
+    "name": "Kanal-Türpe"
+   },
+   {
+    "a": "#E30613",
+    "b": "#FFFFFF",
+    "dE2000": 49.0,
+    "dL": 52.37,
+    "pp_code": 5.37,
+    "pp_wrapped": 5.37,
+    "pp_norm_code": 0.51,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.994,
+    "de_norm": 0.395,
+    "wc_a": 1.963,
+    "wc_b": -0.5,
+    "name": "Lobbe"
+   },
+   {
+    "a": "#D50032",
+    "b": "#FFFFFF",
+    "dE2000": 50.45,
+    "dL": 55.23,
+    "pp_code": 12.72,
+    "pp_wrapped": 12.72,
+    "pp_norm_code": 0.545,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.977,
+    "de_norm": 0.407,
+    "wc_a": 1.498,
+    "wc_b": -0.5,
+    "name": "Clancy"
+   },
+   {
+    "a": "#205C42",
+    "b": "#FFFFFF",
+    "dE2000": 56.12,
+    "dL": 65.29,
+    "pp_code": 53.68,
+    "pp_wrapped": 53.68,
+    "pp_norm_code": 0.741,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.977,
+    "de_norm": 0.454,
+    "wc_a": -0.746,
+    "wc_b": -0.5,
+    "name": "J. Murphy & Sons"
+   },
+   {
+    "a": "#DA242A",
+    "b": "#FFFFFF",
+    "dE2000": 48.38,
+    "dL": 52.59,
+    "pp_code": 14.95,
+    "pp_wrapped": 14.95,
+    "pp_norm_code": 0.556,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.992,
+    "de_norm": 0.39,
+    "wc_a": 1.59,
+    "wc_b": -0.5,
+    "name": "Kier"
+   },
+   {
+    "a": "#004127",
+    "b": "#FFFFFF",
+    "dE2000": 68.98,
+    "dL": 76.57,
+    "pp_code": 60.35,
+    "pp_wrapped": 60.35,
+    "pp_norm_code": 0.773,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.56,
+    "wc_a": -0.719,
+    "wc_b": -0.5,
+    "name": "Ventia"
+   },
+   {
+    "a": "#102E68",
+    "b": "#FFFFFF",
+    "dE2000": 73.11,
+    "dL": 79.7,
+    "pp_code": 36.73,
+    "pp_wrapped": 36.73,
+    "pp_norm_code": 0.66,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.961,
+    "de_norm": 0.594,
+    "wc_a": -1.022,
+    "wc_b": -0.5,
+    "name": "Insituform"
+   },
+   {
+    "a": "#006CB0",
+    "b": "#FFFFFF",
+    "dE2000": 47.63,
+    "dL": 55.97,
+    "pp_code": 31.29,
+    "pp_wrapped": 31.29,
+    "pp_norm_code": 0.634,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.879,
+    "de_norm": 0.384,
+    "wc_a": -1.36,
+    "wc_b": -0.5,
+    "name": "Aarsleff"
+   },
+   {
+    "a": "#009DDC",
+    "b": "#FFFFFF",
+    "dE2000": 34.76,
+    "dL": 38.97,
+    "pp_code": 27.95,
+    "pp_wrapped": 27.95,
+    "pp_norm_code": 0.618,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.845,
+    "de_norm": 0.278,
+    "wc_a": -1.523,
+    "wc_b": -0.5,
+    "name": "Interflow"
+   },
+   {
+    "a": "#054A97",
+    "b": "#FFFFFF",
+    "dE2000": 59.81,
+    "dL": 67.82,
+    "pp_code": 35.07,
+    "pp_wrapped": 35.07,
+    "pp_norm_code": 0.652,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.94,
+    "de_norm": 0.484,
+    "wc_a": -1.245,
+    "wc_b": -0.5,
+    "name": "積水化學 SPR"
+   },
+   {
+    "a": "#0059A6",
+    "b": "#FFFFFF",
+    "dE2000": 54.13,
+    "dL": 62.34,
+    "pp_code": 29.28,
+    "pp_wrapped": 29.28,
+    "pp_norm_code": 0.624,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.901,
+    "de_norm": 0.437,
+    "wc_a": -1.317,
+    "wc_b": -0.5,
+    "name": "管清工業"
+   },
+   {
+    "a": "#535CA8",
+    "b": "#FFFFFF",
+    "dE2000": 50.18,
+    "dL": 58.28,
+    "pp_code": 21.71,
+    "pp_wrapped": 21.71,
+    "pp_norm_code": 0.588,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.93,
+    "de_norm": 0.405,
+    "wc_a": -1.038,
+    "wc_b": -0.5,
+    "name": "日本ヒューム"
+   },
+   {
+    "a": "#004EA2",
+    "b": "#FFFFFF",
+    "dE2000": 58.12,
+    "dL": 65.9,
+    "pp_code": 29.9,
+    "pp_wrapped": 29.9,
+    "pp_norm_code": 0.627,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.915,
+    "de_norm": 0.47,
+    "wc_a": -1.293,
+    "wc_b": -0.5,
+    "name": "日本水工設計"
+   },
+   {
+    "a": "#DF322A",
+    "b": "#FFFFFF",
+    "dE2000": 46.64,
+    "dL": 50.34,
+    "pp_code": 11.63,
+    "pp_wrapped": 11.63,
+    "pp_norm_code": 0.54,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.989,
+    "de_norm": 0.376,
+    "wc_a": 1.603,
+    "wc_b": -0.5,
+    "name": "iPEK"
+   },
+   {
+    "a": "#EC672C",
+    "b": "#FFFFFF",
+    "dE2000": 39.47,
+    "dL": 40.37,
+    "pp_code": 5.7,
+    "pp_wrapped": 5.7,
+    "pp_norm_code": 0.512,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.317,
+    "wc_a": 1.497,
+    "wc_b": -0.5,
+    "name": "Mini-Cam"
+   },
+   {
+    "a": "#008CCF",
+    "b": "#FFFFFF",
+    "dE2000": 38.63,
+    "dL": 44.66,
+    "pp_code": 27.6,
+    "pp_wrapped": 27.6,
+    "pp_norm_code": 0.616,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.852,
+    "de_norm": 0.31,
+    "wc_a": -1.478,
+    "wc_b": -0.5,
+    "name": "CUES"
+   },
+   {
+    "a": "#68B745",
+    "b": "#FFFFFF",
+    "dE2000": 34.47,
+    "dL": 32.54,
+    "pp_code": 34.63,
+    "pp_wrapped": 34.63,
+    "pp_norm_code": 0.65,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 1.0,
+    "de_norm": 0.275,
+    "wc_a": -0.264,
+    "wc_b": -0.5,
+    "name": "Envirosight"
+   },
+   {
+    "a": "#E62027",
+    "b": "#FFFFFF",
+    "dE2000": 47.21,
+    "dL": 50.5,
+    "pp_code": 20.06,
+    "pp_wrapped": 20.06,
+    "pp_norm_code": 0.58,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.992,
+    "de_norm": 0.38,
+    "wc_a": 1.761,
+    "wc_b": -0.5,
+    "name": "RedZone Robotics"
+   },
+   {
+    "a": "#00A1DC",
+    "b": "#FFFFFF",
+    "dE2000": 33.91,
+    "dL": 37.78,
+    "pp_code": 29.95,
+    "pp_wrapped": 29.95,
+    "pp_norm_code": 0.628,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.848,
+    "de_norm": 0.271,
+    "wc_a": -1.521,
+    "wc_b": -0.5,
+    "name": "Vactor"
+   },
+   {
+    "a": "#002F6C",
+    "b": "#FFFFFF",
+    "dE2000": 72.99,
+    "dL": 79.5,
+    "pp_code": 41.38,
+    "pp_wrapped": 41.38,
+    "pp_norm_code": 0.682,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.954,
+    "de_norm": 0.592,
+    "wc_a": -1.075,
+    "wc_b": -0.5,
+    "name": "Rioned"
+   },
+   {
+    "a": "#004186",
+    "b": "#FFFFFF",
+    "dE2000": 63.94,
+    "dL": 71.88,
+    "pp_code": 35.07,
+    "pp_wrapped": 35.07,
+    "pp_norm_code": 0.652,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.94,
+    "de_norm": 0.518,
+    "wc_a": -1.185,
+    "wc_b": -0.5,
+    "name": "KAISER"
+   },
+   {
+    "a": "#005EB8",
+    "b": "#FFFFFF",
+    "dE2000": 52.24,
+    "dL": 59.65,
+    "pp_code": 29.85,
+    "pp_wrapped": 29.85,
+    "pp_norm_code": 0.627,
+    "pp_parts": {
+     "path": "achromatic_table"
+    },
+    "name_diff": 0.895,
+    "de_norm": 0.422,
+    "wc_a": -1.382,
+    "wc_b": -0.5,
+    "name": "Jurop"
+   }
+  ]
+ },
+ "figures_data": [
+  "data/fig_single_wc_L.json",
+  "data/fig_pair_dL_pp.json",
+  "data/fig_coolness_curve.json",
+  "data/fig_ou_wc_curve.json"
+ ]
+}

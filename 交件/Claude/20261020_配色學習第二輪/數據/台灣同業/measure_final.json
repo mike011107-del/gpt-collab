@@ -1,0 +1,1445 @@
+[
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/01_華通清淤工程.png",
+  "crop": null,
+  "size": [
+   370,
+   70
+  ],
+  "n_fg": 2663,
+  "n_core": 1794,
+  "edge_removed": 0.326,
+  "chromatic": [
+   {
+    "hex": "#2D661F",
+    "median_hex": "#2D661F",
+    "share": 0.5884,
+    "n": 1567,
+    "okL_p5": 0.455,
+    "okL_p95": 0.455,
+    "okL_spread": 0.0,
+    "dark_end": "#2D661F",
+    "light_end": "#2D661F"
+   },
+   {
+    "hex": "#713E3E",
+    "median_hex": "#713E3E",
+    "share": 0.2831,
+    "n": 754,
+    "okL_p5": 0.427,
+    "okL_p95": 0.427,
+    "okL_spread": 0.0,
+    "dark_end": "#713E3E",
+    "light_end": "#713E3E"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#000000",
+    "share": 0.1284
+   }
+  ],
+  "chromatic_share": 0.8716,
+  "white_share_of_valid": 0.0,
+  "vid": "huatong_dredge",
+  "company": "華通",
+  "version": "華通清淤工程 官網字標",
+  "source": "資料夾01＝補充PDF p9（像素相同）",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "逐像素直接計數（純色、無反鋸齒）",
+  "n_direct": 2663,
+  "old_edge_removed_shares": {
+   "chromatic": [
+    [
+     "#2D661F",
+     0.8043
+    ],
+    [
+     "#713E3E",
+     0.097
+    ]
+   ],
+   "neutral": [
+    [
+     "黑",
+     "#000000",
+     0.0987
+    ]
+   ],
+   "chromatic_share": 0.9013
+  }
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p09_028.png",
+  "crop": null,
+  "size": [
+   224,
+   70
+  ],
+  "n_fg": 1232,
+  "n_core": 595,
+  "edge_removed": 0.517,
+  "chromatic": [
+   {
+    "hex": "#005959",
+    "median_hex": "#005959",
+    "share": 0.918,
+    "n": 1131,
+    "okL_p5": 0.42,
+    "okL_p95": 0.42,
+    "okL_spread": 0.0,
+    "dark_end": "#005959",
+    "light_end": "#005959"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#363636",
+    "share": 0.082
+   }
+  ],
+  "chromatic_share": 0.918,
+  "white_share_of_valid": 0.0,
+  "vid": "huatong_wsh",
+  "company": "華通",
+  "version": "嘉佳／華通衛生行 官網字標",
+  "source": "補充PDF p9",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "逐像素直接計數（純色、無反鋸齒）",
+  "n_direct": 1232,
+  "old_edge_removed_shares": {
+   "chromatic": [
+    [
+     "#005959",
+     0.995
+    ]
+   ],
+   "neutral": [],
+   "chromatic_share": 0.995
+  }
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/03_邦盛企業_banner含字標.jpg",
+  "crop": [
+   60,
+   165,
+   280,
+   280
+  ],
+  "size": [
+   220,
+   115
+  ],
+  "n_fg": 6346,
+  "n_core": 3652,
+  "edge_removed": 0.425,
+  "chromatic": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#212121",
+    "share": 0.9992
+   }
+  ],
+  "chromatic_share": 0.0,
+  "white_share_of_valid": 0.7492,
+  "vid": "bangsheng",
+  "company": "邦盛",
+  "version": "banner 白卡上的公司名字（不含電話、標語）",
+  "source": "資料夾03 banner",
+  "tier": "官網banner字標",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/03_邦盛企業_banner含字標.jpg",
+  "crop": [
+   70,
+   360,
+   265,
+   392
+  ],
+  "size": [
+   195,
+   32
+  ],
+  "n_fg": 2122,
+  "n_core": 537,
+  "edge_removed": 0.747,
+  "chromatic": [
+   {
+    "hex": "#D7060B",
+    "median_hex": "#D5050C",
+    "share": 0.73,
+    "n": 392,
+    "okL_p5": 0.527,
+    "okL_p95": 0.585,
+    "okL_spread": 0.058,
+    "dark_end": "#C90507",
+    "light_end": "#E80003"
+   },
+   {
+    "hex": "#E7B8B7",
+    "median_hex": "#EBB7B7",
+    "share": 0.0521,
+    "n": 28,
+    "okL_p5": 0.814,
+    "okL_p95": 0.855,
+    "okL_spread": 0.042,
+    "dark_end": "#E8B2B2",
+    "light_end": "#EAC6BA"
+   },
+   {
+    "hex": "#E77777",
+    "median_hex": "#E67477",
+    "share": 0.0168,
+    "n": 9,
+    "okL_p5": 0.67,
+    "okL_p95": 0.702,
+    "okL_spread": 0.032,
+    "dark_end": "#DD6D6B",
+    "light_end": "#E67976"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "淺灰",
+    "hex": "#DDE9F8",
+    "share": 0.1657
+   }
+  ],
+  "chromatic_share": 0.8343,
+  "white_share_of_valid": 0.6599,
+  "vid": "bangsheng_slogan",
+  "company": "邦盛",
+  "version": "banner 白卡上的紅色標語「專人為您服務」",
+  "source": "資料夾03 banner",
+  "tier": "官網banner字標",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/04_天福環保.png",
+  "crop": null,
+  "size": [
+   288,
+   69
+  ],
+  "n_fg": 4701,
+  "n_core": 3472,
+  "edge_removed": 0.261,
+  "chromatic": [
+   {
+    "hex": "#2368AD",
+    "median_hex": "#2368AD",
+    "share": 0.5475,
+    "n": 1901,
+    "okL_p5": 0.508,
+    "okL_p95": 0.51,
+    "okL_spread": 0.003,
+    "dark_end": "#2367AC",
+    "light_end": "#2368AD"
+   },
+   {
+    "hex": "#A6D49D",
+    "median_hex": "#A5D49D",
+    "share": 0.1656,
+    "n": 575,
+    "okL_p5": 0.822,
+    "okL_p95": 0.833,
+    "okL_spread": 0.011,
+    "dark_end": "#A4D49D",
+    "light_end": "#ADD6A0"
+   },
+   {
+    "hex": "#5EC5F2",
+    "median_hex": "#5EC5F2",
+    "share": 0.1446,
+    "n": 502,
+    "okL_p5": 0.772,
+    "okL_p95": 0.792,
+    "okL_spread": 0.019,
+    "dark_end": "#5EC2F0",
+    "light_end": "#61C9F6"
+   },
+   {
+    "hex": "#22AD69",
+    "median_hex": "#22AD69",
+    "share": 0.1336,
+    "n": 464,
+    "okL_p5": 0.651,
+    "okL_p95": 0.664,
+    "okL_spread": 0.013,
+    "dark_end": "#19AA65",
+    "light_end": "#22AE69"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 1.0,
+  "white_share_of_valid": 0.0,
+  "vid": "tianfu",
+  "company": "天福",
+  "version": "官網 logo（圖形＋兩家公司名）",
+  "source": "資料夾04",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/05_大亞環保.png",
+  "crop": null,
+  "size": [
+   610,
+   114
+  ],
+  "n_fg": 11786,
+  "n_core": 10418,
+  "edge_removed": 0.116,
+  "chromatic": [
+   {
+    "hex": "#243952",
+    "median_hex": "#243752",
+    "share": 0.2314,
+    "n": 2411,
+    "okL_p5": 0.301,
+    "okL_p95": 0.432,
+    "okL_spread": 0.131,
+    "dark_end": "#182F4B",
+    "light_end": "#265282"
+   },
+   {
+    "hex": "#83A9A7",
+    "median_hex": "#85ABA9",
+    "share": 0.0448,
+    "n": 467,
+    "okL_p5": 0.681,
+    "okL_p95": 0.754,
+    "okL_spread": 0.073,
+    "dark_end": "#7CA1A0",
+    "light_end": "#93B8B3"
+   },
+   {
+    "hex": "#AD3922",
+    "median_hex": "#AD3923",
+    "share": 0.0356,
+    "n": 371,
+    "okL_p5": 0.507,
+    "okL_p95": 0.517,
+    "okL_spread": 0.01,
+    "dark_end": "#AE351E",
+    "light_end": "#B13921"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#060606",
+    "share": 0.4465
+   },
+   {
+    "name": "深灰",
+    "hex": "#48646D",
+    "share": 0.0642
+   },
+   {
+    "name": "灰",
+    "hex": "#77999A",
+    "share": 0.0755
+   },
+   {
+    "name": "淺灰",
+    "hex": "#C1D9D2",
+    "share": 0.0909
+   }
+  ],
+  "chromatic_share": 0.3228,
+  "white_share_of_valid": 0.0545,
+  "vid": "daya",
+  "company": "大亞",
+  "version": "官網頁首 logo",
+  "source": "資料夾05",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/05_大亞環保_頁尾版.png",
+  "crop": null,
+  "size": [
+   1635,
+   340
+  ],
+  "n_fg": 73820,
+  "n_core": 61053,
+  "edge_removed": 0.173,
+  "chromatic": [
+   {
+    "hex": "#243952",
+    "median_hex": "#243852",
+    "share": 0.1761,
+    "n": 10753,
+    "okL_p5": 0.301,
+    "okL_p95": 0.432,
+    "okL_spread": 0.131,
+    "dark_end": "#172F4B",
+    "light_end": "#265282"
+   },
+   {
+    "hex": "#83A9A7",
+    "median_hex": "#86ABA9",
+    "share": 0.0326,
+    "n": 1993,
+    "okL_p5": 0.681,
+    "okL_p95": 0.754,
+    "okL_spread": 0.073,
+    "dark_end": "#7CA1A0",
+    "light_end": "#93B8B3"
+   },
+   {
+    "hex": "#AD3922",
+    "median_hex": "#AD3922",
+    "share": 0.0252,
+    "n": 1540,
+    "okL_p5": 0.508,
+    "okL_p95": 0.517,
+    "okL_spread": 0.009,
+    "dark_end": "#AE3620",
+    "light_end": "#B23821"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#060606",
+    "share": 0.3556
+   },
+   {
+    "name": "深灰",
+    "hex": "#596868",
+    "share": 0.1277
+   },
+   {
+    "name": "灰",
+    "hex": "#8C9599",
+    "share": 0.1547
+   },
+   {
+    "name": "淺灰",
+    "hex": "#C9D7D3",
+    "share": 0.1113
+   }
+  ],
+  "chromatic_share": 0.2507,
+  "white_share_of_valid": 0.8672,
+  "vid": "daya_footer",
+  "company": "大亞",
+  "version": "官網頁尾 logo",
+  "source": "資料夾05 頁尾版",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p12_040.png",
+  "crop": null,
+  "size": [
+   1500,
+   1500
+  ],
+  "n_fg": 209930,
+  "n_core": 209360,
+  "edge_removed": 0.003,
+  "chromatic": [
+   {
+    "hex": "#2298D3",
+    "median_hex": "#237CBD",
+    "share": 0.5651,
+    "n": 118302,
+    "okL_p5": 0.427,
+    "okL_p95": 0.674,
+    "okL_spread": 0.247,
+    "dark_end": "#264A96",
+    "light_end": "#2BA2DB"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#58585A",
+    "share": 0.2404
+   },
+   {
+    "name": "灰",
+    "hex": "#B3B8BD",
+    "share": 0.1925
+   }
+  ],
+  "chromatic_share": 0.567,
+  "white_share_of_valid": 0.0366,
+  "vid": "jiuda_full",
+  "company": "久大",
+  "version": "官網 logo 圖文組合（菱形管件＋JIOUDA＋久大）",
+  "source": "補充PDF p12",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p12_038.png",
+  "crop": null,
+  "size": [
+   860,
+   342
+  ],
+  "n_fg": 104593,
+  "n_core": 104058,
+  "edge_removed": 0.005,
+  "chromatic": [
+   {
+    "hex": "#2798D3",
+    "median_hex": "#267DBD",
+    "share": 0.8703,
+    "n": 90557,
+    "okL_p5": 0.427,
+    "okL_p95": 0.668,
+    "okL_spread": 0.241,
+    "dark_end": "#284A95",
+    "light_end": "#2AA0D9"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#58585A",
+    "share": 0.1296
+   }
+  ],
+  "chromatic_share": 0.8704,
+  "white_share_of_valid": 0.0709,
+  "vid": "jiuda_word",
+  "company": "久大",
+  "version": "官網品牌轉型頁字標（JIOUDA＋久大）",
+  "source": "補充PDF p12",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/06_久大管道工程_站台圖示.png",
+  "crop": null,
+  "size": [
+   270,
+   270
+  ],
+  "n_fg": 19583,
+  "n_core": 19541,
+  "edge_removed": 0.002,
+  "chromatic": [
+   {
+    "hex": "#086DB7",
+    "median_hex": "#0677BE",
+    "share": 0.2701,
+    "n": 5278,
+    "okL_p5": 0.43,
+    "okL_p95": 0.701,
+    "okL_spread": 0.271,
+    "dark_end": "#1A4AA0",
+    "light_end": "#00ADE6"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#58585A",
+    "share": 0.3471
+   },
+   {
+    "name": "灰",
+    "hex": "#B3B8BD",
+    "share": 0.3828
+   }
+  ],
+  "chromatic_share": 0.2701,
+  "white_share_of_valid": 0.0,
+  "vid": "jiuda_icon",
+  "company": "久大",
+  "version": "站台圖示（菱形管件＋水滴扳手）",
+  "source": "資料夾06",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/07_源昌工程環保科技.png",
+  "crop": null,
+  "size": [
+   2481,
+   367
+  ],
+  "n_fg": 226668,
+  "n_core": 219557,
+  "edge_removed": 0.031,
+  "chromatic": [
+   {
+    "hex": "#FF6600",
+    "median_hex": "#FF6600",
+    "share": 0.0452,
+    "n": 9913,
+    "okL_p5": 0.69,
+    "okL_p95": 0.696,
+    "okL_spread": 0.006,
+    "dark_end": "#FC6502",
+    "light_end": "#FF6600"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#414951",
+    "share": 0.8687
+   },
+   {
+    "name": "灰",
+    "hex": "#92A0A3",
+    "share": 0.0553
+   },
+   {
+    "name": "淺灰",
+    "hex": "#CCCCCC",
+    "share": 0.028
+   }
+  ],
+  "chromatic_share": 0.0455,
+  "white_share_of_valid": 0.2008,
+  "vid": "yuanchang",
+  "company": "源昌",
+  "version": "官網 logo",
+  "source": "資料夾07",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/08_森淨家.png",
+  "crop": null,
+  "size": [
+   188,
+   182
+  ],
+  "n_fg": 24346,
+  "n_core": 23287,
+  "edge_removed": 0.043,
+  "chromatic": [
+   {
+    "hex": "#89C5DF",
+    "median_hex": "#89C5DF",
+    "share": 0.9964,
+    "n": 23204,
+    "okL_p5": 0.792,
+    "okL_p95": 0.792,
+    "okL_spread": 0.0,
+    "dark_end": "#89C5DF",
+    "light_end": "#89C5DF"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 0.9971,
+  "white_share_of_valid": 0.068,
+  "vid": "senjingjia",
+  "company": "森淨家",
+  "version": "官網 logo",
+  "source": "資料夾08",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/09_逸居管必潔.png",
+  "crop": null,
+  "size": [
+   197,
+   55
+  ],
+  "n_fg": 768,
+  "n_core": 139,
+  "edge_removed": 0.819,
+  "chromatic": [
+   {
+    "hex": "#2D6EB1",
+    "median_hex": "#2D6EB1",
+    "share": 0.4401,
+    "n": 338,
+    "okL_p5": 0.53,
+    "okL_p95": 0.53,
+    "okL_spread": 0.0,
+    "dark_end": "#2D6EB1",
+    "light_end": "#2D6EB1"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#222222",
+    "share": 0.5599
+   }
+  ],
+  "chromatic_share": 0.4401,
+  "white_share_of_valid": 0.0,
+  "vid": "yiju",
+  "company": "逸居管必潔",
+  "version": "官網字標",
+  "source": "資料夾09",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "逐像素直接計數（純色、無反鋸齒）",
+  "n_direct": 768,
+  "old_edge_removed_shares": {
+   "chromatic": [
+    [
+     "#2D6EB1",
+     0.2014
+    ]
+   ],
+   "neutral": [
+    [
+     "黑",
+     "#222222",
+     0.7986
+    ]
+   ],
+   "chromatic_share": 0.2014
+  }
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/10_綠邑環保科技.png",
+  "crop": null,
+  "size": [
+   288,
+   37
+  ],
+  "n_fg": 0,
+  "n_core": 0,
+  "edge_removed": null,
+  "chromatic": [],
+  "neutral": [],
+  "chromatic_share": 0,
+  "vid": "lvyi",
+  "company": "綠邑",
+  "version": "官網 logo（白色反白版）",
+  "source": "資料夾10",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/11_日技管清工程.gif",
+  "crop": null,
+  "size": [
+   260,
+   37
+  ],
+  "n_fg": 4174,
+  "n_core": 1736,
+  "edge_removed": 0.584,
+  "chromatic": [
+   {
+    "hex": "#0070C0",
+    "median_hex": "#0070C0",
+    "share": 0.9689,
+    "n": 1682,
+    "okL_p5": 0.536,
+    "okL_p95": 0.555,
+    "okL_spread": 0.019,
+    "dark_end": "#0070C0",
+    "light_end": "#0078C1"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 1.0,
+  "white_share_of_valid": 0.5661,
+  "vid": "riji",
+  "company": "日技",
+  "version": "官網 logo（gif）",
+  "source": "資料夾11",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/12_宏隆環保.png",
+  "crop": null,
+  "size": [
+   400,
+   140
+  ],
+  "n_fg": 20524,
+  "n_core": 19457,
+  "edge_removed": 0.052,
+  "chromatic": [
+   {
+    "hex": "#186504",
+    "median_hex": "#186504",
+    "share": 0.5212,
+    "n": 10141,
+    "okL_p5": 0.443,
+    "okL_p95": 0.443,
+    "okL_spread": 0.0,
+    "dark_end": "#186504",
+    "light_end": "#186504"
+   },
+   {
+    "hex": "#F55802",
+    "median_hex": "#F55802",
+    "share": 0.4773,
+    "n": 9286,
+    "okL_p5": 0.663,
+    "okL_p95": 0.663,
+    "okL_spread": 0.0,
+    "dark_end": "#F55802",
+    "light_end": "#F55802"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 1.0,
+  "white_share_of_valid": 0.0704,
+  "vid": "honglong",
+  "company": "宏隆",
+  "version": "官網字標",
+  "source": "資料夾12＝補充PDF p10（像素相同）",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/13_康立衛生清潔工程_banner含字標.jpg",
+  "crop": [
+   0,
+   40,
+   312,
+   175
+  ],
+  "size": [
+   312,
+   135
+  ],
+  "n_fg": 37217,
+  "n_core": 34008,
+  "edge_removed": 0.086,
+  "chromatic": [
+   {
+    "hex": "#566A1F",
+    "median_hex": "#55691D",
+    "share": 0.9708,
+    "n": 33016,
+    "okL_p5": 0.371,
+    "okL_p95": 0.515,
+    "okL_spread": 0.145,
+    "dark_end": "#394611",
+    "light_end": "#5C7126"
+   },
+   {
+    "hex": "#829437",
+    "median_hex": "#829337",
+    "share": 0.0166,
+    "n": 566,
+    "okL_p5": 0.624,
+    "okL_p95": 0.634,
+    "okL_spread": 0.01,
+    "dark_end": "#809135",
+    "light_end": "#839438"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 0.9939,
+  "white_share_of_valid": 0.1164,
+  "vid": "kangli",
+  "company": "康立",
+  "version": "banner 綠色底塊上的白字＋葉片",
+  "source": "資料夾13 banner",
+  "tier": "官網banner字標",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/14_一元環保.png",
+  "crop": null,
+  "size": [
+   600,
+   135
+  ],
+  "n_fg": 12736,
+  "n_core": 12178,
+  "edge_removed": 0.044,
+  "chromatic": [
+   {
+    "hex": "#255092",
+    "median_hex": "#255092",
+    "share": 1.0,
+    "n": 12178,
+    "okL_p5": 0.437,
+    "okL_p95": 0.456,
+    "okL_spread": 0.019,
+    "dark_end": "#255092",
+    "light_end": "#27559B"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 1.0,
+  "white_share_of_valid": 0.0,
+  "vid": "yiyuan",
+  "company": "一元",
+  "version": "官網 logo",
+  "source": "資料夾14",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p02_000.png",
+  "crop": null,
+  "size": [
+   130,
+   130
+  ],
+  "n_fg": 7065,
+  "n_core": 4412,
+  "edge_removed": 0.376,
+  "chromatic": [
+   {
+    "hex": "#28932A",
+    "median_hex": "#2A912C",
+    "share": 0.9078,
+    "n": 4005,
+    "okL_p5": 0.556,
+    "okL_p95": 0.604,
+    "okL_spread": 0.047,
+    "dark_end": "#268A27",
+    "light_end": "#319940"
+   },
+   {
+    "hex": "#CCEFC8",
+    "median_hex": "#CAEFC8",
+    "share": 0.0678,
+    "n": 299,
+    "okL_p5": 0.859,
+    "okL_p95": 0.966,
+    "okL_spread": 0.106,
+    "dark_end": "#B1DFB0",
+    "light_end": "#E0FDE1"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 0.9989,
+  "white_share_of_valid": 0.582,
+  "vid": "quanji",
+  "company": "全基",
+  "version": "2023 台灣國際水週展會圖形標誌",
+  "source": "補充PDF p2/p7",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p07_022.png",
+  "crop": null,
+  "size": [
+   86,
+   70
+  ],
+  "n_fg": 2301,
+  "n_core": 1387,
+  "edge_removed": 0.397,
+  "chromatic": [
+   {
+    "hex": "#28942A",
+    "median_hex": "#2A932B",
+    "share": 0.9863,
+    "n": 1368,
+    "okL_p5": 0.563,
+    "okL_p95": 0.607,
+    "okL_spread": 0.043,
+    "dark_end": "#358A39",
+    "light_end": "#419842"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 1.0,
+  "white_share_of_valid": 0.6178,
+  "vid": "quanji_fav",
+  "company": "全基",
+  "version": "官網小圖標",
+  "source": "補充PDF p7",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p08_024.png",
+  "crop": [
+   345,
+   208,
+   1625,
+   600
+  ],
+  "size": [
+   1280,
+   392
+  ],
+  "n_fg": 219913,
+  "n_core": 196283,
+  "edge_removed": 0.107,
+  "chromatic": [
+   {
+    "hex": "#FCCB26",
+    "median_hex": "#FCCB26",
+    "share": 0.3772,
+    "n": 74043,
+    "okL_p5": 0.857,
+    "okL_p95": 0.866,
+    "okL_spread": 0.01,
+    "dark_end": "#F2CD40",
+    "light_end": "#F8CF41"
+   },
+   {
+    "hex": "#5BA1DA",
+    "median_hex": "#58A1DB",
+    "share": 0.0608,
+    "n": 11937,
+    "okL_p5": 0.66,
+    "okL_p95": 0.692,
+    "okL_spread": 0.032,
+    "dark_end": "#089DDF",
+    "light_end": "#5CA3DB"
+   },
+   {
+    "hex": "#F4F3D4",
+    "median_hex": "#F4F3D4",
+    "share": 0.0167,
+    "n": 3277,
+    "okL_p5": 0.954,
+    "okL_p95": 0.958,
+    "okL_spread": 0.005,
+    "dark_end": "#F3F2D3",
+    "light_end": "#F4F4D2"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#231F20",
+    "share": 0.3291
+   },
+   {
+    "name": "深灰",
+    "hex": "#454142",
+    "share": 0.072
+   },
+   {
+    "name": "灰",
+    "hex": "#9E9D9E",
+    "share": 0.0459
+   },
+   {
+    "name": "淺灰",
+    "hex": "#D5D5D5",
+    "share": 0.057
+   }
+  ],
+  "chromatic_share": 0.496,
+  "white_share_of_valid": 0.5617,
+  "vid": "shengye",
+  "company": "升野",
+  "version": "官網入口品牌圖裡的 logo",
+  "source": "補充PDF p8",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p08_023.png",
+  "crop": null,
+  "size": [
+   380,
+   85
+  ],
+  "n_fg": 26077,
+  "n_core": 18357,
+  "edge_removed": 0.296,
+  "chromatic": [
+   {
+    "hex": "#E1A830",
+    "median_hex": "#E9B942",
+    "share": 0.873,
+    "n": 16026,
+    "okL_p5": 0.736,
+    "okL_p95": 0.945,
+    "okL_spread": 0.209,
+    "dark_end": "#D3A125",
+    "light_end": "#F9ECCB"
+   },
+   {
+    "hex": "#5DA2D8",
+    "median_hex": "#5DA2D8",
+    "share": 0.0713,
+    "n": 1308,
+    "okL_p5": 0.669,
+    "okL_p95": 0.689,
+    "okL_spread": 0.02,
+    "dark_end": "#00A1DE",
+    "light_end": "#5DA2D8"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "深灰",
+    "hex": "#363639",
+    "share": 0.0155
+   },
+   {
+    "name": "淺灰",
+    "hex": "#E1D7BD",
+    "share": 0.0168
+   }
+  ],
+  "chromatic_share": 0.9595,
+  "white_share_of_valid": 0.1927,
+  "vid": "shengye_head",
+  "company": "升野",
+  "version": "官網內頁頁首（金色底、白字帶陰影）",
+  "source": "補充PDF p8",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p08_025.png",
+  "crop": null,
+  "size": [
+   200,
+   200
+  ],
+  "n_fg": 13068,
+  "n_core": 8997,
+  "edge_removed": 0.312,
+  "chromatic": [
+   {
+    "hex": "#1E572D",
+    "median_hex": "#2C8B4E",
+    "share": 0.5136,
+    "n": 4621,
+    "okL_p5": 0.397,
+    "okL_p95": 0.926,
+    "okL_spread": 0.53,
+    "dark_end": "#1F532F",
+    "light_end": "#BEF7CE"
+   },
+   {
+    "hex": "#EF2C26",
+    "median_hex": "#F63345",
+    "share": 0.2681,
+    "n": 2412,
+    "okL_p5": 0.591,
+    "okL_p95": 0.905,
+    "okL_spread": 0.314,
+    "dark_end": "#DD3244",
+    "light_end": "#FFD2DB"
+   }
+  ],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#242522",
+    "share": 0.0381
+   },
+   {
+    "name": "深灰",
+    "hex": "#403842",
+    "share": 0.0182
+   },
+   {
+    "name": "淺灰",
+    "hex": "#E1D2D5",
+    "share": 0.0255
+   }
+  ],
+  "chromatic_share": 0.9121,
+  "white_share_of_valid": 0.6733,
+  "vid": "jide",
+  "company": "積德",
+  "version": "智財局 2001 彩色服務標章圖樣",
+  "source": "補充PDF p8",
+  "tier": "智財局商標圖樣",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p10_030.png",
+  "crop": null,
+  "size": [
+   90,
+   90
+  ],
+  "n_fg": 5456,
+  "n_core": 4851,
+  "edge_removed": 0.111,
+  "chromatic": [
+   {
+    "hex": "#5D7BD7",
+    "median_hex": "#5C7AD6",
+    "share": 0.9918,
+    "n": 4811,
+    "okL_p5": 0.591,
+    "okL_p95": 0.61,
+    "okL_spread": 0.019,
+    "dark_end": "#5777D5",
+    "light_end": "#5F7DD9"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 0.9975,
+  "white_share_of_valid": 0.0925,
+  "vid": "jiusheng",
+  "company": "九升",
+  "version": "合作廠商欄展示的圓形標誌",
+  "source": "補充PDF p10",
+  "tier": "第三方頁",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p11_034.png",
+  "crop": null,
+  "size": [
+   300,
+   70
+  ],
+  "n_fg": 2507,
+  "n_core": 2111,
+  "edge_removed": 0.158,
+  "chromatic": [
+   {
+    "hex": "#0086BE",
+    "median_hex": "#0086BE",
+    "share": 1.0,
+    "n": 2507,
+    "okL_p5": 0.587,
+    "okL_p95": 0.587,
+    "okL_spread": 0.0,
+    "dark_end": "#0086BE",
+    "light_end": "#0086BE"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 1.0,
+  "white_share_of_valid": 0.0,
+  "vid": "haoyuan_blue",
+  "company": "浩源",
+  "version": "hao-yuan 形象官網字標（藍）",
+  "source": "補充PDF p11",
+  "tier": "官網logo檔",
+  "primary": true,
+  "method": "逐像素直接計數（純色、無反鋸齒）",
+  "n_direct": 2507,
+  "old_edge_removed_shares": {
+   "chromatic": [
+    [
+     "#0086BE",
+     1.0
+    ]
+   ],
+   "neutral": [],
+   "chromatic_share": 1.0
+  }
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p11_036.png",
+  "crop": null,
+  "size": [
+   220,
+   43
+  ],
+  "n_fg": 0,
+  "n_core": 0,
+  "edge_removed": null,
+  "chromatic": [],
+  "neutral": [],
+  "chromatic_share": 0,
+  "vid": "haoyuan_white",
+  "company": "浩源",
+  "version": "pipe-clean 官網頁首（白色反白版）",
+  "source": "補充PDF p11",
+  "tier": "官網logo檔",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p12_042.png",
+  "crop": null,
+  "size": [
+   120,
+   45
+  ],
+  "n_fg": 684,
+  "n_core": 327,
+  "edge_removed": 0.522,
+  "chromatic": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#221E1F",
+    "share": 1.0
+   }
+  ],
+  "chromatic_share": 0.0,
+  "white_share_of_valid": 0.8733,
+  "vid": "paipu",
+  "company": "派浦崴洱",
+  "version": "徵才平台企業圖像（低清）",
+  "source": "補充PDF p12",
+  "tier": "第三方頁",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p12_043.png",
+  "crop": null,
+  "size": [
+   41,
+   40
+  ],
+  "n_fg": 809,
+  "n_core": 265,
+  "edge_removed": 0.672,
+  "chromatic": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#221F20",
+    "share": 0.9925
+   }
+  ],
+  "chromatic_share": 0.0,
+  "white_share_of_valid": 0.5067,
+  "vid": "paipu_s",
+  "company": "派浦崴洱",
+  "version": "徵才平台企業圖像（41×40）",
+  "source": "補充PDF p12",
+  "tier": "第三方頁",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p15_044.png",
+  "crop": [
+   0,
+   4,
+   300,
+   40
+  ],
+  "size": [
+   300,
+   36
+  ],
+  "n_fg": 8985,
+  "n_core": 5977,
+  "edge_removed": 0.335,
+  "chromatic": [
+   {
+    "hex": "#22AB42",
+    "median_hex": "#20A53C",
+    "share": 0.9771,
+    "n": 5840,
+    "okL_p5": 0.527,
+    "okL_p95": 0.861,
+    "okL_spread": 0.334,
+    "dark_end": "#00821D",
+    "light_end": "#B5E63C"
+   }
+  ],
+  "neutral": [],
+  "chromatic_share": 0.9968,
+  "white_share_of_valid": 0.1681,
+  "vid": "longxiang",
+  "company": "龍祥",
+  "version": "第三方企業專頁橫幅上的綠底白字公司名",
+  "source": "補充PDF p15",
+  "tier": "第三方頁",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p16_045.png",
+  "crop": null,
+  "size": [
+   591,
+   591
+  ],
+  "n_fg": 66447,
+  "n_core": 52360,
+  "edge_removed": 0.212,
+  "chromatic": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#000000",
+    "share": 0.6843
+   },
+   {
+    "name": "深灰",
+    "hex": "#727071",
+    "share": 0.2748
+   },
+   {
+    "name": "灰",
+    "hex": "#747374",
+    "share": 0.0408
+   }
+  ],
+  "chromatic_share": 0.0,
+  "white_share_of_valid": 0.8098,
+  "vid": "shunjie",
+  "company": "順捷",
+  "version": "智財局墨色商標 01987673",
+  "source": "補充PDF p16",
+  "tier": "智財局商標圖樣",
+  "primary": true,
+  "method": "去邊（measure.py）"
+ },
+ {
+  "path": "/tmp/claude-0/r2/tw/pdfimg/p16_046.png",
+  "crop": null,
+  "size": [
+   591,
+   591
+  ],
+  "n_fg": 50977,
+  "n_core": 33182,
+  "edge_removed": 0.349,
+  "chromatic": [],
+  "neutral": [
+   {
+    "name": "黑",
+    "hex": "#2F2A2A",
+    "share": 0.2393
+   },
+   {
+    "name": "深灰",
+    "hex": "#332E2B",
+    "share": 0.7535
+   }
+  ],
+  "chromatic_share": 0.0,
+  "white_share_of_valid": 0.8541,
+  "vid": "shunjie_man",
+  "company": "順捷",
+  "version": "智財局墨色商標 02416441（施工人物）",
+  "source": "補充PDF p16",
+  "tier": "智財局商標圖樣",
+  "primary": false,
+  "method": "去邊（measure.py）"
+ }
+]

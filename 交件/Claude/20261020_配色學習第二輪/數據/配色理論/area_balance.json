@@ -1,0 +1,221 @@
+{
+ "a_goethe_vs_munsell": {
+  "Y": {
+   "max_chroma": 20.0,
+   "tied_points": [
+    {
+     "point": "5Y 9/20",
+     "V_over_10": 0.9,
+     "srgb_approx": "#FFE100",
+     "out_of_srgb": true
+    }
+   ],
+   "V_over_10_options": [
+    0.9
+   ],
+   "goethe_weight": null,
+   "what_it_is": "real.py 理論點（MacAdam 極限內），不是實體色票"
+  },
+  "YR": {
+   "max_chroma": 20.0,
+   "tied_points": [
+    {
+     "point": "5YR 7/20",
+     "V_over_10": 0.7,
+     "srgb_approx": "#FF8B00",
+     "out_of_srgb": true
+    }
+   ],
+   "V_over_10_options": [
+    0.7
+   ],
+   "goethe_weight": 0.6666666666666666,
+   "what_it_is": "real.py 理論點（MacAdam 極限內），不是實體色票"
+  },
+  "R": {
+   "max_chroma": 20.0,
+   "tied_points": [
+    {
+     "point": "5R 5/20",
+     "V_over_10": 0.5,
+     "srgb_approx": "#FA0037",
+     "out_of_srgb": true
+    }
+   ],
+   "V_over_10_options": [
+    0.5
+   ],
+   "goethe_weight": 0.5,
+   "what_it_is": "real.py 理論點（MacAdam 極限內），不是實體色票"
+  },
+  "P": {
+   "max_chroma": 32.0,
+   "tied_points": [
+    {
+     "point": "5P 3/32",
+     "V_over_10": 0.3,
+     "srgb_approx": "#A900D6",
+     "out_of_srgb": true
+    },
+    {
+     "point": "5P 4/32",
+     "V_over_10": 0.4,
+     "srgb_approx": "#C000F3",
+     "out_of_srgb": true
+    }
+   ],
+   "V_over_10_options": [
+    0.3,
+    0.4
+   ],
+   "goethe_weight": 0.25,
+   "what_it_is": "real.py 理論點（MacAdam 極限內），不是實體色票"
+  },
+  "PB": {
+   "max_chroma": 20.0,
+   "tied_points": [
+    {
+     "point": "5PB 4/20",
+     "V_over_10": 0.4,
+     "srgb_approx": "#0060EB",
+     "out_of_srgb": true
+    }
+   ],
+   "V_over_10_options": [
+    0.4
+   ],
+   "goethe_weight": 0.3333333333333333,
+   "what_it_is": "real.py 理論點（MacAdam 極限內），不是實體色票"
+  },
+  "G": {
+   "max_chroma": 28.0,
+   "tied_points": [
+    {
+     "point": "5G 5/28",
+     "V_over_10": 0.5,
+     "srgb_approx": "#00A14D",
+     "out_of_srgb": true
+    },
+    {
+     "point": "5G 6/28",
+     "V_over_10": 0.6,
+     "srgb_approx": "#00BF5F",
+     "out_of_srgb": true
+    }
+   ],
+   "V_over_10_options": [
+    0.5,
+    0.6
+   ],
+   "goethe_weight": 0.5,
+   "what_it_is": "real.py 理論點（MacAdam 極限內），不是實體色票"
+  }
+ },
+ "itten_area_ratios": {
+  "黃:紫": {
+   "itten": "1:3",
+   "munsell_V_based_options": [
+    "1:3",
+    "1:2.25"
+   ]
+  },
+  "橘:藍": {
+   "itten": "1:2",
+   "munsell_V_based_options": [
+    "1:1.75"
+   ]
+  },
+  "紅:綠": {
+   "itten": "1:1",
+   "munsell_V_based_options": [
+    "1:1",
+    "1:0.83"
+   ]
+  },
+  "_reading": "紫、綠取較低明度（5P 3/32、5G 5/28）時是 1:3.0、1:1.75、1:1.0，跟 Itten 很接近；取較高明度（5P 4/32、5G 6/28）時黃:紫 1:2.25、紅:綠 1:0.83（綠比紅亮，綠的面積反而較小；換個寫法是紅 1.2 倍於綠）。接不接近看取法而定。"
+ },
+ "b_formula_demo_songchun": [
+  {
+   "fg": "#D68702",
+   "bg": "#0C424A",
+   "fg_munsell": "7.7YR 6.2/11.7",
+   "bg_munsell": "0.6B 2.5/3.7",
+   "inverse_Lstar_bg_per_fg": 2.51,
+   "inverse_Lstar_fg_share": 0.285,
+   "munsell_VC_bg_per_fg": 7.88,
+   "munsell_fg_share": 0.113,
+   "share_ratio_inverseL_over_VC": 2.53,
+   "label": "工程黃 對 深青"
+  },
+  {
+   "fg": "#D68702",
+   "bg": "#333D66",
+   "fg_munsell": "7.7YR 6.2/11.7",
+   "bg_munsell": "7.0PB 2.7/5.7",
+   "inverse_Lstar_bg_per_fg": 2.36,
+   "inverse_Lstar_fg_share": 0.298,
+   "munsell_VC_bg_per_fg": 4.8,
+   "munsell_fg_share": 0.172,
+   "share_ratio_inverseL_over_VC": 1.73,
+   "label": "工程黃 對 靛藍"
+  }
+ ],
+ "b_formula_demo_peers": [
+  {
+   "fg": "#DA242A",
+   "bg": "#007B86",
+   "fg_munsell": "6.9R 4.7/16.2",
+   "bg_munsell": "0.7B 4.6/5.9",
+   "inverse_Lstar_bg_per_fg": 1.01,
+   "inverse_Lstar_fg_share": 0.497,
+   "munsell_VC_bg_per_fg": 2.76,
+   "munsell_fg_share": 0.266,
+   "share_ratio_inverseL_over_VC": 1.87,
+   "label": "Kier 紅 對 藍綠"
+  },
+  {
+   "fg": "#A2C617",
+   "bg": "#1A1D56",
+   "fg_munsell": "5.0GY 7.4/11.1",
+   "bg_munsell": "7.4PB 1.4/8.3",
+   "inverse_Lstar_bg_per_fg": 5.26,
+   "inverse_Lstar_fg_share": 0.16,
+   "munsell_VC_bg_per_fg": 7.03,
+   "munsell_fg_share": 0.125,
+   "share_ratio_inverseL_over_VC": 1.28,
+   "label": "SUEZ 綠 對 深藍"
+  },
+  {
+   "fg": "#2EA836",
+   "bg": "#2E1D67",
+   "fg_munsell": "10.0GY 5.9/11.8",
+   "bg_munsell": "8.8PB 1.8/10.5",
+   "inverse_Lstar_bg_per_fg": 3.44,
+   "inverse_Lstar_fg_share": 0.225,
+   "munsell_VC_bg_per_fg": 3.79,
+   "munsell_fg_share": 0.209,
+   "share_ratio_inverseL_over_VC": 1.08,
+   "label": "Metro Rod 綠 對 深紫藍"
+  },
+  {
+   "fg": "#DA291C",
+   "bg": "#2A1768",
+   "fg_munsell": "7.9R 4.7/16.3",
+   "bg_munsell": "8.5PB 1.6/11.5",
+   "inverse_Lstar_bg_per_fg": 2.98,
+   "inverse_Lstar_fg_share": 0.251,
+   "munsell_VC_bg_per_fg": 4.15,
+   "munsell_fg_share": 0.194,
+   "share_ratio_inverseL_over_VC": 1.29,
+   "label": "Roto-Rooter 紅 對 深紫藍"
+  }
+ ],
+ "rule_60_30_10_accent_share": 0.1,
+ "notes": [
+  "「L* 倒數式」是面積與 CIELAB L* 成反比，原本叫 Goethe 式，但不是 Goethe 的權重表，10-19 改名。兩式對工程黃配深青差 2.5 倍、配靛藍差 1.7 倍。",
+  "兩條公式都只說「看起來力量平衡」的面積，沒有說平衡就好看；Hirschler 演講也說這種平衡的美感價值可疑。",
+  "Goethe 數字是 1810 年代對顏料的估計，逐字稿是自動字幕，紫 1/4、藍 1/3 等是演講者口述引用。",
+  "Munsell 規則（面積×明度×彩度）只從逐字稿的一個例子得知，未讀到 A Grammar of Color 原文。",
+  "同業 logo 沒有量各色面積，公式算出的比例無法跟實際對照。"
+ ]
+}

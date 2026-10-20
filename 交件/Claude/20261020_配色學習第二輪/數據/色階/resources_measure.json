@@ -1,0 +1,295 @@
+{
+ "theme_factory": {
+  "themes": [
+   {
+    "theme": "arctic-frost",
+    "colours": [
+     [
+      "Ice Blue",
+      "#d4e4f7"
+     ],
+     [
+      "Steel Blue",
+      "#4a6fa5"
+     ],
+     [
+      "Silver",
+      "#c0c0c0"
+     ],
+     [
+      "Crisp White",
+      "#fafafa"
+     ]
+    ],
+    "darkest": "#4a6fa5",
+    "lightest": "#fafafa",
+    "wcag_darkest_vs_lightest": 4.9,
+    "L_range": 51.9
+   },
+   {
+    "theme": "botanical-garden",
+    "colours": [
+     [
+      "Fern Green",
+      "#4a7c59"
+     ],
+     [
+      "Marigold",
+      "#f9a620"
+     ],
+     [
+      "Terracotta",
+      "#b7472a"
+     ],
+     [
+      "Cream",
+      "#f5f3ed"
+     ]
+    ],
+    "darkest": "#b7472a",
+    "lightest": "#f5f3ed",
+    "wcag_darkest_vs_lightest": 4.79,
+    "L_range": 50.6
+   },
+   {
+    "theme": "desert-rose",
+    "colours": [
+     [
+      "Dusty Rose",
+      "#d4a5a5"
+     ],
+     [
+      "Clay",
+      "#b87d6d"
+     ],
+     [
+      "Sand",
+      "#e8d5c4"
+     ],
+     [
+      "Deep Burgundy",
+      "#5d2e46"
+     ]
+    ],
+    "darkest": "#5d2e46",
+    "lightest": "#e8d5c4",
+    "wcag_darkest_vs_lightest": 7.58,
+    "L_range": 60.4
+   },
+   {
+    "theme": "forest-canopy",
+    "colours": [
+     [
+      "Forest Green",
+      "#2d4a2b"
+     ],
+     [
+      "Sage",
+      "#7d8471"
+     ],
+     [
+      "Olive",
+      "#a4ac86"
+     ],
+     [
+      "Ivory",
+      "#faf9f6"
+     ]
+    ],
+    "darkest": "#2d4a2b",
+    "lightest": "#faf9f6",
+    "wcag_darkest_vs_lightest": 9.38,
+    "L_range": 69.5
+   },
+   {
+    "theme": "golden-hour",
+    "colours": [
+     [
+      "Mustard Yellow",
+      "#f4a900"
+     ],
+     [
+      "Terracotta",
+      "#c1666b"
+     ],
+     [
+      "Warm Beige",
+      "#d4b896"
+     ],
+     [
+      "Chocolate Brown",
+      "#4a403a"
+     ]
+    ],
+    "darkest": "#4a403a",
+    "lightest": "#d4b896",
+    "wcag_darkest_vs_lightest": 5.32,
+    "L_range": 48.4
+   },
+   {
+    "theme": "midnight-galaxy",
+    "colours": [
+     [
+      "Deep Purple",
+      "#2b1e3e"
+     ],
+     [
+      "Cosmic Blue",
+      "#4a4e8f"
+     ],
+     [
+      "Lavender",
+      "#a490c2"
+     ],
+     [
+      "Silver",
+      "#e6e6fa"
+     ]
+    ],
+    "darkest": "#2b1e3e",
+    "lightest": "#e6e6fa",
+    "wcag_darkest_vs_lightest": 12.57,
+    "L_range": 77.5
+   },
+   {
+    "theme": "modern-minimalist",
+    "colours": [
+     [
+      "Charcoal",
+      "#36454f"
+     ],
+     [
+      "Slate Gray",
+      "#708090"
+     ],
+     [
+      "Light Gray",
+      "#d3d3d3"
+     ],
+     [
+      "White",
+      "#ffffff"
+     ]
+    ],
+    "darkest": "#36454f",
+    "lightest": "#ffffff",
+    "wcag_darkest_vs_lightest": 9.9,
+    "L_range": 71.6
+   },
+   {
+    "theme": "ocean-depths",
+    "colours": [
+     [
+      "Deep Navy",
+      "#1a2332"
+     ],
+     [
+      "Teal",
+      "#2d8b8b"
+     ],
+     [
+      "Seafoam",
+      "#a8dadc"
+     ],
+     [
+      "Cream",
+      "#f1faee"
+     ]
+    ],
+    "darkest": "#1a2332",
+    "lightest": "#f1faee",
+    "wcag_darkest_vs_lightest": 14.77,
+    "L_range": 83.8
+   },
+   {
+    "theme": "sunset-boulevard",
+    "colours": [
+     [
+      "Burnt Orange",
+      "#e76f51"
+     ],
+     [
+      "Coral",
+      "#f4a261"
+     ],
+     [
+      "Warm Sand",
+      "#e9c46a"
+     ],
+     [
+      "Deep Purple",
+      "#264653"
+     ]
+    ],
+    "darkest": "#264653",
+    "lightest": "#e9c46a",
+    "wcag_darkest_vs_lightest": 6.03,
+    "L_range": 52.8
+   },
+   {
+    "theme": "tech-innovation",
+    "colours": [
+     [
+      "Electric Blue",
+      "#0066ff"
+     ],
+     [
+      "Neon Cyan",
+      "#00ffff"
+     ],
+     [
+      "Dark Gray",
+      "#1e1e1e"
+     ],
+     [
+      "White",
+      "#ffffff"
+     ]
+    ],
+    "darkest": "#1e1e1e",
+    "lightest": "#ffffff",
+    "wcag_darkest_vs_lightest": 16.67,
+    "L_range": 88.7
+   }
+  ],
+  "n_ge_4_5": 10,
+  "n_ge_7": 6
+ },
+ "kwp_dataviz_palette": {
+  "palette": [
+   "#4C72B0",
+   "#DD8452",
+   "#55A868",
+   "#C44E52",
+   "#8172B3",
+   "#937860"
+  ],
+  "stats": {
+   "normal": {
+    "min_dE2000": 13.44,
+    "random_median": 12.2,
+    "percentile_vs_random": 58.0
+   },
+   "deutan": {
+    "min_dE2000": 4.54,
+    "random_median": 6.43,
+    "percentile_vs_random": 30.1
+   },
+   "protan": {
+    "min_dE2000": 2.02,
+    "random_median": 6.56,
+    "percentile_vs_random": 7.7
+   }
+  },
+  "closest_pair_deutan": [
+   "#C44E52",
+   "#937860"
+  ]
+ },
+ "brand_guidelines": {
+  "orange_on_light": 2.96,
+  "blue_on_light": 2.78,
+  "green_on_light": 3.49,
+  "dark_on_light": 17.5
+ }
+}

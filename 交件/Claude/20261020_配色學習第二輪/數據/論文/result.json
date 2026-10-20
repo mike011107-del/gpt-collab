@@ -1,0 +1,274 @@
+{
+ "papers": [
+  {
+   "id": 1,
+   "cite": "Palmer, S. E., & Schloss, K. B. (2010). An ecological valence theory of human color preference. PNAS, 107(19), 8877–8882. doi:10.1073/pnas.0906172107",
+   "findings": [
+    {
+     "text_zh": "人喜歡和自己喜歡的東西相關的顏色：藍連到晴空、淨水而受喜愛；褐連到糞便、腐爛食物而不受喜愛。",
+     "numbers": "無數字（摘要原句）",
+     "sources": [
+      "https://palmerlab.berkeley.edu/pdf/Palmer%26Schloss%282010%29.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2889342",
+      "https://psy311.wichita.edu/?p=4584",
+      "https://naava.io/science/an-ecological-valence-theory-of-human-color-preference"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "p.8877（摘要）、p.8878"
+    },
+    {
+     "text_zh": "WAVE（相關物件好惡的加權平均）與顏色偏好高度相關，一個預測變項、不估計自由參數就解釋 80% 變異量，勝過錐細胞對比（37%）、色貌（60%）、Ou 色彩情感（55%）模型。",
+     "numbers": "r = +0.893；80%；對照 37%／60%／55%；48 位受試者、32 個彩色",
+     "sources": [
+      "https://palmerlab.berkeley.edu/pdf/Palmer%26Schloss%282010%29.pdf",
+      "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7527/752718/Human-preference-for-individual-colors/10.1117/12.849110.full",
+      "https://library.imaging.org/cic/articles/18/1/art00026"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "p.8879",
+     "correction": "先前依搜尋片段寫「80% 只見於 SPIE／CIC 會議論文」是錯的：PNAS 正文 p.8879 就有 80% 與 r = +0.893，只是摘要沒寫。三處一致。"
+    },
+    {
+     "text_zh": "WAVE 抓到偏好曲線的藍色高峰、黃綠低谷、暗黃最低點；但低估了深橘（偏褐）被討厭的程度（作者推測巧克力、咖啡拉高預測），也低估了深紅受喜愛的程度（血液拉低預測）。",
+     "numbers": "無數字（定性描述）",
+     "sources": [
+      "https://palmerlab.berkeley.edu/pdf/Palmer%26Schloss%282010%29.pdf"
+     ],
+     "grade": "原文已讀",
+     "enough": "佐證不足",
+     "pages": "p.8879"
+    }
+   ],
+   "not_found": "無。另注意：Sussex 後續研究的男 74%／女 45% 只有一個來源，不屬於本篇。"
+  },
+  {
+   "id": 2,
+   "cite": "Schloss, K. B., & Palmer, S. E. (2011). Aesthetic response to color combinations: preference, harmony, and similarity. Attention, Perception, & Psychophysics, 73, 551–571. doi:10.3758/s13414-010-0027-0",
+   "findings": [
+    {
+     "text_zh": "配色偏好與和諧是兩回事：兩者都隨色相相近而上升，但偏好更依賴兩色各自討不討喜與明度對比；明度差加大讓人更喜歡，但不讓人更覺得和諧，和諧另外靠色相相近與低飽和。",
+     "numbers": "偏好 Munsell 三因子模型 53.5%；加入和諧後 80.8%（multiple r = +.90）：和諧 62.3%＋背景色偏好 9.3%＋前景色偏好 4.7%＋明度差 4.5%；和諧模型 67.3%；和諧剩餘部分：色相相近 13.7%、低飽和 6.4%",
+     "sources": [
+      "https://link.springer.com/content/pdf/10.3758/s13414-010-0027-0.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037488",
+      "https://schlosslab.discovery.wisc.edu/portfolio/color-preference"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "p.551（摘要）、p.556、p.560、p.561"
+    },
+    {
+     "text_zh": "平均而言偏好與和諧相關很高，但個人差異很大，有人幾乎不在乎和諧。",
+     "numbers": "平均 r = +.79（62% 變異量）；個人 −0.03 到 0.75；48 人（男女各 24）、32 色、992 組",
+     "sources": [
+      "https://link.springer.com/content/pdf/10.3758/s13414-010-0027-0.pdf",
+      "https://palmerlab.berkeley.edu/pdf/Schloss&Palmer(2011).pdf"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "p.554、p.559、p.561",
+     "correction": "搜尋片段說個人範圍是 −.03 到 +.70，原文是 −0.03 到 0.75。"
+    },
+    {
+     "text_zh": "前景色放在背景上的偏好方向相反：色相差越大，前景色越受喜愛，但主要限於明度相近時；亮前景配暗背景、暗前景配亮背景較受喜愛；飽和前景最受喜愛，放在飽和背景上最不受喜愛。",
+     "numbers": "前景／背景對調的不對稱很小（例：亮前景 r = +.14）",
+     "sources": [
+      "https://link.springer.com/content/pdf/10.3758/s13414-010-0027-0.pdf"
+     ],
+     "grade": "原文已讀",
+     "enough": "佐證不足",
+     "pages": "p.551、p.566、p.567",
+     "correction": "先前依搜尋片段寫「圖底效果在這篇很弱」說過頭：弱的是前景／背景對調的不對稱，不是前景色偏好效果。"
+    }
+   ],
+   "not_found": "無。注意「Schloss & Palmer (2011)」也可能指同年 Perception 那篇圖底不對稱論文，引用時要分清。"
+  },
+  {
+   "id": 3,
+   "cite": "Bae, G.-Y., Olkkonen, M., Allred, S. R., & Flombaum, J. I. (2015). Why some colors appear more memorable than others: A model combining categories and particulars in color working memory. Journal of Experimental Psychology: General, 144(3)（線上優先版，正式頁碼未查證）. doi:10.1037/xge0000076",
+   "findings": [
+    {
+     "text_zh": "確認身分：這篇不是 Schloss 實驗室，主題是顏色工作記憶與知覺，不是偏好或配色。記憶中的顏色會偏離類別邊界、往類別中心（最典型的顏色）靠。",
+     "numbers": "無數字（摘要原句）",
+     "sources": [
+      "https://allred.camden.rutgers.edu/files/BaeEtAl2015.pdf",
+      "https://www.rutgers.edu/news/how-do-we-remember-colors-categories-influence-color-memory-says-new-research-rutgers-camden",
+      "https://www.psypost.org/study-finds-why-some-colors-appear-more-memorable-than-others/",
+      "https://www.sciencedaily.com/releases/2015/06/150623131707.htm"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "PDF 第 2 頁（摘要）"
+    },
+    {
+     "text_zh": "不經記憶、直接看著配也有同樣偏差；記憶只是放大知覺本來就有的類別偏差。",
+     "numbers": "無數字",
+     "sources": [
+      "https://allred.camden.rutgers.edu/files/BaeEtAl2015.pdf"
+     ],
+     "grade": "原文已讀",
+     "enough": "佐證不足",
+     "pages": "PDF 第 2 頁（摘要）"
+    },
+    {
+     "text_zh": "實驗規模小、色票只變色相：少數人大量重複的心理物理實驗。",
+     "numbers": "180 個色相，CIELAB L* = 70、半徑 38；延遲 n = 3、不延遲 n = 8、命名 n = 10、選代表色 n = 5；顯示 100 ms、延遲 900 ms；每人 3,600 次",
+     "sources": [
+      "https://allred.camden.rutgers.edu/files/BaeEtAl2015.pdf"
+     ],
+     "grade": "原文已讀",
+     "enough": "佐證不足",
+     "pages": "PDF 第 5–6 頁"
+    }
+   ],
+   "not_found": "沒找到 Schloss 實驗室 2015 年第一作者姓 Bae 的色彩論文；若報告原意是別篇，需要原書目。正式刊出卷期頁碼未查證（檔案為線上優先版，標 Vol. 144, No. 3）。"
+  },
+  {
+   "id": 4,
+   "cite": "Jonauskaite, D., et al. (2020). Universal patterns in color-emotion associations are further shaped by linguistic and geographic proximity. Psychological Science, 31(10), 1245–1260. doi:10.1177/0956797620948810",
+   "findings": [
+    {
+     "text_zh": "30 國、4,598 人、22 種母語；受試者把 20 個情緒概念配給 12 個顏色詞。給的是顏色名稱，不是色塊。",
+     "numbers": "4,598 人；30 國；22 語；每國 69–490 人；20 情緒 × 12 顏色詞",
+     "sources": [
+      "https://iris.unil.ch/bitstreams/7d6867e0-d9bc-4341-885c-19643911db2d/download",
+      "https://eprints.whiterose.ac.uk/id/eprint/169496/",
+      "https://cris.haifa.ac.il/en/publications/universal-patterns-in-color-emotion-associations-are-further-shap/"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "接受稿 p.6、p.11、p.13"
+    },
+    {
+     "text_zh": "各國與全球模式高度相似；國與國之間也高，但語言或地理越近越像；紫、黃的跨國一致度最低，粉紅最高。",
+     "numbers": "國對全球平均 r = .880（95% CI .857–.903），範圍 .684（埃及）–.941（西班牙）；國對國平均 r = .781，範圍 .501–.951，中位數 .799；各色：紫 .659、粉紅 .925",
+     "sources": [
+      "https://iris.unil.ch/bitstreams/7d6867e0-d9bc-4341-885c-19643911db2d/download",
+      "https://infoscience.epfl.ch/record/280269",
+      "https://eprints.whiterose.ac.uk/id/eprint/169496/"
+     ],
+     "grade": "原文已讀",
+     "enough": "2 份以上相符",
+     "pages": "接受稿 p.6、p.21"
+    },
+    {
+     "text_zh": "每一國都是紅與黑最常和情緒聯想，褐最少；全體最明顯的聯想有黑—悲傷／恐懼／恨、紅—愛／憤怒、粉紅—愛／喜悅、黃與橙—喜悅、白—安心（藍不在 ≥0.4 清單中）。",
+     "numbers": "聯想機率 ≥ 0.4 的組合清單",
+     "sources": [
+      "https://iris.unil.ch/bitstreams/7d6867e0-d9bc-4341-885c-19643911db2d/download"
+     ],
+     "grade": "原文已讀",
+     "enough": "佐證不足",
+     "pages": "接受稿 p.19–20、p.23、p.27"
+    }
+   ],
+   "not_found": "無。注意頁碼是作者接受稿頁碼，不是期刊頁碼。"
+  },
+  {
+   "id": 5,
+   "cite": "Ou, L.-C., Luo, M. R., Woodcock, A., & Wright, A. (2004). A study of colour emotion and colour preference. Part I: Colour emotions for single colours. Color Research & Application, 29, 232–240. doi:10.1002/col.20010",
+   "findings": [
+    {
+     "text_zh": "因子分析得到三個色彩情感因子：活動、重量、暖度。Palmer & Schloss 2010（原文已讀）也以 active/passive、heavy/light、warm/cool 引用這個三因子模型，套在他們的偏好資料上解釋 55%。",
+     "numbers": "PNAS 套用結果：活動 22%＋冷暖 26%＋輕重 7% = 55%",
+     "sources": [
+      "https://pureportal.coventry.ac.uk/en/publications/a-study-of-colour-emotion-and-colour-preference-part-i-colour-emo/",
+      "https://pureportal.coventry.ac.uk/en/publications/a-study-of-colour-emotion-and-colour-preference-part-iii-colour-p/",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/col.20010",
+      "https://palmerlab.berkeley.edu/pdf/Palmer%26Schloss%282010%29.pdf"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "2 份以上相符"
+    },
+    {
+     "text_zh": "另建四個單一情感尺度模型：暖–冷、重–輕、活潑–被動、硬–軟。",
+     "numbers": "無",
+     "sources": [
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/col.20010",
+      "https://www.researchgate.net/publication/227909589_A_study_of_colour_emotion_and_colour_preference_Part_I_Colour_emotions_for_single_colours"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "佐證不足"
+    }
+   ],
+   "not_found": "三因子的 CIELAB 公式與係數查不到（3 次搜尋）。只有一份專利描述「重量」由 L* 與白色的距離加色相角差組成，佐證不足。notes.md 留有我記憶中的公式形式供拿原文核對，未查證，不可引用。"
+  },
+  {
+   "id": 6,
+   "cite": "Ou, L.-C., & Luo, M. R. (2006). A colour harmony model for two-colour combinations. Color Research & Application, 31(3), 191–204. doi:10.1002/col.20208",
+   "findings": [
+    {
+     "text_zh": "模型從色相、明度、彩度導出四個和諧因子：彩度差（色差）、明度和、明度差、色相效應。",
+     "numbers": "無",
+     "sources": [
+      "https://ntust.academia.edu/LichenOu",
+      "https://graz.elsevierpure.com/files/2936494/User%20Experience%20enhanced.pdf",
+      "https://library.imaging.org/cgiv/articles/3/1/art00081"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "2 份以上相符"
+    },
+    {
+     "text_zh": "色相相近較和諧：只差明度、色相彩度相同的兩色傾向和諧；不相鄰兩色只有這條原則顯著。Schloss & Palmer 2011（原文已讀，p.553）也說 Ou & Luo 2006 發現和諧隨色相相近而增加。",
+     "numbers": "無",
+     "sources": [
+      "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8427498",
+      "https://link.springer.com/content/pdf/10.3758/s13414-010-0027-0.pdf"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "2 份以上相符"
+    },
+    {
+     "text_zh": "明度與色相效應：兩色明度越高越可能和諧；明度差太小會降低和諧；藍最容易和諧、紅最不容易；亮黃比暗黃容易和諧。",
+     "numbers": "明度差門檻約 15 個 CIELAB 單位",
+     "sources": [
+      "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8427498"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "佐證不足"
+    }
+   ],
+   "not_found": "模型公式與係數查不到（3 次搜尋）；明度差、藍高紅低兩條只見於一份專利，且搜尋摘要未直接寫出 Ou & Luo，歸屬待核。notes.md 留有記憶中的公式形式供核對，未查證，不可引用。"
+  },
+  {
+   "id": 7,
+   "cite": "Labrecque, L. I., & Milne, G. R. (2012). Exciting red and competent blue: the importance of color in marketing. Journal of the Academy of Marketing Science（2011-01-28 先上線；卷期頁碼未查證）. doi:10.1007/s11747-010-0245-y",
+   "findings": [
+    {
+     "text_zh": "4 個研究：研究 1 把色相對到 Aaker 品牌個性面向；研究 2 看飽和度與明度能否放大個性；研究 3 看顏色能否改變品牌個性與購買意願；研究 4 看品牌好感與熟悉度。",
+     "numbers": "4 個研究；5 個品牌個性面向",
+     "sources": [
+      "https://colab.ws/articles/10.1007%2Fs11747-010-0245-y",
+      "https://www.researchgate.net/publication/251277565_Exciting_red_and_competent_blue_the_importance_of_color_in_marketing",
+      "https://www.deepmarketing.it/en/blog/color-science-marketing-evidence-2026"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "2 份以上相符"
+    },
+    {
+     "text_zh": "藍對應能力（可靠、信任），紅對應刺激。只見於標題與非學術網站轉述，沒找到研究 1 實際結果的學術轉述。",
+     "numbers": "無可靠數字（網路上的「藍—信任 74%、能力 68%」「208 個品牌」查不到出處，不可用）",
+     "sources": [
+      "https://www.deepmarketing.it/en/blog/color-science-marketing-evidence-2026",
+      "https://theparlor.be/insights/the-psychology-of-color-in-marketing-and-branding"
+     ],
+     "grade": "只讀到摘要或轉述",
+     "enough": "佐證不足"
+    }
+   ],
+   "not_found": "研究 1 的完整色相—品牌個性對照、各研究樣本數與效果量、飽和度與明度各放大哪個面向、正式卷期頁碼，都查不到。"
+  }
+ ],
+ "meta": {
+  "searches_used": 16,
+  "full_text_read": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "note": "1–4 篇讀原文（協調者提供的 PDF），5–7 篇只用 WebSearch。詳細與原句見 notes.md。"
+ }
+}

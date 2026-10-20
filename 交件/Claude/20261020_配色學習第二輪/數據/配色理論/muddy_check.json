@@ -1,0 +1,170 @@
+{
+ "songchun": {
+  "深青": {
+   "zone": null,
+   "okh": 209.8,
+   "okC": 0.055
+  },
+  "靛藍": {
+   "zone": null,
+   "okh": 272.1,
+   "okC": 0.072
+  },
+  "工程黃": {
+   "zone": null,
+   "okh": 68.9,
+   "okC": 0.15
+  }
+ },
+ "peer_hits": [
+  {
+   "peer": "Veolia",
+   "hex": "#E52028",
+   "zone": "brown-olive",
+   "okh": 26.4,
+   "okC": 0.226
+  },
+  {
+   "peer": "SUEZ",
+   "hex": "#A2C617",
+   "zone": "sick-green",
+   "okh": 122.1,
+   "okC": 0.183
+  },
+  {
+   "peer": "REMONDIS",
+   "hex": "#ED1B29",
+   "zone": "brown-olive",
+   "okh": 26.0,
+   "okC": 0.235
+  },
+  {
+   "peer": "Biffa",
+   "hex": "#E42313",
+   "zone": "brown-olive",
+   "okh": 29.9,
+   "okC": 0.225
+  },
+  {
+   "peer": "Tideway",
+   "hex": "#7CE0D3",
+   "zone": "corpse-cyan",
+   "okh": 184.7,
+   "okC": 0.096
+  },
+  {
+   "peer": "Tideway",
+   "hex": "#52BBB3",
+   "zone": "corpse-cyan",
+   "okh": 188.4,
+   "okC": 0.098
+  },
+  {
+   "peer": "PUB",
+   "hex": "#009B8F",
+   "zone": "corpse-cyan",
+   "okh": 185.2,
+   "okC": 0.109
+  },
+  {
+   "peer": "DC Water",
+   "hex": "#6BB345",
+   "zone": "sick-green",
+   "okh": 136.3,
+   "okC": 0.162
+  },
+  {
+   "peer": "Watercare",
+   "hex": "#5CA246",
+   "zone": "sick-green",
+   "okh": 138.8,
+   "okC": 0.145
+  },
+  {
+   "peer": "Dyno-Rod",
+   "hex": "#F15A2F",
+   "zone": "brown-olive",
+   "okh": 36.2,
+   "okC": 0.194
+  },
+  {
+   "peer": "Roto-Rooter",
+   "hex": "#DA291C",
+   "zone": "brown-olive",
+   "okh": 29.6,
+   "okC": 0.213
+  },
+  {
+   "peer": "Kanal-Türpe",
+   "hex": "#FA8D02",
+   "zone": "brown-olive",
+   "okh": 60.0,
+   "okC": 0.174
+  },
+  {
+   "peer": "Lobbe",
+   "hex": "#E30613",
+   "zone": "brown-olive",
+   "okh": 28.0,
+   "okC": 0.234
+  },
+  {
+   "peer": "Clancy",
+   "hex": "#97D700",
+   "zone": "sick-green",
+   "okh": 128.1,
+   "okC": 0.211
+  },
+  {
+   "peer": "J. Murphy & Sons",
+   "hex": "#95C120",
+   "zone": "sick-green",
+   "okh": 124.9,
+   "okC": 0.18
+  },
+  {
+   "peer": "Kier",
+   "hex": "#DA242A",
+   "zone": "brown-olive",
+   "okh": 26.2,
+   "okC": 0.214
+  },
+  {
+   "peer": "日本ヒューム",
+   "hex": "#39B9A6",
+   "zone": "corpse-cyan",
+   "okh": 180.9,
+   "okC": 0.113
+  },
+  {
+   "peer": "iPEK",
+   "hex": "#DF322A",
+   "zone": "brown-olive",
+   "okh": 28.3,
+   "okC": 0.21
+  },
+  {
+   "peer": "Mini-Cam",
+   "hex": "#EC672C",
+   "zone": "brown-olive",
+   "okh": 41.9,
+   "okC": 0.179
+  },
+  {
+   "peer": "Envirosight",
+   "hex": "#68B745",
+   "zone": "sick-green",
+   "okh": 137.4,
+   "okC": 0.169
+  },
+  {
+   "peer": "RedZone Robotics",
+   "hex": "#E62027",
+   "zone": "brown-olive",
+   "okh": 26.7,
+   "okC": 0.227
+  }
+ ],
+ "n_peer_chromatic": 66,
+ "zone_share_of_hue_circle": 0.278
+}

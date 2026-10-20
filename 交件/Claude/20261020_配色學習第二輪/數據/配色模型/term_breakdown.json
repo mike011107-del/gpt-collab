@@ -1,0 +1,29 @@
+{
+ "peer_actual": {
+  "n": 30,
+  "term_lightness": 20.66,
+  "term_hue": -25.2,
+  "term_coolness": 52.15,
+  "dH_illC": 97.34,
+  "dL_illC": 27.5,
+  "median_coolness_sum": 26.21
+ },
+ "peer_shuffled": {
+  "n": 2115,
+  "term_lightness": 11.27,
+  "term_hue": -26.81,
+  "term_coolness": 42.54,
+  "dH_illC": 103.54,
+  "dL_illC": 15.0,
+  "median_coolness_sum": 22.11
+ },
+ "random_sRGB": {
+  "n": 4981,
+  "term_lightness": 15.03,
+  "term_hue": -29.01,
+  "term_coolness": 26.48,
+  "dH_illC": 112.03,
+  "dL_illC": 20.0,
+  "median_coolness_sum": 15.28
+ }
+}

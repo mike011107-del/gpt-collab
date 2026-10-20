@@ -1,0 +1,200 @@
+[
+ {
+  "company": "華通",
+  "part": "槽體綠",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p05_017.png",
+  "box": [
+   720,
+   60,
+   900,
+   160
+  ],
+  "median": "#96C073",
+  "mode": "#98C268",
+  "chrom_share": 0.788,
+  "oklch_mode": [
+   0.763,
+   0.127,
+   129.505
+  ],
+  "dE_mode_to_logo": {
+   "#2D661F": 33.5,
+   "#005959": 46.3
+  },
+  "dE_mode_to_D68702": 34.6,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ },
+ {
+  "company": "宏隆",
+  "part": "槽體黃",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/12_宏隆環保_車輛.jpg",
+  "box": [
+   60,
+   100,
+   200,
+   220
+  ],
+  "median": "#A06522",
+  "mode": "#C58829",
+  "chrom_share": 0.866,
+  "oklch_mode": [
+   0.672,
+   0.129,
+   73.32
+  ],
+  "dE_mode_to_logo": {
+   "#186504": 41.9,
+   "#F55802": 20.3
+  },
+  "dE_mode_to_D68702": 4.3,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ },
+ {
+  "company": "一元",
+  "part": "車身黃",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/14_一元環保_車輛.jpg",
+  "box": [
+   60,
+   300,
+   380,
+   370
+  ],
+  "median": "#CAA678",
+  "mode": "#CFAB7A",
+  "chrom_share": 0.804,
+  "oklch_mode": [
+   0.762,
+   0.077,
+   74.762
+  ],
+  "dE_mode_to_logo": {
+   "#255092": 55.0
+  },
+  "dE_mode_to_D68702": 14.8,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ },
+ {
+  "company": "康立",
+  "part": "車側布條藍",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/13_康立衛生清潔工程_車輛.jpg",
+  "box": [
+   120,
+   60,
+   500,
+   140
+  ],
+  "median": "#95A3C2",
+  "mode": "#78AFDB",
+  "chrom_share": 0.508,
+  "oklch_mode": [
+   0.732,
+   0.086,
+   243.456
+  ],
+  "dE_mode_to_logo": {
+   "#566A1F": 51.0
+  },
+  "dE_mode_to_D68702": 45.6,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ },
+ {
+  "company": "大亞",
+  "part": "車頭藍",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/05_大亞環保_車輛.jpg",
+  "box": [
+   600,
+   420,
+   760,
+   560
+  ],
+  "median": "#2F4D7A",
+  "mode": "#2D5087",
+  "chrom_share": 0.556,
+  "oklch_mode": [
+   0.433,
+   0.1,
+   259.107
+  ],
+  "dE_mode_to_logo": {
+   "#243952": 10.2,
+   "#AD3922": 40.8
+  },
+  "dE_mode_to_D68702": 55.6,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ },
+ {
+  "company": "派浦崴洱",
+  "part": "槽體橘黃",
+  "file": "/tmp/claude-0/r2/tw/pdfimg/p06_020.png",
+  "box": [
+   760,
+   40,
+   860,
+   120
+  ],
+  "median": "#8E5C2A",
+  "mode": "#A76C32",
+  "chrom_share": 0.893,
+  "oklch_mode": [
+   0.583,
+   0.105,
+   62.53
+  ],
+  "dE_mode_to_logo": {},
+  "dE_mode_to_D68702": 13.9,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ },
+ {
+  "company": "日技",
+  "part": "槽車黃",
+  "file": "/mnt/user-data/uploads/崧淳環保科技股份有限公司/崧淳同業logo/11_日技管清工程_車輛.jpg",
+  "box": [
+   110,
+   150,
+   170,
+   175
+  ],
+  "median": "#C08A48",
+  "mode": "#C38843",
+  "chrom_share": 0.953,
+  "oklch_mode": [
+   0.672,
+   0.112,
+   68.052
+  ],
+  "dE_mode_to_logo": {
+   "#0070C0": 49.1,
+   "#EC1D24": 28.0
+  },
+  "dE_mode_to_D68702": 6.7,
+  "D68702_oklch": [
+   0.69,
+   0.15,
+   68.913
+  ]
+ }
+]
