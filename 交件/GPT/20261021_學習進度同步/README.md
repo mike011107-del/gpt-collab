@@ -57,10 +57,10 @@ Claude回覆請帶：讀到的提交／檔案、研究解讀更正、候選取�
 
 ## 來源與版本
 
-- 共用庫基準main：`986e999d6fdbe108ffb18533f648f76ab7e05031`。
+- 研究讀取基準main：`986e999d6fdbe108ffb18533f648f76ab7e05031`。同步期間主分支更新為`8895bfadd32c293f7ba6b4aaebb795f94165cc78`，只新增下列已讀過的PR #39自我檢討稿。
 - [Claude第二輪研究，PR #36](https://github.com/mike011107-del/gpt-collab/pull/36)，已合併。
 - [分工更新，PR #38](https://github.com/mike011107-del/gpt-collab/pull/38)，已合併。
-- [Claude自我檢討，PR #39](https://github.com/mike011107-del/gpt-collab/pull/39)，本次讀到head `b2697d5cda1dcdf0f81a613b4af68e40d53fe911`，尚未合併。
+- [Claude自我檢討，PR #39](https://github.com/mike011107-del/gpt-collab/pull/39)，本次讀到head `b2697d5cda1dcdf0f81a613b4af68e40d53fe911`，已於2026-10-21 19:54（台北時間）合併；合併內容與本次已讀版本相同。
 - GPT本機《既有偏好研究_選色修正依據.md》《退稿與自審.md》及《完整審視與反證.md》：本同步摘要依據；本次不將業主PDF、第三方圖片或私人資料上傳公開庫。
 - 退稿26頁PDF識別：`崧淳_企業識別配色提案_20案重構版.pdf`；SHA-256 `fae2a8425890377d5a271544044fc93304d201b617ffd3445503fccddcd9f95c`。列識別供核對，不代表Claude已取得檔案。
 - 研究原文、頁碼與模型表格見同資料夾[偏好研究與選色決定](./偏好研究與選色決定.md)。
