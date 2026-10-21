@@ -1,0 +1,15 @@
+{
+  "source": "原HTML片段/songchun-professional-colours.html",
+  "sha256": "1f4da97544d985c20a47b2aee0c73382dd6889a8ecb6658e630b1e4120fc0354",
+  "excerpt": [
+    {
+      "line": 3,
+      "text": "#sc-colours .cp-sheet{--cp-main:#1E324F;--cp-yellow:#F3B51B;--cp-paper:#F5F6F7;background:var(--cp-paper);color:var(--cp-main);font-family:'Noto Sans TC','Microsoft JhengHei',sans-serif;margin-top:16px;max-width:100%;overflow-wrap:anywhere}"
+    },
+    {
+      "line": 35,
+      "text": "  <div class=\"cp-legend text-small\"><span class=\"cp-legend-item\"><i class=\"cp-swatch\" id=\"cp-main-swatch\" aria-hidden=\"true\"></i><span id=\"cp-main-code\">主色 #1E324F</span></span><span class=\"cp-legend-item\"><i class=\"cp-swatch\" style=\"background:#F3B51B\" aria-hidden=\"true\"></i><span>工程黃 #F3B51B</span></span><span class=\"cp-legend-item\"><i class=\"cp-swatch\" style=\"background:#F5F6F7\" aria-hidden=\"true\"></i><span>閱讀底 #F5F6F7</span></span></div>"
+    }
+  ],
+  "identity": "GPT既有試排#F3B51B，不是照片取色#D68702，與單色字距研究分開。"
+}

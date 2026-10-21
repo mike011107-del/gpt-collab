@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;display=swap">
+<style>
+#sc-fullname-practice .sc-stage{position:relative;width:100%;overflow:hidden}
+#sc-fullname-practice .sc-paper{--sc-ink:#23292b;--sc-soft:#60696c;background:#fff;color:var(--sc-ink);padding:32px;min-height:410px;box-sizing:border-box;font-family:'Noto Sans TC','Microsoft JhengHei',sans-serif;width:736px;overflow-wrap:anywhere;transform:scale(var(--sc-proof-scale,1));transform-origin:left top}
+#sc-fullname-practice .sc-paper *{box-sizing:border-box}
+#sc-fullname-practice .sc-meta{display:flex;justify-content:space-between;gap:15px;color:var(--sc-soft);font-size:12px;letter-spacing:.06em;padding-bottom:21px}
+#sc-fullname-practice .sc-name{font-size:80.96px;line-height:1.1;font-weight:700;letter-spacing:.055em;margin:5px 0 24px}
+#sc-fullname-practice .sc-full{font-size:var(--sc-full-size);line-height:27.2px;height:27.2px;font-weight:500;letter-spacing:.425px}
+#sc-fullname-practice .sc-services{font-size:19px;line-height:1.65;margin-top:20px;padding-top:16px;border-top:2px solid var(--sc-ink)}
+#sc-fullname-practice .sc-note{font-size:11px;color:var(--sc-soft);line-height:1.5;margin-top:24px}
+#sc-fullname-practice .sc-sample{min-width:0}
+</style>
+<div id="sc-fullname-practice">
+  <div class="viz-controls">
+    <button type="button" class="btn" id="sc-fullname-scale" aria-pressed="false">等比縮小</button>
+    <span class="text-small" id="sc-fullname-scale-label" aria-live="polite">同一版面</span>
+  </div>
+  <div class="viz-carousel viz-dotted-background" aria-label="名稱先行：只比較公司全名字級" data-previous-label="前一稿" data-next-label="後一稿">
+    <section class="sc-sample" data-variant="明顯放大" aria-label="明顯放大" data-size="24">
+      <div class="sc-stage"><div class="sc-paper" style="--sc-full-size:24px" aria-label="明顯放大公司全名的試排">
+        <div class="sc-meta"><span>崧淳｜白底單色試排</span><span>名稱先行</span></div>
+        <div class="sc-name"><span class="sc-name-text">崧淳</span></div>
+        <div class="sc-full"><span class="sc-full-text">崧淳環保科技股份有限公司</span></div>
+        <div class="sc-services">污水下水道清淤<br>管內CCTV檢視</div>
+        <div class="sc-note">文字與版面研究・配色及正式Logo未定</div>
+      </div></div>
+    </section>
+    <section class="sc-sample" data-variant="原稿全名" aria-label="原稿全名" data-size="17" hidden>
+      <div class="sc-stage"><div class="sc-paper" style="--sc-full-size:17px" aria-label="原稿全名的名稱先行試排">
+        <div class="sc-meta"><span>崧淳｜白底單色試排</span><span>名稱先行</span></div>
+        <div class="sc-name"><span class="sc-name-text">崧淳</span></div>
+        <div class="sc-full"><span class="sc-full-text">崧淳環保科技股份有限公司</span></div>
+        <div class="sc-services">污水下水道清淤<br>管內CCTV檢視</div>
+        <div class="sc-note">文字與版面研究・配色及正式Logo未定</div>
+      </div></div>
+    </section>
+    <section class="sc-sample" data-variant="適度放大" aria-label="適度放大" data-size="20" hidden>
+      <div class="sc-stage"><div class="sc-paper" style="--sc-full-size:20px" aria-label="適度放大公司全名的試排">
+        <div class="sc-meta"><span>崧淳｜白底單色試排</span><span>名稱先行</span></div>
+        <div class="sc-name"><span class="sc-name-text">崧淳</span></div>
+        <div class="sc-full"><span class="sc-full-text">崧淳環保科技股份有限公司</span></div>
+        <div class="sc-services">污水下水道清淤<br>管內CCTV檢視</div>
+        <div class="sc-note">文字與版面研究・配色及正式Logo未定</div>
+      </div></div>
+    </section>
+  </div>
+</div>
+<script>
+(()=>{
+  const root=document.getElementById('sc-fullname-practice');
+  const button=document.getElementById('sc-fullname-scale');
+  const label=document.getElementById('sc-fullname-scale-label');
+  const state={small:false};
+  function render(){
+    const scale=Math.min(state.small?.5:1,root.clientWidth/736);
+    const visible=root.querySelector('.sc-sample:not([hidden]) .sc-paper');
+    const height=visible?visible.offsetHeight:410;
+    root.querySelectorAll('.sc-stage').forEach(stage=>stage.style.height=Math.ceil(height*scale)+'px');
+    root.style.setProperty('--sc-proof-scale',scale);
+    button.setAttribute('aria-pressed',String(state.small));
+    label.textContent='同一版面・'+Math.round(scale*100)+'%';
+  }
+  button.addEventListener('click',()=>{state.small=!state.small;render();});
+  new ResizeObserver(render).observe(root);
+  new MutationObserver(render).observe(root.querySelector('.viz-carousel'),{subtree:true,attributes:true,attributeFilter:['hidden']});
+  document.fonts.ready.then(render);
+  render();
+})();
+</script>

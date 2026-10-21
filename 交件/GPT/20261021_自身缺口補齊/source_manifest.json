@@ -1,0 +1,31 @@
+{
+  "repository": "connorgr/colorgorical",
+  "commit": "90649656a57ce9743b00390473adce51a821cadc",
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "9b8d1856d0f05af7577d060795ab9d036b5f8af4",
+      "size": 2592
+    },
+    {
+      "path": "src/model/c/scores/pairPreference.c",
+      "sha": "d8c6cae803ade82318143fbf9cbee200ab880a07",
+      "size": 4429
+    },
+    {
+      "path": "src/model/c/util/labList.c",
+      "sha": "b320d5eed70241f388ba5b030bf6ec1c9041a6f1",
+      "size": 137685
+    },
+    {
+      "path": "src/model/c/util/labToCoolness.c",
+      "sha": "a6cddb4168795e2eee84291294c5f758d41e5d15",
+      "size": 297360
+    },
+    {
+      "path": "src/model/util/convert.py",
+      "sha": "52695c1a71f68dc6314fb7b24f46018712a5cc3f",
+      "size": 5851
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "provenance": {
+    "source_repo": "mike011107-del/gpt-collab",
+    "commit": "986e999d6fdbe108ffb18533f648f76ab7e05031",
+    "path": "交件/Claude/20261020_配色學習第二輪/數據/配色模型/apply.json",
+    "original_sha256": "1740869b02c3828e4498045e6e260c665b56c8908c576040138be417cbcda180",
+    "extraction": "32 chromatic pairs only; original expected values and model path retained"
+  },
+  "targets_pair": {
+    "深青×工程黃": {
+      "a": "#0C424A",
+      "b": "#D68702",
+      "pp_code": 27.39,
+      "pp_wrapped": 27.39,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 40.0,
+        "dH_illC": 127.77,
+        "coolness": [
+          13.325214223602146,
+          3.6294615535812023
+        ],
+        "term_lightness": 30.06,
+        "term_hue": -33.08,
+        "term_coolness": 30.42
+      }
+    },
+    "靛藍×工程黃": {
+      "a": "#333D66",
+      "b": "#D68702",
+      "pp_code": -2.58,
+      "pp_wrapped": 14.23,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 40.0,
+        "dH_illC": 212.45,
+        "coolness": [
+          9.902307064766605,
+          3.6294615535812023
+        ],
+        "term_lightness": 30.06,
+        "term_hue": -55.02,
+        "term_coolness": 22.38
+      }
+    }
+  },
+  "peer_pairs": [
+    {
+      "a": "#A2C617",
+      "b": "#1A1D56",
+      "pp_code": 39.33,
+      "pp_wrapped": 40.0,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 60.0,
+        "dH_illC": 181.29,
+        "coolness": [
+          10.317844052717824,
+          11.223827094170897
+        ],
+        "term_lightness": 45.08,
+        "term_hue": -46.95,
+        "term_coolness": 41.19
+      },
+      "name": "SUEZ"
+    },
+    {
+      "a": "#00B398",
+      "b": "#7CE0D3",
+      "pp_code": 79.17,
+      "pp_wrapped": 79.17,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 20.0,
+        "dH_illC": 10.43,
+        "coolness": [
+          15.363106916346364,
+          17.094894651534087
+        ],
+        "term_lightness": 15.03,
+        "term_hue": -2.69,
+        "term_coolness": 66.83
+      },
+      "name": "Tideway"
+    },
+    {
+      "a": "#00B398",
+      "b": "#52BBB3",
+      "pp_code": 67.58,
+      "pp_wrapped": 67.58,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 5.0,
+        "dH_illC": 11.63,
+        "coolness": [
+          15.363106916346364,
+          17.094894651534087
+        ],
+        "term_lightness": 3.76,
+        "term_hue": -3.0,
+        "term_coolness": 66.83
+      },
+      "name": "Tideway"
+    },
+    {
+      "a": "#7CE0D3",
+      "b": "#52BBB3",
+      "pp_code": 81.87,
+      "pp_wrapped": 81.87,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 15.0,
+        "dH_illC": 1.2,
+        "coolness": [
+          17.094894651534087,
+          17.094894651534087
+        ],
+        "term_lightness": 11.27,
+        "term_hue": -0.3,
+        "term_coolness": 70.9
+      },
+      "name": "Tideway"
+    },
+    {
+      "a": "#006FBA",
+      "b": "#95CAE7",
+      "pp_code": 74.17,
+      "pp_wrapped": 74.17,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 35.0,
+        "dH_illC": 39.65,
+        "coolness": [
+          14.637139475285217,
+          14.116558249356636
+        ],
+        "term_lightness": 26.3,
+        "term_hue": -10.26,
+        "term_coolness": 58.13
+      },
+      "name": "Scottish Water"
+    },
+    {
+      "a": "#0C23C6",
+      "b": "#00B39A",
+      "pp_code": 21.88,
+      "pp_wrapped": 21.88,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 35.0,
+        "dH_illC": 127.52,
+        "coolness": [
+          0.0,
+          16.18022493416177
+        ],
+        "term_lightness": 26.3,
+        "term_hue": -33.02,
+        "term_coolness": 28.6
+      },
+      "name": "Uisce Éireann"
+    },
+    {
+      "a": "#0C23C6",
+      "b": "#7FDFAE",
+      "pp_code": 21.94,
+      "pp_wrapped": 21.94,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 50.0,
+        "dH_illC": 146.52,
+        "coolness": [
+          0.0,
+          13.5
+        ],
+        "term_lightness": 37.57,
+        "term_hue": -37.94,
+        "term_coolness": 22.31
+      },
+      "name": "Uisce Éireann"
+    },
+    {
+      "a": "#00B39A",
+      "b": "#7FDFAE",
+      "pp_code": 66.66,
+      "pp_wrapped": 66.66,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 15.0,
+        "dH_illC": 19.0,
+        "coolness": [
+          16.18022493416177,
+          13.5
+        ],
+        "term_lightness": 11.27,
+        "term_hue": -4.91,
+        "term_coolness": 60.31
+      },
+      "name": "Uisce Éireann"
+    },
+    {
+      "a": "#21409A",
+      "b": "#009B8F",
+      "pp_code": 47.94,
+      "pp_wrapped": 47.94,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 25.0,
+        "dH_illC": 113.65,
+        "coolness": [
+          11.874487363363746,
+          17.072209351150306
+        ],
+        "term_lightness": 18.78,
+        "term_hue": -29.43,
+        "term_coolness": 58.58
+      },
+      "name": "PUB"
+    },
+    {
+      "a": "#21409A",
+      "b": "#0172BB",
+      "pp_code": 56.42,
+      "pp_wrapped": 56.42,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 15.0,
+        "dH_illC": 29.82,
+        "coolness": [
+          11.874487363363746,
+          14.637139475285217
+        ],
+        "term_lightness": 11.27,
+        "term_hue": -7.72,
+        "term_coolness": 52.87
+      },
+      "name": "PUB"
+    },
+    {
+      "a": "#009B8F",
+      "b": "#0172BB",
+      "pp_code": 50.88,
+      "pp_wrapped": 50.88,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 10.0,
+        "dH_illC": 83.83,
+        "coolness": [
+          17.072209351150306,
+          14.637139475285217
+        ],
+        "term_lightness": 7.51,
+        "term_hue": -21.7,
+        "term_coolness": 65.07
+      },
+      "name": "PUB"
+    },
+    {
+      "a": "#6BB345",
+      "b": "#0681C5",
+      "pp_code": 30.47,
+      "pp_wrapped": 30.47,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 15.0,
+        "dH_illC": 129.51,
+        "coolness": [
+          11.177339660677589,
+          15.27800754437621
+        ],
+        "term_lightness": 11.27,
+        "term_hue": -33.54,
+        "term_coolness": 52.73
+      },
+      "name": "DC Water"
+    },
+    {
+      "a": "#00259C",
+      "b": "#29ADCE",
+      "pp_code": 65.4,
+      "pp_wrapped": 65.4,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 40.0,
+        "dH_illC": 85.71,
+        "coolness": [
+          11.390922129491397,
+          17.107928342463133
+        ],
+        "term_lightness": 30.06,
+        "term_hue": -22.19,
+        "term_coolness": 57.53
+      },
+      "name": "Sydney Water"
+    },
+    {
+      "a": "#001131",
+      "b": "#E61C38",
+      "pp_code": -2.2,
+      "pp_wrapped": 32.92,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 45.0,
+        "dH_illC": 247.81,
+        "coolness": [
+          11.546887608304573,
+          4.443957766116665
+        ],
+        "term_lightness": 33.81,
+        "term_hue": -64.17,
+        "term_coolness": 28.16
+      },
+      "name": "Watercare"
+    },
+    {
+      "a": "#001131",
+      "b": "#5CA246",
+      "pp_code": 48.77,
+      "pp_wrapped": 48.77,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 55.0,
+        "dH_illC": 144.8,
+        "coolness": [
+          11.546887608304573,
+          11.59161636933765
+        ],
+        "term_lightness": 41.33,
+        "term_hue": -37.5,
+        "term_coolness": 44.94
+      },
+      "name": "Watercare"
+    },
+    {
+      "a": "#001131",
+      "b": "#007BC4",
+      "pp_code": 82.21,
+      "pp_wrapped": 82.21,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 45.0,
+        "dH_illC": 14.31,
+        "coolness": [
+          11.546887608304573,
+          14.637139475285217
+        ],
+        "term_lightness": 33.81,
+        "term_hue": -3.7,
+        "term_coolness": 52.1
+      },
+      "name": "Watercare"
+    },
+    {
+      "a": "#E61C38",
+      "b": "#5CA246",
+      "pp_code": 9.11,
+      "pp_wrapped": 9.11,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 10.0,
+        "dH_illC": 103.0,
+        "coolness": [
+          4.443957766116665,
+          11.59161636933765
+        ],
+        "term_lightness": 7.51,
+        "term_hue": -26.67,
+        "term_coolness": 28.26
+      },
+      "name": "Watercare"
+    },
+    {
+      "a": "#E61C38",
+      "b": "#007BC4",
+      "pp_code": -25.05,
+      "pp_wrapped": 2.66,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 0.0,
+        "dH_illC": 233.5,
+        "coolness": [
+          4.443957766116665,
+          14.637139475285217
+        ],
+        "term_lightness": 0.0,
+        "term_hue": -60.47,
+        "term_coolness": 35.42
+      },
+      "name": "Watercare"
+    },
+    {
+      "a": "#5CA246",
+      "b": "#007BC4",
+      "pp_code": 25.93,
+      "pp_wrapped": 25.93,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 10.0,
+        "dH_illC": 130.49,
+        "coolness": [
+          11.59161636933765,
+          14.637139475285217
+        ],
+        "term_lightness": 7.51,
+        "term_hue": -33.79,
+        "term_coolness": 52.2
+      },
+      "name": "Watercare"
+    },
+    {
+      "a": "#004697",
+      "b": "#6E9CD0",
+      "pp_code": 75.66,
+      "pp_wrapped": 75.66,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 35.0,
+        "dH_illC": 23.5,
+        "coolness": [
+          12.889365474744698,
+          14.717874078631967
+        ],
+        "term_lightness": 26.3,
+        "term_hue": -6.08,
+        "term_coolness": 55.44
+      },
+      "name": "メタウォーター"
+    },
+    {
+      "a": "#2E1D67",
+      "b": "#2EA836",
+      "pp_code": 28.52,
+      "pp_wrapped": 28.52,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 40.0,
+        "dH_illC": 169.08,
+        "coolness": [
+          10.72258507975608,
+          11.26992445567411
+        ],
+        "term_lightness": 30.06,
+        "term_hue": -43.78,
+        "term_coolness": 42.25
+      },
+      "name": "Metro Rod"
+    },
+    {
+      "a": "#2A1768",
+      "b": "#DA291C",
+      "pp_code": -14.37,
+      "pp_wrapped": 28.95,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 35.0,
+        "dH_illC": 263.63,
+        "coolness": [
+          11.098301082728257,
+          4.654555713536333
+        ],
+        "term_lightness": 26.3,
+        "term_hue": -68.27,
+        "term_coolness": 27.6
+      },
+      "name": "Roto-Rooter"
+    },
+    {
+      "a": "#D50032",
+      "b": "#97D700",
+      "pp_code": -0.08,
+      "pp_wrapped": -0.08,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 35.0,
+        "dH_illC": 91.67,
+        "coolness": [
+          2.8728592828993786,
+          0.0
+        ],
+        "term_lightness": 26.3,
+        "term_hue": -23.73,
+        "term_coolness": -2.65
+      },
+      "name": "Clancy"
+    },
+    {
+      "a": "#205C42",
+      "b": "#95C120",
+      "pp_code": 60.24,
+      "pp_wrapped": 60.24,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 40.0,
+        "dH_illC": 37.71,
+        "coolness": [
+          10.69132337061513,
+          10.317844052717824
+        ],
+        "term_lightness": 30.06,
+        "term_hue": -9.76,
+        "term_coolness": 39.94
+      },
+      "name": "J. Murphy & Sons"
+    },
+    {
+      "a": "#DA242A",
+      "b": "#007B86",
+      "pp_code": -3.8,
+      "pp_wrapped": -3.8,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 0.0,
+        "dH_illC": 166.02,
+        "coolness": [
+          3.083457230319046,
+          17.604554058060195
+        ],
+        "term_lightness": 0.0,
+        "term_hue": -42.99,
+        "term_coolness": 39.19
+      },
+      "name": "Kier"
+    },
+    {
+      "a": "#102E68",
+      "b": "#5096DC",
+      "pp_code": 76.58,
+      "pp_wrapped": 76.58,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 40.0,
+        "dH_illC": 27.73,
+        "coolness": [
+          12.11179072039226,
+          14.754967627330535
+        ],
+        "term_lightness": 30.06,
+        "term_hue": -7.17,
+        "term_coolness": 53.7
+      },
+      "name": "Insituform"
+    },
+    {
+      "a": "#054A97",
+      "b": "#DA3B49",
+      "pp_code": -23.56,
+      "pp_wrapped": 13.16,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 20.0,
+        "dH_illC": 250.89,
+        "coolness": [
+          13.235026083517326,
+          2.0
+        ],
+        "term_lightness": 15.03,
+        "term_hue": -64.97,
+        "term_coolness": 26.38
+      },
+      "name": "積水化學 SPR"
+    },
+    {
+      "a": "#535CA8",
+      "b": "#39B9A6",
+      "pp_code": 47.35,
+      "pp_wrapped": 47.35,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 30.0,
+        "dH_illC": 120.74,
+        "coolness": [
+          11.753233164375743,
+          16.121693359802165
+        ],
+        "term_lightness": 22.54,
+        "term_hue": -31.26,
+        "term_coolness": 56.07
+      },
+      "name": "日本ヒューム"
+    },
+    {
+      "a": "#EC672C",
+      "b": "#FAB500",
+      "pp_code": 12.34,
+      "pp_wrapped": 12.34,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 20.0,
+        "dH_illC": 31.62,
+        "coolness": [
+          2.0,
+          4.339258721464132
+        ],
+        "term_lightness": 15.03,
+        "term_hue": -8.18,
+        "term_coolness": 5.49
+      },
+      "name": "Mini-Cam"
+    },
+    {
+      "a": "#008CCF",
+      "b": "#005F9F",
+      "pp_code": 70.5,
+      "pp_wrapped": 70.5,
+      "pp_parts": {
+        "path": "chromatic",
+        "dL_illC": 15.0,
+        "dH_illC": 7.41,
+        "coolness": [
+          15.27800754437621,
+          14.754967627330535
+        ],
+        "term_lightness": 11.27,
+        "term_hue": -1.91,
+        "term_coolness": 61.14
+      },
+      "name": "CUES"
+    }
+  ]
+}

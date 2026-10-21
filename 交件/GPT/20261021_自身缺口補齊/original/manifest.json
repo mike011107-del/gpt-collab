@@ -1,0 +1,210 @@
+{
+  "source": "GPT original local studies, 2026-10-16; packaged 2026-10-21",
+  "screenshots": 16,
+  "html_fragments": 4,
+  "files": [
+    {
+      "path": "original/spacing/loose-full.jpg",
+      "bytes": 23858,
+      "sha256": "13a70c111ce17cbcdfd85d041fdb7f192025282f092cba2c9c1eeb3bd3bfecfd",
+      "git_blob_sha": "3d6434dff36c1c3a333885a305097f9ffec94feb",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\loose-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/loose-half.jpg",
+      "bytes": 19760,
+      "sha256": "1fb44ca47e0e3fbec8f2288be35b3bf9f302cc9bbb9dd54cf9a5b40dcb69aadb",
+      "git_blob_sha": "0244b98ba1d62b5d9b874774622d2a9ec538cfcc",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\loose-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/original-full.jpg",
+      "bytes": 23579,
+      "sha256": "1e8be88794dbb4adbedfa42f14fc4bcf3462a77c17407e5375f08830abd20bce",
+      "git_blob_sha": "369c0402a3fe0237586ca3893a9dc72fab67c312",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\original-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/original-half.jpg",
+      "bytes": 19334,
+      "sha256": "1fe8c96aaca35e5b7e27cc75d03e5dfc9b3ca33781899aafefc87a1ec62c976e",
+      "git_blob_sha": "6d90cfdb3b607c0682d4c80957cb17bd3ba01d12",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\original-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/refined-full.jpg",
+      "bytes": 23782,
+      "sha256": "bf5e21aedfa1fbb1a66fa1d94b5ab2baaaf1011998db1130335df77d84001f98",
+      "git_blob_sha": "626186c57acf7c7397b37d806af783ef1dcdf37f",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\refined-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/refined-half.jpg",
+      "bytes": 19750,
+      "sha256": "a0c052ff9421e2bf31f20c84177e9f45a5586307ca0cbd0c53b37ea3afac0f5b",
+      "git_blob_sha": "b32a357e98eccf4b72ca14a319c6dccd05b618e2",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\refined-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/tight-full.jpg",
+      "bytes": 23719,
+      "sha256": "98781b160c8a74857fdfe68f9ad92b4329ca6fcec98dd54a20fd8e8d85dd9218",
+      "git_blob_sha": "6bd20bbaf957198659887caa746a2b0e65b9484d",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\tight-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/spacing/tight-half.jpg",
+      "bytes": 19600,
+      "sha256": "995b4abb3c9c1fae8ec1cf581fea456e44a577a9c1abcaa94377bd29b7dc9acf",
+      "git_blob_sha": "00d43d2d1b014eea8928717636f381314e00e272",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字距8張\\tight-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/fullname/large-full.jpg",
+      "bytes": 26086,
+      "sha256": "f481dd242a21b697d86c6631f0c7d880b370da79ddbcd4a91446f1d4612493ca",
+      "git_blob_sha": "cc9b8204c1a08861fe5e084c64de0c5950461d5c",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\全名6張\\large-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/fullname/large-half.jpg",
+      "bytes": 20290,
+      "sha256": "c78ce17f3c1186ce6332428cedaf2729ba248e3c8128022548c979a80da25174",
+      "git_blob_sha": "5e363b64189eb3966f61dfc5d0b971d681018e33",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\全名6張\\large-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/fullname/medium-full.jpg",
+      "bytes": 25185,
+      "sha256": "2004c1bbb1ad9fa25a465be06d6aa6f95ef7b59dedc83a3bfab1b5745b16d716",
+      "git_blob_sha": "df6835ebb814fe2991c22d01ab78ea1318e01664",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\全名6張\\medium-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/fullname/medium-half.jpg",
+      "bytes": 19861,
+      "sha256": "e1edac332a7b15a7ca36d27da12aa3622f8789a0350e54af1cafa3a346d52f19",
+      "git_blob_sha": "c0a67ee8cc4d56d6978c5c3fb29d4884d7dc8f9e",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\全名6張\\medium-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/fullname/original-full.jpg",
+      "bytes": 23731,
+      "sha256": "ef023de0183c57837e4024966ff79435ac555ca82dc973d5062a80245765a989",
+      "git_blob_sha": "06efdcf23954f00f61c338f291cbddc3f88ba624",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\全名6張\\original-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/fullname/original-half.jpg",
+      "bytes": 19595,
+      "sha256": "9128cfd99e00f45915b84ea01f758f91e5ae113a4f7cfa6ab40e8b18e4285eb5",
+      "git_blob_sha": "97cf380610be15fe7a7e6b461b2946b4e0d6f5e4",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\全名6張\\original-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/final/final-recommended-full.jpg",
+      "bytes": 26007,
+      "sha256": "f89fc60c2a1032355961fd278ce3138e1e96295a92dffc95d562ca9169961def",
+      "git_blob_sha": "fb78e8c2c599389a7246b701b12cbc392d77dbd4",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\最終2張\\final-recommended-full.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/final/final-recommended-half.jpg",
+      "bytes": 20271,
+      "sha256": "a3e66e1cd006450c58d387da3363d5fef2c769cd279592cecc966e3a6a6d3f28",
+      "git_blob_sha": "c2c043c4b0bf7818a42af1859abf5659eaf7d360",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\最終2張\\final-recommended-half.jpg",
+      "transfer": "original screenshot",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/html/songchun-fullname-size-practice.html",
+      "bytes": 4942,
+      "sha256": "3c931fc1cd4cee38097285f9db25dcc46dbb6f40ccb20cfc2d0ad990959aa0b9",
+      "git_blob_sha": "a3b71ad9fec908ce53db2be1666378446bb6ebdf",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\原HTML片段\\songchun-fullname-size-practice.html",
+      "transfer": "original HTML fragment; host/font bytes not recovered",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/html/songchun-identity-reading-studies.html",
+      "bytes": 5829,
+      "sha256": "0bd4572d30d24f030c17790737ac767b6e4531ac4288310cf5cab0a1cc112254",
+      "git_blob_sha": "7c63e50060461442286b7efd6069c2dce4f7ac9a",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\原HTML片段\\songchun-identity-reading-studies.html",
+      "transfer": "original HTML fragment; host/font bytes not recovered",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/html/songchun-professional-colours.html",
+      "bytes": 6026,
+      "sha256": "1f4da97544d985c20a47b2aee0c73382dd6889a8ecb6658e630b1e4120fc0354",
+      "git_blob_sha": "d9d1e475158d28a5fdd5b9e2472630197b3a4035",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\原HTML片段\\songchun-professional-colours.html",
+      "transfer": "original HTML fragment; host/font bytes not recovered",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/html/songchun-spacing-practice.html",
+      "bytes": 5595,
+      "sha256": "e867c756c374ca28927105e687c3eadbbd89cf928bb05e8e0a7f452e87bf8924",
+      "git_blob_sha": "2bf2d6b7933fe85185419ee008faedbc27de78ae",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\原HTML片段\\songchun-spacing-practice.html",
+      "transfer": "original HTML fragment; host/font bytes not recovered",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/font-and-host.json",
+      "bytes": 982,
+      "sha256": "38741fb1f66f1aab46ec9683144e2caa348e1970595cefb52cf49c23c747632b",
+      "git_blob_sha": "b1e7d5541a75d29ce2c70b796383fec808067359",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\字型與宿主依賴.json",
+      "transfer": "original metadata",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "original/yellow-source.json",
+      "bytes": 1106,
+      "sha256": "ad324de4f1205aded2015d2a36918048c2b156becea25fac15025f85ed416257",
+      "git_blob_sha": "b7edd85031909176e7eb20fddf7b35cd6b78ddc8",
+      "source_relative_to_project_delivery": "20261021_全專案資源統整與優化\\協作核對包_本機\\黃色來源摘錄.json",
+      "transfer": "original metadata",
+      "original_bytes_preserved": true
+    }
+  ],
+  "not_reproduced": [
+    "exact original font bytes",
+    "complete original host stylesheet/runtime"
+  ],
+  "adoption": "historical typography studies, not current colour or logo approval"
+}
