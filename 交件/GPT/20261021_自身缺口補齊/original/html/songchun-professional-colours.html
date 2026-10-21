@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;display=swap">
+<style>
+#sc-colours .cp-sheet{--cp-main:#1E324F;--cp-yellow:#F3B51B;--cp-paper:#F5F6F7;background:var(--cp-paper);color:var(--cp-main);font-family:'Noto Sans TC','Microsoft JhengHei',sans-serif;margin-top:16px;max-width:100%;overflow-wrap:anywhere}
+#sc-colours .cp-sheet *{box-sizing:border-box}
+#sc-colours .cp-hero{display:grid;grid-template-columns:44% 56%;min-height:270px}
+#sc-colours .cp-name-block{background:var(--cp-main);color:var(--cp-paper);padding:30px;display:flex;flex-direction:column;justify-content:center}
+#sc-colours .cp-mark{width:38px;height:6px;background:var(--cp-yellow);margin-bottom:18px}
+#sc-colours .cp-name{font-size:clamp(49px,9vw,75px);line-height:1.15;font-weight:700;letter-spacing:.065em;margin:0 0 21px}
+#sc-colours .cp-full{font-size:15px;line-height:1.7;letter-spacing:.025em;font-weight:400}
+#sc-colours .cp-service-block{padding:29px 33px;display:flex;flex-direction:column;justify-content:center;gap:24px}
+#sc-colours .cp-service{font-size:24px;font-weight:500;line-height:1.5;letter-spacing:.035em}
+#sc-colours .cp-sub{font-size:13px;font-weight:400;line-height:1.6;margin-top:6px}
+#sc-colours .cp-vehicle{background:var(--cp-yellow);color:var(--cp-main);padding:17px 30px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+#sc-colours .cp-vehicle strong{font-size:24px;font-weight:700;letter-spacing:.055em}
+#sc-colours .cp-vehicle span{font-size:14px;line-height:1.65}
+#sc-colours .cp-report{padding:24px 30px 26px}
+#sc-colours .cp-report-heading{display:flex;justify-content:space-between;gap:15px;font-size:13px;line-height:1.65;margin-bottom:16px;flex-wrap:wrap}
+#sc-colours .cp-report-title{font-size:21px;font-weight:500;line-height:1.5;border-top:1px solid var(--cp-main);padding-top:15px}
+#sc-colours .cp-caption{font-size:11px;line-height:1.6;margin-top:14px}
+#sc-colours .cp-legend{display:flex;gap:22px;flex-wrap:wrap;margin:12px 0 10px;color:var(--foreground)}
+#sc-colours .cp-legend-item{display:flex;gap:7px;align-items:center}
+#sc-colours .cp-swatch{display:inline-block;width:18px;height:18px}
+@media(max-width:520px){#sc-colours .cp-hero{grid-template-columns:1fr;min-height:0}#sc-colours .cp-name-block{padding:24px}#sc-colours .cp-name{font-size:54px;margin-bottom:13px}#sc-colours .cp-full br{display:none}#sc-colours .cp-service-block{padding:24px;gap:19px}#sc-colours .cp-service{font-size:22px}#sc-colours .cp-vehicle{padding:16px 24px}#sc-colours .cp-report{padding:23px 24px}#sc-colours .cp-report-title{font-size:20px}#sc-colours .cp-legend{gap:12px}}
+</style>
+<div id="sc-colours">
+  <div class="viz-controls"><label class="form-label" for="cp-palette">配色比較<select class="form-select" id="cp-palette"><option value="A">深海軍藍</option><option value="B">冷鋼藍</option><option value="C">深石油青</option></select></label></div>
+  <div class="cp-sheet" id="cp-sheet" aria-label="崧淳名稱、工程黃底與工務文件的配色試排">
+    <div class="cp-hero">
+      <div class="cp-name-block"><div class="cp-mark" aria-hidden="true"></div><div class="cp-name">崧淳</div><div class="cp-full">崧淳環保科技<br>股份有限公司</div></div>
+      <div class="cp-service-block"><div><div class="cp-service">污水下水道清淤</div><div class="cp-sub">公共污水管網</div></div><div><div class="cp-service">管內CCTV檢視</div><div class="cp-sub">管內攝影檢視</div></div></div>
+    </div>
+    <div class="cp-vehicle"><strong>崧淳</strong><span>清淤・CCTV檢視<br>工程黃底資訊面試排</span></div>
+    <div class="cp-report"><div class="cp-report-heading"><span>崧淳環保科技股份有限公司</span><span>工務文件・白底閱讀</span></div><div class="cp-report-title">污水管網清淤與管內CCTV檢視</div><div class="cp-caption">配色與文字應用研究・正式Logo及標準色未定</div></div>
+  </div>
+  <div class="cp-legend text-small"><span class="cp-legend-item"><i class="cp-swatch" id="cp-main-swatch" aria-hidden="true"></i><span id="cp-main-code">主色 #1E324F</span></span><span class="cp-legend-item"><i class="cp-swatch" style="background:#F3B51B" aria-hidden="true"></i><span>工程黃 #F3B51B</span></span><span class="cp-legend-item"><i class="cp-swatch" style="background:#F5F6F7" aria-hidden="true"></i><span>閱讀底 #F5F6F7</span></span></div>
+  <div class="text-small text-muted" id="cp-origin" aria-live="polite">Vattenfall官方沉藍次色；本案改作主色提案。</div>
+</div>
+<script>
+(()=>{
+ const root=document.getElementById('sc-colours');
+ const sheet=root.querySelector('#cp-sheet');
+ const select=root.querySelector('#cp-palette');
+ const palettes={A:{name:'深海軍藍',main:'#1E324F',origin:'Vattenfall官方沉藍次色；本案改作主色提案。'},B:{name:'冷鋼藍',main:'#3D5063',origin:'NatPower鋼藍#5E7B9B調深；#3D5063為本案調整值。'},C:{name:'深石油青',main:'#033033',origin:'Dozer-Ép設計者色票明列；工程黃與閱讀底改用本案試排值。'}};
+ let choice='A';
+ function render(key){choice=palettes[key]?key:'A';const p=palettes[choice];select.value=choice;sheet.style.setProperty('--cp-main',p.main);sheet.dataset.palette=choice;root.querySelector('#cp-main-swatch').style.background=p.main;root.querySelector('#cp-main-code').textContent='主色 '+p.main;root.querySelector('#cp-origin').textContent=p.origin;}
+ function restore(s){const saved=s?.modelContent?.palette;render(palettes[saved]?saved:'A');}
+ restore(window.openai?.widgetState);
+ select.addEventListener('change',()=>{render(select.value);if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{palette:choice,paletteName:palettes[choice].name,main:palettes[choice].main},privateContent:null}).catch(()=>{});});
+ window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});
+})();
+</script>

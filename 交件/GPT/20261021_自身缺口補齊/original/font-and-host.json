@@ -1,0 +1,23 @@
+{
+  "font_urls": [
+    {
+      "file": "songchun-fullname-size-practice.html",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    },
+    {
+      "file": "songchun-identity-reading-studies.html",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;700&display=swap"
+    },
+    {
+      "file": "songchun-professional-colours.html",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    },
+    {
+      "file": "songchun-spacing-practice.html",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    }
+  ],
+  "exact_font_bytes_included": false,
+  "original_host_styles_included": false,
+  "note": "HTML為原片段，依賴當時宿主與線上字型。本機包保留當時原截圖供同圖回評；未宣稱可離線重建或像素重現。"
+}
