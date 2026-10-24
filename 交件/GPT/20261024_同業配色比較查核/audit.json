@@ -1,0 +1,856 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Taipei",
+  "base_commit": "4fc2c93edf186988e96b9006f561fa3899bf63e4",
+  "facts": {
+    "primary_records": 21,
+    "measured_versions": 31,
+    "color_statistics_records": 20,
+    "source_tiers": {
+      "官網logo檔": 14,
+      "官網banner字標": 2,
+      "智財局商標圖樣": 2,
+      "第三方頁": 3
+    },
+    "measured_versions_with_source_url": 0,
+    "primary_has_direct_service_verification_field": false,
+    "inventory_rows": 36
+  },
+  "primary_records": [
+    {
+      "company": "華通",
+      "version": "huatong_dredge",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾01＝補充PDF p9（像素相同）",
+      "recorded_main": "#2D661F",
+      "largest_recorded_component": "#2D661F",
+      "largest_recorded_share": 0.5884,
+      "listed_share_sum": 0.9999,
+      "n_chromatic": 2,
+      "gradient": false,
+      "alternate_versions": [
+        "huatong_wsh"
+      ],
+      "source_note": "「華通清淤」綠、「工程」黑、副標「下水道維護施工經驗豐富」紅褐。原圖不透明像素只有這三個純色，逐像素直接計數：綠 58.8%、紅褐 28.3%、黑 12.8%（舊版去邊後紅褐只剩 9.7%，是細字被刪）。另一站「嘉佳／華通衛生行」只用青 #005959（91.8%）加深灰副標 #363636（8.2%），也是純色直接計數。補充 PDF 註明華通清淤與指定主體對應待確認。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "邦盛",
+      "version": "bangsheng",
+      "source_tier": "官網banner字標",
+      "source_reference": "資料夾03 banner",
+      "recorded_main": null,
+      "largest_recorded_component": "#212121",
+      "largest_recorded_share": 0.9992,
+      "listed_share_sum": 0.9992,
+      "n_chromatic": 0,
+      "gradient": false,
+      "alternate_versions": [
+        "bangsheng_slogan"
+      ],
+      "source_note": "沒有獨立 logo 檔，公司名印在 banner 白卡上，只有黑字。同一張卡上有紅色標語「專人為您服務」#D7060B；若把標語算進去就變成「一個彩色」。上輪 17 筆主色用的紅 #D3151C 是這行標語。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "天福",
+      "version": "tianfu",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾04",
+      "recorded_main": "#2368AD",
+      "largest_recorded_component": "#2368AD",
+      "largest_recorded_share": 0.5475,
+      "listed_share_sum": 0.9913,
+      "n_chromatic": 4,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "四個彩色都是平塗分色帶，沒有漸層。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "大亞",
+      "version": "daya",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾05",
+      "recorded_main": "#243952",
+      "largest_recorded_component": "#060606",
+      "largest_recorded_share": 0.4465,
+      "listed_share_sum": 0.9889,
+      "n_chromatic": 2,
+      "gradient": true,
+      "alternate_versions": [
+        "daya_footer"
+      ],
+      "source_note": "槽體由深藍 #243952 漸到灰青 #83A9A7（去邊版明度跨度 0.13）。大片是黑 #060606（45%）。英文寫成 ENVIROINMENTAL（原圖如此）。頁首、頁尾兩版色相同、大小不同。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "久大",
+      "version": "jiuda_full",
+      "source_tier": "官網logo檔",
+      "source_reference": "補充PDF p12",
+      "recorded_main": "#2298D3",
+      "largest_recorded_component": "#2298D3",
+      "largest_recorded_share": 0.5651,
+      "listed_share_sum": 0.998,
+      "n_chromatic": 1,
+      "gradient": true,
+      "alternate_versions": [
+        "jiuda_word",
+        "jiuda_icon"
+      ],
+      "source_note": "藍色從上淺到下深的漸層（明度跨度 0.25），補充 PDF 也記了漸層兩個觀察值 #2159A0、#269BD5。站台圖示（資料夾 06）是同一圖形。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "源昌",
+      "version": "yuanchang",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾07",
+      "recorded_main": "#FF6600",
+      "largest_recorded_component": "#414951",
+      "largest_recorded_share": 0.8687,
+      "listed_share_sum": 0.9972,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "唯一彩色是橘圈，只占 5%；字和箭頭是深灰 #414951（87%）。箭頭四階灰是分段，不是連續漸層。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "森淨家",
+      "version": "senjingjia",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾08",
+      "recorded_main": "#89C5DF",
+      "largest_recorded_component": "#89C5DF",
+      "largest_recorded_share": 0.9964,
+      "listed_share_sum": 0.9964,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "淺藍色塊上反白字，副標「水管清洗職人」。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "逸居管必潔",
+      "version": "yiju",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾09",
+      "recorded_main": "#2D6EB1",
+      "largest_recorded_component": "#222222",
+      "largest_recorded_share": 0.5599,
+      "listed_share_sum": 1.0,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "公司名黑 #222222（明體），副標「專業管路清洗」藍（黑體）。原圖只有這兩個純色，逐像素直接計數：藍 44.0%、黑 56.0%（舊版去邊後藍只剩 20%）。字型第三次放大 4 倍重看（view3/yiju_x4.png），舊版寫細黑體是錯的。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "綠邑",
+      "version": "lvyi",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾10",
+      "recorded_main": null,
+      "largest_recorded_component": "#FFFFFF",
+      "largest_recorded_share": 1.0,
+      "listed_share_sum": 1.0,
+      "n_chromatic": 0,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "只取得白色反白版，放在網站深色頁首上用。上輪 17 筆主色裡的 #254529 是網站頁首色，不是 logo 色。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "日技",
+      "version": "riji",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾11",
+      "recorded_main": "#0070C0",
+      "largest_recorded_component": "#0070C0",
+      "largest_recorded_share": 0.9689,
+      "listed_share_sum": 0.9979,
+      "n_chromatic": 2,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "圓徽白帶帶一點淺藍（#BBD9EE 左右，彩度 0.04 剛過門檻），算主藍的淺色，不另計。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "宏隆",
+      "version": "honglong",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾12＝補充PDF p10（像素相同）",
+      "recorded_main": "#186504",
+      "largest_recorded_component": "#186504",
+      "largest_recorded_share": 0.5212,
+      "listed_share_sum": 0.9985,
+      "n_chromatic": 2,
+      "gradient": true,
+      "alternate_versions": [],
+      "source_note": "橘色底帶兩端向白色淡出（目視；量測明度跨度 0，因淡出部分像素少被當雜色）。綠橘各約一半。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "康立",
+      "version": "kangli",
+      "source_tier": "官網banner字標",
+      "source_reference": "資料夾13 banner",
+      "recorded_main": "#566A1F",
+      "largest_recorded_component": "#566A1F",
+      "largest_recorded_share": 0.9874,
+      "listed_share_sum": 0.9874,
+      "n_chromatic": 1,
+      "gradient": true,
+      "alternate_versions": [],
+      "source_note": "沒有獨立 logo 檔，取 banner 上的綠色底塊（白字）。底塊有深淺漸層（明度跨度 0.14）。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "一元",
+      "version": "yiyuan",
+      "source_tier": "官網logo檔",
+      "source_reference": "資料夾14",
+      "recorded_main": "#255092",
+      "largest_recorded_component": "#255092",
+      "largest_recorded_share": 0.97,
+      "listed_share_sum": 1.0,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "全藍單色。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "全基",
+      "version": "quanji",
+      "source_tier": "官網logo檔",
+      "source_reference": "補充PDF p2/p7",
+      "recorded_main": "#28932A",
+      "largest_recorded_component": "#28932A",
+      "largest_recorded_share": 0.9078,
+      "listed_share_sum": 0.9078,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [
+        "quanji_fav"
+      ],
+      "source_note": "#CCEFC8（7%）是 JPEG 圓點周圍的淡綠光暈，目視沒有獨立色塊，不計。官網小圖標同色同形。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "升野",
+      "version": "shengye",
+      "source_tier": "官網logo檔",
+      "source_reference": "補充PDF p8",
+      "recorded_main": "#FCCB26",
+      "largest_recorded_component": "#FCCB26",
+      "largest_recorded_share": 0.3772,
+      "listed_share_sum": 0.942,
+      "n_chromatic": 2,
+      "gradient": false,
+      "alternate_versions": [
+        "shengye_head"
+      ],
+      "source_note": "光束是很淡的米色 #F4F3D4（1.7%，彩度 0.041），算淺色不另計；管口圓環偏青 #00A1DE（補充 PDF 值），線細，量測併在藍裡。黑占 33%。內頁頁首版是金色漸層底加白字陰影，屬網頁裝飾。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "積德",
+      "version": "jide",
+      "source_tier": "智財局商標圖樣",
+      "source_reference": "補充PDF p8",
+      "recorded_main": "#1E572D",
+      "largest_recorded_component": "#1E572D",
+      "largest_recorded_share": 0.5136,
+      "listed_share_sum": 0.8635,
+      "n_chromatic": 2,
+      "gradient": true,
+      "alternate_versions": [],
+      "source_note": "智財局 2001 年彩色服務標章圖樣，不等於現行使用。綠、紅都有明顯漸層（明度跨度 0.53、0.31）。JPEG 掃描色差大。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "九升",
+      "version": "jiusheng",
+      "source_tier": "第三方頁",
+      "source_reference": "補充PDF p10",
+      "recorded_main": "#5D7BD7",
+      "largest_recorded_component": "#5D7BD7",
+      "largest_recorded_share": 0.9918,
+      "listed_share_sum": 0.9918,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [],
+      "source_note": "取自第三方合作廠商欄，現行版待核。色相 268°，是偏紫的藍。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "浩源",
+      "version": "haoyuan_blue",
+      "source_tier": "官網logo檔",
+      "source_reference": "補充PDF p11",
+      "recorded_main": "#0086BE",
+      "largest_recorded_component": "#0086BE",
+      "largest_recorded_share": 1.0,
+      "listed_share_sum": 1.0,
+      "n_chromatic": 1,
+      "gradient": false,
+      "alternate_versions": [
+        "haoyuan_white"
+      ],
+      "source_note": "兩個網站兩個版本：hao-yuan 藍色純字標、pipe-clean 白色反白版加圖形。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "派浦崴洱",
+      "version": "paipu",
+      "source_tier": "第三方頁",
+      "source_reference": "補充PDF p12",
+      "recorded_main": null,
+      "largest_recorded_component": "#221E1F",
+      "largest_recorded_share": 1.0,
+      "listed_share_sum": 1.0,
+      "n_chromatic": 0,
+      "gradient": false,
+      "alternate_versions": [
+        "paipu_s"
+      ],
+      "source_note": "只取得徵才平台上的低清黑白圖，不知道是否有彩色版。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "龍祥",
+      "version": "longxiang",
+      "source_tier": "第三方頁",
+      "source_reference": "補充PDF p15",
+      "recorded_main": "#22AB42",
+      "largest_recorded_component": "#22AB42",
+      "largest_recorded_share": 0.9771,
+      "listed_share_sum": 0.9771,
+      "n_chromatic": 1,
+      "gradient": true,
+      "alternate_versions": [],
+      "source_note": "第三方企業專頁橫幅，不是 logo 檔。綠色上淺下深漸層（明度跨度 0.33）。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    },
+    {
+      "company": "順捷",
+      "version": "shunjie",
+      "source_tier": "智財局商標圖樣",
+      "source_reference": "補充PDF p16",
+      "recorded_main": null,
+      "largest_recorded_component": "#000000",
+      "largest_recorded_share": 0.6843,
+      "listed_share_sum": 0.9999,
+      "n_chromatic": null,
+      "gradient": null,
+      "alternate_versions": [
+        "shunjie_man"
+      ],
+      "source_note": "兩件都是智財局墨色商標，墨色登記本來就不帶顏色，所以不計入配色統計。",
+      "direct_sewer_cctv_scope_verified_this_round": false,
+      "current_website_verified_this_round": false
+    }
+  ],
+  "versions": [
+    {
+      "vid": "huatong_dredge",
+      "company": "華通",
+      "version": "華通清淤工程 官網字標",
+      "source": "資料夾01＝補充PDF p9（像素相同）",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "逐像素直接計數（純色、無反鋸齒）"
+    },
+    {
+      "vid": "huatong_wsh",
+      "company": "華通",
+      "version": "嘉佳／華通衛生行 官網字標",
+      "source": "補充PDF p9",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "逐像素直接計數（純色、無反鋸齒）"
+    },
+    {
+      "vid": "bangsheng",
+      "company": "邦盛",
+      "version": "banner 白卡上的公司名字（不含電話、標語）",
+      "source": "資料夾03 banner",
+      "tier": "官網banner字標",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "bangsheng_slogan",
+      "company": "邦盛",
+      "version": "banner 白卡上的紅色標語「專人為您服務」",
+      "source": "資料夾03 banner",
+      "tier": "官網banner字標",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "tianfu",
+      "company": "天福",
+      "version": "官網 logo（圖形＋兩家公司名）",
+      "source": "資料夾04",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "daya",
+      "company": "大亞",
+      "version": "官網頁首 logo",
+      "source": "資料夾05",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "daya_footer",
+      "company": "大亞",
+      "version": "官網頁尾 logo",
+      "source": "資料夾05 頁尾版",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "jiuda_full",
+      "company": "久大",
+      "version": "官網 logo 圖文組合（菱形管件＋JIOUDA＋久大）",
+      "source": "補充PDF p12",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "jiuda_word",
+      "company": "久大",
+      "version": "官網品牌轉型頁字標（JIOUDA＋久大）",
+      "source": "補充PDF p12",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "jiuda_icon",
+      "company": "久大",
+      "version": "站台圖示（菱形管件＋水滴扳手）",
+      "source": "資料夾06",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "yuanchang",
+      "company": "源昌",
+      "version": "官網 logo",
+      "source": "資料夾07",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "senjingjia",
+      "company": "森淨家",
+      "version": "官網 logo",
+      "source": "資料夾08",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "yiju",
+      "company": "逸居管必潔",
+      "version": "官網字標",
+      "source": "資料夾09",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "逐像素直接計數（純色、無反鋸齒）"
+    },
+    {
+      "vid": "lvyi",
+      "company": "綠邑",
+      "version": "官網 logo（白色反白版）",
+      "source": "資料夾10",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "riji",
+      "company": "日技",
+      "version": "官網 logo（gif）",
+      "source": "資料夾11",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "honglong",
+      "company": "宏隆",
+      "version": "官網字標",
+      "source": "資料夾12＝補充PDF p10（像素相同）",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "kangli",
+      "company": "康立",
+      "version": "banner 綠色底塊上的白字＋葉片",
+      "source": "資料夾13 banner",
+      "tier": "官網banner字標",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "yiyuan",
+      "company": "一元",
+      "version": "官網 logo",
+      "source": "資料夾14",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "quanji",
+      "company": "全基",
+      "version": "2023 台灣國際水週展會圖形標誌",
+      "source": "補充PDF p2/p7",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "quanji_fav",
+      "company": "全基",
+      "version": "官網小圖標",
+      "source": "補充PDF p7",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "shengye",
+      "company": "升野",
+      "version": "官網入口品牌圖裡的 logo",
+      "source": "補充PDF p8",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "shengye_head",
+      "company": "升野",
+      "version": "官網內頁頁首（金色底、白字帶陰影）",
+      "source": "補充PDF p8",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "jide",
+      "company": "積德",
+      "version": "智財局 2001 彩色服務標章圖樣",
+      "source": "補充PDF p8",
+      "tier": "智財局商標圖樣",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "jiusheng",
+      "company": "九升",
+      "version": "合作廠商欄展示的圓形標誌",
+      "source": "補充PDF p10",
+      "tier": "第三方頁",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "haoyuan_blue",
+      "company": "浩源",
+      "version": "hao-yuan 形象官網字標（藍）",
+      "source": "補充PDF p11",
+      "tier": "官網logo檔",
+      "primary": true,
+      "method": "逐像素直接計數（純色、無反鋸齒）"
+    },
+    {
+      "vid": "haoyuan_white",
+      "company": "浩源",
+      "version": "pipe-clean 官網頁首（白色反白版）",
+      "source": "補充PDF p11",
+      "tier": "官網logo檔",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "paipu",
+      "company": "派浦崴洱",
+      "version": "徵才平台企業圖像（低清）",
+      "source": "補充PDF p12",
+      "tier": "第三方頁",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "paipu_s",
+      "company": "派浦崴洱",
+      "version": "徵才平台企業圖像（41×40）",
+      "source": "補充PDF p12",
+      "tier": "第三方頁",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "longxiang",
+      "company": "龍祥",
+      "version": "第三方企業專頁橫幅上的綠底白字公司名",
+      "source": "補充PDF p15",
+      "tier": "第三方頁",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "shunjie",
+      "company": "順捷",
+      "version": "智財局墨色商標 01987673",
+      "source": "補充PDF p16",
+      "tier": "智財局商標圖樣",
+      "primary": true,
+      "method": "去邊（measure.py）"
+    },
+    {
+      "vid": "shunjie_man",
+      "company": "順捷",
+      "version": "智財局墨色商標 02416441（施工人物）",
+      "source": "補充PDF p16",
+      "tier": "智財局商標圖樣",
+      "primary": false,
+      "method": "去邊（measure.py）"
+    }
+  ],
+  "pixel_checks": [
+    {
+      "company": "源昌",
+      "version": "yuanchang",
+      "image_path": "研究/同業圖片/logo與車輛_20261011/07_源昌工程環保科技.png",
+      "sha256": "ab465ff6acccb101d6b2bd27b6ceeff9990f8616bbcda3bad43fa65a0fe228e1",
+      "size": [
+        2481,
+        367
+      ],
+      "visible_nonwhite_pixel_count": 226668,
+      "alpha_valid_pixel_count": 283632,
+      "seeds": [
+        "#FF6600",
+        "#414951",
+        "#92A0A3",
+        "#CCCCCC"
+      ],
+      "source_shares": [
+        0.0452,
+        0.8687,
+        0.0553,
+        0.028
+      ],
+      "source_method": "去邊（measure.py）",
+      "unfiltered_nearest_seed_counts": [
+        10730,
+        195131,
+        13357,
+        7450
+      ],
+      "unfiltered_nearest_seed_shares": [
+        0.04733795683554803,
+        0.86086699490003,
+        0.05892759454356151,
+        0.032867453720860466
+      ],
+      "exact_seed_pixel_counts": {
+        "#FF6600": 9156,
+        "#414951": 178441,
+        "#92A0A3": 5891,
+        "#CCCCCC": 5912
+      },
+      "max_absolute_share_change": 0.00783300509996998,
+      "new_measurement_method": "alpha>=250; remove OKLab L>=0.93 and C<0.04; no erosion; nearest listed seed in Euclidean OKLab",
+      "limitation": "All retained pixels assigned to existing seeds; omitted colors cannot be discovered; denominator excludes white and transparency."
+    },
+    {
+      "company": "逸居管必潔",
+      "version": "yiju",
+      "image_path": "研究/同業圖片/logo與車輛_20261011/09_逸居管必潔.png",
+      "sha256": "985a699a87523093e2aae7a011142a41298c0ec60ec061a7eb67edfe6c5c4011",
+      "size": [
+        197,
+        55
+      ],
+      "visible_nonwhite_pixel_count": 768,
+      "alpha_valid_pixel_count": 768,
+      "seeds": [
+        "#2D6EB1",
+        "#222222"
+      ],
+      "source_shares": [
+        0.4401,
+        0.5599
+      ],
+      "source_method": "逐像素直接計數（純色、無反鋸齒）",
+      "unfiltered_nearest_seed_counts": [
+        338,
+        430
+      ],
+      "unfiltered_nearest_seed_shares": [
+        0.4401041666666667,
+        0.5598958333333334
+      ],
+      "exact_seed_pixel_counts": {
+        "#2D6EB1": 338,
+        "#222222": 430
+      },
+      "max_absolute_share_change": 4.166666666693963e-06,
+      "new_measurement_method": "alpha>=250; remove OKLab L>=0.93 and C<0.04; no erosion; nearest listed seed in Euclidean OKLab",
+      "limitation": "All retained pixels assigned to existing seeds; omitted colors cannot be discovered; denominator excludes white and transparency."
+    },
+    {
+      "company": "宏隆",
+      "version": "honglong",
+      "image_path": "研究/同業圖片/logo與車輛_20261011/12_宏隆環保.png",
+      "sha256": "9bb1597e3d8a79c5255fdd958e8a5fd98d7b2d848fdbef09eab96be4022629d1",
+      "size": [
+        400,
+        140
+      ],
+      "visible_nonwhite_pixel_count": 20524,
+      "alpha_valid_pixel_count": 22079,
+      "seeds": [
+        "#186504",
+        "#F55802"
+      ],
+      "source_shares": [
+        0.5212,
+        0.4773
+      ],
+      "source_method": "去邊（measure.py）",
+      "unfiltered_nearest_seed_counts": [
+        10197,
+        10327
+      ],
+      "unfiltered_nearest_seed_shares": [
+        0.4968329760280647,
+        0.5031670239719352
+      ],
+      "exact_seed_pixel_counts": {
+        "#186504": 10197,
+        "#F55802": 9294
+      },
+      "max_absolute_share_change": 0.025867023971935243,
+      "new_measurement_method": "alpha>=250; remove OKLab L>=0.93 and C<0.04; no erosion; nearest listed seed in Euclidean OKLab",
+      "limitation": "All retained pixels assigned to existing seeds; omitted colors cannot be discovered; denominator excludes white and transparency."
+    },
+    {
+      "company": "日技",
+      "version": "riji",
+      "image_path": "研究/同業圖片/logo與車輛_20261011/11_日技管清工程.gif",
+      "sha256": "4232b7ac8afbf5029c9725fa44f1db18e6c0e9a666a4ecd789eaec67dfbaa2c3",
+      "size": [
+        260,
+        37
+      ],
+      "visible_nonwhite_pixel_count": 4174,
+      "alpha_valid_pixel_count": 9620,
+      "seeds": [
+        "#0070C0",
+        "#EC1D24"
+      ],
+      "source_shares": [
+        0.9689,
+        0.029
+      ],
+      "source_method": "去邊（measure.py）",
+      "unfiltered_nearest_seed_counts": [
+        3997,
+        177
+      ],
+      "unfiltered_nearest_seed_shares": [
+        0.9575946334451365,
+        0.04240536655486344
+      ],
+      "exact_seed_pixel_counts": {
+        "#0070C0": 1650,
+        "#EC1D24": 11
+      },
+      "max_absolute_share_change": 0.013405366554863438,
+      "new_measurement_method": "alpha>=250; remove OKLab L>=0.93 and C<0.04; no erosion; nearest listed seed in Euclidean OKLab",
+      "limitation": "All retained pixels assigned to existing seeds; omitted colors cannot be discovered; denominator excludes white and transparency."
+    }
+  ],
+  "inputs": [
+    {
+      "path": "交件/Claude/20261020_配色學習第二輪/數據/台灣同業/tw_peers.json",
+      "sha256": "630d05a3c232a8c333daf8cf6045938417235af80cade3984ef0f6b8caedd805"
+    },
+    {
+      "path": "交件/Claude/20261020_配色學習第二輪/數據/台灣同業/measure_final.json",
+      "sha256": "716c388c946c980fe10f560d37f6d50f2964a577d7b4b87984394ff8d969ab44"
+    },
+    {
+      "path": "交件/Claude/20261020_配色學習第二輪/數據/台灣同業/inventory.json",
+      "sha256": "2b197cfc1692bec685ca4199c0b421ba1b36c71329b21fb89c0a9adc44dc24b1"
+    },
+    {
+      "path": "交件/Claude/20261020_配色學習第二輪/數據/台灣同業/share_sensitivity.json",
+      "sha256": "43fc297bfbd61bf139e40113b875b5a85560552471f185911cedc6ffb0ddcef8"
+    },
+    {
+      "path": "交件/Claude/20261020_配色學習第二輪/數據/台灣同業/corrections.md",
+      "sha256": "15d6dfdcb46f0861eff9e34085a8566aa9e4a7270a4caa537b2e32ea64b92d55"
+    },
+    {
+      "path": "交件/Claude/20261020_配色學習第二輪/數據/台灣同業/comparison.json",
+      "sha256": "6f9efd43c1e2f12e29e402615ee4fc02881196973f7b6d5f53438d3ee3040ebc"
+    },
+    {
+      "path": "研究/同業圖片/logo與車輛_20261011/07_源昌工程環保科技.png",
+      "sha256": "ab465ff6acccb101d6b2bd27b6ceeff9990f8616bbcda3bad43fa65a0fe228e1"
+    },
+    {
+      "path": "研究/同業圖片/logo與車輛_20261011/09_逸居管必潔.png",
+      "sha256": "985a699a87523093e2aae7a011142a41298c0ec60ec061a7eb67edfe6c5c4011"
+    },
+    {
+      "path": "研究/同業圖片/logo與車輛_20261011/12_宏隆環保.png",
+      "sha256": "9bb1597e3d8a79c5255fdd958e8a5fd98d7b2d848fdbef09eab96be4022629d1"
+    },
+    {
+      "path": "研究/同業圖片/logo與車輛_20261011/11_日技管清工程.gif",
+      "sha256": "4232b7ac8afbf5029c9725fa44f1db18e6c0e9a666a4ecd789eaec67dfbaa2c3"
+    }
+  ],
+  "scope": "Repository snapshot audit and four image checks; not current-site, complete-CIS, market-recognition, or customer testing."
+}
