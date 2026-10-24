@@ -1,0 +1,169 @@
+{
+  "scope": "Arithmetic sensitivity check only; no palette ranking, beauty or acceptance score. Original and wrapped hue are different variants, not a certified fix.",
+  "source": "connorgr/colorgorical@90649656a57ce9743b00390473adce51a821cadc",
+  "pairs": [
+    {
+      "palette": "A",
+      "a": "#234F7D",
+      "b": "#F2C230",
+      "original": 26.02740588969791,
+      "wrapped_comparison": 26.02740588969791,
+      "hue_difference_original": 175.60520631185005,
+      "contrast": 5.0421908452276005
+    },
+    {
+      "palette": "A",
+      "a": "#234F7D",
+      "b": "#D94B37",
+      "original": -17.36671864784635,
+      "wrapped_comparison": 6.416942527717868,
+      "hue_difference_original": 225.9136711761946,
+      "contrast": 2.0160730930581003
+    },
+    {
+      "palette": "A",
+      "a": "#F2C230",
+      "b": "#D94B37",
+      "original": 17.342612963134606,
+      "wrapped_comparison": 17.342612963134606,
+      "hue_difference_original": 50.308464864344565,
+      "contrast": 2.500996051477133
+    },
+    {
+      "palette": "B",
+      "a": "#00666B",
+      "b": "#F2C230",
+      "original": 48.014888643964696,
+      "wrapped_comparison": 48.014888643964696,
+      "hue_difference_original": 105.10983556834755,
+      "contrast": 4.026798671011423
+    },
+    {
+      "palette": "B",
+      "a": "#00666B",
+      "b": "#D94B37",
+      "original": 4.620764106420433,
+      "wrapped_comparison": 4.620764106420433,
+      "hue_difference_original": 155.41830043269212,
+      "contrast": 1.6100779801843843
+    },
+    {
+      "palette": "B",
+      "a": "#F2C230",
+      "b": "#D94B37",
+      "original": 17.342612963134606,
+      "wrapped_comparison": 17.342612963134606,
+      "hue_difference_original": 50.308464864344565,
+      "contrast": 2.500996051477133
+    },
+    {
+      "palette": "C",
+      "a": "#1B5E4B",
+      "b": "#F2C230",
+      "original": 44.88183596780941,
+      "wrapped_comparison": 44.88183596780941,
+      "hue_difference_original": 75.46872983738443,
+      "contrast": 4.559312510643955
+    },
+    {
+      "palette": "C",
+      "a": "#1B5E4B",
+      "b": "#D94B37",
+      "original": 1.4877114302651542,
+      "wrapped_comparison": 1.4877114302651542,
+      "hue_difference_original": 125.777194701729,
+      "contrast": 1.8229986840447603
+    },
+    {
+      "palette": "C",
+      "a": "#F2C230",
+      "b": "#D94B37",
+      "original": 17.342612963134606,
+      "wrapped_comparison": 17.342612963134606,
+      "hue_difference_original": 50.308464864344565,
+      "contrast": 2.500996051477133
+    },
+    {
+      "palette": "D",
+      "a": "#344C58",
+      "b": "#F2C230",
+      "original": 22.561030771326042,
+      "wrapped_comparison": 22.561030771326042,
+      "hue_difference_original": 137.72232772624932,
+      "contrast": 5.401307301176197
+    },
+    {
+      "palette": "D",
+      "a": "#344C58",
+      "b": "#D94B37",
+      "original": -20.833093766218205,
+      "wrapped_comparison": -16.67307682457693,
+      "hue_difference_original": 188.03079259059388,
+      "contrast": 2.1596624664745425
+    },
+    {
+      "palette": "D",
+      "a": "#F2C230",
+      "b": "#D94B37",
+      "original": 17.342612963134606,
+      "wrapped_comparison": 17.342612963134606,
+      "hue_difference_original": 50.308464864344565,
+      "contrast": 2.500996051477133
+    },
+    {
+      "palette": "E",
+      "a": "#193744",
+      "b": "#F2C230",
+      "original": 29.151005230121765,
+      "wrapped_comparison": 29.151005230121765,
+      "hue_difference_original": 141.289395182784,
+      "contrast": 7.5001414262070245
+    },
+    {
+      "palette": "E",
+      "a": "#193744",
+      "b": "#D94B37",
+      "original": -14.2431193074225,
+      "wrapped_comparison": -8.2353319391683,
+      "hue_difference_original": 191.59786004712856,
+      "contrast": 2.998861762207624
+    },
+    {
+      "palette": "E",
+      "a": "#F2C230",
+      "b": "#D94B37",
+      "original": 17.342612963134606,
+      "wrapped_comparison": 17.342612963134606,
+      "hue_difference_original": 50.308464864344565,
+      "contrast": 2.500996051477133
+    },
+    {
+      "palette": "F",
+      "a": "#167F86",
+      "b": "#F2C230",
+      "original": 40.79542038146374,
+      "wrapped_comparison": 40.79542038146374,
+      "hue_difference_original": 103.97320733623887,
+      "contrast": 2.839722002842844
+    },
+    {
+      "palette": "F",
+      "a": "#167F86",
+      "b": "#D94B37",
+      "original": -2.5987041560805224,
+      "wrapped_comparison": -2.5987041560805224,
+      "hue_difference_original": 154.28167220058344,
+      "contrast": 1.1354364198878495
+    },
+    {
+      "palette": "F",
+      "a": "#F2C230",
+      "b": "#D94B37",
+      "original": 17.342612963134606,
+      "wrapped_comparison": 17.342612963134606,
+      "hue_difference_original": 50.308464864344565,
+      "contrast": 2.500996051477133
+    }
+  ],
+  "order_symmetry_pass": true
+}
