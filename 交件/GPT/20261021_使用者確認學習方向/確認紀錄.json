@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "timezone": "Asia/Taipei",
+  "repository": "mike011107-del/gpt-collab",
+  "base_commit": "4fc2c93edf186988e96b9006f561fa3899bf63e4",
+  "purpose": "梁特助要求將本聊天逐題確認的配色學習方向同步給Claude。",
+  "source": {
+    "kind": "current_user_chat_question_replies_and_corrections",
+    "description": "本聊天第1至19題、原第6題撤回、重問第6題、第8題及第9題的後續校正。未加入其他聊天未回讀的使用者選擇。"
+  },
+  "evidence_type": "使用者確認的研究目標與篩選偏好；不是市場調查、受眾實驗、模型結果或設計驗收。",
+  "summary_path": "交件/GPT/20261021_使用者確認學習方向/README.md",
+  "decisions": [
+    {
+      "key": "Q01",
+      "topic": "研究優先順序",
+      "status": "active",
+      "answer": "市場辨識優先：先與同行形成清楚差別，再調整美感與應用。"
+    },
+    {
+      "key": "Q02",
+      "topic": "單一主色近似",
+      "status": "active",
+      "answer": "整體辨識拉開：可保留近似主色，以完整三色、份量和名稱呈現判斷差別。"
+    },
+    {
+      "key": "Q03",
+      "topic": "主要市場對象",
+      "status": "active",
+      "answer": "直接同業為主：以臺灣清淤與管內CCTV業者作主要辨識比較。"
+    },
+    {
+      "key": "Q04",
+      "topic": "三色份量",
+      "status": "active",
+      "answer": "冷色明顯主導：黃作輔助，紅只用小面積點綴。"
+    },
+    {
+      "key": "Q05",
+      "topic": "資訊順序",
+      "status": "active",
+      "answer": "「崧淳」先被看見：完整公司名及清淤、CCTV工項放在下一層。"
+    },
+    {
+      "key": "Q06_initial",
+      "topic": "提前詢問應用場景",
+      "status": "withdrawn",
+      "effective_decision": null,
+      "note": "配色尚未定時先問應用場景，使用者校正後撤回；沒有選定文件、招牌／制服或並列場景。"
+    },
+    {
+      "key": "Q06_reasked",
+      "topic": "紅色研究方向",
+      "status": "active",
+      "answer": "朱紅：明度較高、稍偏橙，讓小面積紅更突出。"
+    },
+    {
+      "key": "Q07",
+      "topic": "工程黃研究方向",
+      "status": "active",
+      "answer": "較清亮的工程黃：少一點橙感，保留明確的黃色感。",
+      "scope": "CIS配色研究方向；車身顏色不改，未核定色號。"
+    },
+    {
+      "key": "Q08",
+      "topic": "原三類主色清單",
+      "status": "withdrawn_as_scope_restriction",
+      "initial_answer": "三類並列：深藍、深青、深綠都用完整三色比較，再依整體辨識篩選。",
+      "effective_decision": null,
+      "note": "使用者其後質疑默認範圍，GPT撤回把此答解讀成色系限制；不得以此限制只研究三類或恢復三類等量安排。"
+    },
+    {
+      "key": "Q09",
+      "topic": "主色外觀",
+      "status": "active_appearance_only",
+      "answer": "深而有色感：明度較低，但藍、青、綠的色感仍清楚。",
+      "effective_decision": "主色深而有清楚色感，不限定為藍、青、綠。",
+      "note": "原問題帶三類前提，問法已撤回；收到後續答覆後只採外觀偏好，不恢復色系限制。"
+    },
+    {
+      "key": "Q10",
+      "topic": "新鮮感",
+      "status": "active",
+      "answer": "接受較高的新鮮感：可以不像常見工程配色，但完整組合仍須好看、有主次且值得使用。"
+    },
+    {
+      "key": "Q11",
+      "topic": "主色色系邊界",
+      "status": "active",
+      "answer": "維持排除紫色：其餘符合沉冷、有色感的方向都可研究，不限既有提案。"
+    },
+    {
+      "key": "Q12",
+      "topic": "色彩關係",
+      "status": "active",
+      "answer": "鮮明區分：三色色感清楚，主輔對比明顯。"
+    },
+    {
+      "key": "Q13",
+      "topic": "同行資料範圍",
+      "status": "active",
+      "answer": "整套公開識別並列：Logo、公司字樣、網站等都列入主要比較，但分清用途與版本。"
+    },
+    {
+      "key": "Q14",
+      "topic": "研究支持與資源排序",
+      "status": "active",
+      "answer": "先列備選：主要研究資源優先用於既有研究支持較充分的色彩關係。",
+      "scope": "問題情境為新組合與直接同行有差別，但既有偏好研究尚未直接涵蓋。未涵蓋不等於不好。"
+    },
+    {
+      "key": "Q15",
+      "topic": "完整配色第一印象",
+      "status": "active",
+      "answer": "精準、清楚：整體理性俐落，色彩關係容易分辨。",
+      "scope": "研究目標，不代表某色號已證明具有該印象。"
+    },
+    {
+      "key": "Q16",
+      "topic": "候選畫面比較",
+      "status": "active",
+      "answer": "先等大、再看主輔：先核對三色色感與關係，再按冷色主導、黃輔助、朱紅點綴判斷整組。"
+    },
+    {
+      "key": "Q17",
+      "topic": "完整配色差異條件",
+      "status": "active",
+      "answer": "完整配色先拉開：三色組合本身要有可見差別，再用名稱呈現加強辨識。",
+      "scope": "與Q02單一主色近似分開，並非只換名稱就保留相近完整組合。"
+    },
+    {
+      "key": "Q18",
+      "topic": "同行比對先後順序",
+      "status": "active",
+      "answer": "先做數據初篩：先整理色彩關係與份量、找出近似組，再用同條件畫面核對。"
+    },
+    {
+      "key": "Q19",
+      "topic": "退稿單色的再研究",
+      "status": "active",
+      "answer": "可重新檢驗單色：以完整三色重新比較，不因單色曾用過就直接淘汰。",
+      "scope": "舊退稿及原推薦維持撤回；不代表復用舊完整配色或恢復其推薦。"
+    }
+  ],
+  "effective_constraints": {
+    "priority": "市場辨識優先，其後調整美感與應用",
+    "market": "臺灣清淤與管內CCTV直接同業",
+    "competitor_material_scope": [
+      "Logo",
+      "公司字樣",
+      "網站等公開識別"
+    ],
+    "competitor_purpose_and_version_separated": true,
+    "similar_main_colour_allowed": true,
+    "complete_palette_requires_visible_difference": true,
+    "name_reinforces_difference": true,
+    "main_colour": {
+      "appearance": "沉冷、深而有清楚色感",
+      "excluded": "紫色",
+      "restricted_to_three_legacy_families": false,
+      "legacy_deep_teal_priority_is_not_user_choice": true
+    },
+    "yellow": {
+      "direction": "較清亮、少橙感、黃色感明確",
+      "vehicle_colour_change": false,
+      "photo_sample_is_not_fixed_cis_colour": true
+    },
+    "red": {
+      "direction": "朱紅，明度較高、稍偏橙",
+      "role": "小面積點綴"
+    },
+    "hierarchy": {
+      "main": "冷色明顯主導",
+      "secondary": "工程黃輔助",
+      "accent": "朱紅小面積點綴",
+      "exact_proportions": null
+    },
+    "information_order": [
+      "崧淳",
+      "完整公司名及清淤、CCTV工項"
+    ],
+    "novelty": "接受較高新鮮感，完整組合仍須好看、有主次、值得使用",
+    "relationship": "三色色感清楚、主輔對比明顯",
+    "impression": "精準、清楚、理性俐落",
+    "evidence_priority": "優先使用既有研究支持較充分的色彩關係；未直接涵蓋的新組合先列備選",
+    "candidate_visual_sequence": [
+      "等大色塊核對色感與關係",
+      "按確認的主輔份量判斷整組"
+    ],
+    "competitor_comparison_sequence": [
+      "整理色彩關係與份量作數據初篩",
+      "用同條件完整三色畫面核對"
+    ],
+    "retired_single_colour_may_be_reexamined": true,
+    "retired_full_proposals_remain_withdrawn": true
+  },
+  "not_decided": {
+    "main_hex": null,
+    "yellow_hex": null,
+    "red_hex": null,
+    "exact_proportions": null,
+    "primary_application_scene": null,
+    "formal_logo": false,
+    "material_standard": false
+  },
+  "scope": {
+    "changes_project_protocol_or_settings": false,
+    "changes_collaboration_roles": false,
+    "changes_existing_multi_option_goal": false,
+    "new_palette": false,
+    "new_pdf": false,
+    "new_logo": false,
+    "auto_merge": false,
+    "contains_private_personal_data": false
+  },
+  "previous_materials_to_read_in_context": [
+    {
+      "pr": 40,
+      "head": "82eddd110bb3d6dcc14ea1b3284320c8157b6fa6",
+      "paths": [
+        "交件/GPT/20261021_學習進度同步/README.md",
+        "交件/GPT/20261021_學習進度同步/偏好研究與選色決定.md"
+      ],
+      "note": "深青優先是當時GPT暫定排序，不得覆蓋本次不限既有色系的條件。"
+    },
+    {
+      "pr": 41,
+      "head": "ff656c8df0fac004424239baa59074896d9e7c05",
+      "paths": [
+        "交件/GPT/20261021_自身缺口補齊/README.md"
+      ],
+      "note": "舊模型與原圖為研究資料；新輸入或完整三色不能沿用舊雙色排名。"
+    }
+  ],
+  "operational_plan_is_gpt_inference_not_extra_user_decision": true,
+  "handoff": {
+    "material_prepared": true,
+    "claude_readback_confirmed": false,
+    "claude_reply_received_for_this_batch": false,
+    "design_adoption_confirmed": false,
+    "github_comment_does_not_prove_claude_execution": true,
+    "merge_decision_owner": "梁特助"
+  },
+  "summary_sha256": "1c5b3aa8b66f4c33acc3b1291219612fa19c4dd6a1f845c9ec9cd26bfb0379a2"
+}
