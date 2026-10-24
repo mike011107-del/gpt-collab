@@ -1,0 +1,32 @@
+vid,company,version,source,tier,primary,method
+huatong_dredge,華通,華通清淤工程 官網字標,資料夾01＝補充PDF p9（像素相同）,官網logo檔,True,逐像素直接計數（純色、無反鋸齒）
+huatong_wsh,華通,嘉佳／華通衛生行 官網字標,補充PDF p9,官網logo檔,False,逐像素直接計數（純色、無反鋸齒）
+bangsheng,邦盛,banner 白卡上的公司名字（不含電話、標語）,資料夾03 banner,官網banner字標,True,去邊（measure.py）
+bangsheng_slogan,邦盛,banner 白卡上的紅色標語「專人為您服務」,資料夾03 banner,官網banner字標,False,去邊（measure.py）
+tianfu,天福,官網 logo（圖形＋兩家公司名）,資料夾04,官網logo檔,True,去邊（measure.py）
+daya,大亞,官網頁首 logo,資料夾05,官網logo檔,True,去邊（measure.py）
+daya_footer,大亞,官網頁尾 logo,資料夾05 頁尾版,官網logo檔,False,去邊（measure.py）
+jiuda_full,久大,官網 logo 圖文組合（菱形管件＋JIOUDA＋久大）,補充PDF p12,官網logo檔,True,去邊（measure.py）
+jiuda_word,久大,官網品牌轉型頁字標（JIOUDA＋久大）,補充PDF p12,官網logo檔,False,去邊（measure.py）
+jiuda_icon,久大,站台圖示（菱形管件＋水滴扳手）,資料夾06,官網logo檔,False,去邊（measure.py）
+yuanchang,源昌,官網 logo,資料夾07,官網logo檔,True,去邊（measure.py）
+senjingjia,森淨家,官網 logo,資料夾08,官網logo檔,True,去邊（measure.py）
+yiju,逸居管必潔,官網字標,資料夾09,官網logo檔,True,逐像素直接計數（純色、無反鋸齒）
+lvyi,綠邑,官網 logo（白色反白版）,資料夾10,官網logo檔,True,去邊（measure.py）
+riji,日技,官網 logo（gif）,資料夾11,官網logo檔,True,去邊（measure.py）
+honglong,宏隆,官網字標,資料夾12＝補充PDF p10（像素相同）,官網logo檔,True,去邊（measure.py）
+kangli,康立,banner 綠色底塊上的白字＋葉片,資料夾13 banner,官網banner字標,True,去邊（measure.py）
+yiyuan,一元,官網 logo,資料夾14,官網logo檔,True,去邊（measure.py）
+quanji,全基,2023 台灣國際水週展會圖形標誌,補充PDF p2/p7,官網logo檔,True,去邊（measure.py）
+quanji_fav,全基,官網小圖標,補充PDF p7,官網logo檔,False,去邊（measure.py）
+shengye,升野,官網入口品牌圖裡的 logo,補充PDF p8,官網logo檔,True,去邊（measure.py）
+shengye_head,升野,官網內頁頁首（金色底、白字帶陰影）,補充PDF p8,官網logo檔,False,去邊（measure.py）
+jide,積德,智財局 2001 彩色服務標章圖樣,補充PDF p8,智財局商標圖樣,True,去邊（measure.py）
+jiusheng,九升,合作廠商欄展示的圓形標誌,補充PDF p10,第三方頁,True,去邊（measure.py）
+haoyuan_blue,浩源,hao-yuan 形象官網字標（藍）,補充PDF p11,官網logo檔,True,逐像素直接計數（純色、無反鋸齒）
+haoyuan_white,浩源,pipe-clean 官網頁首（白色反白版）,補充PDF p11,官網logo檔,False,去邊（measure.py）
+paipu,派浦崴洱,徵才平台企業圖像（低清）,補充PDF p12,第三方頁,True,去邊（measure.py）
+paipu_s,派浦崴洱,徵才平台企業圖像（41×40）,補充PDF p12,第三方頁,False,去邊（measure.py）
+longxiang,龍祥,第三方企業專頁橫幅上的綠底白字公司名,補充PDF p15,第三方頁,True,去邊（measure.py）
+shunjie,順捷,智財局墨色商標 01987673,補充PDF p16,智財局商標圖樣,True,去邊（measure.py）
+shunjie_man,順捷,智財局墨色商標 02416441（施工人物）,補充PDF p16,智財局商標圖樣,False,去邊（measure.py）
