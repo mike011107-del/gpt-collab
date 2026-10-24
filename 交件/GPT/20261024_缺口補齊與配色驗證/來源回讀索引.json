@@ -1,0 +1,168 @@
+{
+  "note": "Response metadata only. HTML hash is not proof of reading the whole site or official CIS standards. See report for evidence scope.",
+  "pages": [
+    {
+      "id": "huatong_dredge",
+      "requested_url": "https://www.ht-dredging.com.tw/about-us.html",
+      "final_url": "https://www.ht-dredging.com.tw/about-us.html",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 22326,
+      "sha256": "743850ed2bc0e99c5808660d557e796c9081d4fe8679c8faf46ff5d67a6e6dd6"
+    },
+    {
+      "id": "huatong_wsh",
+      "requested_url": "https://www.hua-tong.com.tw/index.html",
+      "final_url": "https://www.hua-tong.com.tw/index.html",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 18612,
+      "sha256": "febb86ba3ccf3f11d8e3e5facfddfe359f15028be96fa4ac04464e2bbf456b9a"
+    },
+    {
+      "id": "bangsheng",
+      "requested_url": "https://www.bangsin.com.tw/",
+      "final_url": "https://www.bangsin.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 36167,
+      "sha256": "6b2a351fe294f1be5b56e962f6ad674f8b6c2f927805e680a8c20d5caf064625"
+    },
+    {
+      "id": "tianfu",
+      "requested_url": "https://www.tienfu-eco.com.tw/",
+      "final_url": "https://www.tienfu-eco.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 59142,
+      "sha256": "c15ef27935018d7237cf6de27f965ff19a1d1ed369777e74aa27e127fb50029b"
+    },
+    {
+      "id": "daya",
+      "requested_url": "https://www.tafu.com.tw/",
+      "final_url": "https://www.tafu.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 238274,
+      "sha256": "05b42623664a285ae961fc7dc604cbdc7ec87643ea2c13986605ef792bc8b8fc"
+    },
+    {
+      "id": "jiuda",
+      "requested_url": "https://jiou-da.com/企業發展/",
+      "final_url": "https://jiou-da.com/%E4%BC%81%E6%A5%AD%E7%99%BC%E5%B1%95/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 67286,
+      "sha256": "c6742bcb917d5fa5e16a8d5492a6339c52740f2a17fa52e910b1e1c682d9b831"
+    },
+    {
+      "id": "yuanchang",
+      "requested_url": "https://pipe-clean.co/",
+      "final_url": "https://pipe-clean.co/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 67336,
+      "sha256": "e40085fb106fcf4886db245b9e9d7db9aedb5289c6071658208c72408b9669c2"
+    },
+    {
+      "id": "senjingjia",
+      "requested_url": "https://www.sen-pipeclean.com.tw/",
+      "final_url": "https://www.sen-pipeclean.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 117955,
+      "sha256": "10dae7ca3bdaa3b4686f5a19dc9f1c497644de2877e257c8da7600b7bb01b1ec"
+    },
+    {
+      "id": "yiju",
+      "requested_url": "https://www.417055.com/about.asp",
+      "final_url": "https://www.417055.com/about.asp",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 19663,
+      "sha256": "19aee068ee56c430436ff650cdf0ea8fbfff4d319c1ab569242d015a5fbd6cfe"
+    },
+    {
+      "id": "lvyi",
+      "requested_url": "https://www.igreene.com.tw/",
+      "final_url": "https://www.igreene.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 42292,
+      "sha256": "cfb10bfbd49bb0962744fad09acf8d6ac4271a8ce95e5b4f410f65198591db65"
+    },
+    {
+      "id": "riji",
+      "requested_url": "https://www.jpn-tek.com.tw/",
+      "final_url": "https://www.jpn-tek.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 38635,
+      "sha256": "dca4fe2e1f41c5dc57371030ed33ba63b2f05f8e3223106e05b8bc8af7bdd4db"
+    },
+    {
+      "id": "honglong",
+      "requested_url": "https://www.honglong888.com.tw/",
+      "final_url": "https://www.honglong888.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 55346,
+      "sha256": "a73e95eb9dbe60788b3a60f982c7eb873cf53ed302d698053d12e108655fb2c5"
+    },
+    {
+      "id": "kangli",
+      "requested_url": "https://www.0933839877.com.tw/",
+      "check_date": "2026-10-24"
+    },
+    {
+      "id": "yiyuan",
+      "requested_url": "https://euan.com.tw/",
+      "final_url": "https://euan.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 451821,
+      "sha256": "aa8aa3b2d8537137641ea1ba1c3bab5cada31352ad2adc4f13d34c1110217fa2"
+    },
+    {
+      "id": "quanji",
+      "requested_url": "https://www.polygretco.com/",
+      "final_url": "https://www.polygretco.com/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 392559,
+      "sha256": "ec9102b4ccc82d5736a757e6a143c7501960b934d6b01e45525a9248496486ca"
+    },
+    {
+      "id": "shengye",
+      "requested_url": "http://www.rocsy.com.tw/",
+      "final_url": "http://www.rocsy.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 792,
+      "sha256": "1c3830c89ebcd6282becc5c95bdb9ee02f7c2ad129e648f7e649b771e34c7137"
+    },
+    {
+      "id": "jide",
+      "requested_url": "https://www.gider89.com/",
+      "final_url": "https://www.gider89.com/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 24896,
+      "sha256": "97427df440f4a527c721275dc3b4e1f3ea7bc802e7cba31db369912746fef372"
+    },
+    {
+      "id": "jiusheng",
+      "requested_url": "http://www.jiusheng2301.com.tw/",
+      "check_date": "2026-10-24"
+    },
+    {
+      "id": "haoyuan",
+      "requested_url": "https://www.pipe-clean.com.tw/",
+      "final_url": "https://www.pipe-clean.com.tw/",
+      "check_date": "2026-10-24",
+      "status": 200,
+      "bytes": 15052,
+      "sha256": "f93e5149c6c4ef7765f77af1f3751230069f131fa856c4bc39640c9af4af9a46"
+    }
+  ]
+}
