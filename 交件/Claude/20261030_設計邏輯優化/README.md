@@ -53,6 +53,29 @@ prompts.chat 的網站雲端連不上。這份資料取自它在 GitHub 的原�
 
 其餘幾則（Creative Branding Strategist、Design Brief、Create STYLE_GUIDE.md、Color Consistency Analysis、KERNPUNT）不是內容太泛，就是跟我們已有的做法重複，不採用。
 
+## prompts.chat 第二輪（10-30 12:26 梁特助「prompts.chat全域查找適合你的資源」）
+
+這次把 2,772 則全部按工作分九類重篩：文案、審稿、查證、中文、簡報、字體、需求訪談、去 AI 味、工業生圖。每類讀最相關的原文，採用下面 6 點，已寫進新 skill `.claude/skills/cis-delivery-check/`：
+
+| 採用什麼 | 出處 | 用在哪 |
+|---|---|---|
+| 交件前先替他寫兩個否決理由，成立就先改 | devil adv、Critical Thinking (DeepThink) | 每次交件 |
+| 先找出 AI 味的句子，再改寫，並列出改了什麼 | Humanize AI Text | 理念、slogan |
+| 他做過的事比他說的話重；題目有引導性，答案要打折；原話照抄 | Customer Interview Insight Extractor | 問答紀錄、需求表 |
+| 查證只能往保守調；有兩種讀法就判「不確定」 | Fact-Checking Evaluation Assistant | 回評 GPT 交件、同行資料 |
+| 小記號、細線要 3:1（WCAG 1.4.11） | Accessibility Color Contrast Auditor | 黃、紅怎麼用 |
+| slogan 先問禁用字，再寫推理，每個位置給主句、備選、副標 | Banner Slogan and Subtext Generator | slogan 下一輪 |
+
+照第 5 點算出一條新的用法規則：
+- 工程黃放在白紙上只有 2.0（#F7A600）和 1.7（#F2C230），當細線或小字不夠清楚。黃要放在深色底上，或者做成大面積色塊。
+- 朱紅 #E54728 在白底上有 4.0，夠清楚；放在深藍 #2D4263 上只有 2.5。所以紅色小記號放白底。
+
+沒採用的：
+- 中文類都是翻譯或小說。
+- 簡報類只是通用原則，像金字塔原理，我們已經用「先結論」。
+- 工業生圖類沒有下水道或工程的題材。
+- Idea Clarifier、Spec Interview 跟我們已有的問答做法重複。
+
 ## Pinterest
 
 - 沒有抓。Pinterest 的 robots.txt 對所有爬蟲寫「Disallow: /」，服務條款也禁止未經許可用自動方式取資料，不登入也一樣。雲端和梁特助電腦都不自動抓。
