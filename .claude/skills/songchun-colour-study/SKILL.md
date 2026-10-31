@@ -18,6 +18,7 @@ description: 崧淳環保科技 CIS 主視覺色的研讀方法。要學習或�
 1. 在專案庫根目錄跑 `bash .claude/skills/songchun-colour-study/scripts/check_access.sh`，記下哪些來源連得到。2026-10-16 實測：只有 GitHub、npm、PyPI 可連；Pinterest、Behance、Dribbble、Brand New、Pentagram、Wikimedia、同業官網全部擋；WebFetch 解析不到網域。WebSearch 可用，但只回摘要。
 2. 讀 `研究/配色學習筆記.md` 現況，當作比較基準。新的說法先跟已寫的比，不重複、不矛盾；矛盾就寫出來。
 3. 寫下這次要回答的一個問題，例如「冷色主色跟黃色怎麼分主次」。
+4. 要出配色或篩選條件時，先讀 `交件/Claude/20261030_設計邏輯優化/需求表.md`。交件前逐條對過，新要求也寫回這張表。兩邊紀錄衝突就列在表上，不自己挑一個。
 
 ## 來源分級（筆記裡每條都要標）
 
@@ -65,6 +66,8 @@ description: 崧淳環保科技 CIS 主視覺色的研讀方法。要學習或�
 | colour-tool | 用 | 驗算與看圖 |
 | Read（看圖） | 用 | 專案庫圖檔、render 出來的 PNG |
 | WebFetch | 不用 | 這個環境解析不到網域 |
+| Pinterest | 不自動抓 | robots.txt 對所有爬蟲寫 `Disallow: /`，條款也禁止自動取資料（10-30 查）。要用，就請梁特助自己存圖到資料夾，再到他電腦上看 |
+| prompts.chat | 讀 GitHub 原始檔 | 網站雲端連不上；`raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv` 可以讀（10-30 有 2,772 則）。可採用的 4 點見 `交件/Claude/20261030_設計邏輯優化/README.md` |
 | Canva、Adobe 設計工具 | 少用 | 上傳主機被雲端網路擋（10-11 實測）；圖面交 AutoIP／GPT，見 `cis-visual-direction` |
 | Gmail、Docs | 不用 | 這項工作用不到 |
 
@@ -89,3 +92,5 @@ description: 崧淳環保科技 CIS 主視覺色的研讀方法。要學習或�
 - 把照片取的色當成量過的漆號。#D68702 是車身照片參考值，要寫「車照參考值」，不寫「車身實測」或「已定車身色號」（GPT 10-18 指出第一輪學習報告第 25 頁寫錯）。
 - 把模型推估寫成通則。例：「非塗佈紙最深約 L27」要寫明印刷條件；「色名叫得出來才好記」只能當溝通風險提示。
 - 把 60/30/10 當規則，或跟命格 30／市場 70 的選案權重混在一起。
+- 交件前沒有逐條對要求（10-21 13:51「你忘記我的要求了?」；10-24 08:02 漏了工程黃和紅）。
+- 問抽象的方向題，連續得到「都不是」（10-24 Q35–Q38）。改成拿真實配色讓他兩兩比。

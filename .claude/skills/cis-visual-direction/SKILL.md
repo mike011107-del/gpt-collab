@@ -30,13 +30,15 @@ description: 崧淳 CI 的圖面交辦與驗收。10-21 起 Claude 主導、Auto
 目的：這張圖要讓誰看懂什麼（一句話）
 用在哪：業主報告第幾頁／提案板／簡報
 尺寸與格式：例如 1600×1000 PNG、A4 直式 PDF
-固定內容：文字逐字列出；色號用 HEX（主色、工程黃 #D68702、白、墨色）
+固定內容：文字逐字列出；色號用 HEX（主色、CIS 工程黃（以需求表為準，10-30 時 #F7A600、#F2C230 未定）、紅色系小記號、淺冷灰、白；畫到車身才用車身黃 #D68702，兩個黃分開寫）
 可以變的：構圖、角度、光線
 不要：logo、亂碼字、米色底 #F4F1EA、過度乾淨的塑膠感、葉片水滴等同業擁擠圖形
 驗收條件：例如「貼色區 ΔE00 ≤ 1」「全名 12 字逐字正確」「標示『示意』」
 交件位置：gpt-collab 交件/GPT/日期_主題/（不含第三方照片），或梁特助電腦崧淳資料夾新資料夾＋在 Issue 留路徑
 ```
 
+- 色號、四個顏色角色以 `交件/Claude/20261030_設計邏輯優化/需求表.md` 為準，交辦前先對一次。
+- 平面圖（色票、版面、符號示意）加這組限制（取自 prompts.chat「logo designer」，10-30 讀）：`flat solid colours, no 3D, no drop shadow, no gradient, legible at small size, white background, single image, no mockup`。
 - AutoIP 提示詞用英文，寫行業細節去 AI 感（管網圖、管內攝影畫面、磨石地、日光燈、工地圍籬），結尾加 `no text, no logo, blank white surface`。
 - 給 GPT 的 Issue 標題開頭「給 GPT」，只寫一件事；它覺得交辦有錯可以直接回。
 
