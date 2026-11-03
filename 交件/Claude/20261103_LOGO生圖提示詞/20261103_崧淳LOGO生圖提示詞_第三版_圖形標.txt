@@ -1,0 +1,96 @@
+崧淳 圖形 LOGO 生圖提示詞 第三版（2026-11-03）
+
+結論
+・三組圖形標，每組只有一個構成想法，都跟「崧淳」兩字一起出現：G1「山」字符號在左、字標在右；G2「山」的底橫延伸成字標底線，圖和字連成一體；G3「崧淳」直排方印。
+・顏色照你 12:02 給的四色：主色 #194764 做圖形和字；朱紅 #D73626 只在白底當小記號；工程黃 #F39D16 只出現在深藍底的反白版；淺冷灰 #E2E9EF 不進標誌，當淺色底。
+・全部用 AutoIP 的 v4 模式。生出來的字常有錯（崧寫成松），圖只當方向；選定後圖形照比例重畫、字照原創字流程重畫成向量。
+
+
+四色放在哪裡（colour-tool 實算）
+・白底標準版：圖形與字 #194764（對白 9.9），朱紅小記號 #D73626（對白 4.7）。工程黃不放白底：#F39D16 對白只有 2.2，小面積會糊掉。
+・深藍底反白版：圖形與字用白，記號改成工程黃 #F39D16（對 #194764 是 4.5）。朱紅不放深藍底：對 #194764 只有 2.1。
+・淺灰底：#E2E9EF 上放 #194764，對比 8.1。
+・車身（橘黃）：用黑色單色。黑對車身 7.3，#194764 對車身 3.4，白 2.9。工程黃 #F39D16 跟車身黃差 ΔE 7.0、對比 1.3，放上車身會消失。車身黃 #D68702 是照片取色，不是實測漆號；兩個黃要分開寫。
+・跟台灣同行比：#194764 離最近的同行色 ΔE 6.6（大亞網站 #32587B），在你 10-24 定的 4～6 以上；#F39D16 最近 15.3（久大網站 #EDC421）；#D73626 離邦盛 logo 紅 #D3151C 只有 4.0，在下限，所以紅只當小記號。
+
+
+怎麼用
+・模式 v4（規格寫圖中中英文字最準、文字放引號；負向提示詞有效）。網頁一張 20 點；用 API 在台北時間 03:00–09:00 送出半價 10 點。目前餘額 2952 點。
+・尺寸：G1、G2 選 1024x768，G3 選 1024x1024。每組先生 1 張。
+・提示詞裡寫了色號，但生圖會跑色（10-16 實測）。看構圖和比例就好，定稿顏色用程式貼。
+・反白版：把提示詞裡顏色那幾句，換成文末「反白版替換句」。
+
+
+G1．「山」字符號＋字標（圖左字右）
+
+Flat vector logo lockup on a wide canvas. On the left, a symbol built from the Chinese character 山: three solid upright bars of equal width joined at the bottom by one horizontal base bar, the middle bar clearly the tallest, square-cut tops, the gaps as wide as the bars, all in deep blue-grey #194764. One small solid vermilion #D73626 square floats just above the middle bar, the same width as that bar, separated by a narrow gap. On the right, the wordmark "崧淳", two Traditional Chinese characters (崧 is 山 on top of 松; 淳 is 氵 beside 享), heavy modern lettering in #194764, about two thirds of the symbol's height, sitting on the same baseline. Symbol and lettering share the same stroke weight. Pure white background, flat solid colours, centered with wide margins, shown once.
+
+根據
+・「崧」字義山大而高，《詩經·崧高》「崧高維嶽」，品牌設定 02 題拿來講「標準訂得高」。符號只取「山」，用「重複」構成：三根同寬的豎條。Logo Archive 38 個大師標誌有 33 個只用一個構成方法（美感第一輪 第 1 點）。
+・中間那根最高、上面再多一格朱紅：負責人在意的是「品質高一個檔次」（10-24 問答 Q41）。朱紅是你 10-21 定的「每次都出現的小記號」，放白底對比 4.7。
+・陌生品牌用「圖形＋名字」比只有其中一樣好看；亞洲 22 個水務與企業標誌有 11 個圖左字右（美感第二輪 第一、四節）。
+・台灣同業圖形擠在水滴、水波、管件、葉片、扳手（01_產業與同業研究 第三之二節），山形沒人用。
+
+
+G2．「山」的底橫延伸成字標底線（圖字連成一體）
+
+Flat vector logo on a wide canvas, built as one continuous shape. On the left, the Chinese character 山 drawn as three solid upright bars of equal width, the middle bar the tallest, square-cut tops. Their shared base bar does not stop under the 山: it continues to the right as one long solid horizontal bar of the same thickness, running under the wordmark "崧淳" (two Traditional Chinese characters: 崧 is 山 on top of 松; 淳 is 氵 beside 享), heavy modern lettering sitting on that bar with a small even gap. The bar ends square, just past the last character, with one small solid vermilion #D73626 square placed after its end like a full stop. Everything else in deep blue-grey #194764. Pure white background, flat solid colours, centered with wide margins, shown once.
+
+根據
+・構成想法只有一個：「延伸」。山字的底橫一路拉到字下面，圖和字變成一個整體，不會被拆開用錯。
+・那條底線是路面和管線：崧淳在路面上設站，在路面下面做清淤和 CCTV（品牌設定 02 題的作業流程）。CCTV 從一座人孔連續錄到下一座人孔，線尾那一格朱紅就是下一座人孔，也是「做完、可驗收」的記號。
+・底線粗細跟山的豎條一樣，不低於標誌寬度的 1/14，縮小才不會斷（美感第一輪 第 3 點）。
+・這組跟 G1 用同一個「山」，差別在圖和字分開或連在一起，可以並排比。
+
+
+G3．「崧淳」直排方印
+
+Flat vector logo mark. A solid deep blue-grey #194764 upright rectangle with crisp square corners, like a modern name seal. Inside it, the two Traditional Chinese characters "崧淳" stacked vertically, 崧 on top (山 above 松) and 淳 below (氵 beside 享), reversed out in pure white, heavy modern lettering that fills the seal with even margins on all sides. Clean geometric edges, no carved texture. Pure white background, flat solid colours, centered with wide margins, shown once.
+
+根據
+・構成想法是「正負反轉」：字從深藍方塊裡留白出來。方印在中文文件裡就是確認、負責的意思，崧淳的報告、報價單、名片（紙本優先，需求表二）都可以把它當落款。
+・名字就在圖形裡，新品牌不用先教大家認圖形。
+・缺點先講：同業九升用過藍色圓形直排「九升」（第三份報告對照）。崧淳用方形、現代粗字，跟圓形加書法字可以分開，但要並排看過才算數。
+・這是唯一有框的一組。外框會讓剪影像別人（擁擠度 0.62 對 0.46，美感第一輪 第 2 點）；方印的框就是字的底，拿掉就不成立，所以留著，但要跟 G1、G2 比。
+
+
+共用負向提示詞（三組都貼，上限 500 字元）
+
+3D, bevel, emboss, chrome, metallic, gold foil, glow, gradient, drop shadow, outline stroke, circle frame, shield, water drop, wave, leaf, globe, pipe, wrench, gear, handshake, recycling arrows, mascot, cartoon, ink splatter, stamp texture, grunge, rough edges, italic slant, thin hairlines, simplified Chinese, misspelled characters, extra characters, English letters, pinyin, slogan, mockup, business card, photo, paper texture, beige background, purple, extra colours
+
+・負向欄不寫「text」，寫了會把「崧淳」兩個字一起壓掉。
+・不要立體、金屬：你 10-24 Q46 說不要金屬感。
+・不要斜體：國外清管公司字標多是粗斜體全大寫（國外同業 4.3 節）。
+
+
+反白版替換句（深藍底）
+
+G1：把顏色句換成 All shapes and lettering in pure white on a flat deep blue-grey #194764 background, and the small square above the middle bar in engineering yellow #F39D16.
+G2：把顏色句換成 All shapes and lettering in pure white on a flat deep blue-grey #194764 background, and the small square after the bar in engineering yellow #F39D16.
+G3：把顏色句換成 A pure white upright rectangle on a flat deep blue-grey #194764 background, with "崧淳" reversed out in #194764.
+
+
+看圖時對這幾點
+1. 字對不對：崧＝上面山、下面松（木＋公）；淳＝氵＋享。寫錯的只看圖形，字不採用。
+2. 縮到名片上約 4 公釐高、手機 16 像素：山的三根豎條、G2 的底線、G3 方印裡的字，還看得清楚嗎。
+3. 白底、深藍底反白、黑色單色放橘黃車身，三種都成立嗎。
+4. G1、G2 的三根豎條，會不會被讀成長條圖、叉子或工廠煙囪。
+5. 朱紅小方塊會不會被看成手機 App 的通知紅點。看起來像，就改放別處或拿掉。
+6. 跟同業 logo 並排：不像水滴、水波、扳手、書法圓圈、九升的圓形直排。
+
+
+交件前檢查
+・需求表：四色角色照你 10-21 定的順序（主色、工程黃、紅、中性色）；主色有魄力、其他收低（紅只一小格、黃只在反白版）；白底為主；避開同行圖形；崧保留山字頭。都符合。這四色已記進需求表。
+・你最可能否掉的兩個理由：一是「三組有兩組都是山，選擇太少」。G1、G2 是同一個想法的兩種接法，G3 是完全不同的路；要更多不同方向，我再補。二是「太抽象，看不出做清淤」。研究說行業描述可以交給字（Luffarelli 2019），名片和車身上都會接全名與「清淤、CCTV 檢視」兩項業務。
+
+我替你做的判斷
+・圖形一律跟名字一起出現：崧淳是新品牌，圖形要等名字被認得以後才單獨用。
+・工程黃不放白底：對比 2.2 太低，留給反白版和大色塊。
+・#E2E9EF 不進標誌：它跟白底對比只有 1.2，放進標誌看不出來，當名片和報告的淺色底。
+・字標用粗的現代字：第二版 A（楷書）、B（黑體）還沒比。要換楷書，把 heavy modern lettering 換成第二版 A 的字形描述。
+
+
+查證範圍
+・對比與色差：gpt-collab colour-tool（selftest 通過）11-03 實算，WCAG 2.x 與 CIEDE2000。同行色來自 01_產業與同業研究 第三之二節的 14 家取色。
+・其餘根據沿用第二版的查證（同資料夾 第二版 檔末）。
+・沒做：試生圖。三組都還沒生過。
