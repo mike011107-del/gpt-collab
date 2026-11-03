@@ -1,0 +1,6 @@
+LOGO 設計原則統整（2026-11-03）重建方式
+1. 把 向量稿_20261103/ 的 glyphs.py、build.py 放進 work/lib/，執行 python3 -I make_svgs.py 產生 img/ 下的 G1–G3 圖。
+2. simple-icons 16.35.0（npm pack simple-icons@16.35.0）、@fontsource/noto-sans-tc 5.2.6 解壓。
+3. small.js 產生 16/24/32/96px 縮小圖（small/），再放大成 big_*.png。
+4. python3 -I build_report.py <work> <fonts/package> <simple-icons/package/icons>，再 node pdf.js report.html report.pdf。
+G1–G3 的數字（字高、筆寬）取自 build.py、glyphs.py；思源黑體橫直筆寬是 Chromium 600px 渲染後掃描像素量的。
