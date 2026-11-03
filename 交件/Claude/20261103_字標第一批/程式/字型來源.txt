@@ -1,0 +1,6 @@
+字型檔（SIL OFL 1.1），放在 design.py 旁邊的 ../fontsrc/：
+https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/SubsetOTF/TC/NotoSansTC-Black.otf
+https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/SubsetOTF/TC/NotoSansTC-Bold.otf
+https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/SubsetOTF/TC/NotoSerifTC-Bold.otf
+https://raw.githubusercontent.com/lxgw/LxgwWenkaiTC/main/fonts/TTF/LXGWWenKaiTC-Medium.ttf
+Python 套件：fonttools、shapely、pillow；印 PDF 用 Playwright（見 LOGO設計原則統整_20261103/原始檔/pdf.js）。
