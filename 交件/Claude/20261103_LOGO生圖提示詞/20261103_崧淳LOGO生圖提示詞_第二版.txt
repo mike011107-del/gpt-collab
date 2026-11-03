@@ -1,0 +1,121 @@
+崧淳 LOGO 生圖提示詞 第二版（2026-11-03）
+
+結論
+・四組，全部用 AutoIP 的 v4 模式、先出黑白。A、B 是同一個「崧淳」字標的楷書骨架和黑體骨架，要一起生、縮小並排比；這是專案研究裡還沒有答案的一題。
+・C 是單字「崧」方標，D 是「山」字符號加字標，給你比較「只有字」和「有圖形」的差別。
+・顏色未定案。上色先用文末的附加句看感覺，定案色號之後用程式貼色，不靠生圖。
+・生圖模型常把「崧」寫成「松」。生出來的圖只當方向；選定後照 10-11 你要的原創字重畫成向量。
+
+
+怎麼用
+・模式：v4。AutoIP 現行規格寫 v4「圖中中英文字最準，文字請用引號括起來」，負向提示詞在 v4 有效（接在內建負向後面）。
+・尺寸：A、B、D 選 1024x768（橫式），C 選 1024x1024。
+・點數：網頁一張 20 點。用 API 在台北時間 03:00–09:00 送出是半價 10 點（網頁不打折）。目前餘額 2952 點。
+・每組先生 1 張，看過再加量。四組各一張，網頁 80 點，API 離峰 40 點。
+・提示詞整段貼進「提示詞」欄；負向提示詞四組共用，貼進「負向提示詞」欄。
+
+
+A．字標「崧淳」・楷書骨架（延續車身）
+
+Flat vector logo artwork. A custom Chinese wordmark of exactly two Traditional Chinese characters, "崧淳", set horizontally side by side at equal size. Character structure: in 崧 the mountain component 山 sits on top and 松 sits below it (木 on the left, 公 on the right); in 淳 the water radical 氵 is on the left and 享 is on the right. The lettering keeps the bones of regular script (kaishu), like hand-lettered Taiwanese signage, redrawn by a type designer as firm, heavy strokes with crisp straight-cut ends, smooth confident curves, consistent weight and optically balanced spacing. The 山 on top of 崧 is clear and slightly tall, so the character reads as 崧 instantly. Compact, dignified and quietly confident, precise in every detail, legible at business-card size. Solid black on pure white, centered with wide margins, shown once.
+
+根據
+・車身現有識別就是黑色粗楷全名（CI盤點/05_崧淳_現有素材分析）。楷書骨架讓標誌跟已經在路上跑的車接得上。
+・台灣受眾把楷體連到「台灣、莊重」，公文也用楷；中文品牌名主要靠字形被記住（美感第二輪 第二節：黃耀明 2023、W3C clreq、Pan & Schmitt 1996）。
+・品牌設定第五版 13 題：標誌以「崧淳」字形為核心，只用一個構成想法，崧保留山字頭，縮到名片尺寸仍清楚。
+
+
+B．字標「崧淳」・黑體骨架（年輕俐落）
+
+Flat vector logo artwork. A custom Chinese wordmark of exactly two Traditional Chinese characters, "崧淳", set horizontally side by side at equal size. Character structure: in 崧 the mountain component 山 sits on top and 松 sits below it (木 on the left, 公 on the right); in 淳 the water radical 氵 is on the left and 享 is on the right. The lettering is a bespoke heavy gothic (hei) style: even, thick strokes, squared terminals, a few stroke ends finished with a crisp diagonal cut that adds forward energy, open counters that stay clear at small size, an upright and alert stance. The 山 on top of 崧 is clear and slightly tall, so the character reads as 崧 instantly. Modern, young and disciplined, precise in every detail, legible at business-card size. Solid black on pure white, centered with wide margins, shown once.
+
+根據
+・亞洲水務與經典企業標誌 22 個裡，看得出字體的是黑體 6 個、楷體 0 個；黑體常用在標題與招牌（美感第二輪 第三、四節）。
+・你 11-03 說崧淳是「高標準與年輕有活力」。尖角讓人覺得耐用（Jiang 等 2016，美感第二輪 第一節第 7 點），所以筆畫收尾用斜切，不用圓頭。
+・楷體和黑體縮小後哪個好認，第二輪的測試沒跑完，沒有結論（第六節）。A、B 一起生、縮小並排看，就是補這個缺口。
+
+
+C．單字標「崧」（頭像、印章、車門小標）
+
+Flat vector logo mark. One Traditional Chinese character, "崧", custom-lettered to fill a square. Structure: the mountain component 山 on top, 松 below it (木 on the left, 公 on the right). The 山 is drawn as three bold upright strokes joined by one short base stroke, reading like a mountain peak, with the middle stroke the tallest; the 松 part below is compact and sturdy. Heavy even strokes, crisp cut ends, open counters, every gap wide enough to stay clear at 16 pixels. Solid black on pure white, centered with wide margins, shown once.
+
+根據
+・「崧」是同業名稱裡沒人用的字（01_產業與同業研究 第三節）。字義是山大而高，《詩經·崧高》「崧高維嶽」，品牌設定 02 題拿來講「標準訂得高」。
+・東京都下水道局、水道局的標誌只用字（美感第二輪 第四節）。
+・單字標只用在頭像、印章、車門小標，旁邊要有全名。新品牌的圖形要等名字被認得以後才單獨用（Bresciani & Del Ponte 2017，美感第二輪 第八節第 8 點）。
+
+
+D．「山」字符號＋「崧淳」字標（圖左字右）
+
+Flat vector logo lockup on a wide canvas. On the left, a simple symbol built from the Chinese character 山: three solid upright bars of equal width joined at the bottom by one horizontal base bar, the middle bar clearly the tallest, square-cut tops, the gaps as wide as the bars. On the right, the wordmark "崧淳", two Traditional Chinese characters (崧 is 山 on top of 松; 淳 is 氵 beside 享), heavy modern lettering about two thirds of the symbol's height, sitting on the same baseline. Symbol and lettering share the same stroke weight. Solid black on pure white, centered with wide margins, shown once.
+
+根據
+・陌生品牌用「圖形＋名字」比只有其中一樣好看（Bresciani & Del Ponte 2017）。亞洲 22 個標誌有 11 個圖左字右，字高約圖高的 0.46 到 0.9（美感第二輪 第一、四節）。
+・符號只取「山」一個想法，用「重複」構成。Logo Archive 38 個大師標誌有 33 個只用一個構成方法，PUB、K-water 也是同一道弧重複三次（美感第一輪 第 1 點、第二輪 第四節）。
+・台灣同業的圖形擠在水滴、水波、管件、葉片、扳手（01 第三之二節；久大 JIOUDA 是水滴加扳手），山形沒有人用。
+・這組跟品牌設定 13 題「以字形為核心」不同，放進來是讓你比較有沒有圖形的差別。
+
+
+共用負向提示詞（四組都貼，v4 有效，上限 500 字元）
+
+3D, bevel, emboss, chrome, metallic, gold foil, glow, gradient, drop shadow, outline stroke, circle frame, shield, badge, water drop, wave, leaf, globe, pipe, wrench, gear, handshake, recycling arrows, mascot, cartoon, ink splatter, rough brush texture, italic slant, thin hairlines, simplified Chinese, misspelled characters, extra characters, English letters, pinyin, slogan, mockup, business card, photo, paper texture, beige background, purple
+
+根據
+・不加外框：日本、新加坡、韓國、香港的水務標誌都沒有框；有框的標誌剪影比較像別人（擁擠度 0.62 對 0.46）（美感第一輪 第 2 點、第二輪 第四節）。
+・不要立體、金屬：你 10-24 Q46 說不要金屬感。賓士 2025 年也另出了平面的 2D 星標，給印刷和數位用（ingenieur.de，只讀到搜尋摘要）。
+・不要斜體：國外清管公司字標多是粗斜體全大寫（Dyno-Rod 等，國外同業 4.3 節）；公用事業改版唯一一致的方向是拿掉斜體、飛線和細線（美感第一輪 第 6 點）。
+・負向欄不寫「text」：寫了會連「崧淳」兩個字一起壓掉。
+・不要米色底：10-11 舊提案底色正是 #F4F1EA，屬 AI 樣子（美感第一輪 第 7 點）。
+
+
+上色附加句（暫定，四色未定案）
+
+黑白版選定後再上色。把提示詞最後的「Solid black on pure white」那一句換成下面其中一句：
+
+主色版：Lettering in one flat deep navy blue that clearly reads as blue, not near-black, on pure white.
+（想看綠色系：把 deep navy blue 換成 deep teal green）
+反白版：Lettering in pure white on a flat deep navy blue background.
+加朱紅記號版：在主色版後面再加一句 Add one small solid vermilion square at the upper right of the last character, about one fifth of the character height, as the only accent.
+
+根據
+・四色規則（需求表）：主色冷色或綠色系，深但看得出顏色、不近黑；朱紅是每次都出現的小記號。
+・工程黃不放進標誌：黃字在白底的對比只有 2.0／1.7，不夠；朱紅在白底 4.0，可以（PR #46）。黃留給深底色塊和車身。
+・朱紅方塊是標誌裡的第二個元素，要跟沒有方塊的版本並排比，再決定留不留。
+・提示詞寫色號會跑色（10-16 實測）。定案色號之後用 recolour.py 貼色，不靠生圖。
+
+
+看圖時對這幾點
+1. 字對不對：崧＝上面山、下面松（木＋公）；淳＝氵＋享。寫成松淳、少了山、簡體，直接淘汰。
+2. 縮到名片上約 4 公釐高、手機上 16 像素，還認得出崧淳（陳敦化主張縮到 0.4 公分要清楚，美感第二輪 第六節）。
+3. 黑字、反白、黑字放在橘黃車身上，三種都成立。車門現在就是橘黃底黑字。
+4. 一個構成想法，沒有外框；最細的線和縫隙不低於標誌寬度的 1/14。
+5. A、B 縮小並排：哪個在 4 公釐還清楚，就往哪個走。
+6. D 的三根豎條，看會不會被讀成長條圖或叉子。
+7. 跟同業 logo 並排：不像水滴、水波、扳手、書法圓圈。
+
+
+跟上一版的差別
+・新增 B（黑體）跟 A（楷書）對比，新增 D（山字符號）。
+・朱紅小方印改成附加句，可加可不加。
+・正向提示詞不再寫「no frame、no symbol」這類否定句，改成正面描述；排除項只放負向欄。依據是 Ideogram 官方說明：主提示詞永遠優先於負向提示詞，模型也不擅長理解否定（只讀到搜尋摘要，原頁雲端連不上；AutoIP v4 是不是同一種模型不知道，當通則用）。
+・拿掉「豪華車徽」的寫法，避免畫成金屬立體徽章。
+・更正：上一版說 standard 模式負向提示詞不生效。AutoIP 現行規格只寫 v2、v3 不生效，standard 沒有寫不生效。這套全部用 v4，不受影響。
+・不做全名組合（崧淳＋環保科技股份有限公司）的生圖：12 個字錯字機率高，選定字標後用排版組合。
+
+
+交件前檢查
+・需求表：主色深而看得出顏色、不近黑（上色附加句）符合；朱紅當小記號、放白底（對比 4.0，非文字圖形要 3.0）符合；白底為主、品牌色只放在標誌和字上符合；避開同行圖形符合；崧保留山字頭符合；不要應用圖符合（負向欄有 mockup）。工程黃、淺冷灰沒進標誌，原因見上色根據。工程黃兩個色值、主色藍或綠都還沒定，這份沒有拿任何一邊當定案。
+・你最可能否掉的兩個理由：一是「跟剛剛那三組差不多」。A、C 和上一版方向相同，因為證據支持；這版新的是 B、D 兩組對照和每組根據，差別寫在上一節。二是「生出來很普通、有 AI 感」。這點要看圖才知道，所以建議先只生 A、B 各一張試。
+
+我替你做的判斷
+・先黑白不上色：主色還沒定，車門又是橘黃底黑字，黑白站得住才值得上色。
+・四組都用 v4：四組都有中文字，規格寫 v4 中文字最準。
+・不放英文名：崧淳目前沒有英文名稱（車身素材分析），不替你編。
+・全名組合不生圖：12 個字錯字機率高，用排版組合較穩。
+
+
+查證範圍
+・專案內：品牌設定第五版（01、02、05、06、10–18 題）、配色需求表、美感學習第一輪全文、第二輪正文（附錄出處只看標題）、同業研究 01 第三、三之二節、對手報告與第三份報告對照（相關段落）、國外同業 CIS 報告（logo 相關段落）、車身素材分析、slogan 第四輪（入選段）、問答與記憶紀錄。配色學習 24、25 號沒有重讀：這套先出黑白，不靠它。
+・AutoIP：11-03 從 API 抓現行規格（文生圖模式、負向提示詞、字數上限）與即時價目、餘額。提示詞每組都在 2000 字元內，負向提示詞在 500 字元內，已用程式算過。
+・網路（三則都只讀到搜尋摘要，原頁雲端連不上，佐證等級低）：Ideogram 負向提示詞說明 https://docs.ideogram.ai/using-ideogram/ideogram-features/negative-prompt ；賓士 2D 星標 https://www.ingenieur.de/technik/fachbereiche/verkehr/2d-statt-3d-mercedes-ueberrascht-mit-neuem-logo/ ；img.ly 字標文字準確度測試 https://img.ly/ai-benchmarks/prompts/t04-wordmark.md （品牌名放引號、要求逐字正確）。
+・沒做：試生圖。四組都還沒生過，效果待你決定要不要花點數試。
