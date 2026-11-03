@@ -1,0 +1,17 @@
+重建 PDF（2026-11-03）
+
+需要：
+- Noto Sans TC 字型：npm 套件 @fontsource/noto-sans-tc 5.2.6 解開後的 package 資料夾
+- simple-icons 16.35.0 解開後的 package/icons 資料夾（外部標誌單色 SVG）
+- Python 3、Node.js、Playwright（Chromium）
+
+步驟：
+1. python3 -I build_report2.py <本資料夾> <fonts package 絕對路徑> <simple-icons icons 絕對路徑>
+   會讀 report2_body.html 與 style_common.css，產生 report2.html。
+2. node pdf.js <report2.html 絕對路徑> <輸出 pdf 路徑>
+   A5、頁尾頁碼。
+
+量橫直比：node rend.js <icons 資料夾> taobao meituan xiaohongshu 會把標誌畫成 1600px PNG 放到 meas/，
+再掃描黑色像素的水平與垂直連續長度，取最常見值（直筆＝水平連續長度，橫筆＝垂直連續長度）。
+
+外部標誌屬各公司商標，PDF 不放公開庫。
