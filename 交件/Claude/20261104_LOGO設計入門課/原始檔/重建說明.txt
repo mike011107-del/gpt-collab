@@ -1,0 +1,19 @@
+LOGO 設計入門課 重建說明（白澤 2026-11-04）
+
+內容
+- body1.html／body2.html／body3.html：課文（第 1–3、4–8、9–13 課與附錄）
+- figs.py：全部示意圖（白澤自繪 SVG，無第三方圖）
+- build.py：組合成 course.html，嵌入像素圖、字面圖、對比表
+- style.css：A5 版面
+- pdf.cjs：用 Playwright Chromium 印成 A5 PDF，加頁碼
+- px.cjs：把 px/*.svg 畫成 16／32／64 px 的縮小測試圖
+- meas.cjs：把「上國小口一」畫成 600×600 圖（meas/），build.py 由同一張圖算紅框
+
+重建步驟（雲端或本機皆可，需 Python 3＋Pillow、Node＋playwright）
+1. 下載字型：npm 套件 @fontsource/noto-sans-tc 5.2.6（OFL），解開後的 package 資料夾記為 FONTS
+2. python3 -I build.py <本資料夾> <FONTS>
+3. node pdf.cjs <本資料夾>/course.html <本資料夾>/course.pdf
+
+限制
+- 雲端網路擋設計網站，外部來源全是搜尋摘要，原文逐字未讀（附錄 C）。
+- 崧淳四色只當練習例子；練習用形狀與「示例工程」都不是 LOGO 提案。

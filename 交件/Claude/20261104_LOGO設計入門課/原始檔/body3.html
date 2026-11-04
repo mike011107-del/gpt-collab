@@ -1,0 +1,273 @@
+<!-- ===================== 第 9 課 ===================== -->
+<section class="new">
+<div class="part">第三部　練色</div>
+<h2>第 9 課　色彩三屬性，先看明度</h2>
+<div class="goal"><b>這一課學會</b>用色相、明度、彩度描述一個顏色，並在用色前先看明度。</div>
+
+<div class="master"><span class="who">Josef Albers</span>《Interaction of Color》（1963）：一個顏色幾乎從來不是以它實際的樣子被看見，所以顏色是藝術裡最相對的媒材。<span class="ev">〔搜尋摘要，MIT List Visual Arts Center 引文、SMoCA 展覽頁、Center for Book Arts 書目〕</span></div>
+
+<h3>三個屬性</h3>
+<ul>
+<li>色相：紅、黃、藍這種「哪一種顏色」，用色相環上的角度表示。</li>
+<li>明度：多亮或多暗。Munsell 色彩系統叫 value，CIELAB 用 L*，0 是黑、100 是白。</li>
+<li>彩度：多鮮或多灰。Munsell 叫 chroma，CIELAB 用 C*，數字越大越鮮<span class="ev">〔搜尋摘要，Munsell Color 官方說明、Wikipedia；L*、C* 為實測用的標準公式〕</span>。</li>
+</ul>
+<p>軟體裡 HSL 的「L」不是眼睛看到的明度。例如純黃和純藍在 HSL 都是 50%，但黃看起來亮得多。比明度要用 L*〔依一般知識；本課數字用 colour-tool 實算〕。</p>
+
+<h3>為什麼先看明度</h3>
+<p>影印、傳真、雷射雕刻、單色網版只保留明度。Munsell 自己也寫過，色弱的人分不清色相時，明度還在<span class="ev">〔搜尋摘要，Munsell 官方網站〕</span>。兩個顏色明度差太少，在這些情況下就會變成同一塊灰〔推論〕。</p>
+<figure><!--F:values--><figcaption>圖 9-1　崧淳四色的實測明度與彩度（colour-tool，D65）。灰階列是把每個顏色換成同明度的灰。</figcaption></figure>
+<p>從圖 9-1 讀到的事：四色的明度剛好拉開成四級；工程黃和紅的彩度都在 77 左右，是四色裡最鮮的；深藍灰彩度 22，偏沉；淺冷灰幾乎沒有彩度，適合當底或中性色〔實測〕。</p>
+
+<h3>色相關係與配色規則</h3>
+<p>Adobe Color 的色環提供幾種基本配色規則：互補（色環兩端）、類似（相鄰）、三角（等距三色）、單色（同色相改明度或彩度）<span class="ev">〔搜尋摘要，Adobe 教學頁、Adorama、Pixartprinting〕</span>。互補對比最強，類似最安靜。</p>
+<figure><!--F:wheel--></figure>
+
+<div class="ex"><div class="h">練習 9　灰階觀察與色票</div>
+<p>一、用手機拍 5 個你覺得「乾淨」的品牌（招牌、包裝、車），在相簿用黑白濾鏡看，記下哪幾個在黑白下仍分得出層次。二、把崧淳四色做成 3 × 3 公分色票，用一般印表機印出來，跟螢幕並排看。</p>
+<p class="ok"><b>完成標準</b>5 組原色與黑白照片；寫出印出來的四色跟螢幕差在哪。注意：辦公室印表機的顏色不能當標準色，正式色要看印刷打樣（第 12 課）。</p></div>
+
+<div class="src"><b>本課出處</b>
+<p>Albers：https://listart.mit.edu/node/1124 、https://smoca.org/exhibition/learning-to-see-josef-albers-and-the-interaction-of-color 、https://collections.centerforbookarts.org/Detail/objects/3482</p>
+<p>Munsell：https://munsell.com/?p=6 、https://en.wikipedia.org/wiki/Munsell_color_system</p>
+<p>配色規則：https://www.adobe.com/learn/illustrator/in-app/experiment-with-color-combinations 、https://www.adorama.com/alc/adobe-color-wheel 、https://pixartprinting.co.uk/blog/the-colour-wheel</p>
+<p>四色數值：gpt-collab .claude/skills/colour-tool（WCAG 2.x、CIELAB D65），白澤 11-04 實算</p>
+</div>
+</section>
+
+<!-- ===================== 第 10 課 ===================== -->
+<section class="new">
+<div class="part">第三部　練色</div>
+<h2>第 10 課　LOGO 用幾個顏色</h2>
+<div class="goal"><b>這一課學會</b>知道為什麼多數 LOGO 只用一到兩色，分清「品牌色票」與「LOGO 用色」。</div>
+
+<h3>大品牌實際用幾色</h3>
+<ul>
+<li>Website Planet 分析 Fortune 500 的標誌：一色 186 個（37%），兩色 217 個（43%），合計約八成<span class="ev">〔搜尋摘要〕</span>。</li>
+<li>Medium〈Choosing Colors for Your Logo: Be Inspired by the 100 Most Valuable Brands〉分析品牌價值前 100 大：一色 50%，兩色 38%，合計約九成<span class="ev">〔搜尋摘要〕</span>。</li>
+<li>網路上常見的「95% 品牌只用一到兩色」，多數文章引的是 Marketo 的資訊圖，找不到背後的資料<span class="ev">〔搜尋摘要〕</span>。這份課程不採用這個數字。</li>
+</ul>
+<p>兩份不同樣本都落在八到九成。這個比例只有兩份獨立統計，<b>佐證不足</b>；但方向一致。</p>
+
+<h3>設計師的建議</h3>
+<p>一到三色是多數設計師的建議，兩色最常被稱為剛好<span class="ev">〔搜尋摘要，Logos by Nick、Fabrik Brands、4over4；本案研究，Logo Geek 50 招、站酷經驗文〕</span>。Logos by Nick 的作者補一句：標誌有沒有顏色都能成立，比用幾色更重要，所以他先畫黑白再上色<span class="ev">〔搜尋摘要〕</span>。</p>
+
+<h3>為什麼越少越好</h3>
+<ol>
+<li>成本：網版印刷每一色要一張網版、一次對位，色數是價格最大的變數；制服、旗幟、貼紙多用網版<span class="ev">〔搜尋摘要，Thrive Screen Printing、Printable Press、Made Good Designs〕</span>。</li>
+<li>顏色單獨很難被認出：Ipsos 與 JKR 2023 年的調查（全球 26,000 多人）測五種品牌資產，顏色單獨達到最高「金級」辨識的只有 4%，是五種裡最弱的；跟其他資產一起出現時才變強<span class="ev">〔搜尋摘要，Business Wire 新聞稿、Campaign Asia、The Brand Gym〕</span>。也就是說，認出一個 LOGO 主要靠形，顏色是幫手。</li>
+<li>顏色越多，單色印刷、反白、色弱的情況下越容易出問題〔推論〕。</li>
+</ol>
+
+<h3>品牌色票不等於 LOGO 要全用</h3>
+<p>崧淳定的四色是品牌色票：主色、工程黃、紅、淺冷灰。色票規定整套識別能用哪些顏色，LOGO 本身可以只用其中一兩色，其他顏色用在文件、車身、制服上〔推論〕。下圖是同一個練習用形狀的四種上色：</p>
+<figure><!--F:ncolours--><figcaption>圖 10-1　四色全上時，淺冷灰在白底上幾乎看不見（對比 1.23），所以它適合當底，不適合當標誌的一部分〔實測〕。</figcaption></figure>
+<p>面積比例常被引用的是「60-30-10」：主色 60%、輔色 30%、點綴 10%。它出自室內設計，沒有查到明確出處，設計師多半把它當參考，不當規則<span class="ev">〔搜尋摘要，Ideal Home、Apartment Therapy、Made Good Designs〕</span>。本案 10-21 你在選擇題已定「主色大、黃少」<span class="ev">〔本案研究〕</span>。</p>
+<figure><!--F:proportion--></figure>
+
+<div class="ex"><div class="h">練習 10　每個顏色都要有工作</div>
+<p>用練習 7 留下的方向，做一色、二色、三色三個版本，只能用崧淳四色。每個版本旁邊，替每個顏色寫一句它的「工作」，例如「黃：在深色車身上被遠遠看見」。</p>
+<p class="ok"><b>完成標準</b>三版都做完；每個顏色都有一句工作說明。寫不出工作的顏色，從那一版拿掉。</p></div>
+
+<div class="src"><b>本課出處</b>
+<p>統計：https://www.websiteplanet.com/blog/logo-design-stats/ 、https://medium.com/design-secrets/choosing-colors-for-your-logo-be-inspired-by-the-100-most-valuable-brands-3212211b3c6d 、https://www.socialmediatoday.com/news/true-colors-what-your-brand-colors-say-about-your-business-infographic/453176/</p>
+<p>建議：https://logosbynick.com/how-many-colors-a-logo-should-have/ 、https://fabrikbrands.com/branding-matters/logo-design/how-many-colors-should-a-logo-have-tips-and-advice/ 、https://www.4over4.com/faqs/general/how-many-colors-should-a-logo-have-for-cost-effective-printing 、https://logogeek.uk/logo-design-tips/50-tips/</p>
+<p>網版成本：https://thrivescreenprinting.com/how-much-is-screen-printing 、https://www.printablepress.com/screen-printing-pricing-guide/ 、https://madegooddesigns.com/screen-printing-basics/</p>
+<p>Ipsos × JKR：https://www.businesswire.com/news/home/20230614093865/en/Be-Distinctive.-Everywhere.-Presented-by-Ipsos-JKR 、https://aws1.campaignasia.com/article/jkr-x-ipsos-85-of-marketing-spending-on-brand-assets-are-not-distinctive/485599 、https://thebrandgym.com/?p=10246</p>
+<p>60-30-10：https://idealhome.co.uk/all-rooms/all-rooms-decor/60-30-10-rule 、https://www.apartmenttherapy.com/interior-design-rule-60-30-10-explained-37504313 、https://madegooddesigns.com/60-30-10-color-rule/</p>
+</div>
+</section>
+
+<!-- ===================== 第 11 課 ===================== -->
+<section class="new">
+<div class="part">第三部　練色</div>
+<h2>第 11 課　色彩心理：哪些能信</h2>
+<div class="goal"><b>這一課學會</b>分辨有研究支持的色彩說法和網路上的「顏色意義表」，並檢查色弱者看到什麼。</div>
+
+<h3>有研究支持的</h3>
+<ul>
+<li>顏色會改變人對品牌個性的判斷。Labrecque 與 Milne 2012 年在 Journal of the Academy of Marketing Science 發表四個研究，把十種顏色對應到品牌個性，第四個研究專門看 LOGO 的形狀與顏色對個性、熟悉度、好感的影響；題目就叫「刺激的紅、能幹的藍」<span class="ev">〔搜尋摘要；只讀到摘要，哪色對應哪種個性的細節未讀到〕</span>。</li>
+<li>顏色要「配得上」產品。Bottomley 與 Doyle 2006 年（Marketing Theory）發現：功能型產品用功能型顏色、感官社交型產品用感官型顏色，比較被接受<span class="ev">〔搜尋摘要〕</span>。二手摘要把藍、綠、灰、黑歸為功能型，紅、黃、粉、紫歸為感官型<span class="ev">〔搜尋摘要，SaleHoo；分類細節佐證不足〕</span>。</li>
+<li>同一個顏色在不同文化意思可能相反。Aslam 2006 年（Journal of Marketing Communications）回顧跨文化研究後主張，國際品牌要用依文化調整的色彩策略<span class="ev">〔搜尋摘要，University of Wollongong 典藏〕</span>。華人文化裡紅色喜慶、白色與喪事相連<span class="ev">〔搜尋摘要，來源多為概論文章；佐證不足〕</span>。</li>
+</ul>
+
+<h3>常被誇大的</h3>
+<ul>
+<li>「90% 的購買判斷靠顏色」：常引 Singh 2006，原文摘要寫的是 62% 到 90%，而且指的是對人或產品的第一印象，不是購買<span class="ev">〔搜尋摘要，Emerald 期刊頁與二手討論〕</span>。</li>
+<li>「藍色代表信任、橘色讓人衝動」這類表：Help Scout 的 Gregory Ciotti 整理研究後的結論是，個人經驗、成長背景、文化、情境都會改變顏色的效果，沒有放諸四海的規則<span class="ev">〔搜尋摘要，Gigazine 轉載、Digital Dealer 轉載、noissue〕</span>。</li>
+</ul>
+
+<h3>那顏色要怎麼選</h3>
+<p>色彩心理拿來排除明顯不合的顏色就好。真正決定的是三件事：配不配得上這個行業與公司（Bottomley 與 Doyle）；跟同行分不分得開，Romaniuk 的說法是「像你自己、不像別人」<span class="ev">〔本案研究〕</span>；能不能長期一致地用下去〔推論〕。</p>
+
+<h3>色弱者看到什麼</h3>
+<p>男性約 8%、女性約 0.5% 有紅綠色弱<span class="ev">〔搜尋摘要，Cieden、Significa、WP Reset〕</span>。設計時不要只靠顏色傳遞訊息，要有形狀或位置的差別，並用 Coblis、Color Oracle 等模擬器檢查<span class="ev">〔搜尋摘要，同上〕</span>。</p>
+<figure><!--F:cvd--></figure>
+<p>從圖讀到的事〔實測〕：紅色小記號放深藍底時，一般人看對比 2.09，第一型色弱者只剩 1.40，幾乎看不見；同一個紅放白底，第一型反而變成 6.61。工程黃在三種色弱下都還跟深藍分得開（3.67 到 5.16）。</p>
+
+<div class="ex"><div class="h">練習 11　拆解一張顏色意義表</div>
+<p>在網路找一張「色彩心理表」，挑三條說法，用本課的研究判斷：有研究支持、部分支持、或沒有支持，各寫一句理由。再用 Coblis（網頁版）把練習 10 的三個版本各看一次第一型、第二型。</p>
+<p class="ok"><b>完成標準</b>三條判斷各有理由；記下哪兩個顏色在色弱模擬下最接近，以及你打算怎麼用形狀補救。</p></div>
+
+<div class="src"><b>本課出處</b>
+<p>Labrecque、Milne 2012：https://link.springer.com/doi/10.1007/s11747-010-0245-y</p>
+<p>Bottomley、Doyle 2006：https://orca.cardiff.ac.uk/id/eprint/2579/ ；二手分類 https://www.salehoo.com/learn/color-psychology</p>
+<p>Aslam 2006：https://ro.uow.edu.au/commpapers/1043 ；華人色彩：https://prepedu.com/en/blog/chinese-colors 、https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202212/9d3242be-2c9e-4530-896d-cc6880344d06.pdf</p>
+<p>Singh 2006：https://emerald.com/insight/content/doi/10.1108/00251740610673332 ；Ciotti 轉載：https://gigazine.net/gsc_news/en/20130718-psychology-of-color 、https://digitaldealer.com/dealer-gm/the-psychology-of-color-in-marketing-and-branding 、https://noissue.co/blog/color-psychology-myth-or-marketing-tool</p>
+<p>Romaniuk：https://contagious.com/io/article/jenni-romaniuk-on-distinctive-assets</p>
+<p>色弱：https://cieden.com/book/atoms/logo/accessible-logo-color-combinations-and-contrasts 、https://significa.co/blog/designing-for-colourblind-people 、https://wpreset.com/accessible-logo-design-for-color-blind-users-tests-and-tools/ ；模擬模型 Machado 2009（colour-tool）</p>
+</div>
+</section>
+
+<!-- ===================== 第 12 課 ===================== -->
+<section class="new">
+<div class="part">第三部　練色</div>
+<h2>第 12 課　對比與版本：一套 LOGO 要交哪些</h2>
+<div class="goal"><b>這一課學會</b>用數字檢查對比，做出一套在任何底色上都能用的版本，並寫清楚色號。</div>
+
+<h3>對比比值</h3>
+<p>W3C 的網頁無障礙規範 WCAG 用「相對亮度」算對比：較亮色加 0.05，除以較暗色加 0.05，結果在 1:1 到 21:1 之間。一般文字要 4.5:1，大字與需要被看見的圖形要 3:1<span class="ev">〔搜尋摘要，W3C 1.4.3 與 1.4.11 說明頁、WebAIM〕</span>。WCAG 明文規定 LOGO 裡的文字沒有對比要求<span class="ev">〔搜尋摘要，W3C 1.4.3 說明頁〕</span>，所以下面的數字是自我檢查的及格線，不是法規。</p>
+<!--CM-->
+<p class="small">表中數字為 WCAG 2.x 對比（白澤實算，公式同 colour-tool）。◎ 4.5 以上，文字也可以；○ 3 到 4.5，大字與圖形可以；✕ 不到 3。</p>
+<p>讀表〔實測＋推論〕：白在深藍上 9.87、深藍在淺冷灰上 8.06，最穩；工程黃在深藍上 4.54 可以；工程黃在白底只有 2.18，紅在深藍上只有 2.09，都不到 3。所以黃放深底或大面積，紅色小記號放淺底。本案交件檢查表（cis-delivery-check）也是同一個結論。</p>
+
+<h3>同一個顏色，不同的底</h3>
+<figure><!--F:albers--></figure>
+<p>這就是 Albers 說的顏色相對性<span class="ev">〔搜尋摘要〕</span>。定色時一定要把顏色放在實際的底上看：白紙、深藍文件、車身、牆面。</p>
+
+<h3>一套 LOGO 的版本</h3>
+<figure><!--F:versions--><figcaption>圖 12-2　每個版本都要先在黑白成立（第 7 課），彩色版才有意義。</figcaption></figure>
+<table class="t1">
+<tr><th>版本</th><th>用在哪</th></tr>
+<tr><td>全彩・白底</td><td>主要版本：文件、網站、名片</td></tr>
+<tr><td>全彩反白</td><td>深色底：深藍文件封面、深色車身</td></tr>
+<tr><td>單色黑</td><td>影印、傳真、蓋章、雕刻、單色網版</td></tr>
+<tr><td>單色白</td><td>深色照片上、深色布料</td></tr>
+<tr><td>單色主色</td><td>只能印一色的物件</td></tr>
+</table>
+
+<h3>留白與最小尺寸</h3>
+<p>品牌手冊通常用標誌自己的一個零件當單位來規定留白，例如符號直徑的一半、某個字母的高度；這個範圍內不放其他字或圖。印刷最小尺寸各家不同，常見在寬 20 到 30 mm 之間，螢幕另用像素規定<span class="ev">〔搜尋摘要，CEPOL、SES、APSCo、EnQuest 品牌手冊〕</span>。</p>
+<figure><!--F:clearspace--></figure>
+
+<h3>色號要寫幾種</h3>
+<p>螢幕用 HEX 與 RGB，印刷用 CMYK 與特別色（Pantone），兩邊不一定對得上；沒有特別色號，不同印刷廠印出來會不一樣<span class="ev">〔搜尋摘要，HuffPost、RCFP 品牌手冊、Waupaca 機場品牌手冊〕</span>。車身還要另外寫烤漆或貼膜的色號<span class="ev">〔本案研究〕</span>。本案的車身黃 #D68702 是從照片取的參考值，不是漆號<span class="ev">〔本案研究，gpt-collab README〕</span>。</p>
+
+<div class="ex"><div class="h">練習 12　版本表</div>
+<p>用練習 10 的二色版，做出上表五個版本。每個版本放到三種底上截圖：白紙、深藍 #194764、你自己手機拍的實景（車身或牆面）。</p>
+<p class="ok"><b>完成標準</b>15 張截圖；用 WCAG 對比計算器（例如 WebAIM Contrast Checker）確認每張裡需要被看見的部分都在 3:1 以上；不到的寫下你怎麼改。</p></div>
+
+<div class="src"><b>本課出處</b>
+<p>WCAG：https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html 、https://w3c.github.io/wcag21/understanding/non-text-contrast 、https://webaim.org/articles/contrast/</p>
+<p>留白與最小尺寸：https://www.cepol.europa.eu/api/assets/media/downloads/2025/CEPOL-Brand-guidelines-2025_use-of-logo.pdf 、https://brand.ses.com/brand-elements/exclusion-zone 、https://enquest.com/media/brand-guidelines/logo-exclusion-zone-and-minimum-size 、https://uk.apsco.org/hubfs/APSCo%20United%20Kingdom%20Brand%20Guidelines%20for%20third%20parties%20and%20members%202026.pdf</p>
+<p>色號：https://www.huffpost.com/entry/keeping-color-consistent-_b_8749334 、https://www.rcfp.org/logo-and-brand-guidelines/ 、https://cityofwaupaca.org/wp-content/uploads/2024/09/Waupaca-Airport_Brand-Guidelines.pdf</p>
+<p>Albers：見第 9 課。對比數字：colour-tool，白澤 11-04 實算</p>
+</div>
+</section>
+
+<!-- ===================== 第 13 課 ===================== -->
+<section class="new">
+<div class="part">結業</div>
+<h2>第 13 課　評估、提案與結業作業</h2>
+<div class="goal"><b>這一課學會</b>用一張檢查表評自己的作品，照順序提案，最後完整做一次。</div>
+
+<div class="master"><span class="who">Paul Rand</span>替 NeXT 電腦設計標誌時只交一個方案，附一本小冊子，一步一步寫出推理，讓客戶自己走到同一個結論。<span class="ev">〔本案研究，Logo Design Love〕</span></div>
+
+<h3>結業檢查表（12 條）</h3>
+<p class="small">整合 Haviv 三條、Rand 七項、本案 11-03 的 14 條必備與禁忌。每條寫「過」或「沒過」，有沒過的先改再提。</p>
+<ol class="check">
+<li>只有一個構成想法，說得出讓人記住的那一點。</li>
+<li>拿掉說明文字還站得住。</li>
+<li>感覺對得上公司（用第 3 課簡報的詞檢查）。</li>
+<li>不像同行，查過撞標。</li>
+<li>瞇眼、記憶測都過：看 5 秒後別人畫得出來。</li>
+<li>16 像素或 5 mm 還認得，或有小尺寸版。</li>
+<li>黑白成立；反白在實際媒材上比過。</li>
+<li>視覺修正做過：圓、尖角、橫直、中心。</li>
+<li>名字那行字距與字面修過，字寫對。</li>
+<li>每個顏色都有工作，LOGO 本身一到兩色為主。</li>
+<li>需要被看見的部分對比 3:1 以上，色弱模擬看過。</li>
+<li>沒有跟潮流的效果：漸層、發光、立體、細碎線條。</li>
+</ol>
+
+<h3>提案的順序</h3>
+<ol>
+<li>先交黑白方向，每個方向寫一句構成方法與記住的那一點。</li>
+<li>選定一個方向，才上色。</li>
+<li>放進實際場景：車門、名片、報價單、報告封面。Airey 的提案 PDF 也是放在這一步<span class="ev">〔搜尋摘要〕</span>。</li>
+<li>交版本表、留白、最小尺寸、色號。</li>
+</ol>
+<p>Haviv 說選標誌看的是管不管用<span class="ev">〔本案研究〕</span>。提案時把檢查表一起附上，討論就會落在「哪一條沒過」，而不是「喜不喜歡」〔推論〕。</p>
+
+<h3>結業作業：崧淳圖形標，自己完整走一次</h3>
+<figure><!--F:flow--><figcaption>圖 13-1　結業作業的十步，每一步對應前面一課的練習。</figcaption></figure>
+<ol class="small">
+<li>練習 3 的簡報定稿。</li>
+<li>做同行牆，查 Logobook、LogoLounge、商標檢索。</li>
+<li>30 格黑白剪影，題材自己列。同行已用的水滴、水波、管件、葉片、扳手不畫；本案已被否決的方向也不再畫。</li>
+<li>三測篩到 3 個。</li>
+<li>進電腦，用格線畫準，再照練習 6 的數字修。</li>
+<li>縮小、單色、反白，18 張。</li>
+<li>上色，一到兩色為主。</li>
+<li>五個版本、三種底。</li>
+<li>12 條檢查表逐條寫過或沒過。</li>
+<li>做一頁黑白提案，再一頁彩色與場景。</li>
+</ol>
+<div class="ex"><div class="h">完成標準</div>
+<p class="ok">十步各有成品；檢查表 12 條全過；拿給一個不認識崧淳的人看 5 秒，他能憑記憶畫出大形。</p></div>
+
+<div class="src"><b>本課出處</b>
+<p>Rand 與 NeXT：https://www.logodesignlove.com/next-logo-paul-rand ；Haviv：https://www.logodesignlove.com/sagi-haviv-interview ；Airey 提案：https://oreilly.com/library/view/logo-design-love/9780133812589</p>
+<p>14 條必備與禁忌：專案資料夾 崧淳CI/設計參考網站_20261103/崧淳_好LOGO必備與禁忌_20261103.txt</p>
+</div>
+</section>
+
+<!-- ===================== 附錄 ===================== -->
+<section class="new">
+<h2>附錄 A　名詞中英對照</h2>
+<table class="t1">
+<tr><th>中文</th><th>英文</th><th>在哪一課</th></tr>
+<tr><td>字標</td><td>wordmark, logotype</td><td>2、8</td></tr>
+<tr><td>字母標</td><td>lettermark, monogram</td><td>2</td></tr>
+<tr><td>圖形標</td><td>symbol, pictorial mark, abstract mark</td><td>2</td></tr>
+<tr><td>組合標</td><td>combination mark, lockup</td><td>2</td></tr>
+<tr><td>識別系統</td><td>visual identity system</td><td>1</td></tr>
+<tr><td>剪影</td><td>silhouette</td><td>4</td></tr>
+<tr><td>格式塔原理</td><td>Gestalt principles</td><td>4</td></tr>
+<tr><td>負空間、圖地</td><td>negative space, figure-ground</td><td>5</td></tr>
+<tr><td>過衝</td><td>overshoot</td><td>6</td></tr>
+<tr><td>視覺修正</td><td>optical correction</td><td>6</td></tr>
+<tr><td>反白</td><td>reversed, knock-out</td><td>7、12</td></tr>
+<tr><td>字距調整</td><td>kerning</td><td>8</td></tr>
+<tr><td>色相、明度、彩度</td><td>hue, value / lightness, chroma / saturation</td><td>9</td></tr>
+<tr><td>互補色、類似色</td><td>complementary, analogous</td><td>9</td></tr>
+<tr><td>特別色</td><td>spot colour（Pantone）</td><td>12</td></tr>
+<tr><td>留白區</td><td>clear space, exclusion zone</td><td>12</td></tr>
+<tr><td>品牌手冊</td><td>brand guidelines</td><td>12</td></tr>
+</table>
+
+<h2 style="margin-top:6mm">附錄 B　延伸閱讀與網站</h2>
+<p class="small">書（本案只讀到書目、目錄或書摘，內文未讀）：</p>
+<ul class="small">
+<li>David Airey《Logo Design Love》第二版：流程、簡報、草圖、提案，最適合當第一本。</li>
+<li>Chermayeff &amp; Geismar《Identify》：大品牌標誌的草圖與被否方案。</li>
+<li>Alina Wheeler《Designing Brand Identity》：識別系統的五個階段。</li>
+<li>Jens Müller《Logo Modernism》（Taschen）：1940 到 1980 年約 6,000 個標誌，依造形分類，練習 4 找手法時可以翻。</li>
+<li>Josef Albers《Interaction of Color》：第 9、12 課的色彩相對性。</li>
+<li>justfont 字體口袋書（learn.justfont.com，可線上讀）：中文字的骨架、主筆、字面。</li>
+</ul>
+<p class="small">網站：11-03〈設計師推薦參考網站〉12 站主清單：Brand New、BP&amp;O、Logo Design Love、Identity Designed、Logobook、LogoArchive、LogoLounge（付費）、Logopond、Behance、站酷、Fonts In Use、Adobe Color。看作品用前五個；Dribbble、Pinterest 多是潮流與概念稿，不拿來判斷好壞<span class="ev">〔本案研究〕</span>。</p>
+
+<h2 style="margin-top:6mm">附錄 C　佐證不足與還沒讀到的</h2>
+<ul class="small">
+<li>全部外部來源都只讀到搜尋摘要，原文逐字未讀。雲端網路擋設計網站，要逐字核對需在你的電腦上讀原文。</li>
+<li>大品牌一到兩色的比例（八到九成）：只有兩份獨立統計。</li>
+<li>Bierut 的開工四問：只有 designboom 一份。</li>
+<li>負空間要被發現才有用：只有 Li 等 2026 一份研究；「箭頭不是重點」只有 Inkbot 一份。</li>
+<li>色彩心理研究（Labrecque 與 Milne、Bottomley 與 Doyle、Singh、Aslam）：只讀到摘要；功能色與感官色的分類出自二手摘要。</li>
+<li>華人文化紅色喜慶、白色喪事：來源多為概論文章。</li>
+<li>反白該加粗還是修細：來源說法相反，課程只寫「依媒材實測」。</li>
+<li>Geismar 給客戶看不看黑白稿：本案 11-03 報告寫「給客戶看也是黑白」，這次的搜尋摘要寫事務所「不給客戶看黑白版」。兩者衝突，原訪談未讀，課程只採「內部從黑白開始」這一點。</li>
+<li>視覺中心略高於幾何中心、字距「看面積」的說法：依一般知識，未查證。</li>
+</ul>
+</section>
