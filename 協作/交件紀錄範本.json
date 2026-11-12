@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "task": "",
+  "branch": "",
+  "base_commit": "",
+  "stream": "linear_aperture",
+  "status": "製作中",
+  "requirement_sources": [],
+  "source_artifact": {
+    "name": "",
+    "sha256": "",
+    "availability": "未取得"
+  },
+  "outputs": [],
+  "changes": [],
+  "checks": [],
+  "unresolved": [],
+  "review": {
+    "reviewer": null,
+    "artifact_sha256": null,
+    "evidence": null
+  },
+  "adoption": {
+    "by": null,
+    "source": null,
+    "artifact_sha256": null
+  },
+  "note": "未填範本，不是檢查結果。私有原圖與私人路徑不填入公開交件。"
+}

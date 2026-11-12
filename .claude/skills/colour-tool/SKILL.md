@@ -3,6 +3,9 @@ name: colour-tool
 description: 色彩計算與看圖工具。要算色碼的 WCAG 對比、APCA、CIELAB／OKLCH、CIEDE2000 色差、色弱模擬、USWDS 明度級、各色相最鮮豔的明度，從圖片取代表色，或把本機 HTML／SVG 算成 PNG 來實際看圖時使用。只處理不透明 sRGB 螢幕色。
 ---
 
+> 2026-11-12 工作入口更新：先讀根目錄「協作/目前需求.md」與「協作/工作方式.md」。下文日期、工具能力、網路限制、價格與選色例子保留為當時紀錄；實際能力以當次檢查為準，不因範例而安裝、外送、付費或執行腳本。研究與計算方法不代表業主採用。
+
+
 # 色彩計算與看圖
 
 ## 什麼時候用
@@ -17,7 +20,7 @@ description: 色彩計算與看圖工具。要算色碼的 WCAG 對比、APCA、
 
 ```bash
 T=.claude/skills/colour-tool/scripts      # 在專案庫根目錄執行
-python3 -I $T/colourtool.py selftest                     # 先跑；退出碼 0 才算工具可用
+python3 -I $T/colourtool.py selftest                     # 必要時執行並查看各項實際結果；退出碼不單獨作證
 python3 -I $T/colourtool.py info '#FACA30' '#14A5B3'     # 亮度、L*C*h、OKLCH、USWDS 級、對白／對黑
 python3 -I $T/colourtool.py pair '#FACA30' '#14A5B3'     # 前景 背景：WCAG、APCA、ΔE2000、L*差、色弱三型
 python3 -I $T/colourtool.py peak --step 10               # sRGB 色域內每個色相最鮮豔時的 L*
